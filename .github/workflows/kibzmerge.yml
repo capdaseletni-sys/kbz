@@ -27,7 +27,7 @@ jobs:
         run: pip install requests
 
       - name: 🎯 Run scraping script
-        run: python drewlivemerge.py
+        run: python kbzmerge.py
 
       - name: 💾 Commit & Safely Push if Playlist Changed
         env:
@@ -36,7 +36,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions@users.noreply.github.com"
 
-          git add 11.m3u
+          git add all.m3u8
+          git add kbz.m3u8
 
           if git diff --cached --quiet; then
             echo "✅ No changes to commit"
