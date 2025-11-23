@@ -1338,6 +1338,10 @@ https://abigail.009292.xyz/nfl3.m3u8
 https://abby.pixelcraft.qzz.io/redzone.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",NFL RedZone
 https://abby.pixelcraft.qzz.io/redzone2.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Philadelphia Eagles vs Dallas Cowboys
+https://abigail.009292.xyz/nfl10.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Philadelphia Eagles vs Dallas Cowboys
+https://abigail.009292.xyz/nfl10alt.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Pittsburgh Steelers vs Chicago Bears
 https://abby.pixelcraft.qzz.io/nfl.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Seattle Seahawks vs Tennessee Titans
