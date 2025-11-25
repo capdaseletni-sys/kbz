@@ -1189,7 +1189,7 @@ https://abby.pixelcraft.qzz.io/wwe.m3u8
 
 #EXTGRP:Roxiestreams - Misc
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",MLS
-https://again.009292.xyz/mls.m3u8
+https://again.009292.xyz/tnt4.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",NFL (MNF)
 https://abby.pixelcraft.qzz.io/nfl.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",NFL (MNF)
@@ -1255,31 +1255,37 @@ https://abby.pixelcraft.qzz.io/nflalty.m3u8
 
 #EXTGRP:Roxiestreams - Soccer
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Ajax vs Benfica
-https://abby.pixelcraft.qzz.io/deportes.m3u8
+https://abby.pixelcraft.qzz.io/golazo.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Ajax vs Benfica
+https://again.009292.xyz/tnt3.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",BodÃ¸ / Glimt vs Juventus
-https://abby.pixelcraft.qzz.io/premiere.m3u8
+https://abby.pixelcraft.qzz.io/juve.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Chelsea vs Barcelona
-https://abby.pixelcraft.qzz.io/tyc.m3u8
+https://abby.pixelcraft.qzz.io/chelsea.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Chelsea vs Barcelona
-https://abby.pixelcraft.qzz.io/tycalt.m3u8
+https://abby.pixelcraft.qzz.io/tudn.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Dortmund vs Villarreal
-https://again.009292.xyz/mls.m3u8
+https://again.009292.xyz/tnt4.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Galatasaray vs Union Saint Gilloise
-https://abby.pixelcraft.qzz.io/prem.m3u8
+https://abby.pixelcraft.qzz.io/cbssn.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Galatasaray vs Union Saint Gilloise
-https://abby.pixelcraft.qzz.io/usa.m3u8
+https://again.009292.xyz/tnt4.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Manchester City vs Bayer Leverkusen
-https://again.009292.xyz/beines.m3u8
+https://again.009292.xyz/tnt.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Marseille vs Newcastle
+https://abby.pixelcraft.qzz.io/cbssn.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Marseille vs Newcastle
+https://again.009292.xyz/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",MLS
-https://again.009292.xyz/mls.m3u8
+https://again.009292.xyz/tnt4.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Napoli vs QarabaÄ
-https://loveliness.009292.xyz/liverpool.m3u8
+https://abby.pixelcraft.qzz.io/golazo.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Napoli vs QarabaÄ
-https://loveliness.009292.xyz/liverpool2.m3u8
+https://abby.pixelcraft.qzz.io/napoli.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Slavia Praha vs Athletic Club
-https://abby.pixelcraft.qzz.io/prem2.m3u8
+https://again.009292.xyz/tnt7.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",UEFA Golazo Show
-https://again.009292.xyz/gala.m3u8
+https://again.009292.xyz/tnt3.m3u8
 
 #EXTGRP:Roxiestreams - WWE
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/WWE2.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - WWE",WWE RAW
