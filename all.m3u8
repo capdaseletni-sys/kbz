@@ -1371,25 +1371,11 @@ https://locked.pixelpanel.online:443/play/P0O9KwmZmP6zNIefvca0T9QznlKd_kyHADj5Oq
 #EXTVLCOPT:http-icy-metadata=1
 https://locked.pixelpanel.online:443/play/P0O9KwmZmP6zNIefvca0T9QznlKd_kyHADj5OqQ40HKU2PnFvI8KUA6KOyXkzyJhsbnYoQw8rE3S6QyfdNICTg/.m3u8
 
-#EXTGRP:Roxiestreams - Combat Sports
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE Smackdow
-https://abby.pixelcraft.qzz.io/wwe.m3u8
-
-#EXTGRP:Roxiestreams - Motorsports
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Motorsports",Formula 1 - Las Vegas Grand Prix
-https://600.pixelcraft.qzz.io/f1.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Motorsports",Formula 1 - Las Vegas Grand Prix
-https://600.pixelcraft.qzz.io/f1alt.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Motorsports",Formula 1 - Las Vegas Grand Prix
-https://600.pixelcraft.qzz.io/main.m3u8
-
 #EXTGRP:Roxiestreams - NBA
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Detroit Pistons vs Boston Celtics
 https://600.pixelcraft.qzz.io/nba.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Houston Rockets vs Golden State Warriors
 https://600.pixelcraft.qzz.io/nba.m3u8
-#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Houston Rockets vs Golden State Warriors
-https://600.pixelcraft.qzz.io/nba7.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Memphis Grizzlies vs New Orleans Pelicans
 https://simplee.pixelcraft.qzz.io/nba6.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Minnesota Timberwolves vs Oklahoma City Thunder
@@ -1434,10 +1420,6 @@ https://simplee.pixelcraft.qzz.io/tnt3.m3u8
 https://600.pixelcraft.qzz.io/universo.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Guadalajara vs Cruz Azul
 https://600.pixelcraft.qzz.io/tudn.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Maccabi Tel Aviv vs Lyon
-https://abby.pixelcraft.qzz.io/lyon.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Nottingham Forest vs MalmÃ¶ FF
-https://abby.pixelcraft.qzz.io/tnt.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Porto vs Nice
 https://simplee.pixelcraft.qzz.io/nice.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Rangers vs Sporting Braga
