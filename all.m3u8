@@ -1122,12 +1122,12 @@ https://locked.pixelpanel.online/hdstream/embed/739.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://locked.pixelpanel.online:443/live/892CF6A561D8FC694FEBEE902D269DDD/871.m3u8
+https://locked.pixelpanel.online:443/live/892CF6A561D8FC694FEBEE902D269DDD/872.m3u8
 #EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png" group-title="Pixelsports - NFL",Green Bay Packers at Detroit Lions
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://locked.pixelpanel.online:443/live/892CF6A561D8FC694FEBEE902D269DDD/872.m3u8
+https://locked.pixelpanel.online:443/live/892CF6A561D8FC694FEBEE902D269DDD/874.m3u8
 #EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png" group-title="Pixelsports - NFL",Houston Texans at Indianapolis Colts
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
@@ -1405,23 +1405,23 @@ https://simplee.pixelcraft.qzz.io/nba8.m3u8
 
 #EXTGRP:Roxiestreams - NFL
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Cincinnati Bengals vs Baltimore Ravens
-https://abby.pixelcraft.qzz.io/nfl3.m3u8
+https://abby.pixelcraft.qzz.io/nflalty.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Cincinnati Bengals vs Baltimore Ravens
-https://abby.pixelcraft.qzz.io/nflalt.m3u8
+https://loveliness.wnion.co.in/nfl3.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Cincinnati Bengals vs Baltimore Ravens
-https://abby.pixelcraft.qzz.io/nflalty.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Green Bay Packers vs Detroit Lions
-https://abby.pixelcraft.qzz.io/nfl.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Green Bay Packers vs Detroit Lions
-https://abby.pixelcraft.qzz.io/nflalt.m3u8
+https://loveliness.wnion.co.in/nflalt.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Green Bay Packers vs Detroit Lions
 https://abby.pixelcraft.qzz.io/nflalty.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Kansas City Chiefs vs Dallas Cowboys
-https://abby.pixelcraft.qzz.io/nfl2.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Kansas City Chiefs vs Dallas Cowboys
-https://abby.pixelcraft.qzz.io/nflalt.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Green Bay Packers vs Detroit Lions
+https://loveliness.wnion.co.in/nfl.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Green Bay Packers vs Detroit Lions
+https://loveliness.wnion.co.in/nflalt.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Kansas City Chiefs vs Dallas Cowboys
 https://abby.pixelcraft.qzz.io/nflalty.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Kansas City Chiefs vs Dallas Cowboys
+https://loveliness.wnion.co.in/nfl2.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Kansas City Chiefs vs Dallas Cowboys
+https://loveliness.wnion.co.in/nflalt.m3u8
 
 #EXTGRP:Roxiestreams - Soccer
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Aberdeen vs Noah
