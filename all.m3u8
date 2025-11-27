@@ -1434,6 +1434,8 @@ https://simplee.pixelcraft.qzz.io/tnt3.m3u8
 https://600.pixelcraft.qzz.io/universo.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Guadalajara vs Cruz Azul
 https://600.pixelcraft.qzz.io/tudn.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Maccabi Tel Aviv vs Lyon
+https://abby.pixelcraft.qzz.io/lyon.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Nottingham Forest vs MalmÃ¶ FF
 https://abby.pixelcraft.qzz.io/tnt.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Porto vs Nice
@@ -1444,8 +1446,6 @@ https://simplee.pixelcraft.qzz.io/tnt3.m3u8
 https://simplee.pixelcraft.qzz.io/roma.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Shamrock Rovers vs Shakhtar Donetsk
 https://simplee.pixelcraft.qzz.io/tnt5.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Strasbourg vs Crystal Palace
-https://simplee.pixelcraft.qzz.io/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Strasbourg vs Crystal Palace
 https://simplee.pixelcraft.qzz.io/tnt2alt.m3u8
 
