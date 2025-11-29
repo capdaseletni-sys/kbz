@@ -1309,19 +1309,15 @@ https://abby.pixelcraft.qzz.io/wwe.m3u8
 
 #EXTGRP:Roxiestreams - Formula 1
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Formula 1",Formula 1
-https://600.pixelcraft.qzz.io/f1.m3u8
+https://abby.pixelcraft.qzz.io/f1.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Formula 1",Formula 1
-https://600.pixelcraft.qzz.io/f1alt.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Formula 1",Formula 1
-https://600.pixelcraft.qzz.io/main.m3u8
+https://abby.pixelcraft.qzz.io/f1alt.m3u8
 
 #EXTGRP:Roxiestreams - Misc
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Formula 1
-https://600.pixelcraft.qzz.io/f1.m3u8
+https://abby.pixelcraft.qzz.io/f1.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Formula 1
-https://600.pixelcraft.qzz.io/f1alt.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Formula 1
-https://600.pixelcraft.qzz.io/main.m3u8
+https://abby.pixelcraft.qzz.io/f1alt.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",WWE Survivor Series: Wargame
 https://abby.pixelcraft.qzz.io/roxiewwe.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",WWE Survivor Series: Wargame
@@ -1329,17 +1325,13 @@ https://abby.pixelcraft.qzz.io/wwe.m3u8
 
 #EXTGRP:Roxiestreams - Motorsports
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Motorsports",Formula 1 - Qualifying
-https://600.pixelcraft.qzz.io/f1.m3u8
+https://abby.pixelcraft.qzz.io/f1.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Motorsports",Formula 1 - Qualifying
-https://600.pixelcraft.qzz.io/f1alt.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Motorsports",Formula 1 - Qualifying
-https://600.pixelcraft.qzz.io/main.m3u8
+https://abby.pixelcraft.qzz.io/f1alt.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Motorsports",Formula 1 - Sprint
-https://600.pixelcraft.qzz.io/f1.m3u8
+https://abby.pixelcraft.qzz.io/f1.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Motorsports",Formula 1 - Sprint
-https://600.pixelcraft.qzz.io/f1alt.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Motorsports",Formula 1 - Sprint
-https://600.pixelcraft.qzz.io/main.m3u8
+https://abby.pixelcraft.qzz.io/f1alt.m3u8
 
 #EXTGRP:Roxiestreams - NBA
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Boston Celtics vs Minnesota Timberwolves
@@ -1465,13 +1457,13 @@ https://600.pixelcraft.qzz.io/tudn.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Milan vs Lazio
 https://600.pixelcraft.qzz.io/universo.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Monaco vs PSG
-https://abby.pixelcraft.qzz.io/inter.m3u8
+https://abby.pixelcraft.qzz.io/beines.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Nacional vs Benfica
-https://abby.pixelcraft.qzz.io/tnt.m3u8
+https://again.pixelcraft.qzz.io/benfica.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Palmeiras vs Flamengo
-https://abby.pixelcraft.qzz.io/inter.m3u8
+https://abby.pixelcraft.qzz.io/beines.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Paris vs Auxerre
-https://abby.pixelcraft.qzz.io/inter.m3u8
+https://abby.pixelcraft.qzz.io/beines.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",San Diego vs Vancouver Whitecaps
 https://abby.pixelcraft.qzz.io/mls.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Sunderland vs Bournemouth
