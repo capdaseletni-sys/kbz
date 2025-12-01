@@ -1382,6 +1382,8 @@ https://again.pixelcraft.qzz.io/bein.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Birmingham City vs Watford
 https://simplee.pixelcraft.qzz.io/main.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",FenerbahÃ§e vs Galatasaray
+https://again.pixelcraft.qzz.io/beines.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",FenerbahÃ§e vs Galatasaray
 https://simplee.pixelcraft.qzz.io/beines.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Laliga
 https://abby.pixelcraft.qzz.io/deportes.m3u8
