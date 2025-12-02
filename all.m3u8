@@ -589,13 +589,6 @@ https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_lifetime/default/index.
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=60dc692e64ea443a8fb5ac186c865a9b:01bdbe22d59b2a4504b53adc2f606cc1
 https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/lotusmacau_prd/default/index.mpd
-#EXTINF:-1 group-title="PH Cable TV" tvg-id="" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/483_144.png",Love Nature
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"d1plTAYQgRrQIjKaaIhN4Q","kid":"FovYFUaGOf5FKLS/AUHzEA"}],"type":"temporary"}
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; 27821-67832-42-315-4231-233-21-43-12-1312-321-23-21-232-) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36
-https://linearjitp-playback.astro.com.my/dash-wv/linear/5096/default_ott.mpd
 #EXTINF:-1g-id="550" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/483_144.png" group-title="PH Cable TV",Love Nature
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=168bd815468639fe4528b4bf0141f310:775a654c0610811ad022329a68884de1
@@ -1025,32 +1018,32 @@ https://locked.pixelpanel.online/hdstream/embed/704.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://dash.pixelsport.app:443/play/9IMz1H7tRQh-EIGDiNdpFpzaBxUpYm-N9iCbqv7w5oA/.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyKVquSAOkSIannr971SC8gM/.m3u8
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png" group-title="Pixelsports - NBA",Atlanta Hawks at Detroit Pistons
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://locked.pixelpanel.online:443/live/892CF6A561D8FC694FEBEE902D269DDD/826.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyMN6H0PU7LwnhGZcU8wj4F8/.m3u8
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png" group-title="Pixelsports - NBA",Charlotte Hornets at Brooklyn Nets
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://locked.pixelpanel.online:443/live/892CF6A561D8FC694FEBEE902D269DDD/830.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyMxdtXApOH-o180gwdIz6eE/.m3u8
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png" group-title="Pixelsports - NBA",Charlotte Hornets at Brooklyn Nets
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://locked.pixelpanel.online:443/play/P0O9KwmZmP6zNIefvca0T9QznlKd_kyHADj5OqQ40HKU2PnFvI8KUA6KOyXkzyJhHZxQ7fuvTFAO7BGGHp5cWg/.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyNXcl73qnnX4YWGjIprdXgY/.m3u8
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png" group-title="Pixelsports - NBA",Chicago Bulls at Orlando Magic
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://locked.pixelpanel.online:443/live/892CF6A561D8FC694FEBEE902D269DDD/824.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyHXyw3NU0LdH_sUIAWE1cJw/.m3u8
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png" group-title="Pixelsports - NBA",Chicago Bulls at Orlando Magic
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://locked.pixelpanel.online:443/play/P0O9KwmZmP6zNIefvca0T9QznlKd_kyHADj5OqQ40HKU2PnFvI8KUA6KOyXkzyJhY18cnGNPW6WKBKIZNx44dg/.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyPJp6WtK26cmO2Gqzm8Umkg/.m3u8
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png" group-title="Pixelsports - NBA",Cleveland Cavaliers at Indiana Pacers
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
@@ -1060,17 +1053,17 @@ https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyAapsrjGoCpckoB2A6
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyPJp6WtK26cmO2Gqzm8Umkg/.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyJsjqB4uVkZdMYnlS2v6juQ/.m3u8
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png" group-title="Pixelsports - NBA",Dallas Mavericks at Denver Nuggets
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://locked.pixelpanel.online:443/live/892CF6A561D8FC694FEBEE902D269DDD/838.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyI-2YXzTorJCuGY_AC4xNoE/.m3u8
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png" group-title="Pixelsports - NBA",Dallas Mavericks at Denver Nuggets
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://locked.pixelpanel.online:443/play/P0O9KwmZmP6zNIefvca0T9QznlKd_kyHADj5OqQ40HKU2PnFvI8KUA6KOyXkzyJhsjezef8WXEVA0gd8qNllrg/.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyJag4chx12D0tiro2fns4m8/.m3u8
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png" group-title="Pixelsports - NBA",Houston Rockets at Utah Jazz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
@@ -1085,22 +1078,22 @@ https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyMywExPAp5vVB1YfNu
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyDy55rG_k1Da-WPOwQ3NREI/.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyAIBmYME8TN8iVN3CUTq7KE/.m3u8
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png" group-title="Pixelsports - NBA",LA Clippers at Miami Heat
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyMN6H0PU7LwnhGZcU8wj4F8/.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyDy55rG_k1Da-WPOwQ3NREI/.m3u8
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png" group-title="Pixelsports - NBA",Milwaukee Bucks at Washington Wizards
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://locked.pixelpanel.online:443/live/892CF6A561D8FC694FEBEE902D269DDD/835.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyFXe7NEJFtF9hbu8qGU75Hs/.m3u8
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png" group-title="Pixelsports - NBA",Milwaukee Bucks at Washington Wizards
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://locked.pixelpanel.online:443/play/P0O9KwmZmP6zNIefvca0T9QznlKd_kyHADj5OqQ40HKU2PnFvI8KUA6KOyXkzyJhFELSesuzGedxjFrleM3f5w/.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyPDHC-jJVbAzu3I8GPw8zBY/.m3u8
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png" group-title="Pixelsports - NBA",Phoenix Suns at Los Angeles Lakers
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
@@ -1110,7 +1103,7 @@ https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyBiUdtx2l0EBtLycn_
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyEnGf4gF3LnsXWDMS_jotq4/.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyJFkU-8CMCBK7LezJ84JUvA/.m3u8
 
 #EXTGRP:Pixelsports - NFL
 #EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png" group-title="Pixelsports - NFL",Arizona Cardinals at Tampa Bay Buccaneers
@@ -1262,7 +1255,7 @@ https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyIEQBLn9lNyvOncfAh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://locked.pixelpanel.online/hdstream/embed/352.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyKwk0Bde3g9Hph8uuZ_PdgU/.m3u8
 #EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png" group-title="Pixelsports - NFL",San Francisco 49ers at Cleveland Browns
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
@@ -1279,42 +1272,42 @@ https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyKGibvqe7aWLjXME0q
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyJhlpAnAh2kCbmNfaaQWOKk/.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyF3wk-1sPQUfC2uib-R5TyE/.m3u8
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png" group-title="Pixelsports - NHL",Anaheim Ducks at St. Louis Blues
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://locked.pixelpanel.online/hdstream/embed/381.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyJhlpAnAh2kCbmNfaaQWOKk/.m3u8
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png" group-title="Pixelsports - NHL",Columbus Blue Jackets at New Jersey Devils
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://pixelsport.tv/
+#EXTVLCOPT:http-icy-metadata=1
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyCR4V4WyzxQOvFy1hR_ojR0/.m3u8
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png" group-title="Pixelsports - NHL",Columbus Blue Jackets at New Jersey Devils
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
 https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyEfMGLETo4Gjuz5G18CfMo4/.m3u8
-#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png" group-title="Pixelsports - NHL",Columbus Blue Jackets at New Jersey Devils
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://pixelsport.tv/
-#EXTVLCOPT:http-icy-metadata=1
-https://locked.pixelpanel.online/hdstream/embed/386.m3u8
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/phi.png" group-title="Pixelsports - NHL",Pittsburgh Penguins at Philadelphia Flyers
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://locked.pixelpanel.online/hdstream/embed/395.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyF2IRSLpKuceqeLAtDBXqx8/.m3u8
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/phi.png" group-title="Pixelsports - NHL",Pittsburgh Penguins at Philadelphia Flyers
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://locked.pixelpanel.online:443/play/P0O9KwmZmP6zNIefvca0T9QznlKd_kyHADj5OqQ40HKU2PnFvI8KUA6KOyXkzyJhjqaINkzJgDHdhQ9XD4qiCw/.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyJUfykdanLePp20GvlOCWBE/.m3u8
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png" group-title="Pixelsports - NHL",Utah Mammoth at San Jose Sharks
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://pixelsport.tv/
+#EXTVLCOPT:http-icy-metadata=1
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyBY9tMmR1si3KcVQFSu-sC8/.m3u8
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png" group-title="Pixelsports - NHL",Utah Mammoth at San Jose Sharks
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
 https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyKNgFagXXYEunzRL-9YtgPk/.m3u8
-#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png" group-title="Pixelsports - NHL",Utah Mammoth at San Jose Sharks
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://pixelsport.tv/
-#EXTVLCOPT:http-icy-metadata=1
-https://locked.pixelpanel.online/hdstream/embed/379.m3u8
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png" group-title="Pixelsports - NHL",Winnipeg Jets at Buffalo Sabres
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
@@ -1324,23 +1317,25 @@ https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyBLYJPZrHD3MPhiZrc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://locked.pixelpanel.online/hdstream/embed/387.m3u8
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyPakHcSG1X5sAzqcNz6J4M0/.m3u8
 
 #EXTGRP:Roxiestreams - Combat Sports
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE RAW
-https://loveliness.wnion.co.in/roxiewwe.m3u8
+https://abby.pixelcraft.qzz.io/roxiewwe.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE RAW
+https://abby.pixelcraft.qzz.io/wwe.m3u8
 
 #EXTGRP:Roxiestreams - Misc
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Laliga
 https://abby.pixelcraft.qzz.io/deportes.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",NFL (MNF)
-https://abby.pixelcraft.qzz.io/nfl.m3u8
+https://loveliness.wnion.co.in/nfl.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",NFL (MNF)
-https://abby.pixelcraft.qzz.io/nflalt.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",NFL (MNF)
-https://abby.pixelcraft.qzz.io/nflalty.m3u8
+https://loveliness.wnion.co.in/nflalty.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",WWE RAW
-https://loveliness.wnion.co.in/roxiewwe.m3u8
+https://abby.pixelcraft.qzz.io/roxiewwe.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",WWE RAW
+https://abby.pixelcraft.qzz.io/wwe.m3u8
 
 #EXTGRP:Roxiestreams - Motorsports
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Motorsports",Formula 1 - Qualifying
@@ -1357,8 +1352,6 @@ https://abby.pixelcraft.qzz.io/f1alt.m3u8
 https://simplee.pixelcraft.qzz.io/nba.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Charlotte Hornets vs Brooklyn Nets
 https://simplee.pixelcraft.qzz.io/nba4.m3u8
-#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Chicago Bulls vs Orlando Magic
-https://abby.pixelcraft.qzz.io/nba.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Chicago Bulls vs Orlando Magic
 https://abby.pixelcraft.qzz.io/nba6.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Cleveland Cavaliers vs Indiana Pacers
@@ -1378,17 +1371,13 @@ https://simplee.pixelcraft.qzz.io/nba2.m3u8
 
 #EXTGRP:Roxiestreams - NFL
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",New York Giants vs New England Patriots
-https://abby.pixelcraft.qzz.io/nfl.m3u8
+https://loveliness.wnion.co.in/nfl.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",New York Giants vs New England Patriots
-https://abby.pixelcraft.qzz.io/nflalt.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",New York Giants vs New England Patriots
-https://abby.pixelcraft.qzz.io/nflalty.m3u8
+https://loveliness.wnion.co.in/nflalty.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",NFL (MNF)
-https://abby.pixelcraft.qzz.io/nfl.m3u8
+https://loveliness.wnion.co.in/nfl.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",NFL (MNF)
-https://abby.pixelcraft.qzz.io/nflalt.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",NFL (MNF)
-https://abby.pixelcraft.qzz.io/nflalty.m3u8
+https://loveliness.wnion.co.in/nflalty.m3u8
 
 #EXTGRP:Roxiestreams - Soccer
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Birmingham City vs Watford
@@ -1406,15 +1395,17 @@ https://abby.pixelcraft.qzz.io/deportes.m3u8
 
 #EXTGRP:Roxiestreams - WWE
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/WWE2.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - WWE",WWE RAW
-https://loveliness.wnion.co.in/roxiewwe.m3u8
+https://abby.pixelcraft.qzz.io/roxiewwe.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/WWE2.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - WWE",WWE RAW
+https://abby.pixelcraft.qzz.io/wwe.m3u8
 
 #EXTGRP:Sports TV
-#EXTINF:-1 tvg-id="CH801" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/235_144.png" group-title="Sports TV",ASTRO ARENA
+#EXTINF:-1 tvg-id="CH801" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/235_144.png" group-title="Sports TV",Astro Arena
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=efda647dad723563b625be8c05ee6110:6776985938b332164b97b81fe566a34a
 #KODIPROP:inputstream.adaptive.stream_headers=referer=https://astrogo.astro.com.my//&user-agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2604/default_ott.mpd
-#EXTINF:-1 tvg-id="802" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/457_144.png" group-title="Sports TV", ASTRO ARENA 2
+#EXTINF:-1 tvg-id="802" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/457_144.png" group-title="Sports TV", Astro Arena 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"HuOyUiJ8XC7JN4yDPS4U/w", "kid":"6tAzXWBAEiVyem1THpwnEA" } ], "type":"temporary" }
 #KODIPROP:inputstream.adaptive.stream_headers=referer=https://astrogo.astro.com.my//&user-agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36
@@ -1424,12 +1415,6 @@ http://linearjitp-playback.astro.com.my/dash-wv/linear/5057/default_ott.mpd
 #KODIPROP:inputstream.adaptive.license_key=03c2e0af2f8159f9f0ce9b5dbc865f10:cd84ed136b0cc71f8ab8cd4d4f6a2e4c
 #KODIPROP:inputstream.adaptive.stream_headers=referer=https://astrogo.astro.com.my//&user-agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2504/default_ott.mpd
-#EXTINF:-1 group-title="Sports TV",Astro Football
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"2ecbff426c9f42b39040c5490b4c2b03":"1da665a80c6b1bb5cf784b00a1d0ed3b","979e72a070ec437ba92c597c287acbad":"7f4db6de524b2e51c87f61566ff77039"}
-https://l04.dp.sooka.my/2506/linear/index.mpd
 #EXTINF:-1 tvg-id="813" tvg-name="Astro Premier League 3" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/538_144.png" group-title="Sports TV",ASTRO PREMIER LEAGUE 3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1ece3ecb41699e855c6dc9a283908210:ba08be767e1a5e89777e68a6998a8c19
@@ -1496,6 +1481,18 @@ https://abmvm23aaaaaaaamjmmec4lqatq7x.ottb.live.cf.ww.aiv-cdn.net/sin-nitro/live
 https://a166aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
 #EXTINF:-1 tvg-logo="https://www.sportsvideo.org/wp-content/uploads/2024/05/unnamed-3-1.jpg" group-title="Sports TV", Fanduel TV Extra
 https://d98bad68.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEdfRmFuRHVlbFRWRXh0cmFfSExT/playlist.m3u8
+#EXTINF:-1 tvg-id="CH801" tvg-logo="https://www.facebook.com/fastsportsHDPK/" group-title="Sports TV", Fast Sports HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=ba9b637b639af897f228114363e882fa:27508374902bd52361f08a2ad4dba3a3
+https://live2.shoq.com.pk/live/eds/Fast_Sports_HD/DASH/Fast_Sports_HD.mpd
+#EXTINF:-1 tvg-id="CH801" tvg-logo="https://www.facebook.com/fastsportsHDPK/" group-title="Sports TV", Fight Sports
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=2f4c7790660c4a0ea82f38ca1998da13:9186a4ec6c2c2af731de820bf517e4e0
+https://cdn08jtedge.indihometv.com/dassdvr/133/fightsport/manifest.mpd
 #EXTINF:-1 group-title="Sports TV" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kRD_CzEE876U_cVjUDaMF-hFzDQB906eoYWLq1JT0u99Q=s900-c-k-c0x00ffffff-no-rj", Fox Sports 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
