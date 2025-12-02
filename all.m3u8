@@ -1413,6 +1413,10 @@ https://loveliness.wnion.co.in/nfl.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",NFL (MNF)
 https://loveliness.wnion.co.in/nflalty.m3u8
 
+#EXTGRP:Roxiestreams - Soccer
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Bournemouth vs Everton
+https://loveliness.wnion.co.in/arena.m3u8
+
 #EXTGRP:Sports TV
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThyY0oV8z1j6nCiojofsBlQhW6aARywYK4QQ&s" group-title="Sports TV", Ace TV
 https://streams2.sofast.tv/WiseM3U8_30/sofast/cleanhls/master.m3u8
