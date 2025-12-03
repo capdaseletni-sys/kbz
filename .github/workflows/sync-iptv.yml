@@ -34,12 +34,6 @@ jobs:
             curl -L -o "$filename" "$url"
           done < urls.txt
 
-      # 🔽 新增：单独下载 sports.m3u 并重命名为 Nowsports.m3u
-      - name: Download sports.m3u as Nowsports.m3u
-        run: |
-          echo "Downloading sports.m3u -> Nowsports.m3u"
-          curl -L -o "Nowsports.m3u" "https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/sports.m3u"
-
       - name: Commit and Push if changed
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
