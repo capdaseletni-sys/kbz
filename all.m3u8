@@ -1808,6 +1808,10 @@ https://600.shadow-ran.online/nflalt.m3u8
 https://loveliness.wnion.co.in/wolves.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Brest vs Monaco
 https://loveliness.wnion.co.in/main.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",FIFA World Cup 2026: Draw
+https://loveliness.wnion.co.in/fox.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Galatasaray vs Samsunspor
+https://loveliness.wnion.co.in/xtra.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Lille vs Marseille
 https://loveliness.wnion.co.in/main.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Mainz 05 vs Borussia M'gladbach
