@@ -1763,7 +1763,7 @@ https://loveliness.wnion.co.in/f1.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Formula 1
 https://loveliness.wnion.co.in/f1alt.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Laliga
-https://loveliness.wnion.co.in/aston.m3u8
+https://loveliness.wnion.co.in/dep.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",WWE Smackdown
 https://loveliness.wnion.co.in/wwe.m3u8
 
@@ -1816,16 +1816,14 @@ https://loveliness.wnion.co.in/nba4.m3u8
 https://loveliness.wnion.co.in/nba6.m3u8
 
 #EXTGRP:Roxiestreams - NFL
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Dallas Cowboys vs Detroit Lions
-https://600.shadow-ran.online/nfl.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Dallas Cowboys vs Detroit Lions
-https://600.shadow-ran.online/nflalt.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Kennesaw State vs Jacksonville State
+https://daffodil07.wnion.co.in/ncaa.m3u8
 
 #EXTGRP:Roxiestreams - Soccer
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Benfica vs Sporting CP
-https://loveliness.wnion.co.in/wolves.m3u8
+https://loveliness.wnion.co.in/benfica.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Brest vs Monaco
-https://loveliness.wnion.co.in/main.m3u8
+https://daffodil07.wnion.co.in/bein.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",FIFA World Cup 2026: Draw
 https://loveliness.wnion.co.in/fox.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",FIFA World Cup Draw
@@ -1833,13 +1831,13 @@ https://loveliness.wnion.co.in/fox.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Galatasaray vs Samsunspor
 https://loveliness.wnion.co.in/xtra.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Laliga
-https://loveliness.wnion.co.in/aston.m3u8
+https://loveliness.wnion.co.in/dep.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Lille vs Marseille
-https://loveliness.wnion.co.in/main.m3u8
+https://daffodil07.wnion.co.in/bein.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Mainz 05 vs Borussia M'gladbach
-https://loveliness.wnion.co.in/burnley.m3u8
+https://daffodil07.wnion.co.in/one.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Real Oviedo vs Mallorca
-https://loveliness.wnion.co.in/aston.m3u8
+https://loveliness.wnion.co.in/dep.m3u8
 
 #EXTGRP:Roxiestreams - WWE
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/WWE2.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - WWE",WWE Smackdown
