@@ -1747,6 +1747,8 @@ https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyGu53zVxroCKkZbSjp
 
 #EXTGRP:Roxiestreams - Combat Sports
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE Smackdown
+https://daffodil07.wnion.co.in/roxiewwe.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE Smackdown
 https://loveliness.wnion.co.in/wwe.m3u8
 
 #EXTGRP:Roxiestreams - Formula 1
@@ -1764,6 +1766,8 @@ https://loveliness.wnion.co.in/f1.m3u8
 https://loveliness.wnion.co.in/f1alt.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Laliga
 https://loveliness.wnion.co.in/dep.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",WWE Smackdown
+https://daffodil07.wnion.co.in/roxiewwe.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",WWE Smackdown
 https://loveliness.wnion.co.in/wwe.m3u8
 
@@ -1816,8 +1820,24 @@ https://loveliness.wnion.co.in/nba4.m3u8
 https://loveliness.wnion.co.in/nba6.m3u8
 
 #EXTGRP:Roxiestreams - NFL
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",BYU vs Texas Tech
+https://daffodil07.wnion.co.in/ncaa.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Duke vs Virginia
+https://daffodil07.wnion.co.in/ncaa.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Georgia vs Alabama
+https://daffodil07.wnion.co.in/ncaa.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Kennesaw State vs Jacksonville State
 https://daffodil07.wnion.co.in/ncaa.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Miami (Ohio) vs Western Michigan
+https://daffodil07.wnion.co.in/ncaa2.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",North Texas vs Tulane
+https://daffodil07.wnion.co.in/ncaa3.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Prairie View A&M vs Jackson State
+https://daffodil07.wnion.co.in/ncaa3.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Troy vs James Madison
+https://daffodil07.wnion.co.in/ncaa2.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",UNLV vs Boise State
+https://daffodil07.wnion.co.in/ncaa4.m3u8
 
 #EXTGRP:Roxiestreams - Soccer
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Benfica vs Sporting CP
@@ -1840,5 +1860,7 @@ https://daffodil07.wnion.co.in/one.m3u8
 https://loveliness.wnion.co.in/dep.m3u8
 
 #EXTGRP:Roxiestreams - WWE
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/WWE2.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - WWE",WWE Smackdown
+https://daffodil07.wnion.co.in/roxiewwe.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/WWE2.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - WWE",WWE Smackdown
 https://loveliness.wnion.co.in/wwe.m3u8
