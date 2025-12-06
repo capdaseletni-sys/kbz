@@ -1698,6 +1698,11 @@ https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyN7Klk8kGMpZLT3ZLk
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
+https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyArpwiwufstsuufGi3qgeVk/.m3u8
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" group-title="Pixelsports - NHL",Montreal Canadiens at Toronto Maple Leafs
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://pixelsport.tv/
+#EXTVLCOPT:http-icy-metadata=1
 https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyCaRYMJDCK5TK2MzVIrXRcs/.m3u8
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" group-title="Pixelsports - NHL",Montreal Canadiens at Toronto Maple Leafs
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
@@ -1771,6 +1776,8 @@ https://600.shadow-ran.online/hub.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
 https://600.shadow-ran.online/plus.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
+https://600.shadow-ran.online/simply.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
 https://600.shadow-ran.online/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
 https://600.shadow-ran.online/ufc.m3u8
@@ -1778,6 +1785,8 @@ https://600.shadow-ran.online/ufc.m3u8
 https://600.xn--1000-ugoa0hsb9a0hb.com/hub.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
 https://600.xn--1000-ugoa0hsb9a0hb.com/plus.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
+https://600.xn--1000-ugoa0hsb9a0hb.com/simply.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
 https://600.xn--1000-ugoa0hsb9a0hb.com/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
@@ -1787,6 +1796,8 @@ https://600.xn--1000-ugoxe8a5a7g4h.com/hub.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
 https://600.xn--1000-ugoxe8a5a7g4h.com/plus.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
+https://600.xn--1000-ugoxe8a5a7g4h.com/simply.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
 https://600.xn--1000-ugoxe8a5a7g4h.com/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
 https://600.xn--1000-ugoxe8a5a7g4h.com/ufc.m3u8
@@ -1795,6 +1806,8 @@ https://ataide.xiaolongyi.dpdns.org/hub.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
 https://ataide.xiaolongyi.dpdns.org/plus.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
+https://ataide.xiaolongyi.dpdns.org/simply.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
 https://ataide.xiaolongyi.dpdns.org/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
 https://ataide.xiaolongyi.dpdns.org/ufc.m3u8
@@ -1802,6 +1815,8 @@ https://ataide.xiaolongyi.dpdns.org/ufc.m3u8
 https://loveliness.wnion.co.in/hub.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
 https://loveliness.wnion.co.in/plus.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
+https://loveliness.wnion.co.in/simply.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
 https://loveliness.wnion.co.in/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC 323: Dvalishvili vs Yan 2
@@ -1811,6 +1826,8 @@ https://600.shadow-ran.online/hub.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
 https://600.shadow-ran.online/plus.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
+https://600.shadow-ran.online/simply.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
 https://600.shadow-ran.online/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
 https://600.shadow-ran.online/ufc.m3u8
@@ -1818,6 +1835,8 @@ https://600.shadow-ran.online/ufc.m3u8
 https://600.xn--1000-ugoa0hsb9a0hb.com/hub.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
 https://600.xn--1000-ugoa0hsb9a0hb.com/plus.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
+https://600.xn--1000-ugoa0hsb9a0hb.com/simply.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
 https://600.xn--1000-ugoa0hsb9a0hb.com/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
@@ -1827,6 +1846,8 @@ https://600.xn--1000-ugoxe8a5a7g4h.com/hub.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
 https://600.xn--1000-ugoxe8a5a7g4h.com/plus.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
+https://600.xn--1000-ugoxe8a5a7g4h.com/simply.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
 https://600.xn--1000-ugoxe8a5a7g4h.com/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
 https://600.xn--1000-ugoxe8a5a7g4h.com/ufc.m3u8
@@ -1835,6 +1856,8 @@ https://ataide.xiaolongyi.dpdns.org/hub.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
 https://ataide.xiaolongyi.dpdns.org/plus.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
+https://ataide.xiaolongyi.dpdns.org/simply.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
 https://ataide.xiaolongyi.dpdns.org/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
 https://ataide.xiaolongyi.dpdns.org/ufc.m3u8
@@ -1842,6 +1865,8 @@ https://ataide.xiaolongyi.dpdns.org/ufc.m3u8
 https://loveliness.wnion.co.in/hub.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
 https://loveliness.wnion.co.in/plus.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
+https://loveliness.wnion.co.in/simply.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
 https://loveliness.wnion.co.in/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT Deadline
@@ -1867,6 +1892,8 @@ https://600.shadow-ran.online/hub.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
 https://600.shadow-ran.online/plus.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
+https://600.shadow-ran.online/simply.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
 https://600.shadow-ran.online/tnt2.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
 https://600.shadow-ran.online/ufc.m3u8
@@ -1874,6 +1901,8 @@ https://600.shadow-ran.online/ufc.m3u8
 https://600.xn--1000-ugoa0hsb9a0hb.com/hub.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
 https://600.xn--1000-ugoa0hsb9a0hb.com/plus.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
+https://600.xn--1000-ugoa0hsb9a0hb.com/simply.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
 https://600.xn--1000-ugoa0hsb9a0hb.com/tnt2.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
@@ -1883,6 +1912,8 @@ https://600.xn--1000-ugoxe8a5a7g4h.com/hub.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
 https://600.xn--1000-ugoxe8a5a7g4h.com/plus.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
+https://600.xn--1000-ugoxe8a5a7g4h.com/simply.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
 https://600.xn--1000-ugoxe8a5a7g4h.com/tnt2.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
 https://600.xn--1000-ugoxe8a5a7g4h.com/ufc.m3u8
@@ -1890,6 +1921,8 @@ https://600.xn--1000-ugoxe8a5a7g4h.com/ufc.m3u8
 https://ataide.xiaolongyi.dpdns.org/hub.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
 https://ataide.xiaolongyi.dpdns.org/plus.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
+https://ataide.xiaolongyi.dpdns.org/simply.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
 https://ataide.xiaolongyi.dpdns.org/tnt2.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
@@ -1899,11 +1932,13 @@ https://loveliness.wnion.co.in/hub.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
 https://loveliness.wnion.co.in/plus.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
+https://loveliness.wnion.co.in/simply.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
 https://loveliness.wnion.co.in/tnt2.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC 323: Dvalishvili vs Yan 2
 https://loveliness.wnion.co.in/ufc.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",WWE NXT Deadline
-https://loveliness.wnion.co.in/wwe.m3u8
+https://daffodil07.wnion.co.in/wwe.m3u8
 
 #EXTGRP:Roxiestreams - Motorsports
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Motorsports",FIM Supercross Championship
@@ -2031,6 +2066,8 @@ https://600.shadow-ran.online/hub.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
 https://600.shadow-ran.online/plus.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
+https://600.shadow-ran.online/simply.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
 https://600.shadow-ran.online/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
 https://600.shadow-ran.online/ufc.m3u8
@@ -2038,6 +2075,8 @@ https://600.shadow-ran.online/ufc.m3u8
 https://600.xn--1000-ugoa0hsb9a0hb.com/hub.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
 https://600.xn--1000-ugoa0hsb9a0hb.com/plus.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
+https://600.xn--1000-ugoa0hsb9a0hb.com/simply.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
 https://600.xn--1000-ugoa0hsb9a0hb.com/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
@@ -2047,6 +2086,8 @@ https://600.xn--1000-ugoxe8a5a7g4h.com/hub.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
 https://600.xn--1000-ugoxe8a5a7g4h.com/plus.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
+https://600.xn--1000-ugoxe8a5a7g4h.com/simply.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
 https://600.xn--1000-ugoxe8a5a7g4h.com/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
 https://600.xn--1000-ugoxe8a5a7g4h.com/ufc.m3u8
@@ -2054,6 +2095,8 @@ https://600.xn--1000-ugoxe8a5a7g4h.com/ufc.m3u8
 https://ataide.xiaolongyi.dpdns.org/hub.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
 https://ataide.xiaolongyi.dpdns.org/plus.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
+https://ataide.xiaolongyi.dpdns.org/simply.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
 https://ataide.xiaolongyi.dpdns.org/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
@@ -2063,10 +2106,12 @@ https://loveliness.wnion.co.in/hub.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
 https://loveliness.wnion.co.in/plus.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
+https://loveliness.wnion.co.in/simply.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
 https://loveliness.wnion.co.in/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png" tvg-id="UFC.Fight.Pass.Dummy.us" group-title="Roxiestreams - UFC",UFC 323: Dvalishvili vs Yan 2
 https://loveliness.wnion.co.in/ufc.m3u8
 
 #EXTGRP:Roxiestreams - WWE
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/WWE2.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - WWE",WWE NXT Deadline
-https://loveliness.wnion.co.in/wwe.m3u8
+https://daffodil07.wnion.co.in/wwe.m3u8
