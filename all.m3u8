@@ -1848,7 +1848,7 @@ https://loveliness.wnion.co.in/f1alt.m3u8
 
 #EXTGRP:Roxiestreams - NBA
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Boston Celtics vs Toronto Raptors
-https://daffodil07.wnion.co.in/nba2.m3u8
+https://loveliness.wnion.co.in/nba2.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Denver Nuggets vs Charlotte Hornets
 https://loveliness.wnion.co.in/nba3.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Golden State Warriors vs Chicago Bulls
@@ -1897,6 +1897,8 @@ https://daffodil07.wnion.co.in/premier.m3u8
 https://daffodil07.wnion.co.in/usa.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Cagliari vs Roma
 https://600.shadow-ran.online/golazo.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",CearÃ¡ vs Palmeiras
+https://daffodil07.wnion.co.in/palm.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Celtic vs Hearts
 https://daffodil07.wnion.co.in/cbssn.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Dortmund vs Hoffenheim
@@ -1927,8 +1929,6 @@ https://loveliness.wnion.co.in/fla.m3u8
 https://daffodil07.wnion.co.in/beines.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Real Madrid vs Celta Vigo
 https://loveliness.wnion.co.in/dep.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Santos vs Cruzeiro
-https://loveliness.wnion.co.in/f1alt.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Valencia vs Sevilla
 https://loveliness.wnion.co.in/dep.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",VitÃ³ria vs SÃ£o Paulo
