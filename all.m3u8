@@ -1789,8 +1789,12 @@ https://loveliness.wnion.co.in/ufc.m3u8
 https://loveliness.wnion.co.in/f1alt.m3u8
 
 #EXTGRP:Roxiestreams - Misc
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Chicago Blackhawks vs Anaheim Ducks
+https://daffodil07.wnion.co.in/nhl8.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Colorado Avalanche vs Philadelphia Flyers
 https://loveliness.wnion.co.in/nhl.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Columbus Blue Jackets vs Washington Capitals
+https://daffodil07.wnion.co.in/nhl7.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Formula 1: Grand Prix
 https://loveliness.wnion.co.in/f1alt.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Laliga
@@ -1799,6 +1803,10 @@ https://600.xn--1000-ugoxe8a5a7g4h.com/dep.m3u8
 https://ataide.xiaolongyi.dpdns.org/nhl2.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",San Jose Sharks vs Carolina Hurricanes
 https://ataide.xiaolongyi.dpdns.org/nhl3.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",St. Louis Blues vs Montreal Canadiens
+https://daffodil07.wnion.co.in/nhl5.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Vegas Golden Knights vs New York Rangers
+https://daffodil07.wnion.co.in/nhl6.m3u8
 
 #EXTGRP:Roxiestreams - Motorsports
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Motorsports",Formula 1 - Abu Dhabi Grand Prix
@@ -1859,6 +1867,8 @@ https://ataide.xiaolongyi.dpdns.org/nfl3.m3u8
 https://ataide.xiaolongyi.dpdns.org/nfl4.m3u8
 
 #EXTGRP:Roxiestreams - Soccer
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Boca Juniors vs Racing Club
+https://live20.bozztv.com/akamaissh101/ssh101/sportdigital1/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Brighton vs West Ham
 https://daffodil07.wnion.co.in/usa.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Cagliari vs Roma
