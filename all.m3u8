@@ -1681,10 +1681,6 @@ https://600.shadow-ran.online/roxiewwe.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",WWE RAW
 https://600.shadow-ran.online/wwe.m3u8
 
-#EXTGRP:Roxiestreams - Motorsports
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Motorsports",Formula 1 - Abu Dhabi Grand Prix
-https://600.shadow-ran.online/f1alt.m3u8
-
 #EXTGRP:Roxiestreams - NBA
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Phoenix Suns vs Minnesota Timberwolves
 https://600.shadow-ran.online/nba2.m3u8
@@ -1697,7 +1693,7 @@ https://600.shadow-ran.online/nba3.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Philadelphia Eagles vs Los Angeles Rams
 https://600.shadow-ran.online/nfl.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Philadelphia Eagles vs Los Angeles Rams
-https://600.shadow-ran.online/nflalt.m3u8
+https://daffodil.shadow-ran.online/nflalt.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Philadelphia Eagles vs Los Angeles Rams
 https://daffodil.shadow-ran.online/nflalty.m3u8
 
