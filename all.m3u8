@@ -746,6 +746,11 @@ https://cdn4.skygo.mn/live/disk1/Warner/HLSv3-FTA/Warner.m3u8
 https://a196aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/o7aqpbb6vv/out/v1/f8f6ef738ef24c4f8176d561ffb8a157/cenc.mpd
 
 #EXTGRP:Cable Tv [Sports]
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7aDNi_rdPRJ-aXsDS7lidlSyL_Vv90_UVMQ&s" group-title="Cable Tv [Sports]", 4 Tennis
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"lXsyUI/srxp/hC6dibx1Nw","kid":"vTKtYI6MNTaNuwrL+pTY4A"}],"type":"temporary"}
+https://live.streaming.a2d.tv/asset/20465727.isml/dash.mpd
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThyY0oV8z1j6nCiojofsBlQhW6aARywYK4QQ&s" group-title="Cable Tv [Sports]", Ace TV
 https://streams2.sofast.tv/WiseM3U8_30/sofast/cleanhls/master.m3u8
 #EXTINF:-1 tvg-id="AstroArena" group-title="Cable Tv [Sports]" ch-number="801" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/92_144.png",Astro Arena
