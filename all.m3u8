@@ -1676,9 +1676,19 @@ https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyM3LLzGbtH-M3ufNSF
 #EXTVLCOPT:http-icy-metadata=1
 https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyMKkOpmIOCtSsUkyxgxtxrU/.m3u8
 
+#EXTGRP:Roxiestreams - Combat Sports
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",AEW
+https://daffodil.shadow-ran.online/aew.m3u8
+
 #EXTGRP:Roxiestreams - Misc
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",WWE NXT
 https://600.xn--1000-ugoa0hsb9a0hb.com/wwe.m3u8
+
+#EXTGRP:Roxiestreams - NBA
+#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Phoenix Suns vs Oklahoma City Thunder
+https://daffodil.shadow-ran.online/nba.m3u8
+#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",San Antonio Spurs vs Los Angeles Lakers
+https://daffodil.shadow-ran.online/nba2.m3u8
 
 #EXTGRP:Roxiestreams - NFL
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Philadelphia Eagles vs Los Angeles Chargers
@@ -1710,7 +1720,7 @@ https://val.shadow-ran.online/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Club Brugge vs Arsenal
 https://val.xn--1000-ugoa0hsb9a0hb.com/tnt2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Cruzeiro vs Corinthians
-https://600.shadow-ran.online/f1alt.m3u8
+https://daffodil.shadow-ran.online/sportv.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Dortmund vs BodÃ¸ / Glimt
 https://600.shadow-ran.online/cbssn.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Dortmund vs BodÃ¸ / Glimt
