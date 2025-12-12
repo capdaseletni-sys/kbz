@@ -1701,6 +1701,8 @@ https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyChi_wAfe311eTSgrK
 https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyJ0YU2SrJ8VmOcvmMOsI92I/.m3u8
 
 #EXTGRP:Roxiestreams - Combat Sports
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",UFC Fight Night: Royval vs Kape
+https://daffodil.shadow-ran.online/wwe.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE Smackdown
 https://daffodil.shadow-ran.online/wwe.m3u8
 
@@ -1759,12 +1761,8 @@ https://600.shadow-ran.online/nba5.m3u8
 https://600.shadow-ran.online/nba5alt.m3u8
 
 #EXTGRP:Roxiestreams - NFL
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Atalanta Falcons vs Tamapa Bay Buccaneers
-https://600.shadow-ran.online/nflalt.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Atalanta Falcons vs Tamapa Bay Buccaneers
-https://daffodil.shadow-ran.online/nfl.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Atalanta Falcons vs Tamapa Bay Buccaneers
-https://daffodil.shadow-ran.online/nflalty.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Army vs Navy
+https://daffodil.shadow-ran.online/nba.m3u8
 
 #EXTGRP:Roxiestreams - Soccer
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Antalyaspor vs Galatasaray
