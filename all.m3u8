@@ -1800,12 +1800,14 @@ https://600.shadow-ran.online/nhl.m3u8
 https://daffodil.shadow-ran.online/nhl13.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Carolina Hurricanes vs Philadelphia Flyers
 https://daffodil.shadow-ran.online/nhl7.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Edmonton Oilers vs Toronto Maple Leafs
+https://600.shadow-ran.online/nhl.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Florida Panthers vs Dallas Stars
 https://daffodil.shadow-ran.online/nhl11.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Laliga
 https://daffodil.shadow-ran.online/dep.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Montreal Canadiens vs New York Rangers
-https://daffodil.shadow-ran.online/nhl6.m3u8
+https://600.shadow-ran.online/nhl6.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Nashville Predators vs Colorado Avalanche
 https://600.shadow-ran.online/nhl4.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Ottawa Senators vs Minnesota Wild
@@ -1834,6 +1836,8 @@ https://600.xn--1000-ugoxe8a5a7g4h.com/simply.m3u8
 https://600.xn--1000-ugoxe8a5a7g4h.com/tnt2.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UFC Fight Night: Royval vs Kape
 https://600.xn--1000-ugoxe8a5a7g4h.com/ufc.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Washington Capitals vs Winnipeg Jets
+https://600.shadow-ran.online/nhl9.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",World Darts Championship
 https://600.shadow-ran.online/darts.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",World Darts Championship
@@ -1845,23 +1849,19 @@ https://daffodil.shadow-ran.online/wwe.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",New York Knicks vs Orlando Magic
 https://daffodil.shadow-ran.online/nba.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",San Antonio Spurs vs Oklahoma City Thunder
-https://daffodil.shadow-ran.online/nba2.m3u8
+https://daffodil.shadow-ran.online/nba.m3u8
 
 #EXTGRP:Roxiestreams - NFL
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Army vs Navy
 https://600.shadow-ran.online/ncaa3.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Boise State v Washington
-https://daffodil.shadow-ran.online/nba.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Boise State v Washington
 https://daffodil.shadow-ran.online/ncaa.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Prairie View A&M vs South Carolina State
-https://daffodil.shadow-ran.online/nba.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Prairie View A&M vs South Carolina State
 https://daffodil.shadow-ran.online/ncaa.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",South Dakota v Montana
-https://daffodil.shadow-ran.online/nba.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",South Dakota v Montana
 https://daffodil.shadow-ran.online/ncaa.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Villanova v Tarleton State
+https://daffodil.shadow-ran.online/ncaa2.m3u8
 
 #EXTGRP:Roxiestreams - Soccer
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Antalyaspor vs Galatasaray
