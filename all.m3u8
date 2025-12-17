@@ -1824,7 +1824,7 @@ https://daffodil.shadow-ran.online/ncaa.m3u8
 
 #EXTGRP:Roxiestreams - Soccer
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",AtlÃ©tico Baleares vs AtlÃ©tico Madrid
-https://daffodil.shadow-ran.online/barca.m3u8
+https://daffodil.shadow-ran.online/val.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Carabao Cup
 https://daffodil.shadow-ran.online/main.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Copa Del Rey
@@ -1836,7 +1836,7 @@ https://daffodil.shadow-ran.online/mancity.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Farense vs Benfica
 https://daffodil.shadow-ran.online/usa.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Manchester City vs Brentford
-https://daffodil.shadow-ran.online/val.m3u8
+https://daffodil.shadow-ran.online/barca.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Newcastle United vs Fulham
 https://daffodil.shadow-ran.online/aston.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",PSG vs Flamengo
