@@ -1758,11 +1758,13 @@ https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyN7Klk8kGMpZLT3ZLk
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",AEW
 https://601.shadow-ran.online/wwe.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",TSZYU vs VELAZQUEZ
-https://daffodil.shadow-ran.online/ppv.m3u8
+https://601.shadow-ran.online/ppv.m3u8
 
 #EXTGRP:Roxiestreams - Misc
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Anaheim Ducks vs Columbus Blue Jackets
 https://daffodil.shadow-ran.online/nhl6.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Calgary Flames vs San Jose Sharks
+https://602.shadow-ran.online/nhl9.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Carabao Cup
 https://daffodil.shadow-ran.online/main.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Carolina Hurricanes vs Nashville Predators
@@ -1819,16 +1821,26 @@ https://daffodil.shadow-ran.online/nbaalt.m3u8
 https://daffodil.shadow-ran.online/ncaa.m3u8
 
 #EXTGRP:Roxiestreams - Soccer
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",AtlÃ©tico Baleares vs AtlÃ©tico Madrid
+https://daffodil.shadow-ran.online/barca.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Carabao Cup
 https://daffodil.shadow-ran.online/main.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Cardiff City vs Chelsea
-https://daffodil.shadow-ran.online/main.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",CD Guadalajara vs Barcelona
-https://daffodil.shadow-ran.online/barca.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Copa Del Rey
 https://daffodil.shadow-ran.online/barca.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Sporting GijÃ³n vs Valencia
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Corinthians vs Vasco Gama
+https://daffodil.shadow-ran.online/sunder.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Deportivo AlavÃ©s vs Sevilla
+https://daffodil.shadow-ran.online/mancity.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Farense vs Benfica
+https://daffodil.shadow-ran.online/usa.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Manchester City vs Brentford
 https://daffodil.shadow-ran.online/val.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Newcastle United vs Fulham
+https://daffodil.shadow-ran.online/aston.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",PSG vs Flamengo
+https://daffodil.shadow-ran.online/roma.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Talavera CF vs Real Madrid
+https://daffodil.shadow-ran.online/main.m3u8
 
 #EXTGRP:Roxiestreams - WWE
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/WWE2.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - WWE",WWE NXT
