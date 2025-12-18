@@ -1865,34 +1865,20 @@ https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyGu53zVxroCKkZbSjp
 https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyIIsbozk19KFL1_uw_VGpOA/.m3u8
 
 #EXTGRP:Roxiestreams - Combat Sports
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",AEW
-https://daffodil.shadow-ran.online/aew.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",TSZYU vs VELAZQUEZ
-https://601.shadow-ran.online/ppv.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",TSZYU vs VELAZQUEZ
-https://daffodil.shadow-ran.online/ppv.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE Smackdown
+https://601.shadow-ran.online/wwe.m3u8
 
 #EXTGRP:Roxiestreams - Misc
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Chicago Blackhawks vs Montreal Canadiens
 https://601.shadow-ran.online/nhl2.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Dallas Stars vs San Jose Sharks
-https://daffodil.shadow-ran.online/nhl7.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Edmonton Oilers vs Boston Bruins
 https://601.shadow-ran.online/nhl.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Los Angeles Kings vs Tampa Bay Lightning
 https://601.shadow-ran.online/nhl4.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Minnesota Wild vs Columbus Blue Jackets
-https://daffodil.shadow-ran.online/nhl6.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",New York Rangers vs St. Louis Blues
-https://daffodil.shadow-ran.online/nhl8.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",NFL (TNF)
 https://daffodil.shadow-ran.online/main.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Philadelphia Flyers vs Buffalo Sabres
-https://daffodil.shadow-ran.online/nhl7.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Pittsburgh Penguins vs Ottawa Senators
 https://601.shadow-ran.online/nhl3.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Seattle Kraken vs Calgary Flames
-https://602.shadow-ran.online/nhl9.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Toronto Maple Leafs vs Washington Capitals
 https://601.shadow-ran.online/nhl.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",UEFA Conference League
