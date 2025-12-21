@@ -1940,10 +1940,14 @@ https://600.alfirdaus.eu.org/ppv2.m3u8
 https://601.shadow-ran.online/ppv.m3u8
 
 #EXTGRP:Roxiestreams - Misc
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Buffalo Sabres vs New Jersey Devils
+https://601.shadow-ran.online/nhl4.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Carolina Hurricanes vs Tampa Bay Lightning
 https://601.shadow-ran.online/nhl9.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Chicago Blackhawks vs Ottawa Senators
 https://601.shadow-ran.online/nhl3.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Colorado Avalanche vs Minnesota Wild
+https://601.shadow-ran.online/nhl2.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Columbus Blue Jackets vs Anaheim Ducks
 https://601.shadow-ran.online/nhl12.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Detroit Red Wings vs Washington Capitals
@@ -1956,8 +1960,14 @@ https://daffodil.shadow-ran.online/dep.m3u8
 https://600.alfirdaus.eu.org/ataide.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Misfits Mania: Andrew Tate vs Chase Demoor
 https://600.alfirdaus.eu.org/ppv2.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Montreal Canadiens vs Pittsburgh Penguins
+https://601.shadow-ran.online/nhl5.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",New York Islanders vs Buffalo Sabres
 https://601.shadow-ran.online/nhl5.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",New York Rangers vs Nashville Predators
+https://601.shadow-ran.online/nhl6.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Ottawa Senators vs Boston Bruins
+https://601.shadow-ran.online/nhl3.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Philadelphia Flyers vs New York Rangers
 https://601.shadow-ran.online/nhl.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Pittsburgh Penguins vs Montreal Canadiens
@@ -1966,12 +1976,20 @@ https://601.shadow-ran.online/nhl8.m3u8
 https://601.shadow-ran.online/nhl13.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",St. Louis Blues vs Florida Panthers
 https://601.shadow-ran.online/nhl6.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Toronto Maple Leafs vs Dallas Stars
+https://601.shadow-ran.online/nhl7.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Toronto Maple Leafs vs Nashville Predators
 https://601.shadow-ran.online/nhl10.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Vancouver Canucks vs Boston Bruins
 https://601.shadow-ran.online/nhl7.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Vegas Golden Knights vs Calgary Flames
 https://601.shadow-ran.online/nhl11.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Vegas Golden Knights vs Edmonton Oilers
+https://601.shadow-ran.online/nhl9.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Washington Capitals vs Detroit Red Wings
+https://601.shadow-ran.online/nhl.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Winnipeg Jets vs Utah Mammoth
+https://601.shadow-ran.online/nhl8.m3u8
 
 #EXTGRP:Roxiestreams - NBA
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Boston Celtics vs Toronto Raptors
