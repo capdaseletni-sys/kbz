@@ -1932,10 +1932,6 @@ https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyCSENu_Hi29oXcf1dY
 https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyNnnIHU4OpZ1n3WgqdwZEos/.m3u8
 
 #EXTGRP:Roxiestreams - Combat Sports
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",Misfits Mania: Andrew Tate vs Chase Demoor
-https://600.alfirdaus.eu.org/ataide.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",Misfits Mania: Andrew Tate vs Chase Demoor
-https://600.alfirdaus.eu.org/ppv2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",PFL Africa 4
 https://601.shadow-ran.online/ppv.m3u8
 
@@ -1956,10 +1952,6 @@ https://601.shadow-ran.online/nhl2.m3u8
 https://601.shadow-ran.online/nhl4.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Laliga
 https://daffodil.shadow-ran.online/dep.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Misfits Mania: Andrew Tate vs Chase Demoor
-https://600.alfirdaus.eu.org/ataide.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Misfits Mania: Andrew Tate vs Chase Demoor
-https://600.alfirdaus.eu.org/ppv2.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Montreal Canadiens vs Pittsburgh Penguins
 https://601.shadow-ran.online/nhl5.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",New York Islanders vs Buffalo Sabres
@@ -2018,30 +2010,12 @@ https://daffodil.shadow-ran.online/nba9.m3u8
 https://daffodil.shadow-ran.online/nba6.m3u8
 
 #EXTGRP:Roxiestreams - NFL
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Green Bay Packers vs Chicago Bears
-https://600.alfirdaus.eu.org/nflalt.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Green Bay Packers vs Chicago Bears
-https://600.alfirdaus.eu.org/nflalty.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Green Bay Packers vs Chicago Bears
-https://600.xn--1000-ugoxe8a5a7g4h.com/nfl.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",James Madison vs Oregon
 https://601.shadow-ran.online/ncaa2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Miami (FL) vs Texas A&M
 https://601.shadow-ran.online/ncaa.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Philadelphia Eagles vs Washington Commanders
-https://600.alfirdaus.eu.org/nfl.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Philadelphia Eagles vs Washington Commanders
-https://600.alfirdaus.eu.org/nflalt.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Philadelphia Eagles vs Washington Commanders
-https://600.alfirdaus.eu.org/nflalty.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Tulane vs Ole Miss
 https://601.shadow-ran.online/ncaa2.m3u8
-
-#EXTGRP:Roxiestreams - PPV
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/PPV.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - PPV",Misfits Mania: Andrew Tate vs Chase Demoor
-https://600.alfirdaus.eu.org/ataide.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/PPV.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - PPV",Misfits Mania: Andrew Tate vs Chase Demoor
-https://600.alfirdaus.eu.org/ppv2.m3u8
 
 #EXTGRP:Roxiestreams - Soccer
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Al Najma vs Al Nassr
