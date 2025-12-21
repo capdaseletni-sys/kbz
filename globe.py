@@ -68,5 +68,5 @@ def process_m3u8(input_file, output_file):
     print(f"Output file: {output_file}")
 
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     process_m3u8(INPUT_M3U8, OUTPUT_M3U8)
