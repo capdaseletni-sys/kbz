@@ -1903,6 +1903,8 @@ https://601.shadow-ran.online/nba2.m3u8
 
 #EXTGRP:Roxiestreams - NFL
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Buffalo Bills vs Cleveland Browns
+https://601.alfirdaus.eu.org/bills.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Buffalo Bills vs Cleveland Browns
 https://daffodil.alfirdaus.eu.org/nfl.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Cincinnati Bengals vs Miami Dolphins
 https://601.biroslotutama.org/nfl4.m3u8
