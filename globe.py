@@ -1,72 +1,68 @@
 import requests
-import time
+import sys
+from pathlib import Path
 
-INPUT_M3U8 = "baniknik.m3u8"
-OUTPUT_M3U8 = "globe.m3u8"
-
-TIMEOUT = 7  # seconds
-HEADERS = {
-    "User-Agent": "Mozilla/5.0"
-}
+TIMEOUT = 10  # seconds
 
 
-def is_stream_online(url):
+def is_stream_online(url: str) -> bool:
     """
     Check if a stream URL is reachable.
+    Uses HEAD first, falls back to GET if needed.
     """
     try:
-        response = requests.get(
-            url,
-            headers=HEADERS,
-            timeout=TIMEOUT,
-            stream=True
-        )
-        return response.status_code == 200
+        response = requests.head(url, timeout=TIMEOUT, allow_redirects=True)
+        if response.status_code < 400:
+            return True
+    except requests.RequestException:
+        pass
+
+    try:
+        response = requests.get(url, timeout=TIMEOUT, stream=True)
+        return response.status_code < 400
     except requests.RequestException:
         return False
 
 
-def process_m3u8(input_file, output_file):
-    with open(input_file, "r", encoding="utf-8", errors="ignore") as f:
-        lines = f.readlines()
+def filter_m3u8(input_path: str, output_path: str):
+    with open(input_path, "r", encoding="utf-8") as f:
+        lines = [line.rstrip() for line in f]
 
-    output_lines = ["#EXTM3U\n"]
-    total = 0
-    working = 0
+    output_lines = []
+    buffer_tags = []
 
-    i = 0
-    while i < len(lines):
-        line = lines[i].strip()
+    for line in lines:
+        if line.startswith("#"):
+            buffer_tags.append(line)
+        elif line.strip():
+            url = line.strip()
+            print(f"Checking: {url}")
 
-        if line.startswith("#EXTINF"):
-            if i + 1 < len(lines):
-                url = lines[i + 1].strip()
-                total += 1
-                print(f"Checking ({total}): {url}")
-
-                if is_stream_online(url):
-                    output_lines.append(lines[i])
-                    output_lines.append(lines[i + 1])
-                    working += 1
-                    print("  ✔ Online")
-                else:
-                    print("  ✖ Offline")
-
-                i += 2
-                time.sleep(0.3)  # avoid spamming servers
+            if is_stream_online(url):
+                print("  ✓ Online")
+                output_lines.extend(buffer_tags)
+                output_lines.append(url)
             else:
-                i += 1
-        else:
-            i += 1
+                print("  ✗ Offline")
 
-    with open(output_file, "w", encoding="utf-8") as f:
-        f.writelines(output_lines)
+            buffer_tags = []
 
-    print("\nDone!")
-    print(f"Total streams checked: {total}")
-    print(f"Working streams saved: {working}")
-    print(f"Output file: {output_file}")
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(output_lines) + "\n")
+
+    print(f"\nSaved filtered playlist to: {output_path}")
 
 
 if __name__ == "__main__":
-    process_m3u8(INPUT_M3U8, OUTPUT_M3U8)
+    if len(sys.argv) != 3:
+        print("Usage: python filter_m3u8.py input.m3u8 output.m3u8")
+        sys.exit(1)
+
+    input_m3u8 = sys.argv[1]
+    output_m3u8 = sys.argv[2]
+
+    if not Path(input_m3u8).exists():
+        print("Input file does not exist.")
+        sys.exit(1)
+
+    filter_m3u8(input_m3u8, output_m3u8)
