@@ -2,11 +2,6 @@
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
-https://red9.lumenlyra.space/playlist/41585/load-playlist
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Live Sports - StreamEast", Live
-#EXTVLCOPT:http-origin=https://gooz.aapmains.net
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
 https://red9.lumenlyra.space/playlist/41614/load-playlist
 #EXTINF:-1 tvg-logo="" group-title="Live Sports - StreamEast", TEST Live
 #KODIPROP:inputstreamaddon=inputstream.adaptive
