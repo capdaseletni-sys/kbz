@@ -1908,6 +1908,14 @@ https://dash.pixelstreams.online:443/play/pAVJjXWDXadNqa4ml_eoyNsvHql5ltXBlVcW0T
 https://601.shadow-ran.online/wwe2.m3u8
 
 #EXTGRP:Roxiestreams - Misc
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",AEW
+https://daffodil.shadow-ran.online/aew.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",AEW
+https://daffodil.shadow-ran.online/aew.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",AEW
+https://daffodil.shadow-ran.online/aewalt.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",AEW
+https://daffodil.shadow-ran.online/aewalt.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Buffalo Sabres vs Ottawa Senators
 https://601.shadow-ran.online/nhl5.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Calgary Flames vs Edmonton Oilers
@@ -1924,6 +1932,10 @@ https://601.shadow-ran.online/nhl8.m3u8
 https://daffodil.shadow-ran.online/ncaa.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",NCAA (College Football)
 https://daffodil.shadow-ran.online/ncaa.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",NCAA (College Football)
+https://daffodil.shadow-ran.online/ncaaalt.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",NCAA (College Football)
+https://daffodil.shadow-ran.online/ncaaalt.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",New Jersey Devils vs New York Islanders
 https://601.shadow-ran.online/nhl6.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",New York Rangers vs Washington Capitals
@@ -1972,6 +1984,8 @@ https://daffodil.shadow-ran.online/nba.m3u8
 #EXTGRP:Roxiestreams - NFL
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",California v Hawaiâi
 https://daffodil.shadow-ran.online/ncaa.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",California v Hawaiâi
+https://daffodil.shadow-ran.online/ncaaalt.m3u8
 
 #EXTGRP:Roxiestreams - Soccer
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Arsenal vs Crystal Palace
