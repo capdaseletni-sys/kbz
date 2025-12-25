@@ -1940,8 +1940,6 @@ https://daffodil.shadow-ran.online/nfl3.m3u8
 #EXTGRP:Roxiestreams - NFL
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Dallas Cowboys vs Washington Commanders
 https://daffodil.alfirdaus.eu.org/nfl.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Denver Broncos vs Kansas City Chiefs
-https://daffodil.alfirdaus.eu.org/nfl3.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Maxx.png" tvg-id="Football.Dummy.us" group-title="Roxiestreams - NFL",Detroit Lions vs Minnesota Vikings
 https://daffodil.alfirdaus.eu.org/nfl2.m3u8
 
