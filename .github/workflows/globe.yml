@@ -2,7 +2,7 @@ name: 🚀 Update Merged Playlist 📺
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # ⏰ Every 30 minutes (UTC)
+    - cron: '*/30 * * * *'  # ⏰ Every 30 minutes (UTC)
   workflow_dispatch:        # 🔘 Manual trigger
 
 permissions:
