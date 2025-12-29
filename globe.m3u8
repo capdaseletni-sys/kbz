@@ -104,7 +104,7 @@ https://cdn4.skygo.mn/live/disk1/Fashion_TV/HLSv3-FTA/Fashion_TV.m3u8
 https://cdn4.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", .NHK World
 https://cdn4.skygo.mn/live/disk1/NHK_World/HLSv3-FTA/NHK_World.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="",. NHK World Premium
+#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", .NHK World Premium
 https://cdn4.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
 #EXTINF:-1 group-title=".PH [WebOS]" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/russel/images/9/94/Cinema_One_Logo_2020.png", .Cinema One
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -156,7 +156,7 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?xtreami
 https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/681109b688b9d85d0938c6ba/featuredImage_1747434869653.jpg?auto=&q=70&fit=fill&fill=blur&ixlib=react-9.1.5" group-title=".PH [WebOS]", .Tennis Channel 2
 https://amg01444-tennischannel-amg01444c2-lg-us-959.playouts.now.amagi.tv/playlist/amg01444-tennischannelfast-tennischannelus-lgus/playlist.m3u8
-#EXTINF:-1 tvg-id="NBA 10" tvg-name="NBA 10" tvg-logo="https://cdn.vectorstock.com/i/1000v/67/91/tennis-player-silhouette-logo-vector-22656791.jpg" group-title=".PH [WebOS]]", .Tennis+
+#EXTINF:-1 tvg-id="NBA 10" tvg-name="NBA 10" tvg-logo="https://cdn.vectorstock.com/i/1000v/67/91/tennis-player-silhouette-logo-vector-22656791.jpg" group-title=".PH [WebOS]", .Tennis+
 https://amg01935-amg01935c1-amgplt0352.playout.now3.amagi.tv/playlist/amg01935-amg01935c1-amgplt0352/playlist.m3u8
 #EXTINF:-1 tvg-id="The NBA Channel" tvg-name="The NBA Channel" tvg-logo="https://cdn.sologo.ai/2025/0424/20250424031403894.png" group-title=".PH [WebOS]", .The NBA Channel
 https://jmp2.uk/plu-6792c30abc03978b9b8bb832.m3u8
