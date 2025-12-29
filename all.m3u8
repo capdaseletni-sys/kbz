@@ -420,6 +420,12 @@ http://linearjitp-playback.astro.com.my/dash-wv/linear/9983/default_ott.mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=d47ebabf7a21430b83a8c4b82d9ef6b1:54c213b2b5f885f1e0290ee4131d425b
 https://d1uf7s78uqso1e.cloudfront.net/out/v1/efa01372657648be830e7c23ff68bea2/index.mpd
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Cable Tv [PH]" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4W1NNB7uuAwDqH3fUc15qD0gr-JDO4FYJKg&s", Kapatid Channel
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=dbf670bed2ea4905a114557e90e7ffb6:616059bec8dfb27f3524b7e7c31b6cff
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/pphd_sdi1/default/index.mpd
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjrxyZu1bPiJ3SdGvhVf3d3Muj5AqQ7ZkGpw&s" group-title="Cable Tv [PH]", KBS World
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -975,12 +981,6 @@ https://ucdn.starhubgo.com/bpk-tv/HubPremier1/output/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
 https://dash2.antik.sk/stream/nvidia_joj_sport/playlist_cenc.mpd
-#EXTINF:-1 tvg-id="" tvg-name="" group-title="Cable Tv [Sports]" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4W1NNB7uuAwDqH3fUc15qD0gr-JDO4FYJKg&s", Kapatid Channel
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=dbf670bed2ea4905a114557e90e7ffb6:616059bec8dfb27f3524b7e7c31b6cff
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/pphd_sdi1/default/index.mpd
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/M%20Live%202.png" group-title="Cable Tv [Sports]",M LIVE 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
