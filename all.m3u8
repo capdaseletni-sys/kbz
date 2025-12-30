@@ -2169,19 +2169,23 @@ https://601.shadow-ran.online/ncaa3.m3u8
 
 #EXTGRP:Roxiestreams - Soccer
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Al Ittifaq vs Al Nassr
-https://601.shadow-ran.online/darts.m3u8
+https://daffodil.shadow-ran.online/fs2.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Arsenal vs Aston Villa
+https://daffodil.shadow-ran.online/arsenal.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Arsenal vs Aston Villa
 https://streams.bitmovin.com/d59p9366okvm4g5agge0/manifest.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Burnley vs Newcastle United
-https://daffodil.shadow-ran.online/cbs.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Burnley vs Newcastle United
-https://daffodil.shadow-ran.online/cbssn.m3u8
+https://daffodil.shadow-ran.online/epl.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Chelsea vs Bournemouth
-https://daffodil.shadow-ran.online/pachuca.m3u8
+https://601.shadow-ran.online/darts.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Manchester United vs Wolves
+https://601.shadow-ran.online/manunited.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Motherwell vs Celtic
+https://daffodil.shadow-ran.online/cbssn.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Nottingham Forest vs Everton
-https://daffodil.shadow-ran.online/football.m3u8
+https://601.shadow-ran.online/epl2.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",West Ham vs Brighton
-https://daffodil.shadow-ran.online/porto.m3u8
+https://601.shadow-ran.online/epl3.m3u8
 
 #EXTGRP:Roxiestreams - WWE
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/WWE2.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - WWE",WWE NXT
