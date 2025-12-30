@@ -7,18 +7,62 @@
 #EXTVLCOPT:http-referrer=https://qp-pldt-live-bpk-02-prod.akamaized.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_a2z/default/index.mpd
+#EXTINF:-1 group-title=".PH [WebOS]" tvg-logo="https://i.imgur.com/QNb95ny.png", .02 Test
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f703e4c8ec9041eeb5028ab4248fa094:c22f2162e176eee6273a5d0b68d19530
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbohits/default1/index.mpd
+#EXTINF:-1 group-title=".PH [WebOS]" tvg-logo="https://i.imgur.com/QNb95ny.png", .03 Test
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=f703e4c8ec9041eeb5028ab4248fa094:c22f2162e176eee6273a5d0b68d19530
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbohits/default1/index.mpd
 #EXTINF:-1 group-title=".PH [WebOS]" tvg-id="" tvg-logo="", .Cinemo
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=aa8aebe35ccc4541b7ce6292efcb1bfb:aab1df109d22fc5d7e3ec121ddf24e5f
 https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/index.mpd
+#EXTINF:-1 group-title=".PH [WebOS]" tvg-id="" tvg-logo="https://tse3.mm.bing.net/th/id/OIP.HhV0Rs2uCZQ0J7OoWKXSbgHaDp?rs=1&pid=ImgDetMain&o=7&rm=3", .Discovery
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=b70a8cf9450c4d6484b4ac4d3c6761c0:0908be844260409cbac180bf0181da40
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverychannel2/default/manifest.mpd
+#EXTINF:-1 group-title=".PH [WebOS]" tvg-id="" tvg-logo="https://tse3.mm.bing.net/th/id/OIP.HhV0Rs2uCZQ0J7OoWKXSbgHaDp?rs=1&pid=ImgDetMain&o=7&rm=3", .Discovery Science
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=5458f45efedb4d6f8aa6ac76c85b621b:dbf8a0a306a64525ba3012fd225370c0
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryscience2/default/manifest.mpd
+#EXTINF:-1 group-title=".PH [WebOS]" tvg-id="" tvg-logo="https://canalultima.com/uploads/tv_image/discovery-turbo.jpg", .Discovery Turbo
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=c011525969e44b99a86059dbb3cdf4e8:6700a5d93203417b8585f7de7dd1a09b
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryturbo2/default/manifest.mpd
+#EXTINF:-1 group-title=".PH [WebOS]" tvg-id="" tvg-logo="https://tse3.mm.bing.net/th/id/OIP.HhV0Rs2uCZQ0J7OoWKXSbgHaDp?rs=1&pid=ImgDetMain&o=7&rm=3", .Korean Drama
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=ed197e7253c04946903f03bad9afac91:99ebb8683ea74b70a9fda1cbdc2cc1b4
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Koreandramas2/default/manifest.mpd
 #EXTINF:-1 group-title=".PH [WebOS]" tvg-id="" tvg-logo="", .Myx
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=f40a52a3ac9b4702bdd5b735d910fd2f:5ce1bc7f06b494c276252b4d13c90e51
 https://d24xfhmhdb6r0q.cloudfront.net/out/v1/e897a7b6414a46019818ee9f2c081c4f/index.mpd
+#EXTINF:-1 group-title=".PH [WebOS]" tvg-id="" tvg-logo="https://tse3.mm.bing.net/th/id/OIP.HhV0Rs2uCZQ0J7OoWKXSbgHaDp?rs=1&pid=ImgDetMain&o=7&rm=3", .Shorts TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=b994480f788d41ddbc805862ac469416:78a6a0fc1758483595da7113e58e4467
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Shortstv2/default/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="https://get.perfecttv.net/logo/spotvfhd.png", .Spotv FHD
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -142,6 +186,10 @@ https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-a
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=1619db30b9ed42019abb760a0a3b5e7f:5921e47fb290ae263291b851c0b4b6e4
 https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/asianfoodnetwork_sd/default/index.mpd
+#EXTINF:-1 tvg-id="3BB Asian.th"  tvg-logo="https://tse1.mm.bing.net/th/id/OIP.o3Nut0Fs0rp1AZOSftUsJwHaGg?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3" group-title="Cable Tv [PH]", Asian Hits
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=dac6cbd9d17a451bb76386f52469e0e9:2e2ac52cadf843459915eaa1a9b95e48
+https://cnt1-streamer9.cdn.3bbtv.com:8443/3bb/live/101/101.mpd
 #EXTINF:-1 tvg-id="413"  tvg-name="Astro Showcase" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/454_144.png" group-title="Cable Tv [PH]",Astro Showcase
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -292,6 +340,12 @@ https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/crime_invest/default/index
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=0f853706412b11edb8780242ac120002:2157d6529d80a760f60a8b5350dbc4df
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/depedch_sd/default/index.mpd
+#EXTINF:-1 group-title="Cable Tv [PH]" tvg-id="" tvg-logo="https://tse3.mm.bing.net/th/id/OIP.HhV0Rs2uCZQ0J7OoWKXSbgHaDp?rs=1&pid=ImgDetMain&o=7&rm=3", Discovery
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=b70a8cf9450c4d6484b4ac4d3c6761c0:0908be844260409cbac180bf0181da40
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverychannel2/default/manifest.mpd
 #EXTINF:-1 tvg-id="553" tvg-name="Discovery Asia" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Discovery_Asia_v1.png" group-title="Cable Tv [PH]",Discovery Asia HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=3ff02fcd80c2e3230c52ae70fe903410:c3a58ec867cc25829e1fbe8938442553
@@ -309,6 +363,12 @@ https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/discovery/default/index.mp
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=5458f45efedb4d6f8aa6ac76c85b621b:dbf8a0a306a64525ba3012fd225370c0
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryscience2/default/manifest.mpd
+#EXTINF:-1 group-title="Cable Tv [PH]" tvg-id="" tvg-logo="https://canalultima.com/uploads/tv_image/discovery-turbo.jpg", Discovery Turbo
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=c011525969e44b99a86059dbb3cdf4e8:6700a5d93203417b8585f7de7dd1a09b
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryturbo2/default/manifest.mpd
 #EXTINF:-1 group-title="Cable Tv [PH]" tvg-id="" tvg-logo="http://apkip.tv/logos/Canada/DisneyChannel.ca.png",Disney Channel
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -396,6 +456,12 @@ https://honortvph.dpdns.org/1143/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=d47ebabf7a21430b83a8c4b82d9ef6b1:54c213b2b5f885f1e0290ee4131d425b
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbohd/default/index.mpd
+#EXTINF:-1 group-title="Cable Tv [PH]" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyfzy_zryHCA8eh6XVhjEB3jjVQZ5W4qUmRA&s", HBO Extreme
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=bc8d4369fcff86db765db82356b4797c:8a7e801dbc275e3f4e1f43cba648906a
+https://zap-live1-ott.izzigo.tv/5/out/u/dash/HBO-XTREME-HD/default.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/450_144.png" group-title="Cable Tv [PH]",HBO Family
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -684,6 +750,12 @@ https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cnn_rptv_prod_hd/default/i
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=0a7ab3612f434335aa6e895016d8cd2d:b21654621230ae21714a5cab52daeb9d
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_sarisari/default/index.mpd
+#EXTINF:-1 group-title="Cable Tv [PH]" tvg-id="" tvg-logo="https://tse3.mm.bing.net/th/id/OIP.HhV0Rs2uCZQ0J7OoWKXSbgHaDp?rs=1&pid=ImgDetMain&o=7&rm=3", Shorts TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=b994480f788d41ddbc805862ac469416:78a6a0fc1758483595da7113e58e4467
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Shortstv2/default/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3XWkx46n_JTi-FLP1oY4LybuutEeE5MDNJw&s" group-title="Cable Tv [PH]", Showcase
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -770,6 +842,12 @@ https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/travel_channel_sd/default/
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=2273a52098234332b1a12d0d9d82ad88:dd949a70fbf98aadf953e0f11f254a0c
 https://v4-pan-m3-cdn-02.live.cdn.cgates.lt/live/dash/561008/index.mpd
+#EXTINF:-1 group-title="Cable Tv [PH]" tvg-id="" tvg-logo="https://github.com/eepunx/canlog/raw/refs/heads/main/Picsart_25-07-29_23-06-43-579.png", Treehouse
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=de9b995d2aba32bae1c5dbe38a46f2d9:a2d94fdff16e9c332164a73f8b170bd3
+https://a79aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/ghf7y1plnj/out/v1/0c87bd17ab474015b77c0f3028190f78/cenc.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a0/TRUETV_Logo_2024.png/revision/latest/smart/width/250/height/250?cb=20241110070654" group-title="Cable Tv [PH]", True TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -861,6 +939,14 @@ https://cdn4.skygo.mn/live/disk1/Warner/HLSv3-FTA/Warner.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6f0aeae5779f1dcaef23f0bfbc828220:7bcef3cf93de00e3daeb190d15b1ec05
 https://a196aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/o7aqpbb6vv/out/v1/f8f6ef738ef24c4f8176d561ffb8a157/cenc.mpd
+
+#EXTGRP:Cable Tv [PH] tvg-id=
+#EXTINF:-1 group-title="Cable Tv [PH] tvg-id="" tvg-logo="https://tse3.mm.bing.net/th/id/OIP.HhV0Rs2uCZQ0J7OoWKXSbgHaDp?rs=1&pid=ImgDetMain&o=7&rm=3", Korean Drama
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=ed197e7253c04946903f03bad9afac91:99ebb8683ea74b70a9fda1cbdc2cc1b4
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Koreandramas2/default/manifest.mpd
 
 #EXTGRP:Cable Tv [Sports]
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7aDNi_rdPRJ-aXsDS7lidlSyL_Vv90_UVMQ&s" group-title="Cable Tv [Sports]", 4 Tennis
