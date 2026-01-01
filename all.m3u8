@@ -1,18 +1,30 @@
 #EXTM3U url-tvg="https://github.com/Drewski2423/DrewLive/raw/refs/heads/main/DrewLive.xml.gz"
 
 #EXTGRP:.PH [WebOS]
+#EXTINF:-1 tvg-id="NBA 10" tvg-name="NBA 10" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc9F_ME-A3fvVS5AFn8EJrhDHkZ8aItOZKyg&s" group-title=".PH [WebOS]", .3rsSINEPINOY
+https://live20.bozztv.com/giatvplayout7/giatv-210267/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="NBA 10" tvg-name="NBA 10" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5EAXW-54_lVL1rrgg51KMlKWQGxDPaNyvpA&s" group-title=".PH [WebOS]", .3rsTV
+https://live20.bozztv.com/giatvplayout7/giatv-210631/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title=".PH [WebOS]" tvg-id="" tvg-logo="", .Cinemo
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=aa8aebe35ccc4541b7ce6292efcb1bfb:aab1df109d22fc5d7e3ec121ddf24e5f
 https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/index.mpd
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://variety.com/wp-content/uploads/2013/09/espn-logo.jpg" group-title=".PH [WebOS]", .ESPN
+http://cchelp.xyz:826/live/Chine611/DEht5fmfT2/1262.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxRMV2G1q3dXWyhbC_BpMpCWMkfQAigmoiuQ&s" group-title=".PH [WebOS]", .ESPN 2
+http://cchelp.xyz:826/live/Chine611/DEht5fmfT2/95868.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqndReZ8wqIcJO39ZUlQnjeayPJ-11_bVnow&s" group-title=".PH [WebOS]", .Mindanow Network TV
+https://streams.comclark.com/overlay/mindanow/playlist.m3u8
 #EXTINF:-1 group-title=".PH [WebOS]" tvg-id="" tvg-logo="", .Myx
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=f40a52a3ac9b4702bdd5b735d910fd2f:5ce1bc7f06b494c276252b4d13c90e51
 https://d24xfhmhdb6r0q.cloudfront.net/out/v1/e897a7b6414a46019818ee9f2c081c4f/index.mpd
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvKpvtcCZUuAOR4EfcGjdHIoEj0Zj5LoDJ6w&s" group-title=".PH [WebOS]", .Sine Manila
+https://live20.bozztv.com/giatv/giatv-sinemanila/sinemanila/playlist.m3u8
 #EXTINF:-1 group-title=".PH [WebOS]" tvg-id="" tvg-logo="", .Teleradyo
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -37,28 +49,16 @@ https://du44jtt5g7upx.cloudfront.net/out/v1/a3b708325c1d43dc9549c262526a6945/ind
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=457c50351e2a4c42a5c34cfb5c0b0682:03a2754079e082f7dec48ad362e3899e
 https://d123wz0csfw11u.cloudfront.net/out/v1/6e2906534002432984f73742ef2bcbfe/index.mpd
-#EXTINF:-1 tvg-id="NBA 10" tvg-name="NBA 10" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc9F_ME-A3fvVS5AFn8EJrhDHkZ8aItOZKyg&s" group-title=".PH [WebOS]",3rsSINEPINOY
-https://live20.bozztv.com/giatvplayout7/giatv-210267/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="NBA 10" tvg-name="NBA 10" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5EAXW-54_lVL1rrgg51KMlKWQGxDPaNyvpA&s" group-title=".PH [WebOS]",3rsTV
-https://live20.bozztv.com/giatvplayout7/giatv-210631/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title=".PH [WebOS]", Abante Radyo
 https://amg19223-amg19223c12-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c12-amgplt0352/playlist.m3u8
 #EXTINF:-1 tvg-id="NBA 10" tvg-name="NBA 10" tvg-logo="https://yt3.googleusercontent.com/4RMsaQKiNd5Fgbc90h2taWH_9U-v4ou89TapOb0gvqqRJDTsqnMfZjA6jLRqVFdT1ko7yOArzFA=s900-c-k-c0x00ffffff-no-rj" group-title=".PH [WebOS]",Ani-One
 https://amg19223-amg19223c9-amgplt0019.playout.now3.amagi.tv/ts-us-e2-n1/playlist/amg19223-amg19223c9-amgplt0019/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://variety.com/wp-content/uploads/2013/09/espn-logo.jpg" group-title=".PH [WebOS]", ESPN
-http://cchelp.xyz:826/live/Chine611/DEht5fmfT2/1262.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxRMV2G1q3dXWyhbC_BpMpCWMkfQAigmoiuQ&s" group-title=".PH [WebOS]", ESPN 2
-http://cchelp.xyz:826/live/Chine611/DEht5fmfT2/95868.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqndReZ8wqIcJO39ZUlQnjeayPJ-11_bVnow&s" group-title=".PH [WebOS]", Mindanow Network TV
-https://streams.comclark.com/overlay/mindanow/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF1joHhOGg1l0IJIT9HhWJKyR_USaxrxnEPQ&s", Prime Fight
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=efaf4dfd93ad44be89d1c3cccd3391c9:6e42e2790b427988a2e966a30b1c82ab
 https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/560307/index.mpd
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvKpvtcCZUuAOR4EfcGjdHIoEj0Zj5LoDJ6w&s" group-title=".PH [WebOS]",Sine Manila
-https://live20.bozztv.com/giatv/giatv-sinemanila/sinemanila/playlist.m3u8
 #EXTINF:-1 tvg-id="NBA 10" tvg-name="NBA 10" tvg-logo="https://play-lh.googleusercontent.com/RAd9B7xcEckaTwiTYBE95p3Qk6qjm77XIm8fOuKViWTyd2N9DZVcQDtvHkB3AmCMiVYm" group-title=".PH [WebOS]",UFC
 https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="NBA 10" tvg-name="NBA 10" tvg-logo="https://play-lh.googleusercontent.com/RAd9B7xcEckaTwiTYBE95p3Qk6qjm77XIm8fOuKViWTyd2N9DZVcQDtvHkB3AmCMiVYm" group-title=".PH [WebOS]",UFC TV
