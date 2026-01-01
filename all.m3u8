@@ -410,6 +410,14 @@ https://conv.iyadtv.workers.dev/gma7x/stream.mpd
 http://tv14s.xyz:8080/A1Jay5/362586/101825
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/50/GMAIntegratedNews.svg" group-title="Cable Tv [PH]"", GMA News TV
 http://fo.dnsoso.us/live/9b91a675f1/9b87vm9lcc/500967.m3u8
+#EXTINF:-1 ch-number="2" tvg-chno="2" group-title="Cable Tv [PH]" tvg-id="GMA ph" tvg-name="GMA" tvg-logo="https://i.pinimg.com/736x/c7/bc/0c/c7bc0cdaa2c3e5b02ceb374fa2282cf2.jpg", GMA OneSeg
+#EXTVLCOPT:http-referrer=https://mc-o0of718lw0.bunny.run/license
+#EXTVLCOPT:http-origin=http://136.239.158.30:6610
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=31363231383438333031323033393138:38694e34324d543478316b7455753437
+https://mc-5fythpik4t.bunny.run/7/dopamine/manifest.mpd
 #EXTINF:-1 group-title="Cable Tv [PH]" tvg-id="" tvg-logo="https://i.imgur.com/ZOqMJfw.png",GMA Pinoy TV
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
