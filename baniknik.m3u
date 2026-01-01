@@ -513,6 +513,9 @@ http://cchelp.xyz:826/live/Chine611/DEht5fmfT2/119514.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title=".PH [WebOS]", Spotv 2
 http://cchelp.xyz:826/live/Chine611/DEht5fmfT2/119515.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title=".PH [WebOS]", .MSG
+http://cchelp.xyz:826/live/Chine611/DEht5fmfT2/33474.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title=".PH [WebOS]", .NBA 4k
 http://cchelp.xyz:826/live/Chine611/DEht5fmfT2/100673.m3u8
 
