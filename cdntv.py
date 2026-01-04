@@ -7,7 +7,7 @@ KEYWORDS = ["SHARK", "CDNTV"]
 
 
 def download_m3u(url: str) -> str:
-    response = requests.get(url, timeout=10)
+    response = requests.get(url, timeout=50)
     response.raise_for_status()
     return response.text
 
