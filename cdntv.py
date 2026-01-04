@@ -3,7 +3,7 @@ import requests
 PLAYLIST_URL = "https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8"
 OUTPUT_FILE = "cdntv.m3u8"
 
-KEYWORDS = ["(SHARK)", "(CDNTV)", "(ROXIE)"]
+KEYWORDS = ["SHARK", "CDNTV"]
 
 
 def download_m3u(url: str) -> str:
