@@ -3,7 +3,7 @@ import requests
 PLAYLIST_URL = "https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8"
 OUTPUT_FILE = "cdntv.m3u8"
 
-KEYWORDS = ["CDNTV", "SHARK"]
+KEYWORD = "CDNTV"
 
 
 def download_m3u(url: str) -> str:
@@ -21,9 +21,7 @@ def filter_m3u(content: str) -> str:
         line = lines[i].strip()
 
         if line.startswith("#EXTINF"):
-            tvg_name = line.lower()
-
-            if all(keyword.lower() in tvg_name for keyword in KEYWORDS):
+            if KEYWORD.lower() in line.lower():
                 # Keep EXTINF line
                 filtered_lines.append(lines[i])
 
@@ -50,7 +48,7 @@ def main():
         print(f"Filtered playlist saved to: {OUTPUT_FILE}")
 
     except requests.RequestException as e:
-        print(f"Error downloading playlist: {e}")
+        print(f"Download error: {e}")
     except OSError as e:
         print(f"File error: {e}")
 
