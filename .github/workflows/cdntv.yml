@@ -27,7 +27,7 @@ jobs:
         run: pip install requests
 
       - name: 🎯 Run scraping script
-        run: python globe.py baniknik.m3u globe.m3u8
+        run: python cdntv.py
 
       - name: 💾 Commit & Safely Push if Playlist Changed
         env:
@@ -36,7 +36,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions@users.noreply.github.com"
 
-          git add globe.m3u8
+          git add cdntv.m3u8
 
           if git diff --cached --quiet; then
             echo "✅ No changes to commit"
