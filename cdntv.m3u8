@@ -11,363 +11,309 @@ https://601.shadow-ran.online/nfl11.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://601.shadow-ran.online/nfl12.m3u8
 
-#EXTINF:-1 tvg-chno="26" tvg-id="NFL.Dummy.us" tvg-name="[American Football] Washington Commanders vs Philadelphia Eagles (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[American Football] Washington Commanders vs Philadelphia Eagles (ROXIE)
+#EXTINF:-1 tvg-chno="27" tvg-id="NFL.Dummy.us" tvg-name="[American Football] Washington Commanders vs Philadelphia Eagles (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[American Football] Washington Commanders vs Philadelphia Eagles (ROXIE)
 #EXTVLCOPT:http-referrer=https://roxiestreams.live
 #EXTVLCOPT:http-origin=https://roxiestreams.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://600.tanjung.eu.org/nfl13.m3u8
 
-#EXTINF:-1 tvg-chno="83" tvg-id="Soccer.Dummy.us" tvg-name="[La Liga] Atlético Madrid vs Real Sociedad (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[La Liga] Atlético Madrid vs Real Sociedad (CDNTV)
-#EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=espn+deportes&code=us&user=cdnlivetv&plan=free
-#EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=espn+deportes&code=us&user=cdnlivetv&plan=free
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edge.cdn-live-tv.cfd/api/v1/channels/us-espn-deportes/index.m3u8?token=9720a49ce6249450978e433441ca68ebe96850f44691728121056e81b193c09e.1767556892.881dd0eca573904b4e0971b0c69c7300.628ce69fd3fa805bdea20fc6be70d484.d46c9db7cc8183c60fa46bd82bdcc65e.be7e4ffdd0e4771a
-
-#EXTINF:-1 tvg-chno="94" tvg-id="Soccer.Dummy.us" tvg-name="[Liga Nacional] Olimpia vs Marathón (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2248.png" group-title="Live Events",[Liga Nacional] Olimpia vs Marathón (CDNTV)
+#EXTINF:-1 tvg-chno="79" tvg-id="Soccer.Dummy.us" tvg-name="[Liga Nacional] Olimpia vs Marathón (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2248.png" group-title="Live Events",[Liga Nacional] Olimpia vs Marathón (CDNTV)
 #EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=fox+deportes&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=fox+deportes&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edge.cdn-live-tv.cfd/api/v1/channels/us-fox-deportes/index.m3u8?token=c44005dd3aa19251852951d3ffa907f3db02787e97587d876053c72484b0a5b8.1767564068.2805e113d01d513101313e08c759743d.22b6c37514018783340634e9ecb7a2dd.ce97523760fa81472ecff0936583f1a5.775ccc3045c994af
 
-#EXTINF:-1 tvg-chno="104" tvg-id="Soccer.Dummy.us" tvg-name="[Ligue 1] Paris vs PSG (CDNTV)" tvg-logo="https://ligue1.com/images/Logo_Ligue_1.webp" group-title="Live Events",[Ligue 1] Paris vs PSG (CDNTV)
-#EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=sky+sport+calcio&code=it&user=cdnlivetv&plan=free
-#EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=sky+sport+calcio&code=it&user=cdnlivetv&plan=free
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edge.cdn-live-tv.cfd/api/v1/channels/it-sky-sport-calcio/index.m3u8?token=c1971f9ce1d58efe8f7c8b2ef7f0f3413c3b2d5ce189f64cd9ca9b6070294b9c.1767555065.1a6a29c44612904b474c070e62319575.b309441c1d17925b3a109699cae99dfb.8ed2d8a249417e8e0589963949ee6900.d4b12d314693f033
-
-#EXTINF:-1 tvg-chno="119" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Denver Nuggets @ Brooklyn Nets (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Denver Nuggets @ Brooklyn Nets (TVPASS)
+#EXTINF:-1 tvg-chno="111" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Denver Nuggets @ Brooklyn Nets (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Denver Nuggets @ Brooklyn Nets (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NBA03/mono.m3u8
 
-#EXTINF:-1 tvg-chno="122" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Denver Nuggets vs Brooklyn Nets (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Denver Nuggets vs Brooklyn Nets (CDNTV)
-#EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=nba+league+pass+3&code=us&user=cdnlivetv&plan=free
-#EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=nba+league+pass+3&code=us&user=cdnlivetv&plan=free
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edge.cdn-live-tv.cfd/api/v1/channels/us-nba-league-pass-3/index.m3u8?token=e0a5fbbed0a3ab3dbcc3b32c7a63e56b3bd1e4daa24086e0125d115b6bec0588.1767556901.82179279b263bb3e152010ce20e50b04.eea7dec77741b414ac5053bc68c7045e.54025d9e8c2d72f9db396aa0a4abf41e.926837f60cc94fc7
-
-#EXTINF:-1 tvg-chno="123" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Denver Nuggets vs Brooklyn Nets (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Denver Nuggets vs Brooklyn Nets (ROXIE)
-#EXTVLCOPT:http-referrer=https://roxiestreams.live
-#EXTVLCOPT:http-origin=https://roxiestreams.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://601.shadow-ran.online/nba3.m3u8
-
-#EXTINF:-1 tvg-chno="126" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Detroit Pistons @ Cleveland Cavaliers (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Detroit Pistons @ Cleveland Cavaliers (TVPASS)
+#EXTINF:-1 tvg-chno="116" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Detroit Pistons @ Cleveland Cavaliers (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Detroit Pistons @ Cleveland Cavaliers (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NBA01/mono.m3u8
 
-#EXTINF:-1 tvg-chno="131" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Indiana Pacers @ Orlando Magic (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Indiana Pacers @ Orlando Magic (TVPASS)
+#EXTINF:-1 tvg-chno="121" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Indiana Pacers @ Orlando Magic (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Indiana Pacers @ Orlando Magic (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NBA02/mono.m3u8
 
-#EXTINF:-1 tvg-chno="134" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Indiana Pacers vs Orlando Magic (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Indiana Pacers vs Orlando Magic (CDNTV)
-#EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=nba+league+pass+2&code=us&user=cdnlivetv&plan=free
-#EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=nba+league+pass+2&code=us&user=cdnlivetv&plan=free
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edge.cdn-live-tv.cfd/api/v1/channels/us-nba-league-pass-2/index.m3u8?token=3ad13246c21f50708494552219fbae97ef6b4e816428e64c46629820ee668a53.1767555089.19c172d24e5a1f00df48202910eab6c3.dbbf0e8a7f83533fa71f627ee533f8c5.18a4df27ef4352e39fa1fcef24003333.5806dc0ea8c3a95f
-
-#EXTINF:-1 tvg-chno="135" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Indiana Pacers vs Orlando Magic (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Indiana Pacers vs Orlando Magic (ROXIE)
-#EXTVLCOPT:http-referrer=https://roxiestreams.live
-#EXTVLCOPT:http-origin=https://roxiestreams.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://daffodil.shadow-ran.online/nba2.m3u8
-
-#EXTINF:-1 tvg-chno="140" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Memphis Grizzlies @ Los Angeles Lakers (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Memphis Grizzlies @ Los Angeles Lakers (TVPASS)
+#EXTINF:-1 tvg-chno="127" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Memphis Grizzlies @ Los Angeles Lakers (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Memphis Grizzlies @ Los Angeles Lakers (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NBA08/mono.m3u8
 
-#EXTINF:-1 tvg-chno="148" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Milwaukee Bucks @ Sacramento Kings (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Milwaukee Bucks @ Sacramento Kings (TVPASS)
+#EXTINF:-1 tvg-chno="135" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Milwaukee Bucks @ Sacramento Kings (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Milwaukee Bucks @ Sacramento Kings (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NBA07/mono.m3u8
 
-#EXTINF:-1 tvg-chno="152" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Minnesota Timberwolves @ Washington Wizards (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Minnesota Timberwolves @ Washington Wizards (TVPASS)
+#EXTINF:-1 tvg-chno="139" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Minnesota Timberwolves @ Washington Wizards (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Minnesota Timberwolves @ Washington Wizards (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NBA05/mono.m3u8
 
-#EXTINF:-1 tvg-chno="155" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Minnesota Timberwolves vs Washington Wizards (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Minnesota Timberwolves vs Washington Wizards (CDNTV)
+#EXTINF:-1 tvg-chno="142" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Minnesota Timberwolves vs Washington Wizards (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Minnesota Timberwolves vs Washington Wizards (CDNTV)
 #EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=nba+league+pass+5&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=nba+league+pass+5&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edge.cdn-live-tv.cfd/api/v1/channels/us-nba-league-pass-5/index.m3u8?token=317e873b938befb9b050fc7356427e04d5c12a8259145d6f6092847013d1e345.1767565858.aa5fd864dfe075c994a9c3c6071d28d5.58d98f3099330e69e04e556709c3c168.219678e16542b734a2cef31a73b129a2.7d0ad0bd33787cb5
 
-#EXTINF:-1 tvg-chno="156" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Minnesota Timberwolves vs Washington Wizards (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Minnesota Timberwolves vs Washington Wizards (ROXIE)
+#EXTINF:-1 tvg-chno="143" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Minnesota Timberwolves vs Washington Wizards (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Minnesota Timberwolves vs Washington Wizards (ROXIE)
 #EXTVLCOPT:http-referrer=https://roxiestreams.live
 #EXTVLCOPT:http-origin=https://roxiestreams.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://601.shadow-ran.online/nba5.m3u8
 
-#EXTINF:-1 tvg-chno="158" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] New Orleans Pelicans @ Miami Heat (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] New Orleans Pelicans @ Miami Heat (TVPASS)
+#EXTINF:-1 tvg-chno="146" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] New Orleans Pelicans @ Miami Heat (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] New Orleans Pelicans @ Miami Heat (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NBA04/mono.m3u8
 
-#EXTINF:-1 tvg-chno="161" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] New Orleans Pelicans vs Miami Heat (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] New Orleans Pelicans vs Miami Heat (ROXIE)
+#EXTINF:-1 tvg-chno="149" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] New Orleans Pelicans vs Miami Heat (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] New Orleans Pelicans vs Miami Heat (ROXIE)
 #EXTVLCOPT:http-referrer=https://roxiestreams.live
 #EXTVLCOPT:http-origin=https://roxiestreams.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://601.shadow-ran.online/nba4.m3u8
 
-#EXTINF:-1 tvg-chno="164" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Oklahoma City Thunder @ Phoenix Suns (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Oklahoma City Thunder @ Phoenix Suns (TVPASS)
+#EXTINF:-1 tvg-chno="153" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Oklahoma City Thunder @ Phoenix Suns (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Oklahoma City Thunder @ Phoenix Suns (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NBA06/mono.m3u8
 
-#EXTINF:-1 tvg-chno="228" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Arizona Cardinals @ Los Angeles Rams (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Arizona Cardinals @ Los Angeles Rams (TVPASS)
+#EXTINF:-1 tvg-chno="216" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Arizona Cardinals @ Los Angeles Rams (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Arizona Cardinals @ Los Angeles Rams (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NFL07/mono.m3u8
 
-#EXTINF:-1 tvg-chno="231" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Arizona Cardinals vs Los Angeles Rams (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Arizona Cardinals vs Los Angeles Rams (CDNTV)
+#EXTINF:-1 tvg-chno="219" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Arizona Cardinals vs Los Angeles Rams (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Arizona Cardinals vs Los Angeles Rams (CDNTV)
 #EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=nfl+league+pass+11&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=nfl+league+pass+11&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edge.cdn-live-tv.cfd/api/v1/channels/us-nfl-league-pass-11/index.m3u8?token=a30cd4b617fc9484b7500dacb3a2f7511e76026d299d53521cdafd482e3785a3.1767562281.499ff830e72935c4a9fcf4dcd7a0a76e.5f6433ee56e7615d4bccd25b41251b01.52ff4881296bc6ad4c0931ef2fc7c992.932c9608b56461d7
 
-#EXTINF:-1 tvg-chno="232" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Arizona Cardinals vs Los Angeles Rams (SHARK)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Arizona Cardinals vs Los Angeles Rams (SHARK)
+#EXTINF:-1 tvg-chno="220" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Arizona Cardinals vs Los Angeles Rams (SHARK)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Arizona Cardinals vs Los Angeles Rams (SHARK)
 #EXTVLCOPT:http-referrer=https://sharkstreams.net
 #EXTVLCOPT:http-origin=https://sharkstreams.net
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn3.rikcdn.cfd/live/cdn3/playlist.m3u8?expires=1767554636&token=478fb1ead894650476b24d28faccf1899dac0661c5dd80b0e8382b446c0d0b66
 
-#EXTINF:-1 tvg-chno="236" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Baltimore Ravens @ Pittsburgh Steelers (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Baltimore Ravens @ Pittsburgh Steelers (TVPASS)
+#EXTINF:-1 tvg-chno="224" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Baltimore Ravens @ Pittsburgh Steelers (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Baltimore Ravens @ Pittsburgh Steelers (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NFL14/mono.m3u8
 
-#EXTINF:-1 tvg-chno="250" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Cleveland Browns @ Cincinnati Bengals (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Cleveland Browns @ Cincinnati Bengals (TVPASS)
+#EXTINF:-1 tvg-chno="238" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Cleveland Browns @ Cincinnati Bengals (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Cleveland Browns @ Cincinnati Bengals (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NFL02/mono.m3u8
 
-#EXTINF:-1 tvg-chno="255" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Dallas Cowboys @ New York Giants (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Dallas Cowboys @ New York Giants (TVPASS)
+#EXTINF:-1 tvg-chno="243" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Dallas Cowboys @ New York Giants (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Dallas Cowboys @ New York Giants (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NFL04/mono.m3u8
 
-#EXTINF:-1 tvg-chno="264" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Detroit Lions @ Chicago Bears (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Detroit Lions @ Chicago Bears (TVPASS)
+#EXTINF:-1 tvg-chno="251" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Detroit Lions @ Chicago Bears (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Detroit Lions @ Chicago Bears (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NFL09/mono.m3u8
 
-#EXTINF:-1 tvg-chno="267" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Detroit Lions vs Chicago Bears (SHARK)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Detroit Lions vs Chicago Bears (SHARK)
+#EXTINF:-1 tvg-chno="254" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Detroit Lions vs Chicago Bears (SHARK)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Detroit Lions vs Chicago Bears (SHARK)
 #EXTVLCOPT:http-referrer=https://sharkstreams.net
 #EXTVLCOPT:http-origin=https://sharkstreams.net
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn4.rikcdn.cfd/live/cdn4/playlist.m3u8?expires=1767558710&token=4eafabc34bc4785324f9b8a16413e552daca15aa345c4f9afe6b8470c25f81b5
 
-#EXTINF:-1 tvg-chno="270" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Green Bay Packers @ Minnesota Vikings (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Green Bay Packers @ Minnesota Vikings (TVPASS)
+#EXTINF:-1 tvg-chno="257" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Green Bay Packers @ Minnesota Vikings (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Green Bay Packers @ Minnesota Vikings (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NFL01/mono.m3u8
 
-#EXTINF:-1 tvg-chno="276" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Indianapolis Colts @ Houston Texans (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Indianapolis Colts @ Houston Texans (TVPASS)
+#EXTINF:-1 tvg-chno="263" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Indianapolis Colts @ Houston Texans (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Indianapolis Colts @ Houston Texans (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NFL03/mono.m3u8
 
-#EXTINF:-1 tvg-chno="282" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Kansas City Chiefs @ Las Vegas Raiders (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Kansas City Chiefs @ Las Vegas Raiders (TVPASS)
+#EXTINF:-1 tvg-chno="269" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Kansas City Chiefs @ Las Vegas Raiders (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Kansas City Chiefs @ Las Vegas Raiders (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NFL11/mono.m3u8
 
-#EXTINF:-1 tvg-chno="285" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Kansas City Chiefs vs Las Vegas Raiders (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Kansas City Chiefs vs Las Vegas Raiders (CDNTV)
+#EXTINF:-1 tvg-chno="272" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Kansas City Chiefs vs Las Vegas Raiders (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Kansas City Chiefs vs Las Vegas Raiders (CDNTV)
 #EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=nfl+league+pass+12&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=nfl+league+pass+12&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edge.cdn-live-tv.cfd/api/v1/channels/us-nfl-league-pass-12/index.m3u8?token=f7809fa726a61f7cb0febb899c3eb4dfc4aabef06f33c76bc637ed24cfaa9879.1767560494.86432160b415b4a5a027c2b668e6fdf0.8e7a063598f8ff74f9860e5bffc7d14c.62ac24aa36911455928f27ffe6348092.1d04a203efaafd67
 
-#EXTINF:-1 tvg-chno="286" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Kansas City Chiefs vs Las Vegas Raiders (SHARK)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Kansas City Chiefs vs Las Vegas Raiders (SHARK)
+#EXTINF:-1 tvg-chno="273" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Kansas City Chiefs vs Las Vegas Raiders (SHARK)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Kansas City Chiefs vs Las Vegas Raiders (SHARK)
 #EXTVLCOPT:http-referrer=https://sharkstreams.net
 #EXTVLCOPT:http-origin=https://sharkstreams.net
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn5.rikcdn.cfd/live/cdn5/playlist.m3u8?expires=1767560417&token=6a0a97c4ee28b8e344bb126d5574f208ea483b29da8b00f407586bd639364cf5
 
-#EXTINF:-1 tvg-chno="292" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Los Angeles Chargers @ Denver Broncos (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Los Angeles Chargers @ Denver Broncos (TVPASS)
+#EXTINF:-1 tvg-chno="279" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Los Angeles Chargers @ Denver Broncos (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Los Angeles Chargers @ Denver Broncos (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NFL10/mono.m3u8
 
-#EXTINF:-1 tvg-chno="295" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Los Angeles Chargers vs Denver Broncos (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Los Angeles Chargers vs Denver Broncos (CDNTV)
+#EXTINF:-1 tvg-chno="282" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Los Angeles Chargers vs Denver Broncos (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Los Angeles Chargers vs Denver Broncos (CDNTV)
 #EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=nfl+league+pass+13&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=nfl+league+pass+13&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edge.cdn-live-tv.cfd/api/v1/channels/us-nfl-league-pass-13/index.m3u8?token=bf61db787accc4672e591772e8d4a77bd41f9d0e43e6bc9ac99a57c7da7bfed0.1767562288.82f9deaac461f7b32475beb301b1666a.5f5d4dd9071d18222be28b74bec0b789.26ab0b6651ab8dce3d8b22b077584983.2437808be15858ec
 
-#EXTINF:-1 tvg-chno="296" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Los Angeles Chargers vs Denver Broncos (SHARK)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Los Angeles Chargers vs Denver Broncos (SHARK)
+#EXTINF:-1 tvg-chno="283" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Los Angeles Chargers vs Denver Broncos (SHARK)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Los Angeles Chargers vs Denver Broncos (SHARK)
 #EXTVLCOPT:http-referrer=https://sharkstreams.net
 #EXTVLCOPT:http-origin=https://sharkstreams.net
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn6.rikcdn.cfd/live/cdn6/playlist.m3u8?expires=1767558857&token=a6af6b9a07b981e55bf32db5e7e246ebca1e9aeca64d111d512433366e1abcec
 
-#EXTINF:-1 tvg-chno="303" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Miami Dolphins @ New England Patriots (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Miami Dolphins @ New England Patriots (TVPASS)
+#EXTINF:-1 tvg-chno="290" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Miami Dolphins @ New England Patriots (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Miami Dolphins @ New England Patriots (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NFL12/mono.m3u8
 
-#EXTINF:-1 tvg-chno="306" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Miami Dolphins vs New England Patriots (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Miami Dolphins vs New England Patriots (CDNTV)
+#EXTINF:-1 tvg-chno="293" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Miami Dolphins vs New England Patriots (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Miami Dolphins vs New England Patriots (CDNTV)
 #EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=nfl+league+pass+10&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=nfl+league+pass+10&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edge.cdn-live-tv.cfd/api/v1/channels/us-nfl-league-pass-10/index.m3u8?token=e68dc395f3ce5804d1aab2ec6e44f8e23c0f3e96198f31c43bef6fb8becc2c7d.1767560478.7dbd6d3d25a19038524ed33e0aac3934.46890c74f0d09a0a2cfe17fcf9723837.a074a37cc01ceb09c00433c08be46428.7a4ee2b7b28a24d4
 
-#EXTINF:-1 tvg-chno="307" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Miami Dolphins vs New England Patriots (SHARK)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Miami Dolphins vs New England Patriots (SHARK)
+#EXTINF:-1 tvg-chno="294" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Miami Dolphins vs New England Patriots (SHARK)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Miami Dolphins vs New England Patriots (SHARK)
 #EXTVLCOPT:http-referrer=https://sharkstreams.net
 #EXTVLCOPT:http-origin=https://sharkstreams.net
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn7.rikcdn.cfd/live/cdn7/playlist.m3u8?expires=1767553720&token=d58bc47777bd2e49e71c55bcef8da413b3814626e2eb1511773d95dfe2c3c223
 
-#EXTINF:-1 tvg-chno="318" tvg-id="NFL.Dummy.us" tvg-name="[NFL] New Orleans Saints @ Atlanta Falcons (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] New Orleans Saints @ Atlanta Falcons (TVPASS)
+#EXTINF:-1 tvg-chno="305" tvg-id="NFL.Dummy.us" tvg-name="[NFL] New Orleans Saints @ Atlanta Falcons (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] New Orleans Saints @ Atlanta Falcons (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NFL05/mono.m3u8
 
-#EXTINF:-1 tvg-chno="324" tvg-id="NFL.Dummy.us" tvg-name="[NFL] New York Jets @ Buffalo Bills (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] New York Jets @ Buffalo Bills (TVPASS)
+#EXTINF:-1 tvg-chno="311" tvg-id="NFL.Dummy.us" tvg-name="[NFL] New York Jets @ Buffalo Bills (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] New York Jets @ Buffalo Bills (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NFL08/mono.m3u8
 
-#EXTINF:-1 tvg-chno="327" tvg-id="NFL.Dummy.us" tvg-name="[NFL] New York Jets vs Buffalo Bills (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] New York Jets vs Buffalo Bills (CDNTV)
+#EXTINF:-1 tvg-chno="314" tvg-id="NFL.Dummy.us" tvg-name="[NFL] New York Jets vs Buffalo Bills (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] New York Jets vs Buffalo Bills (CDNTV)
 #EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=nfl+league+pass+8&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=nfl+league+pass+8&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edge.cdn-live-tv.cfd/api/v1/channels/us-nfl-league-pass-8/index.m3u8?token=95c640cf8ff180ca7c0468484d3f40e75018d4cf176535d03062c2cb5b867276.1767560463.d5d70e0450313eb55ef2953b88d01298.f39323fedfd28b6bfd06154ef98de9a6.b6e3604fe05c8b5464e0687f3753cd71.1f72374771a4164c
 
-#EXTINF:-1 tvg-chno="328" tvg-id="NFL.Dummy.us" tvg-name="[NFL] New York Jets vs Buffalo Bills (SHARK)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] New York Jets vs Buffalo Bills (SHARK)
+#EXTINF:-1 tvg-chno="315" tvg-id="NFL.Dummy.us" tvg-name="[NFL] New York Jets vs Buffalo Bills (SHARK)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] New York Jets vs Buffalo Bills (SHARK)
 #EXTVLCOPT:http-referrer=https://sharkstreams.net
 #EXTVLCOPT:http-origin=https://sharkstreams.net
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn8.rikcdn.cfd/live/cdn8/playlist.m3u8?expires=1767554675&token=5ba0c10168f1d6ddfcdd63f0d15f8c055b84b1de2baeabf14a9925c1c4eca634
 
-#EXTINF:-1 tvg-chno="336" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Tennessee Titans @ Jacksonville Jaguars (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Tennessee Titans @ Jacksonville Jaguars (TVPASS)
+#EXTINF:-1 tvg-chno="323" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Tennessee Titans @ Jacksonville Jaguars (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Tennessee Titans @ Jacksonville Jaguars (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NFL06/mono.m3u8
 
-#EXTINF:-1 tvg-chno="341" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Washington Commanders @ Philadelphia Eagles (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Washington Commanders @ Philadelphia Eagles (TVPASS)
+#EXTINF:-1 tvg-chno="328" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Washington Commanders @ Philadelphia Eagles (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Washington Commanders @ Philadelphia Eagles (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NFL13/mono.m3u8
 
-#EXTINF:-1 tvg-chno="344" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Washington Commanders vs Philadelphia Eagles (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Washington Commanders vs Philadelphia Eagles (CDNTV)
+#EXTINF:-1 tvg-chno="331" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Washington Commanders vs Philadelphia Eagles (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Washington Commanders vs Philadelphia Eagles (CDNTV)
 #EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=nfl+league+pass+9&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=nfl+league+pass+9&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edge.cdn-live-tv.cfd/api/v1/channels/us-nfl-league-pass-9/index.m3u8?token=224ec54bf5f5ffa6058398cff75706b48063cf3dfab167a213e5de2ac2c8bc45.1767560471.0e5e71f9310340f62979e1378da3d57e.5eb96e02f2e24dbe856c0004defce75f.392af4c84c7475c5a2c4de89ad9374e7.40d4ed1bd5b52089
 
-#EXTINF:-1 tvg-chno="345" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Washington Commanders vs Philadelphia Eagles (SHARK)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Washington Commanders vs Philadelphia Eagles (SHARK)
+#EXTINF:-1 tvg-chno="332" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Washington Commanders vs Philadelphia Eagles (SHARK)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Washington Commanders vs Philadelphia Eagles (SHARK)
 #EXTVLCOPT:http-referrer=https://sharkstreams.net
 #EXTVLCOPT:http-origin=https://sharkstreams.net
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn9.rikcdn.cfd/live/cdn9/playlist.m3u8?expires=1767556358&token=d4e299d367e5e27fb26d988ecdb4a82adc0e2f6ce4acd3fa5e80a40035404bbe
 
-#EXTINF:-1 tvg-chno="354" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Carolina Hurricanes @ New Jersey Devils (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Carolina Hurricanes @ New Jersey Devils (TVPASS)
+#EXTINF:-1 tvg-chno="345" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Carolina Hurricanes @ New Jersey Devils (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Carolina Hurricanes @ New Jersey Devils (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NHL04/mono.m3u8
 
-#EXTINF:-1 tvg-chno="358" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Colorado Avalanche @ Florida Panthers (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Colorado Avalanche @ Florida Panthers (TVPASS)
+#EXTINF:-1 tvg-chno="348" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Carolina Hurricanes vs New Jersey Devils (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Carolina Hurricanes vs New Jersey Devils (ROXIE)
+#EXTVLCOPT:http-referrer=https://roxiestreams.live
+#EXTVLCOPT:http-origin=https://roxiestreams.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://601.shadow-ran.online/nhl4.m3u8
+
+#EXTINF:-1 tvg-chno="351" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Chicago Blackhawks vs Vegas Golden Knights (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Chicago Blackhawks vs Vegas Golden Knights (CDNTV)
+#EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=nhl+league+pass+4&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=nhl+league+pass+4&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edge.cdn-live-tv.cfd/api/v1/channels/us-nhl-league-pass-4/index.m3u8?token=36a5a152f7357b16474940b38992727054e9df07caa464b1d5761d7d38a67b33.1767569445.2e9daddae0697fe65e058249bd87618b.a6177f52d31cd3c5e7b89e87288f374e.9ee6116020bb0f9ff5b2489eef779fe8.ebf2b5420e4d1248
+
+#EXTINF:-1 tvg-chno="352" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Colorado Avalanche @ Florida Panthers (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Colorado Avalanche @ Florida Panthers (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NHL13/mono.m3u8
 
-#EXTINF:-1 tvg-chno="361" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Colorado Avalanche vs Florida Panthers (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Colorado Avalanche vs Florida Panthers (ROXIE)
+#EXTINF:-1 tvg-chno="355" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Colorado Avalanche vs Florida Panthers (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Colorado Avalanche vs Florida Panthers (ROXIE)
 #EXTVLCOPT:http-referrer=https://roxiestreams.live
 #EXTVLCOPT:http-origin=https://roxiestreams.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://601.shadow-ran.online/nhl3.m3u8
 
-#EXTINF:-1 tvg-chno="364" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Columbus Blue Jackets vs Pittsburgh Penguins (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Columbus Blue Jackets vs Pittsburgh Penguins (CDNTV)
-#EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=nhl+league+pass+2&code=us&user=cdnlivetv&plan=free
-#EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=nhl+league+pass+2&code=us&user=cdnlivetv&plan=free
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edge.cdn-live-tv.cfd/api/v1/channels/us-nhl-league-pass-2/index.m3u8?token=4991f6bd478d8a996317c5b648647637626fa36216abed54a2a9e3060e4fcd05.1767555090.ee2747645b5d398954a9c77ae03e8fa3.1c075c28e0906015a5c4df2363f35ae6.125754035b80b48eb598d2467bc3238b.8babda050200e4f6
-
-#EXTINF:-1 tvg-chno="369" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Florida Panthers vs Colorado Avalanche (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Florida Panthers vs Colorado Avalanche (CDNTV)
+#EXTINF:-1 tvg-chno="360" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Florida Panthers vs Colorado Avalanche (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Florida Panthers vs Colorado Avalanche (CDNTV)
 #EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=nhl+league+pass+3&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=nhl+league+pass+3&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edge.cdn-live-tv.cfd/api/v1/channels/us-nhl-league-pass-3/index.m3u8?token=5412929d1fda7116f672f009b89d1f69a350bd972080dbcd6c8307fefb1dd817.1767562295.2fb98d5ab66710a6ff1a0bd3733b5d2e.0f5be689f342642867b93c806f746fef.b238675dc9793af767a5845826a8f77d.6082dad281d1bc40
 
-#EXTINF:-1 tvg-chno="376" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Montréal Canadiens @ Dallas Stars (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Montréal Canadiens @ Dallas Stars (TVPASS)
+#EXTINF:-1 tvg-chno="368" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Montréal Canadiens @ Dallas Stars (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Montréal Canadiens @ Dallas Stars (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NHL27/mono.m3u8
 
-#EXTINF:-1 tvg-chno="378" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Pittsburgh Penguins @ Columbus Blue Jackets (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Pittsburgh Penguins @ Columbus Blue Jackets (TVPASS)
+#EXTINF:-1 tvg-chno="369" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] New Jersey Devils vs Carolina Hurricanes (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] New Jersey Devils vs Carolina Hurricanes (CDNTV)
+#EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=nhl+league+pass+5&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=nhl+league+pass+5&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edge.cdn-live-tv.cfd/api/v1/channels/us-nhl-league-pass-5/index.m3u8?token=d797ec28a3b69ad6200e8f181b19fce596620cb13c8996d2d5ceff2cfe2883c6.1767569452.a4d6c4161184b63e9395851184b5623f.e8ef73dd71804597bec7fb669c9d5756.5f4882889a35752a1bffb3e920b2332c.cfbe7a157d421db4
+
+#EXTINF:-1 tvg-chno="370" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Pittsburgh Penguins @ Columbus Blue Jackets (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Pittsburgh Penguins @ Columbus Blue Jackets (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NHL10/mono.m3u8
 
-#EXTINF:-1 tvg-chno="381" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Pittsburgh Penguins vs Columbus Blue Jackets (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Pittsburgh Penguins vs Columbus Blue Jackets (ROXIE)
-#EXTVLCOPT:http-referrer=https://roxiestreams.live
-#EXTVLCOPT:http-origin=https://roxiestreams.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://601.shadow-ran.online/nhl2.m3u8
-
-#EXTINF:-1 tvg-chno="384" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Vegas Golden Knights @ Chicago Blackhawks (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Vegas Golden Knights @ Chicago Blackhawks (TVPASS)
+#EXTINF:-1 tvg-chno="374" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Vegas Golden Knights @ Chicago Blackhawks (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Vegas Golden Knights @ Chicago Blackhawks (TVPASS)
 #EXTVLCOPT:http-referrer=https://tvpass.org
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NHL05/mono.m3u8
 
-#EXTINF:-1 tvg-chno="415" tvg-id="Soccer.Dummy.us" tvg-name="[Primeira Liga] Famalicão vs Alverca (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/14.png" group-title="Live Events",[Primeira Liga] Famalicão vs Alverca (CDNTV)
-#EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=sport+tv+2&code=pt&user=cdnlivetv&plan=free
-#EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=sport+tv+2&code=pt&user=cdnlivetv&plan=free
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edge.cdn-live-tv.cfd/api/v1/channels/pt-sport-tv-2/index.m3u8?token=03991ddfae83a2661eefec03afc7accb7d8d8a22fd109a22b9d5afc7283aa490.1767556898.bbd27b46227c2be40384b333e1f7e0b4.db0effb7db6b7f4621da632b1769ec37.d4a24ce92827b5b2ca855dd5d3d64c38.c957c7eaffba3d58
-
-#EXTINF:-1 tvg-chno="419" tvg-id="Soccer.Dummy.us" tvg-name="[Segunda Division] Cádiz vs Deportivo La Coruña (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/107.png" group-title="Live Events",[Segunda Division] Cádiz vs Deportivo La Coruña (CDNTV)
-#EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=laliga+tv+hypermotion+1&code=es&user=cdnlivetv&plan=free
-#EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=laliga+tv+hypermotion+1&code=es&user=cdnlivetv&plan=free
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edge.cdn-live-tv.cfd/api/v1/channels/es-laliga-tv-hypermotion-1/index.m3u8?token=d04e4bc28bf823c3a50b40eaf8f61199d4caa9d456a0e7cf0e3a23ab2466cc0f.1767555086.9632749b0a03528ac9b6a6a46e8e41b4.baab003ac3af6bd57cda011ea32c5abe.c1d3d24efda2fbdfb9df2649fd2680cb.61ee61e079a84392
-
-#EXTINF:-1 tvg-chno="420" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Bologna vs Internazionale (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Serie A] Bologna vs Internazionale (CDNTV)
-#EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=astro+football&code=us&user=cdnlivetv&plan=free
-#EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=astro+football&code=us&user=cdnlivetv&plan=free
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edge.cdn-live-tv.cfd/api/v1/channels/us-astro-football/index.m3u8?token=b33b178416be6f9141110e202a9df0dd1748bbbdcf028514603b70185e1af6cf.1767555071.8d28733221c1c0ea89f04e7575311735.bc38807c7dcadd85dd11c2b494554b6b.b7a20e3077d2a44ae979fcb6942f2b4f.1183aad60c58d334
-
-#EXTINF:-1 tvg-chno="435" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] PSG vs Paris (ROXIE)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] PSG vs Paris (ROXIE)
+#EXTINF:-1 tvg-chno="377" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Vegas Golden Knights vs Chicago Blackhawks (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Vegas Golden Knights vs Chicago Blackhawks (ROXIE)
 #EXTVLCOPT:http-referrer=https://roxiestreams.live
 #EXTVLCOPT:http-origin=https://roxiestreams.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://601.shadow-ran.online/psg.m3u8
-
-#EXTINF:-1 tvg-chno="437" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Real Sociedad vs Atlético Madrid (ROXIE)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Real Sociedad vs Atlético Madrid (ROXIE)
-#EXTVLCOPT:http-referrer=https://roxiestreams.live
-#EXTVLCOPT:http-origin=https://roxiestreams.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://daffodil.shadow-ran.online/deportes.m3u8
+https://601.shadow-ran.online/nhl5.m3u8
 
