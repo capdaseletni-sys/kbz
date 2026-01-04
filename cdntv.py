@@ -3,7 +3,7 @@ import requests
 PLAYLIST_URL = "https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8"
 OUTPUT_FILE = "cdntv.m3u8"
 
-KEYWORDS = ["(CDNTV)", "(SHARK)","(ROXIE)"]
+KEYWORDS = ["(SHARK(", "(CDNTV)", "(ROXIE)"]
 
 
 def download_m3u(url: str) -> str:
@@ -23,15 +23,16 @@ def filter_m3u(content: str) -> str:
         if line.startswith("#EXTINF"):
             lower_line = line.lower()
 
-            if any(keyword.lower() in lower_line for keyword in KEYWORDS):
+            if all(keyword.lower() in lower_line for keyword in KEYWORDS):
                 # Keep EXTINF line
                 filtered_lines.append(lines[i])
+                i += 1
 
-                # Keep stream URL if present
-                if i + 1 < len(lines):
-                    filtered_lines.append(lines[i + 1])
+                # Keep everything until next EXTINF
+                while i < len(lines) and not lines[i].strip().startswith("#EXTINF"):
+                    filtered_lines.append(lines[i])
+                    i += 1
 
-                i += 2
                 continue
 
         i += 1
