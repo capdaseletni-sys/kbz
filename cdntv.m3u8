@@ -107,25 +107,25 @@ http://origin.thetvapp.to/hls/NHL16/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NHL23/mono.m3u8
 
-#EXTINF:-1 tvg-chno="146" tvg-id="Live.Event.us" tvg-name="[Segunda liga] Porto II vs Benfica II (CDNTV)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Segunda liga] Porto II vs Benfica II (CDNTV)
+#EXTINF:-1 tvg-chno="147" tvg-id="Live.Event.us" tvg-name="[Segunda liga] Porto II vs Benfica II (CDNTV)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Segunda liga] Porto II vs Benfica II (CDNTV)
 #EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=benfica+tv&code=pt&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=benfica+tv&code=pt&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edge.cdn-live-tv.cfd/api/v1/channels/pt-benfica-tv/tracks-v1a1/mono.ts.m3u8?token=b4e260aab3838f6e39f3235da8e1542558806262a2fc0d599676e4e45757bd07.1767636066.416ab4f38568ec1891ff1a54684bb4e0.98d1222ddf00201dd64e8ee8c4872387.97a21903996dadec597d6c3eec95a024.041f7f0cb4347933
 
-#EXTINF:-1 tvg-chno="147" tvg-id="Live.Event.us" tvg-name="[Segunda liga] Torreense vs Vizela (CDNTV)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Segunda liga] Torreense vs Vizela (CDNTV)
+#EXTINF:-1 tvg-chno="148" tvg-id="Live.Event.us" tvg-name="[Segunda liga] Torreense vs Vizela (CDNTV)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Segunda liga] Torreense vs Vizela (CDNTV)
 #EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=sport+tv+1&code=pt&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=sport+tv+1&code=pt&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edge.cdn-live-tv.cfd/api/v1/channels/pt-sport-tv-1/tracks-v1/index.fmp4.m3u8?token=e017fa1623cb6062fcd7160391f077a3e79fa6744a7cc4bdfb6a2b263f709426.1767643248.e5e24db94ac039f530062954782cb356.c4b4a9c3e46aad8ba41264ef0d9398be.9dc8d2913b65fdbe53acc27f7cd52438.4d0005ece8b84d45
 
-#EXTINF:-1 tvg-chno="155" tvg-id="Live.Event.us" tvg-name="[Serie C] Crotone vs Benevento (CDNTV)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Serie C] Crotone vs Benevento (CDNTV)
+#EXTINF:-1 tvg-chno="156" tvg-id="Live.Event.us" tvg-name="[Serie C] Crotone vs Benevento (CDNTV)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Serie C] Crotone vs Benevento (CDNTV)
 #EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=rai+sport&code=it&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=rai+sport&code=it&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edge.cdn-live-tv.cfd/api/v1/channels/it-rai-sport/tracks-v1a1/mono.ts.m3u8?token=809ecb6dea7727bb13d2393e87a051e865ec88a14fc1fcad3eb8e85133cc0985.1767639658.6687a1fd33cd782c7456db3bf3e64ec0.64b4ea093a40354a0315a5224b04d90f.13bb9f16d26b311cb919d47d2a65867c.cc2a9ad2fae2c42f
 
-#EXTINF:-1 tvg-chno="156" tvg-id="Live.Event.us" tvg-name="[Serie C] Monopoli vs Cosenza (CDNTV)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Serie C] Monopoli vs Cosenza (CDNTV)
+#EXTINF:-1 tvg-chno="157" tvg-id="Live.Event.us" tvg-name="[Serie C] Monopoli vs Cosenza (CDNTV)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Serie C] Monopoli vs Cosenza (CDNTV)
 #EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=sky+sport+calcio&code=it&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=sky+sport+calcio&code=it&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
