@@ -42,6 +42,10 @@ https://a116aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/rwc
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=b1fbd0874e7923f5b05929a042aa0610:6c3c498113abffdf454dc935319a794d
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2110/default_ott.mpd
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ABCLogo.png/revision/latest?cb=20161012105022" group-title="Cable TV [Mix]", Aliw Channel ᶜᵒⁿᵛᵉʳᵍᵉ
+http://136.239.173.3:6610/001/2/ch00000090990000001109/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bp%2BWYKp0pXQLOnfpLMLHi2tytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001234&contentid=ch00000000000000001234&videoid=ch00000090990000001109&recommendtype=0&userid=1657667082928&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=JK9HJ5J3VGXXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+#EXTINF:-1 tvg-logo="https://brandlogo.org/wp-content/uploads/2024/05/All-TV-Logo-300x300.png.webp" group-title="Cable TV [Mix]", ALL TV
+http://136.239.158.10:6610/001/2/ch00000090990000001179/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bow35sHUcBhGBpxqddBGYEnytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001415&contentid=ch00000000000000001415&videoid=ch00000090990000001179&recommendtype=0&userid=1205050496206&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=02WMA0HI2O3AXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="Amazing Race" tvg-name="Amazing Race" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0i1CNk0r3wHIgkM652LIW-NS_PpQCbJ3Sjw&s" group-title="Cable TV [Mix]",Amazing Race
 https://jmp2.uk/plu-5f21e8a6e2f12b000755afdb.m3u8
 #EXTINF:-1 tvg-id="Amazon Movies" tvg-name="Amazon Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL8B3pOaQzUKB9VCxiTtRM7DM0EzpDf3PpEg&s" group-title="Cable TV [Mix]",Amazon Movies
@@ -336,6 +340,8 @@ https://dash2.antik.sk/live/test_fashionbox_medium_atk/playlist.m3u8
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=971ebbe2d887476398e97c37e0c5c591:472aa631b1e671070a4bf198f43da0c7
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/fashiontvhd/default/index.mpd
+#EXTINF:-1 tvg-logo="" group-title="Cable TV [Mix]", Filam TV
+http://161.49.17.2:6610/001/2/ch00000090990000001195/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bq9JT56AWWQTbgfAlCVVWODytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001417&contentid=ch00000000000000001417&videoid=ch00000090990000001195&recommendtype=0&userid=1009271710165&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=95UH4551P7JXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/vucZeKB.png" group-title="Cable TV [Mix]", Food Network
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -357,14 +363,14 @@ https://live.corusdigitaldev.com/groupb/live/215422c9-d1b9-4009-aaca-32e403f22b0
 #KODIPROP:inputstream.adaptive.license_key=4553f7e8011f411fb625cefc39274300:98f2f1d153367e84b5d559dc9dfb9a35
 https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_tapedge/default/index.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/Cu1tAY8.png" group-title="Cable TV [Mix]", GMA 7
-https://gsattv.akamaized.net/live/media0/gma7/Widevine/gma7.mpd
+http://136.158.97.2:6610/001/2/ch00000090990000001093/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoLvT86fM74ocVChyFS93HUytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001214&contentid=ch00000000000000001214&videoid=ch00000090990000001093&recommendtype=0&userid=1084724632836&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=FGE3OISG4KGXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Cu1tAY8.png" group-title="Cable TV [Mix]", GMA 7 PBB
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=31363231383438333031323033393138:38694e34324d543478316b7455753437
 https://conv.iyadtv.workers.dev/gma7x/stream.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/Cu1tAY8.png" group-title="Cable TV [Mix]", GMA 7 ᶜ ᵒ ⁿ ᵛ ᵉ ʳ ᵍ ᵉ
-http://136.158.97.2:6610/001/2/ch00000090990000001093/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoLvT86fM74ocVChyFS93HUytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001214&contentid=ch00000000000000001214&videoid=ch00000090990000001093&recommendtype=0&userid=1084724632836&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=FGE3OISG4KGXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/Cu1tAY8.png" group-title="Cable TV [Mix]", GMA 7 ᵍˢᵃᵗ
+https://gsattv.akamaized.net/live/media0/gma7/Widevine/gma7.mpd
 #EXTINF:-1 tvg-id="" tvg-name="PH GMA Life TV (X)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/GMA_Life_TV_logo.png/1200px-GMA_Life_TV_logo.png" group-title="Cable TV [Mix]"", GMA Life TV
 http://tv14s.xyz:8080/A1Jay5/362586/101825
 #EXTINF:-1 ch-number="2" tvg-chno="2" group-title="Cable TV [Mix]" tvg-id="GMA ph" tvg-name="GMA" tvg-logo="https://i.pinimg.com/736x/c7/bc/0c/c7bc0cdaa2c3e5b02ceb374fa2282cf2.jpg", GMA OneSeg
@@ -636,6 +642,8 @@ https://s8host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b
 https://s8host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config9/playlist.m3u8?ads.cdnhost=s8host1.localnow.api.cms.amdvids.com&ads.playbackid=CF38ADFE-0D8D-4E70-BC0B-39BF1303D2BA&ads.n1=rule_id&ads.v1=F0F2D67E-43F6-4794-9B68-414843159DD7-1747755763&ads.n3=qp_content_id&ads.v3=CF38ADFE-0D8D-4E70-BC0B-39BF1303D2BA&ads.n4=content_name&ads.v4=NBC%20Washington%20News&ads.n21=h&ads.v21=1080&ads.n22=channel_corp&ads.v22=NBCUniversal&ads.n23=content_type&ads.v23=channel&ads.n24=channel_ext_id&ads.v24=&ads.n25=app_store_url&ads.v25=&ads.n26=network_name&ads.v26=nbc-washington-news&ads.n27=content_producer_name&ads.v27=NBCUniversal&ads.n28=channel_id&ads.v28=CF38ADFE-0D8D-4E70-BC0B-39BF1303D2BA&ads.n29=device_type&ads.v29=&ads.n30=pos&ads.v30=midroll&ads.n31=ifa_type&ads.v31=&ads.n32=gpp_sid&ads.v32=&ads.n33=dnt&ads.v33=&ads.n34=channel_brand_id&ads.v34=AMDB013249&ads.n35=content_custom_3_param&ads.v35=channel&ads.n36=content_provider&ads.v36=nbc-washington-news&ads.n37=channel_company_id&ads.v37=AMDP500448&ads.n38=cust_devicename&ads.v38=desktop_web&ads.n39=channel_genre&ads.v39=News&ads.n40=ua&ads.v40=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n41=device_make&ads.v41=&ads.n42=app_name&ads.v42=&ads.n43=content_custom_1_param&ads.v43=CF38ADFE-0D8D-4E70-BC0B-39BF1303D2BA&ads.n44=app_version&ads.v44=0.0.0&ads.n45=gpp&ads.v45=&ads.n46=device_model&ads.v46=&ads.n47=w&ads.v47=1920&ads.n48=channel_title&ads.v48=NBC%20Washington%20News&ads.n49=channel_name&ads.v49=NBC%20Washington%20News&ads.n50=channel_rating&ads.v50=TV-PG&ads.n51=content_custom_2_param&ads.v51=AMDB013249&ads.n52=ip&ads.v52=86.48.9.131&ads.n53=channel_language&ads.v53=en&ads.n54=content_livestream&ads.v54=1&ads.n55=app_bundle&ads.v55=&ads.n56=did&ads.v56=&ads.n57=us_privacy&ads.v57=1YNY&ads.n58=url&ads.v58=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal
 #EXTINF:-1  tvg-id="24.7.Dummy.us" tvg-logo="https://image.xumo.com/v1/channels/channel/99993008/600x200.png?type=white_cropped" group-title="Cable TV [Mix]", NBC Sports NOW
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008&ads.asnw=169843&ads.afid=380753925&ads.sfid=17667876&ads.csid=lgchannels_us_nbcusports_ssai_cro&ads._fw_is_lat=[LMT]&ads._fw_us_privacy=[US_PRIVACY]&ads._fw_coppa=0&ads._fw_did=[IFA]&ads._fw_vcid2=512116:[IFA]&ads._fw_app_bundle=[APP_BUNDLE]&ads._fw_app_store_url=[APP_STOREURL]&ads._fw_content_category=IAB17&ads._fw_content_genre=sports&ads._fw_content_language=en&ads._fw_content_rating=tv-g&ads._fw_deviceMake=[DEVICE_MAKE]&ads._fw_device_model=[DEVICE_MODEL]&ads._fw_deviceType=3-Connected_TV&ads.appVersion=[APP_VERSION]&ads.appName=lgchannels&ads.xumo_contentId=3929&ads.xumo_contentName=NBCUSports&ads.xumo_providerId=3929&ads.xumo_providerName=NBCUSports&ads.channelId=99993008&ads._fw_ifa_type=dpid
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pPPubX5.png" group-title="Cable TV [Mix]", NET 25
+http://136.239.173.26:6610/001/2/ch00000090990000001090/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpBCCDeDIJn9rDuWx8BszuXytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001217&contentid=ch00000000000000001217&videoid=ch00000090990000001090&recommendtype=0&userid=1645621004526&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=5X13LGN2GQBXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/4MozyqM.png" group-title="Cable TV [Mix]",Nick Jr
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -767,6 +775,12 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Shortstv2/default/manifest.mpd
 https://live.corusdigitaldev.com/groupd/live/376c96cd-193f-46d1-a2b6-7c2b78cb0aa5/corus-showcase.isml/.mpd
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvKpvtcCZUuAOR4EfcGjdHIoEj0Zj5LoDJ6w&s" group-title="Cable TV [Mix]",Sine Manila
 https://live20.bozztv.com/giatv/giatv-sinemanila/sinemanila/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/WL2ugeZ.png" group-title="Cable TV [Mix]",SMNI Channel
+http://136.239.173.10:6610/001/2/ch00000090990000001155/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bop4OXrlwmfDc6Bu48vA%2B4AytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001335&contentid=ch00000000000000001335&videoid=ch00000090990000001155&recommendtype=0&userid=1436446282400&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=ZCER3GW1NZPXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OgBDJ75.png" group-title="Cable TV [Mix]", Solarflix
+http://136.239.159.18:6610/001/2/ch00000090990000001243/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpbUxUxZzyq5Czg7gUnQAcvytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001543&contentid=ch00000000000000001543&videoid=ch00000090990000001243&recommendtype=0&userid=1633620334084&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=B91ZY82QQ8UXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/russel/images/e/eb/Solar_Sports_Logo_2022.png/revision/latest?cb=20211226131005" group-title="Cable TV [Mix]", SolarSports
+http://136.239.173.26:6610/001/2/ch00000090990000001081/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpTfGIKxFqRM2tu30PzY%2FKkytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001087&contentid=ch00000000000000001087&videoid=ch00000090990000001081&recommendtype=0&userid=1572318406990&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=O0NP6KUE17KXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="Canal.Sony.(México).mx" tvg-logo="https://i.imgur.com/lyvKcFK.png" group-title="Cable TV [Mix]",Sony Channel
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=47b8d1118047c47ff9d794fca6c9997a:97af829b2dd037fb85550b85b0757685
@@ -775,6 +789,8 @@ https://zap-live1-ott.izzigo.tv/3/out/u/dash/SONY-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d6c0b2a5a6d7aa72f6f76f3607364cea:29772b450393146e8d1b56107f5163a2
 https://zap-live1-ott.izzigo.tv/4/out/u/dash/SONY-MOVIES-HD/default.mpd
+#EXTINF:-1 tvg-id="Spot" group-title="Cable TV [Mix]" tvg-logo="https://static.wikia.nocookie.net/dreamlogos/images/3/32/Spotlight.png",Spotlight TV
+http://136.239.158.30:6610/001/2/ch00000090990000001134/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bo5iGQ4tDytzSdpM9ehJW6pytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001281&contentid=ch00000000000000001281&videoid=ch00000090990000001134&recommendtype=0&userid=1790262524603&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=MG695A5LWR8XXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="" group-title="Cable TV [Mix]" tvg-logo="https://linear-poster.astro.com.my/prod/logo/SPOTV.png",SPOTV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -2306,89 +2322,3 @@ https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyCSENu_Hi29oXcf1dYGi50k/.
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
 https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyM3LLzGbtH-M3ufNSFjV5FM/.m3u8
-
-#EXTGRP:Roxiestreams - Combat Sports
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE RAW
-https://601.shadow-ran.online/wwe.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE RAW
-https://601.shadow-ran.online/wwe2.m3u8
-
-#EXTGRP:Roxiestreams - Misc
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Anaheim Ducks vs Philadelphia Flyers
-https://601.shadow-ran.online/nhl3.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Anaheim Ducks vs Washington Capitals
-https://601.shadow-ran.online/nhl2.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Boston Bruins vs Seattle Kraken
-https://601.shadow-ran.online/nhl10.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Colorado Avalanche vs Tampa Bay Lightning
-https://601.shadow-ran.online/nhl2.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Columbus Blue Jackets vs San Jose Sharks
-https://601.shadow-ran.online/nhl9.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Dallas Stars vs Carolina Hurricanes
-https://601.shadow-ran.online/nhl4.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Detroit Red Wings vs Ottawa Senators
-https://601.shadow-ran.online/nhl3.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Florida Panthers vs Toronto Maple Leafs
-https://601.shadow-ran.online/nhl6.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Minnesota Wild vs Los Angeles Kings
-https://601.shadow-ran.online/nhl5.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Nashville Predators vs Edmonton Oilers
-https://601.shadow-ran.online/nhl8.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",New Jersey Devils vs New York Islanders
-https://601.shadow-ran.online/nhl5.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Seattle Kraken vs Calgary Flames
-https://601.shadow-ran.online/nhl4.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Utah Mammoth vs New York Rangers
-https://601.shadow-ran.online/nhl.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Vancouver Canucks vs Buffalo Sabres
-https://601.shadow-ran.online/nhl.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Vegas Golden Knights vs Winnipeg Jets
-https://601.shadow-ran.online/nhl7.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",WWE RAW
-https://601.shadow-ran.online/wwe.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",WWE RAW
-https://601.shadow-ran.online/wwe2.m3u8
-
-#EXTGRP:Roxiestreams - NBA
-#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Atlanta Hawks vs Toronto Raptors
-https://daffodil.shadow-ran.online/nba3.m3u8
-#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Charlotte Hornets vs Oklahoma City Thunder
-https://601.shadow-ran.online/nba5.m3u8
-#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Chicago Bulls vs Boston Celtics
-https://daffodil.shadow-ran.online/nba2.m3u8
-#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Denver Nuggets vs Philadelphia 76ers
-https://601.shadow-ran.online/nba6.m3u8
-#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Denver Nuggets vs Philadelphia 76ers
-https://daffodil.shadow-ran.online/nba6.m3u8
-#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Golden State Warriors vs Los Angeles Clippers
-https://601.shadow-ran.online/nba.m3u8
-#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Golden State Warriors vs Los Angeles Clippers
-https://daffodil.shadow-ran.online/nba.m3u8
-#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",New York Knicks vs Detroit Pistons
-https://601.shadow-ran.online/nba.m3u8
-#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",New York Knicks vs Detroit Pistons
-https://daffodil.shadow-ran.online/nba.m3u8
-#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Phoenix Suns vs Houston Rockets
-https://601.shadow-ran.online/nba4.m3u8
-#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Utah Jazz vs Portland Trail Blazers
-https://daffodil.shadow-ran.online/nba8.m3u8
-
-#EXTGRP:Roxiestreams - Soccer
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Lecce vs Roma
-https://601.shadow-ran.online/tnt.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Pisa vs Como
-https://601.shadow-ran.online/tnt.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Rangers vs Aberdeen
-https://daffodil.shadow-ran.online/deportes.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Salzburg vs Bayern MÃ¼nchen
-https://daffodil.shadow-ran.online/cbssn.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Sassuolo vs Juventus
-https://601.shadow-ran.online/tnt.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",West Ham United vs Nottingham Forest
-https://601.shadow-ran.online/westham.m3u8
-
-#EXTGRP:Roxiestreams - WWE
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/WWE2.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - WWE",WWE RAW
-https://601.shadow-ran.online/wwe.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/WWE2.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - WWE",WWE RAW
-https://601.shadow-ran.online/wwe2.m3u8
