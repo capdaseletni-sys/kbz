@@ -47,3 +47,6 @@ https://live.catvod.com/live.php?id=HGTV
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title=".PH [WebOS]", NBA TV
 https://live.catvod.com/live.php?id=nbatv
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title=".PH [WebOS]", ESPN 
+https://live.catvod.com/live.php?id=espn
