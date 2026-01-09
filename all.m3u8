@@ -371,14 +371,6 @@ https://conv.iyadtv.workers.dev/gma7x/stream.mpd
 https://gsattv.akamaized.net/live/media0/gma7/Widevine/gma7.mpd
 #EXTINF:-1 tvg-id="" tvg-name="PH GMA Life TV (X)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/GMA_Life_TV_logo.png/1200px-GMA_Life_TV_logo.png" group-title="Cable TV [Mix]"", GMA Life TV
 http://tv14s.xyz:8080/A1Jay5/362586/101825
-#EXTINF:-1 ch-number="2" tvg-chno="2" group-title="Cable TV [Mix]" tvg-id="GMA ph" tvg-name="GMA" tvg-logo="https://i.pinimg.com/736x/c7/bc/0c/c7bc0cdaa2c3e5b02ceb374fa2282cf2.jpg", GMA OneSeg
-#EXTVLCOPT:http-referrer=https://mc-o0of718lw0.bunny.run/license
-#EXTVLCOPT:http-origin=http://136.239.158.30:6610
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=31363231383438333031323033393138:38694e34324d543478316b7455753437
-https://mc-5fythpik4t.bunny.run/7/dopamine/manifest.mpd
 #EXTINF:-1 group-title="Cable TV [Mix]" tvg-id="" tvg-logo="https://i.imgur.com/ZOqMJfw.png",GMA Pinoy TV
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
