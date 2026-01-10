@@ -2313,6 +2313,10 @@ https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyM3LLzGbtH-M3ufNSFjV5FM/.
 
 #EXTGRP:Roxiestreams - Misc
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",AMA Supercross Rd. 1
+https://601.shadow-ran.online/sx.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",AMA Supercross Rd. 1
+https://601.shadow-ran.online/sx.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",AMA Supercross Rd. 1
 https://daffodil.shadow-ran.online/sx.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",AMA Supercross Rd. 1
 https://daffodil.shadow-ran.online/sx.m3u8
@@ -2342,6 +2346,8 @@ https://601.shadow-ran.online/nhl9.m3u8
 https://601.shadow-ran.online/nhl6.m3u8
 
 #EXTGRP:Roxiestreams - Motorsports
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Motorsports",AMA Supercross - Race
+https://601.shadow-ran.online/sx.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Motorsports",AMA Supercross - Race
 https://daffodil.shadow-ran.online/sx.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Motorsports",Formula E - Grand Prix
