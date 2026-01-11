@@ -2170,12 +2170,12 @@ https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyBDOKVmI2rAipR3UKqE7id0/.
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyHMMICRR29wJT0oGkxYiC0Q/.m3u8
+https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyCis6Brs4MHW_flDBqmdocs/.m3u8
 #EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png" group-title="Pixelsports - NFL",San Francisco 49ers at Philadelphia Eagles
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://pixelsport.tv/
 #EXTVLCOPT:http-icy-metadata=1
-https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyHMMICRR29wJT0oGkxYiC0Q/.m3u8
+https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyCis6Brs4MHW_flDBqmdocs/.m3u8
 
 #EXTGRP:Pixelsports - NHL
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png" group-title="Pixelsports - NHL",Columbus Blue Jackets at Utah Mammoth
@@ -2266,8 +2266,6 @@ https://601.shadow-ran.online/nba7.m3u8
 https://cc.tuttobici.org/nba.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",New York Knicks vs Portland Trail Blazers
 https://601.shadow-ran.online/nba4.m3u8
-#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",New York Knicks vs Portland Trail Blazers
-https://601.shadow-ran.online/nba4alt.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Philadelphia 76ers vs Toronto Raptors
 https://daffodil.shadow-ran.online/nba3.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",San Antonio Spurs vs Minnesota Timberwolves
