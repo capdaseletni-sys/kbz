@@ -222,12 +222,6 @@ https://d24xfhmhdb6r0q.cloudfront.net/out/v1/e897a7b6414a46019818ee9f2c081c4f/in
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=ffa7c3ca6020428c919e13b817b7e31b:adf163c6c1729e6f77668d4e49f32352
 https://v4-pan-m3-cdn-02.live.cdn.cgates.lt/live/dash/561201/index.mpd
-#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlTTjvvxUa1BCU9Qye2vzH9qp4VUwXi2B0Kw&s", National Geographic
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=6d647aff767c453daa5fb54a44c783c6:2f971e6a1cc58e7085afc761a3f13162
-https://v4-kun-nk16-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd
 #EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="https://setantasports.com/wp-content/uploads/2025/03/logoyosat.png", Setanta Sports
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
