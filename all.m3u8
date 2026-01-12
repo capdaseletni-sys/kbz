@@ -2257,6 +2257,8 @@ https://601.shadow-ran.online/nhl5.m3u8
 https://601.shadow-ran.online/nhl5.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Washington Capitals vs Nashville Predators
 https://601.shadow-ran.online/nhl3.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",WWE RAW
+https://601.shadow-ran.online/wwe2.m3u8
 
 #EXTGRP:Roxiestreams - Motorsports
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/F1.png" tvg-id="Racing.Dummy.us" group-title="Roxiestreams - Motorsports",Formula E - Grand Prix
@@ -2286,4 +2288,10 @@ https://601.shadow-ran.online/nbaalt.m3u8
 
 #EXTGRP:Roxiestreams - Soccer
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",PSG vs Paris
-https://601.shadow-ran.online/tnt5.m3u8
+https://601.shadow-ran.online/psg.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",PSG vs Paris
+https://601.shadow-ran.online/psgen.m3u8
+
+#EXTGRP:Roxiestreams - WWE
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/WWE2.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - WWE",WWE RAW
+https://601.shadow-ran.online/wwe2.m3u8
