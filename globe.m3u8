@@ -9,6 +9,12 @@ https://telecloud.sbs/?url=aHR0cHMlM0ElMkYlMkZ6ZWtvbmV3Lmdpb2trby5ydSUyRnpla28lM
 https://telecloud.sbs/?url=aHR0cHMlM0ElMkYlMkZ6ZWtvbmV3Lmdpb2trby5ydSUyRnpla28lMkZwcmVtaXVtNzU5JTJGbW9uby5tM3U4JTI2ZGF0YSUzRFQzSnBaMmx1UFdoMGRIQnpPaTh2WlhCcFkzQnNZWGx3YkdGNUxtTm1aQSUzRCUzRA==&headers=eyJSZWZlcmVyIjoiaHR0cHM6Ly9lcGljcGxheXBsYXkuY2ZkLyJ9
 #EXTINF:-1 tvg-id="NBA TV" tvg-logo="" group-title=".PH [WebOS]", NBA TV
 https://fl31.moveonjoy.com:443/NBA_TV/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="NBA TV" tvg-logo="" group-title=".PH [WebOS]", ESPN U
+https://fl31.moveonjoy.com:443/ESPN_U/index.m3u8
+#EXTINF:-1 tvg-id="NBA TV" tvg-logo="" group-title=".PH [WebOS]", Golf Channel
+https://fl31.moveonjoy.com:443/GOLF/index.m3u8
+#EXTINF:-1 tvg-id="NBA TV" tvg-logo="" group-title=".PH [WebOS]", World Poker Tour
+https://amg00218-wptenterprisesi-worldpokertour-xumo-us.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title=".PH [WebOS]", Global News British Columbia
 https://live.corusdigitaldev.com/groupa/live/48a5882b-a1ec-42d7-bfd7-6c2739e737da/live.isml/.m3u8
 #EXTINF:-1 tvg-logo="" group-title=".PH [WebOS]", Global News Calgary
@@ -115,10 +121,6 @@ https://cdn10jtedge.indihometv.com/atm/DASH/cinemax/manifest.mpd
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://cdn10jtedge.indihometv.com/atm/DASH/hbohits/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", HBO Signature
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-https://cdn10jtedge.indihometv.com/atm/DASH/hbosignature/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", HBO Family
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
