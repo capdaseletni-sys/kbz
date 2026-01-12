@@ -2228,16 +2228,36 @@ https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyHHrMSwNbAe1EI9agf3IFBo/.
 https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyJCrEb_Htp2S7u_omHgteYA/.m3u8
 
 #EXTGRP:Roxiestreams - Combat Sports
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",MATIAS vs SMITH
-https://601.shadow-ran.online/ppv.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE NXT
+https://601.shadow-ran.online/wwe2.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE RAW
+https://601.shadow-ran.online/wwe2.m3u8
 
 #EXTGRP:Roxiestreams - Misc
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Carolina Hurricanes vs Detroit Red Wings
+https://601.shadow-ran.online/nhl2.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Columbus Blue Jackets vs Utah Mammoth
 https://601.shadow-ran.online/nhl4.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Dallas Stars vs Los Angeles Kings
+https://601.shadow-ran.online/nhl9.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Edmonton Oilers vs Chicago Blackhawks
+https://601.shadow-ran.online/nhl7.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Florida Panthers vs Buffalo Sabres
+https://601.shadow-ran.online/nhl.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",New Jersey Devils vs Minnesota Wild
+https://601.shadow-ran.online/nhl6.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",New Jersey Devils vs Winnipeg Jets
 https://601.shadow-ran.online/nhl.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Pittsburgh Penguins vs Boston Bruins
 https://601.shadow-ran.online/nhl2.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Seattle Kraken vs New York Rangers
+https://601.shadow-ran.online/nhl3.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Tampa Bay Lightning vs Philadelphia Flyers
+https://601.shadow-ran.online/nhl4.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Toronto Maple Leafs vs Colorado Avalanche
+https://601.shadow-ran.online/nhl8.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Vancouver Canucks vs Montreal Canadiens
+https://601.shadow-ran.online/nhl5.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Vegas Golden Knights vs San Jose Sharks
 https://601.shadow-ran.online/nhl5.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Washington Capitals vs Nashville Predators
@@ -2270,29 +2290,5 @@ https://daffodil.shadow-ran.online/nba5.m3u8
 https://601.shadow-ran.online/nbaalt.m3u8
 
 #EXTGRP:Roxiestreams - Soccer
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Aberdeen vs Rangers
-https://daffodil.shadow-ran.online/main.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",AtlÃ©tico San Luis vs Tigres UANL
-https://601.shadow-ran.online/sportv.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",AtlÃ©tico San Luis vs Tigres UANL
-https://d162h6qqsk8wvl.cloudfront.net/0c972070-8470-4297-9bd1-1c9ad58cbfd3/manifest.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Bayern MÃ¼nchen vs Wolfsburg
-https://daffodil.shadow-ran.online/one.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Fiorentina vs Milan
-https://daffodil.shadow-ran.online/golazo.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Inter Milan vs Napoli
-https://daffodil.shadow-ran.online/tnt2.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Manchester United vs Brighton
-https://601.shadow-ran.online/arsenal.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Manchester United vs Brighton
-https://601.shadow-ran.online/tnt.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Manchester United vs Brighton
-https://daffodil.shadow-ran.online/tnt2.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Portsmouth vs Arsenal
-https://601.shadow-ran.online/arsenal.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Portsmouth vs Arsenal
-https://601.shadow-ran.online/tnt.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Verona vs Lazio
-https://daffodil.shadow-ran.online/golazo.m3u8
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",West Ham United vs Queens Park Ragers
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",PSG vs Paris
 https://601.shadow-ran.online/tnt5.m3u8
