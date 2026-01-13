@@ -2,21 +2,28 @@ import requests
 import sys
 from pathlib import Path
 from urllib.parse import urljoin
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 TIMEOUT = 10
-MIN_SEGMENT_SIZE = 20000  # 20 KB, small segments are likely fake (Amagi)
+MIN_SEGMENT_SIZE = 20000  # 20 KB
+MAX_THREADS = 20  # adjust based on your CPU/network
 
 DEFAULT_HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
 
+
 def is_stream_playable(url, headers=None):
     """
-    Checks if a stream is playable:
+    Check if a stream is playable (relaxed):
     - HLS (.m3u8): playlist reachable + first segment ≥ MIN_SEGMENT_SIZE
     - Non-HLS: reachable
-    - Rejects Amagi/fake FAST streams (tiny segments)
+    - Reject URLs containing 'now.amagi.tv' (Amagi)
     """
+    # Reject Amagi sources immediately
+    if "now.amagi.tv" in url:
+        return False
+
     headers = {**DEFAULT_HEADERS, **(headers or {})}
 
     try:
@@ -28,7 +35,7 @@ def is_stream_playable(url, headers=None):
 
     content_type = r.headers.get("Content-Type", "").lower()
 
-    # ---------- HLS ----------
+    # ---------- HLS playlist ----------
     if ".m3u8" in url or "mpegurl" in content_type:
         text = r.text
         if not text.lstrip().startswith("#EXTM3U"):
@@ -56,7 +63,7 @@ def is_stream_playable(url, headers=None):
             if seg.status_code >= 400:
                 return False
 
-            # Read first chunk (up to 64 KB)
+            # Read first 64 KB
             data = b""
             for chunk in seg.iter_content(8192):
                 if not chunk:
@@ -65,7 +72,6 @@ def is_stream_playable(url, headers=None):
                 if len(data) >= 65536:
                     break
 
-            # Reject tiny segments (fake Amagi / FAST)
             if len(data) < MIN_SEGMENT_SIZE:
                 return False
 
@@ -77,46 +83,56 @@ def is_stream_playable(url, headers=None):
     return True
 
 
+def check_stream(entry):
+    """Worker function for multithreading. Returns (playable, extinf, vlcopts, url)."""
+    extinf, vlcopts, url = entry
+    headers = {}
+    for opt in vlcopts:
+        key, _, value = opt[len("#EXTVLCOPT:"):].partition("=")
+        key = key.lower()
+        if key == "http-referrer":
+            headers["Referer"] = value
+        elif key == "http-origin":
+            headers["Origin"] = value
+        elif key == "http-user-agent":
+            headers["User-Agent"] = value
+
+    playable = is_stream_playable(url, headers)
+    return playable, extinf, vlcopts, url
+
+
 def filter_m3u_playlist(input_path, output_path):
-    """Reads an EXTINF-based M3U playlist and outputs only playable streams."""
+    """Reads EXTINF playlist and outputs only playable streams using multithreading."""
     with open(input_path, "r", encoding="utf-8", errors="ignore") as f:
         lines = [line.rstrip() for line in f]
 
-    output = ["#EXTM3U"]
+    entries = []
     extinf, vlcopts = [], []
 
     for line in lines:
         if line.startswith("#EXTINF"):
             extinf = [line]
-
         elif line.startswith("#EXTVLCOPT"):
             vlcopts.append(line)
-
         elif line.strip().startswith(("http://", "https://")):
             url = line.strip()
+            entries.append((extinf.copy(), vlcopts.copy(), url))
+            extinf, vlcopts = [], []
 
-            # Convert VLC options to HTTP headers
-            headers = {}
-            for opt in vlcopts:
-                key, _, value = opt[len("#EXTVLCOPT:"):].partition("=")
-                key = key.lower()
-                if key == "http-referrer":
-                    headers["Referer"] = value
-                elif key == "http-origin":
-                    headers["Origin"] = value
-                elif key == "http-user-agent":
-                    headers["User-Agent"] = value
+    output = ["#EXTM3U"]
 
-            print(f"Checking: {url}")
-            if is_stream_playable(url, headers):
-                print("  ✓ Playable")
+    with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+        future_to_entry = {executor.submit(check_stream, e): e for e in entries}
+
+        for future in as_completed(future_to_entry):
+            playable, extinf, vlcopts, url = future.result()
+            if playable:
+                print(f"✓ Playable: {url}")
                 output.extend(extinf)
                 output.extend(vlcopts)
                 output.append(url)
             else:
-                print("  ✗ Rejected (Amagi / tiny stream)")
-
-            extinf, vlcopts = [], []
+                print(f"✗ Rejected (Amagi / tiny stream or unreachable): {url}")
 
     with open(output_path, "w", encoding="utf-8") as f:
         f.write("\n".join(output) + "\n")
