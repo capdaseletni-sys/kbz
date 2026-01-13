@@ -3,6 +3,7 @@ import sys
 from pathlib import Path
 from urllib.parse import urljoin
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import re
 
 TIMEOUT = 10
 MIN_SEGMENT_SIZE = 20000  # 20 KB
@@ -14,7 +15,7 @@ DEFAULT_HEADERS = {
 
 # Domains to automatically reject
 BLOCKED_DOMAINS = [
-    "amagi.tv",
+    "now.amagi.tv",
     "ssai2-ads.api.leiniao.com"
 ]
 
@@ -83,7 +84,10 @@ def is_stream_playable(url, headers=None):
 
 
 def check_stream(entry):
-    """Worker function for multithreading. Returns (playable, extinf, vlcopts, url, title)."""
+    """
+    Worker function for multithreading.
+    Returns (playable, extinf, vlcopts, url, cleaned_title)
+    """
     extinf, vlcopts, url = entry
     headers = {}
     for opt in vlcopts:
@@ -104,12 +108,17 @@ def check_stream(entry):
         parts = extinf[0].split(",", 1)
         if len(parts) == 2:
             title = parts[1].strip()
+        else:
+            title = ""
 
-    return playable, extinf, vlcopts, url, title
+    # Remove any numbers from the title
+    cleaned_title = re.sub(r"\d", "", title).strip()
+
+    return playable, extinf, vlcopts, url, cleaned_title
 
 
 def filter_m3u_playlist(input_path, output_path):
-    """Reads EXTINF playlist, filters playable streams, adds group-title, sorts alphabetically."""
+    """Reads EXTINF playlist, filters playable streams, removes numbers from titles, adds group-title, sorts alphabetically."""
     with open(input_path, "r", encoding="utf-8", errors="ignore") as f:
         lines = [line.rstrip() for line in f]
 
@@ -131,21 +140,18 @@ def filter_m3u_playlist(input_path, output_path):
     with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
         future_to_entry = {executor.submit(check_stream, e): e for e in entries}
         for future in as_completed(future_to_entry):
-            playable, extinf, vlcopts, url, title = future.result()
+            playable, extinf, vlcopts, url, cleaned_title = future.result()
             if playable:
-                print(f"✓ Playable: {title} ({url})")
-                # Add group-title="TCL+" to EXTINF line
+                print(f"✓ Playable: {cleaned_title} ({url})")
+                # Add group-title="TCL+" and cleaned title to EXTINF
                 if extinf:
                     parts = extinf[0].split(",", 1)
-                    if len(parts) == 2:
-                        extinf[0] = f'{parts[0]} group-title="TCL+",{parts[1]}'
-                    else:
-                        extinf[0] = f'{parts[0]} group-title="TCL+"'
-                playable_entries.append((title, extinf, vlcopts, url))
+                    extinf[0] = f'{parts[0]} group-title="TCL+",{cleaned_title}'
+                playable_entries.append((cleaned_title, extinf, vlcopts, url))
             else:
-                print(f"✗ Rejected (blocked domain / tiny segment / unreachable): {url}")
+                print(f"✗ Rejected (blocked / tiny segment / unreachable): {url}")
 
-    # Sort alphabetically by title
+    # Sort alphabetically by cleaned title
     playable_entries.sort(key=lambda x: x[0].lower())
 
     output = ["#EXTM3U"]
@@ -157,7 +163,7 @@ def filter_m3u_playlist(input_path, output_path):
     with open(output_path, "w", encoding="utf-8") as f:
         f.write("\n".join(output) + "\n")
 
-    print(f"\nSaved filtered and sorted playlist to: {output_path}")
+    print(f"\nSaved filtered, cleaned, sorted playlist to: {output_path}")
 
 
 if __name__ == "__main__":
