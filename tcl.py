@@ -6,23 +6,30 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 TIMEOUT = 10
 MIN_SEGMENT_SIZE = 20000  # 20 KB
-MAX_THREADS = 20  # adjust based on your CPU/network
+MAX_THREADS = 20  # adjust based on CPU/network
 
 DEFAULT_HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
 
+# Domains to automatically reject
+BLOCKED_DOMAINS = [
+    "now.amagi.tv",
+    "ssai2-ads.api.leiniao.com"
+]
+
 
 def is_stream_playable(url, headers=None):
     """
     Check if a stream is playable (relaxed):
+    - Reject URLs containing blocked domains
     - HLS (.m3u8): playlist reachable + first segment ≥ MIN_SEGMENT_SIZE
     - Non-HLS: reachable
-    - Reject URLs containing 'now.amagi.tv' (Amagi)
     """
-    # Reject Amagi sources immediately
-    if "now.amagi.tv" in url:
-        return False
+    # Reject blocked domains immediately
+    for blocked in BLOCKED_DOMAINS:
+        if blocked in url:
+            return False
 
     headers = {**DEFAULT_HEADERS, **(headers or {})}
 
@@ -132,7 +139,7 @@ def filter_m3u_playlist(input_path, output_path):
                 output.extend(vlcopts)
                 output.append(url)
             else:
-                print(f"✗ Rejected (Amagi / tiny stream or unreachable): {url}")
+                print(f"✗ Rejected (blocked domain / tiny segment / unreachable): {url}")
 
     with open(output_path, "w", encoding="utf-8") as f:
         f.write("\n".join(output) + "\n")
