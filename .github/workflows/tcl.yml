@@ -2,7 +2,7 @@ name: 🚀 Update Merged Playlist 📺
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # ⏰ Every 30 minutes (UTC)
+    - cron: '*/30 * * * *'  # ⏰ Every 30 minutes (UTC)
   workflow_dispatch:        # 🔘 Manual trigger
 
 permissions:
@@ -27,9 +27,9 @@ jobs:
         run: pip3 install requests
 
       - name: 🎯 Run scraping script
-        run: curl -L -o events.m3u8 https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8
+        run: curl -L -o tcl.m3u8 https://www.apsattv.com/tclplus.m3u
 
-             python3 liveeventsfilter.py events.m3u8 liveeventsfilter.m3u8
+             python3 tcl.py tcl.m3u8 tcl.m3u8
 
 
       - name: 💾 Commit & Safely Push if Playlist Changed
@@ -39,7 +39,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions@users.noreply.github.com"
 
-          git add liveeventsfilter.m3u8
+          git add tcl.m3u8
 
           if git diff --cached --quiet; then
             echo "✅ No changes to commit"
