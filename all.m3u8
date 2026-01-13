@@ -2281,6 +2281,8 @@ https://daffodil.shadow-ran.online/nba3.m3u8
 https://601.shadow-ran.online/foxd.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Bayeux vs Marseille
 https://daffodil.shadow-ran.online/fs2.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Deportivo La CoruÃ±a vs Atletico Madrid
+https://601.shadow-ran.online/atl.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Dortmund vs Werder Bremen
 https://daffodil.shadow-ran.online/one.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",JuÃ¡rez vs Chivas
