@@ -41,19 +41,27 @@ def is_stream_playable(url, headers=None):
 
             data = b""
             for chunk in seg.iter_content(8192):
+                if not chunk:
+                    break
                 data += chunk
-                if len(data) >= 32768:  # 32 KB
+                if len(data) >= 131072:  # 128 KB max
                     break
 
-            # ❗ Critical FAST filter
-            if len(data) < 20000:
+            size = len(data)
+
+            # Reject tiny fake segments (Amagi, traps)
+            if size < 20000:
                 return False
 
-            # MPEG-TS sync byte check
-            if b"\x47" not in data[:188*5]:
-                return False
+            # MPEG-TS detection
+            if b"\x47" in data[:188 * 10]:
+                return True
 
-            return True
+            # fMP4 detection
+            if b"ftyp" in data[:1024] or b"moof" in data[:4096]:
+                return True
+
+            return False
 
         except requests.RequestException:
             return False
@@ -64,7 +72,7 @@ def is_stream_playable(url, headers=None):
             data = b""
             for chunk in r.iter_content(8192):
                 data += chunk
-                if len(data) >= 32768:
+                if len(data) >= 65536:
                     break
             return len(data) >= 20000
         except Exception:
