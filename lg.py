@@ -143,10 +143,10 @@ def filter_m3u_playlist(input_path, output_path):
             playable, extinf, vlcopts, url, cleaned_title = future.result()
             if playable:
                 print(f"✓ Playable: {cleaned_title} ({url})")
-                # Add group-title="TCL+" and cleaned title to EXTINF
+                # Add group-title="LG TV" and cleaned title to EXTINF
                 if extinf:
                     parts = extinf[0].split(",", 1)
-                    extinf[0] = f'{parts[0]} group-title="TCL+",{cleaned_title}'
+                    extinf[0] = f'{parts[0]} group-title="LG TV",{cleaned_title}'
                 playable_entries.append((cleaned_title, extinf, vlcopts, url))
             else:
                 print(f"✗ Rejected (blocked / tiny segment / unreachable): {url}")
