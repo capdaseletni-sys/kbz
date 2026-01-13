@@ -15,7 +15,7 @@ DEFAULT_HEADERS = {
 
 # Domains to automatically reject
 BLOCKED_DOMAINS = [
-    "now.amagi.tv",
+    "amagi.tv",
     "ssai2-ads.api.leiniao.com"
 ]
 
