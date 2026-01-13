@@ -4,18 +4,18 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 TIMEOUT = 10
+MIN_SEGMENT_SIZE = 20000  # 20 KB, small segments are likely fake (Amagi)
 
-# Default headers to mimic a browser
 DEFAULT_HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
 
 def is_stream_playable(url, headers=None):
     """
-    Relaxed playable check:
-    - Returns True if URL is reachable (<400)
-    - If HLS (.m3u8), checks master/variant playlists and first segment
-    - Does NOT inspect payload (to avoid rejecting Amagi / CloudFront)
+    Checks if a stream is playable:
+    - HLS (.m3u8): playlist reachable + first segment ≥ MIN_SEGMENT_SIZE
+    - Non-HLS: reachable
+    - Rejects Amagi/fake FAST streams (tiny segments)
     """
     headers = {**DEFAULT_HEADERS, **(headers or {})}
 
@@ -28,7 +28,7 @@ def is_stream_playable(url, headers=None):
 
     content_type = r.headers.get("Content-Type", "").lower()
 
-    # ---------- HLS playlist ----------
+    # ---------- HLS ----------
     if ".m3u8" in url or "mpegurl" in content_type:
         text = r.text
         if not text.lstrip().startswith("#EXTM3U"):
@@ -45,7 +45,7 @@ def is_stream_playable(url, headers=None):
                         return is_stream_playable(urljoin(url, variant), headers)
             return False
 
-        # Media playlist → check first segment URL only
+        # Media playlist → check first segment size
         segments = [l for l in lines if not l.startswith("#")]
         if not segments:
             return False
@@ -53,7 +53,23 @@ def is_stream_playable(url, headers=None):
         seg_url = urljoin(url, segments[0])
         try:
             seg = requests.get(seg_url, headers=headers, timeout=TIMEOUT, stream=True)
-            return seg.status_code < 400
+            if seg.status_code >= 400:
+                return False
+
+            # Read first chunk (up to 64 KB)
+            data = b""
+            for chunk in seg.iter_content(8192):
+                if not chunk:
+                    break
+                data += chunk
+                if len(data) >= 65536:
+                    break
+
+            # Reject tiny segments (fake Amagi / FAST)
+            if len(data) < MIN_SEGMENT_SIZE:
+                return False
+
+            return True
         except requests.RequestException:
             return False
 
@@ -98,7 +114,7 @@ def filter_m3u_playlist(input_path, output_path):
                 output.extend(vlcopts)
                 output.append(url)
             else:
-                print("  ✗ Not reachable")
+                print("  ✗ Rejected (Amagi / tiny stream)")
 
             extinf, vlcopts = [], []
 
