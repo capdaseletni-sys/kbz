@@ -23,6 +23,16 @@ https://jmp2.uk/stvp-USBD330000948
 #EXTINF:-1 tvg-id="XITE Rock x Metal" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBB2300004KV_20240716T002654SQUARE.png" group-title=".PH [WebOS]",XITE Rock x Metal
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://jmp2.uk/stvp-USBB2300004KV
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title=".PH [WebOS]", TotalMusic
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title=".PH [WebOS]", TotalMusic 80s
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_80s/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title=".PH [WebOS]", TotalMusic 2000s
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_00s/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title=".PH [WebOS]", TotalMusic Concerts
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Concerts/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title=".PH [WebOS]", TotalMusic Dance
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-id="NBA TV" tvg-logo="" group-title=".PH [WebOS]", NBC Sports Philadelphia
 https://telecloud.sbs/?url=aHR0cHMlM0ElMkYlMkZ6ZWtvbmV3Lmdpb2trby5ydSUyRnpla28lMkZwcmVtaXVtNzc3JTJGbW9uby5tM3U4JTI2ZGF0YSUzRFQzSnBaMmx1UFdoMGRIQnpPaTh2WlhCcFkzQnNZWGx3YkdGNUxtTm1aQSUzRCUzRA==&headers=eyJSZWZlcmVyIjoiaHR0cHM6Ly9lcGljcGxheXBsYXkuY2ZkLyJ9
 #EXTINF:-1 tvg-id="NBA TV" tvg-logo="" group-title=".PH [WebOS]", ESPN
