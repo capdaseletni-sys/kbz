@@ -85,12 +85,12 @@ https://amg19223-amg19223c4-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-a
 https://amg19223-amg19223c12-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c12-amgplt0352/playlist.m3u8
 #EXTINF:-1 tvg-id="NBA 10" tvg-name="NBA 10" tvg-logo="https://yt3.googleusercontent.com/4RMsaQKiNd5Fgbc90h2taWH_9U-v4ou89TapOb0gvqqRJDTsqnMfZjA6jLRqVFdT1ko7yOArzFA=s900-c-k-c0x00ffffff-no-rj" group-title=".PH [WebOS]",Ani-One
 https://amg19223-amg19223c9-amgplt0019.playout.now3.amagi.tv/ts-us-e2-n1/playlist/amg19223-amg19223c9-amgplt0019/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvKpvtcCZUuAOR4EfcGjdHIoEj0Zj5LoDJ6w&s" group-title=".PH [WebOS]", Sine Manila
-https://live20.bozztv.com/giatv/giatv-sinemanila/sinemanila/playlist.m3u8
 #EXTINF:-1 tvg-id="NBA 10" tvg-name="NBA 10" tvg-logo="https://play-lh.googleusercontent.com/RAd9B7xcEckaTwiTYBE95p3Qk6qjm77XIm8fOuKViWTyd2N9DZVcQDtvHkB3AmCMiVYm" group-title=".PH [WebOS]",UFC
 https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="NBA 10" tvg-name="NBA 10" tvg-logo="https://play-lh.googleusercontent.com/RAd9B7xcEckaTwiTYBE95p3Qk6qjm77XIm8fOuKViWTyd2N9DZVcQDtvHkB3AmCMiVYm" group-title=".PH [WebOS]",UFC TV
 https://amg19223-amg19223c6-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c6-amgplt0351/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqndReZ8wqIcJO39ZUlQnjeayPJ-11_bVnow&s" group-title=".PH [WebOS]", Mindanow Network TV
+https://streams.comclark.com/overlay/mindanow/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF1joHhOGg1l0IJIT9HhWJKyR_USaxrxnEPQ&s", Prime Fight
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
