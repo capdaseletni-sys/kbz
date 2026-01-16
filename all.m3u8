@@ -2231,6 +2231,10 @@ https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyOipN0lKiXo0u0BKYVJkFsk/.
 #EXTGRP:Roxiestreams - Combat Sports
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",TSZYU vs ZERAFA
 https://602.shadow-ran.online/ppv.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",TSZYU vs ZERAFA
+https://daffodil.shadow-ran.online/ppv.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",TSZYU vs ZERAFA
+https://daffodil.shadow-ran.online/ppv2.m3u8
 
 #EXTGRP:Roxiestreams - Misc
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Anaheim Ducks vs Los Angeles Kings
