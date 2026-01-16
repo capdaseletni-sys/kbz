@@ -1399,6 +1399,12 @@ https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/tirjor64kh/
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=332f62eb3cae824e98a4124da29a7d31:d1698cda3d040f9051125a61745b596b
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/1obktrybht/out/v1/08265453c8f64d9fbeb3cf43764403a8/cenc.mpd
+#EXTINF:-1 group-title="Cable TV [Sports]" tvg-id="" tvg-logo="https://www.trustedreviews.com/wp-content/uploads/sites/7/2023/09/Prime-Video-logo.jpg", Prime
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=f159241d40e659d58e81bc17ca30da31:6b7fe24f7a16343bd447b0b30f68b7b2
+https://abhha5gaaaaaaaamlv5r4vpvi5mmb.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/rlisfyx9vd/out/v1/61b8f61b22ac469297cbd4f1224f0ec8/cenc.mpd
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="Cable TV [Sports]" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF1joHhOGg1l0IJIT9HhWJKyR_USaxrxnEPQ&s", Prime Fight
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
