@@ -2235,10 +2235,6 @@ https://602.shadow-ran.online/nhl5.m3u8
 https://602.shadow-ran.online/nhl2.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Laliga
 https://602.shadow-ran.online/coloalt.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Laliga
-https://daffodil.shadow-ran.online/colo.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Ligue 1
-https://daffodil.shadow-ran.online/golazo.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Nashville Predators vs Colorado Avalanche
 https://602.shadow-ran.online/nhl4.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",San Jose Sharks vs Detroit Red Wings
@@ -2249,8 +2245,6 @@ https://602.shadow-ran.online/nhl3.m3u8
 https://602.shadow-ran.online/ppv.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",TSZYU vs ZERAFA
 https://daffodil.shadow-ran.online/ppv.m3u8
-#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",TSZYU vs ZERAFA
-https://daffodil.shadow-ran.online/ppv2.m3u8
 
 #EXTGRP:Roxiestreams - NBA
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Chicago Bulls vs Brooklyn Nets
