@@ -2229,14 +2229,24 @@ https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyM2pFI1p9uRWCzY9m4S1YPA/.
 https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyOipN0lKiXo0u0BKYVJkFsk/.m3u8
 
 #EXTGRP:Roxiestreams - Misc
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",AFCON Third Place
+https://601.shadow-ran.online/sportv.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Manchester Derby
 https://601.shadow-ran.online/epl.m3u8
 
 #EXTGRP:Roxiestreams - Soccer
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",AFCON Third Place
+https://601.shadow-ran.online/sportv.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Angers SCO vs Marseille
+https://601.shadow-ran.online/sportv.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Cagliari vs Juventus
 https://daffodil.shadow-ran.online/golazo.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Chelsea vs Brentford
+https://601.shadow-ran.online/chelsea.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Coventry City vs Leicester City
 https://daffodil.shadow-ran.online/cbssn.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Egypt vs Nigeria
+https://601.shadow-ran.online/sportv.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Ipswich Town vs Blackburn Rovers
 https://daffodil.shadow-ran.online/arena.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Leeds United vs Fulham
@@ -2255,6 +2265,12 @@ https://daffodil.shadow-ran.online/golazo.m3u8
 https://daffodil.shadow-ran.online/arena.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Stoke City vs Queens Park Rangers
 https://daffodil.shadow-ran.online/cbssn.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Sunderland vs Crystal Palace
+https://601.shadow-ran.online/crystal.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Tottenham vs West Ham
+https://601.shadow-ran.online/tottenham.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Toulouse vs Nice
+https://601.shadow-ran.online/sportv.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Udinese vs Inter Milan
 https://601.shadow-ran.online/milan.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Watford vs Millwall
