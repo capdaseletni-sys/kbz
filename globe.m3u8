@@ -135,10 +135,6 @@ https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/in
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://cdn10jtedge.indihometv.com/atm/DASH/tv5monde/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", HBO
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-https://cdn10jtedge.indihometv.com/atm/DASH/hbo/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", Cinemax
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -212,12 +208,33 @@ https://cdn08jtedge.indihometv.com/dassdvr/133/fightsport/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=2f4c7790660c4a0ea82f38ca1998da13:9186a4ec6c2c2af731de820bf517e4e0
 https://cdn09jtedge.indihometv.com/dassdvr/134/nba/manifest.mpd*****
+#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", Arirang
+https://cdn4.skygo.mn/live/disk1/Arirang/HLSv3-FTA/Arirang.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", BBC Earth
+https://cdn4.skygo.mn/live/disk1/BBC_earth/HLSv3-FTA/BBC_earth.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", BBC Lifestyle
+https://cdn4.skygo.mn/live/disk1/BBC_lifestyle/HLSv3-FTA/BBC_lifestyle.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", BBC News
+https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", Cartoonito
+https://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", Bloomberg
 https://www.bloomberg.com/media-manifest/streams/eu.m3u8
+https://cdn4.skygo.mn/live/disk1/Bloomberg/HLSv3-FTA/Bloomberg.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", Cbeebies
+https://cdn4.skygo.mn/live/disk1/Cbeebies/HLSv3-FTA/Cbeebies.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", CTC Love
+https://cdn4.skygo.mn/live/disk1/Fashion_TV/HLSv3-FTA/Fashion_TV.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", Lotus
+https://cdn4.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", NHK World
+https://cdn4.skygo.mn/live/disk1/NHK_World/HLSv3-FTA/NHK_World.m3u8
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_NHK_2025_03_17_15_34_22.png" group-title=".PH [WebOS]", NHK World Japan
 #EXTVLCOPT:http-referrer=https://www.indihometv.com/
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 https://cdn10jtedge.indihometv.com/atm/DASH/NHK_WORLD_JAPAN/manifest.mpd
+#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", NHK World Premium
+https://cdn4.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
 #EXTINF:-1 group-title=".PH [WebOS]" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/russel/images/9/94/Cinema_One_Logo_2020.png", Cinema One
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=58d0e56991194043b8fb82feb4db7276:d68f41b59649676788889e19fb10d22c
