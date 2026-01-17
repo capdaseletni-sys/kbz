@@ -2245,6 +2245,8 @@ https://601.shadow-ran.online/nhl4.m3u8
 #EXTGRP:Roxiestreams - NBA
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Oklahoma City Thunder vs Miami Heat
 https://601.shadow-ran.online/nba5.m3u8
+#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Utah Jazz vs Dallas Mavericks
+https://daffodil.shadow-ran.online/nba.m3u8
 
 #EXTGRP:Roxiestreams - Soccer
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",AFCON Third Place
@@ -2265,6 +2267,8 @@ https://601.shadow-ran.online/tudn.m3u8
 https://601.shadow-ran.online/sportv.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Manchester Derby
 https://601.shadow-ran.online/epl.m3u8
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Necaxa vs Atlas
+https://601.shadow-ran.online/vix.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Rio Ave vs Benfica
 https://daffodil.shadow-ran.online/xtra.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Tigres UANL vs Toluca
