@@ -2235,6 +2235,8 @@ https://601.shadow-ran.online/sportv.m3u8
 https://601.shadow-ran.online/epl.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Minnesota Wild vs Buffalo Sabres
 https://601.shadow-ran.online/nhl.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",New York Islanders vs Calgary Flames
+https://601.shadow-ran.online/nhl3.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",New York Rangers vs Philadelphia Flyers
 https://601.shadow-ran.online/nhl2.m3u8
 
