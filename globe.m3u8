@@ -35,8 +35,6 @@ https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Concerts/SA_LIVE_hls_en
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-id="NBA TV" tvg-logo="" group-title=".PH [WebOS]", NBA TV
 https://fl31.moveonjoy.com:443/NBA_TV/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="NBA TV" tvg-logo="" group-title=".PH [WebOS]", ESPN U
-https://fl31.moveonjoy.com:443/ESPN_U/index.m3u8
 #EXTINF:-1 tvg-id="NBA TV" tvg-logo="" group-title=".PH [WebOS]", Golf Channel
 https://fl31.moveonjoy.com:443/GOLF/index.m3u8
 #EXTINF:-1 tvg-id="NBA TV" tvg-logo="" group-title=".PH [WebOS]", World Poker Tour
