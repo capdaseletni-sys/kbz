@@ -2228,6 +2228,10 @@ https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyM2pFI1p9uRWCzY9m4S1YPA/.
 #EXTVLCOPT:http-icy-metadata=1
 https://hd.pixelhd.online:443/play/pAVJjXWDXadNqa4ml_eoyOipN0lKiXo0u0BKYVJkFsk/.m3u8
 
+#EXTGRP:Roxiestreams - Combat Sports
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - Combat Sports",WWE RAW
+https://601.shadow-ran.online/wwe.m3u8
+
 #EXTGRP:Roxiestreams - Misc
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Buffalo Sabres vs Carolina Hurricanes
 https://601.shadow-ran.online/nhl.m3u8
@@ -2253,6 +2257,8 @@ https://601.shadow-ran.online/nhl4.m3u8
 https://601.shadow-ran.online/nhl2.m3u8
 #EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",Winnipeg Jets vs Chicago Blackhawks
 https://601.shadow-ran.online/nhl7.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="Unknown.Dummy.us" group-title="Roxiestreams - Misc",WWE RAW
+https://601.shadow-ran.online/wwe.m3u8
 
 #EXTGRP:Roxiestreams - NBA
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Boston Celtics vs Detroit Pistons
@@ -2287,3 +2293,7 @@ https://daffodil.shadow-ran.online/dep.m3u8
 https://daffodil.shadow-ran.online/golazo.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Premier League
 https://daffodil.shadow-ran.online/main.m3u8
+
+#EXTGRP:Roxiestreams - WWE
+#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/WWE2.png" tvg-id="PPV.EVENTS.Dummy.us" group-title="Roxiestreams - WWE",WWE RAW
+https://601.shadow-ran.online/wwe.m3u8
