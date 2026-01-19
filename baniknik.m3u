@@ -1,5 +1,8 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-id="XITE 90s Throwback" tvg-logo="" group-title=".PH [WebOS]", BeinSports Xtra
+https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
+
 #EXTINF:-1 tvg-id="XITE 90s Throwback" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBB3200007AK_20250421T234926SQUARE.png" group-title=".PH [WebOS]", XITE 90s Throwback
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://jmp2.uk/stvp-USBB3200007AK
