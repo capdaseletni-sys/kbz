@@ -45,8 +45,6 @@ https://fl31.moveonjoy.com:443/NBA_TV/tracks-v1a1/mono.ts.m3u8
 https://tinyurl.com/nbatv0118master
 #EXTINF:-1 tvg-id="NBA TV" tvg-logo="" group-title=".PH [WebOS]", ESPN U
 https://fl31.moveonjoy.com:443/ESPN_U/index.m3u8
-#EXTINF:-1 tvg-id="NBA TV" tvg-logo="" group-title=".PH [WebOS]", Golf Channel
-https://fl31.moveonjoy.com:443/GOLF/index.m3u8
 #EXTINF:-1 tvg-id="NBA TV" tvg-logo="" group-title=".PH [WebOS]", World Poker Tour
 https://amg00218-wptenterprisesi-worldpokertour-xumo-us.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title=".PH [WebOS]", Global News British Columbia
