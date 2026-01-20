@@ -21,8 +21,6 @@ https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_a2z/default/index.mpd
 https://amg19223-amg19223c12-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c12-amgplt0352/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm2sy5W60kAhdI_6viKTFCbYhWFcGnwQNRDg&s" group-title="Cable TV [Mix]", ABC
 http://kstv.us:8080/DBeverly/2290061890/48754
-#EXTINF:-1 tvg-id="NBA 10" tvg-name="NBA 10" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSscgQIRqlLoNtHDTbq1aJTb4tisHOIiOPrYw&s" group-title="Cable TV [Mix]",ABC 7 Los Angeles
-https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/kVVax44.png" group-title="Cable TV [Mix]", ABC Australia
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -2263,6 +2261,8 @@ https://601.shadow-ran.online/wwe.m3u8
 https://daffodil.shadow-ran.online/nba4.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Dallas Mavericks vs New York Knicks
 https://daffodil.shadow-ran.online/nba4.m3u8
+#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Indiana Pacers vs Philadelphia 76ers
+https://daffodil.shadow-ran.online/nba6.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Los Angeles Clippers vs Washington Wizards
 https://601.shadow-ran.online/nba3.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Miami Heat vs Golden State Warriors
@@ -2275,12 +2275,8 @@ https://601.shadow-ran.online/nba.m3u8
 https://601.shadow-ran.online/nba2.m3u8
 #EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Phoenix Suns vs Brooklyn Nets
 https://601.shadow-ran.online/nba7.m3u8
-#EXTINF:-1 tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small_2x/nba-logo-on-transparent-background-free-vector.jpg" tvg-id="NBA.Basketball.Dummy.us" group-title="Roxiestreams - NBA",Utah Jazz vs San Antonio Spurs
-https://daffodil.shadow-ran.online/nba5.m3u8
 
 #EXTGRP:Roxiestreams - Soccer
-#EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Brighton vs Bournemouth
-https://daffodil.shadow-ran.online/main.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Cremonese vs Verona
 https://daffodil.shadow-ran.online/golazo.m3u8
 #EXTINF:-1 tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Soccer.png" tvg-id="Soccer.Dummy.us" group-title="Roxiestreams - Soccer",Elche vs Sevilla
