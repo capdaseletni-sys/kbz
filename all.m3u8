@@ -19,16 +19,12 @@ https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_a2z/default/index.mpd
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Cable TV [Mix]", Abante Radyo
 https://amg19223-amg19223c12-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c12-amgplt0352/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm2sy5W60kAhdI_6viKTFCbYhWFcGnwQNRDg&s" group-title="Cable TV [Mix]", ABC
-http://kstv.us:8080/DBeverly/2290061890/48754
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/kVVax44.png" group-title="Cable TV [Mix]", ABC Australia
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=389497f9f8584a57b234e27e430e04b7:3b85594c7f88604adf004e45c03511c0
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/abc_aus/default/index.mpd
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6508be683a0d700008c534e4/colorLogoPNG.png"" group-title="Cable TV [Mix]", ABC News Live
-https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8
 #EXTINF:-1 group-title="Cable TV [Mix]" tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/canada/adult-swim-ca.png" ,Adult Swim
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
