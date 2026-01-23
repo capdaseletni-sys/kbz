@@ -10,21 +10,12 @@ https://jmp2.uk/stvp-USBD350003932
 #EXTINF:-1 tvg-id="XITE Classic Country" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBD3300011UT_20240716T002641SQUARE.png" group-title=".PH [WebOS]",XITE Classic Country
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://jmp2.uk/stvp-USBD3300011UT
-#EXTINF:-1 tvg-id="XITE Country Today" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBD3300006O3_20240716T002639SQUARE.png" group-title=".PH [WebOS]",XITE Country Today
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-https://jmp2.uk/stvp-USBD3300006O3
 #EXTINF:-1 tvg-id="XITE Hits" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBD3300004RH_20250421T234930SQUARE.png" group-title=".PH [WebOS]",XITE Hits
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://jmp2.uk/stvp-USBD3300004RH
 #EXTINF:-1 tvg-id="XITE Just Chill" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBB2300003JZ_20240716T002652SQUARE.png" group-title=".PH [WebOS]",XITE Just Chill
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://jmp2.uk/stvp-USBB2300003JZ
-#EXTINF:-1 tvg-id="XITE R&B Classic Jams" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBD330000948_20240716T002648SQUARE.png" group-title=".PH [WebOS]",XITE R&B Classic Jams
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-https://jmp2.uk/stvp-USBD330000948
-#EXTINF:-1 tvg-id="XITE Rock x Metal" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBB2300004KV_20240716T002654SQUARE.png" group-title=".PH [WebOS]",XITE Rock x Metal
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-https://jmp2.uk/stvp-USBB2300004KV
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title=".PH [WebOS]", TotalMusic
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title=".PH [WebOS]", TotalMusic 80s
@@ -117,6 +108,10 @@ https://d14c00opfjb50c.cloudfront.net/out/v1/0fa4eb67579d41cca4ed146c93aa855f/in
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=f40a52a3ac9b4702bdd5b735d910fd2f:5ce1bc7f06b494c276252b4d13c90e51
 https://d24xfhmhdb6r0q.cloudfront.net/out/v1/e897a7b6414a46019818ee9f2c081c4f/index.mpd
+#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", My Kids
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+https://cdn10jtedge.indihometv.com/atm/DASH/mykids/manifest.mpd
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_CGTNDOC_2025_03_17_14_59_03.png" group-title=".PH [WebOS]", CGTN Documentary
 #EXTVLCOPT:http-referrer=https://www.indihometv.com/
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -145,6 +140,10 @@ https://cdn10jtedge.indihometv.com/atm/DASH/cinemax/manifest.mpd
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://cdn10jtedge.indihometv.com/atm/DASH/hbohits/manifest.mpd
+#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", HBO Signature
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+https://cdn10jtedge.indihometv.com/atm/DASH/hbosignature/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", HBO Family
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
