@@ -137,6 +137,10 @@ https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/in
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://cdn10jtedge.indihometv.com/atm/DASH/tv5monde/manifest.mpd
+#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", HBO
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+https://cdn10jtedge.indihometv.com/atm/DASH/hbo/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", Cinemax
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -493,8 +497,6 @@ https://streams2.sofast.tv/ptnr-yupptv/title-MMA_YUPPTV/v1/master/611d79b11b77e2
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=15465
 #EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://lge-static.ottera.tv/prod/lge/linear_channel/logo/1600x400/lg1spt_epg_white.png" group-title=".PH [WebOS]",LG 1 Spotlight
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=13959
-#EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://lge-static.ottera.tv/prod/lge/linear_channel/logo/1600x400/lg1_800x200_white.png" group-title=".PH [WebOS]",LG 1
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=10957
 #EXTINF:-1 group-title=".PH [WebOS]" tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/af/GMA_Pinoy_TV_logo.png",GMA Pinoy TV
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
