@@ -117,54 +117,10 @@ https://d14c00opfjb50c.cloudfront.net/out/v1/0fa4eb67579d41cca4ed146c93aa855f/in
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=f40a52a3ac9b4702bdd5b735d910fd2f:5ce1bc7f06b494c276252b4d13c90e51
 https://d24xfhmhdb6r0q.cloudfront.net/out/v1/e897a7b6414a46019818ee9f2c081c4f/index.mpd
-#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", My Kids
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-https://cdn10jtedge.indihometv.com/atm/DASH/mykids/manifest.mpd
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_CGTNDOC_2025_03_17_14_59_03.png" group-title=".PH [WebOS]", CGTN Documentary
-#EXTVLCOPT:http-referrer=https://www.indihometv.com/
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://cdn10jtedge.indihometv.com/atm/DASH/CGTN_DOCUMENTARY/manifest.mpd
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_CCTV4_2025_03_17_14_57_39.png" group-title=".PH [WebOS]", CCTV 4
-#EXTVLCOPT:http-referrer=https://www.indihometv.com/
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://cdn10jtedge.indihometv.com/atm/DASH/CCTV_4/manifest.mpd
 #EXTINF:-1 group-title=".PH [WebOS]" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/russel/images/f/f2/Cine_Mo%21_3D_Logo_2011.png", Cinemo! Global
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=aa8aebe35ccc4541b7ce6292efcb1bfb:aab1df109d22fc5d7e3ec121ddf24e5f
 https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/index.mpd
-#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", TV5 Monde
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-https://cdn10jtedge.indihometv.com/atm/DASH/tv5monde/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", HBO Hits
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-https://cdn10jtedge.indihometv.com/atm/DASH/hbohits/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", HBO Signature
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-https://cdn10jtedge.indihometv.com/atm/DASH/hbosignature/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", HBO Family
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-https://cdn10jtedge.indihometv.com/atm/DASH/hbofamily/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", Tvri World
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-https://cdn10jtedge.indihometv.com/atm/DASH/tvriworld/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", Warner
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-https://cdn10jtedge.indihometv.com/atm/DASH/warner/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", Thrill
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-https://cdn10jtedge.indihometv.com/atm/DASH/thrill/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", AXN
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-https://cdn10jtedge.indihometv.com/atm/DASH/axn/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", Rock Entertainment
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
