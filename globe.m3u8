@@ -7,21 +7,12 @@ https://jmp2.uk/stvp-USBB3200007AK
 #EXTINF:-1 tvg-id="XITE Celebrates" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBD350003932_20250421T234928SQUARE.png" group-title=".PH [WebOS]",XITE Celebrates
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://jmp2.uk/stvp-USBD350003932
-#EXTINF:-1 tvg-id="XITE Classic Country" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBD3300011UT_20240716T002641SQUARE.png" group-title=".PH [WebOS]",XITE Classic Country
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-https://jmp2.uk/stvp-USBD3300011UT
-#EXTINF:-1 tvg-id="XITE Country Today" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBD3300006O3_20240716T002639SQUARE.png" group-title=".PH [WebOS]",XITE Country Today
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-https://jmp2.uk/stvp-USBD3300006O3
 #EXTINF:-1 tvg-id="XITE Hits" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBD3300004RH_20250421T234930SQUARE.png" group-title=".PH [WebOS]",XITE Hits
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://jmp2.uk/stvp-USBD3300004RH
 #EXTINF:-1 tvg-id="XITE Just Chill" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBB2300003JZ_20240716T002652SQUARE.png" group-title=".PH [WebOS]",XITE Just Chill
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://jmp2.uk/stvp-USBB2300003JZ
-#EXTINF:-1 tvg-id="XITE R&B Classic Jams" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBD330000948_20240716T002648SQUARE.png" group-title=".PH [WebOS]",XITE R&B Classic Jams
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-https://jmp2.uk/stvp-USBD330000948
 #EXTINF:-1 tvg-id="XITE Rock x Metal" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBB2300004KV_20240716T002654SQUARE.png" group-title=".PH [WebOS]",XITE Rock x Metal
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://jmp2.uk/stvp-USBB2300004KV
@@ -137,14 +128,6 @@ https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/in
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://cdn10jtedge.indihometv.com/atm/DASH/tv5monde/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", HBO
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-https://cdn10jtedge.indihometv.com/atm/DASH/hbo/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", Cinemax
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-https://cdn10jtedge.indihometv.com/atm/DASH/cinemax/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-name="" group-title=".PH [WebOS]" tvg-logo="", HBO Hits
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
