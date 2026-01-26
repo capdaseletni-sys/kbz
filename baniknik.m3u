@@ -11,14 +11,6 @@ https://jmp2.uk/stvp-USBB3200007AK
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://jmp2.uk/stvp-USBD350003932
 
-#EXTINF:-1 tvg-id="XITE Classic Country" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBD3300011UT_20240716T002641SQUARE.png" group-title=".PH [WebOS]",XITE Classic Country
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-https://jmp2.uk/stvp-USBD3300011UT
-
-#EXTINF:-1 tvg-id="XITE Country Today" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBD3300006O3_20240716T002639SQUARE.png" group-title=".PH [WebOS]",XITE Country Today
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-https://jmp2.uk/stvp-USBD3300006O3
-
 #EXTINF:-1 tvg-id="XITE Hits" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBD3300004RH_20250421T234930SQUARE.png" group-title=".PH [WebOS]",XITE Hits
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://jmp2.uk/stvp-USBD3300004RH
@@ -26,10 +18,6 @@ https://jmp2.uk/stvp-USBD3300004RH
 #EXTINF:-1 tvg-id="XITE Just Chill" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBB2300003JZ_20240716T002652SQUARE.png" group-title=".PH [WebOS]",XITE Just Chill
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://jmp2.uk/stvp-USBB2300003JZ
-
-#EXTINF:-1 tvg-id="XITE R&B Classic Jams" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBD330000948_20240716T002648SQUARE.png" group-title=".PH [WebOS]",XITE R&B Classic Jams
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-https://jmp2.uk/stvp-USBD330000948
 
 #EXTINF:-1 tvg-id="XITE Rock x Metal" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBB2300004KV_20240716T002654SQUARE.png" group-title=".PH [WebOS]",XITE Rock x Metal
 #KODIPROP:inputstream.adaptive.license_type=clearkey
