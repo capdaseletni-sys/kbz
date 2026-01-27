@@ -7,31 +7,18 @@ https://jmp2.uk/stvp-USBB3200007AK
 #EXTINF:-1 tvg-id="XITE Celebrates" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBD350003932_20250421T234928SQUARE.png" group-title=".PH [WebOS]",XITE Celebrates
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://jmp2.uk/stvp-USBD350003932
-#EXTINF:-1 tvg-id="XITE Hits" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBD3300004RH_20250421T234930SQUARE.png" group-title=".PH [WebOS]",XITE Hits
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-https://jmp2.uk/stvp-USBD3300004RH
 #EXTINF:-1 tvg-id="XITE Just Chill" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBB2300003JZ_20240716T002652SQUARE.png" group-title=".PH [WebOS]",XITE Just Chill
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://jmp2.uk/stvp-USBB2300003JZ
 #EXTINF:-1 tvg-id="XITE Rock x Metal" tvg-logo="https://tvpnlogopus.samsungcloud.tv...02/34/USBB2300004KV_20240716T002654SQUARE.png" group-title=".PH [WebOS]",XITE Rock x Metal
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://jmp2.uk/stvp-USBB2300004KV
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title=".PH [WebOS]", TotalMusic
-https://cdn.global.elektamedia.com/live/c7eds/Totalmusic/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title=".PH [WebOS]", TotalMusic 80s
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_80s/SA_LIVE_hls_enc/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title=".PH [WebOS]", TotalMusic 2000s
-https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_00s/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title=".PH [WebOS]", TotalMusic Concerts
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Concerts/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title=".PH [WebOS]", TotalMusic Dance
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/master.m3u8
-#EXTINF:-1 tvg-id="NBA TV" tvg-logo="" group-title=".PH [WebOS]", NBA TV
-https://fl31.moveonjoy.com:443/NBA_TV/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="NBA TV" tvg-logo="" group-title=".PH [WebOS]", ESPN U
-https://fl31.moveonjoy.com:443/ESPN_U/index.m3u8
-#EXTINF:-1 tvg-id="NBA TV" tvg-logo="" group-title=".PH [WebOS]", Golf Channel
-https://fl31.moveonjoy.com:443/GOLF/index.m3u8
 #EXTINF:-1 tvg-id="NBA TV" tvg-logo="" group-title=".PH [WebOS]", World Poker Tour
 https://amg00218-wptenterprisesi-worldpokertour-xumo-us.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title=".PH [WebOS]", Global News British Columbia
