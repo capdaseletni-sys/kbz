@@ -148,7 +148,7 @@ async def scrape() -> None:
     m3u_lines = ["#EXTM3U"]
     for title, data in urls.items():
         if stream_url := data.get("url"):
-            m3u_lines.append(f'#EXTINF:-1 group-title="Totalsport", {title}')
+            m3u_lines.append(f'#EXTINF:-1 group-title="Totalsports", {title}')
             m3u_lines.append(stream_url)
 
     with open(M3U_FILENAME, "w", encoding="utf-8") as f:
