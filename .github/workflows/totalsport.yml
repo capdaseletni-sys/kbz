@@ -24,8 +24,9 @@ jobs:
       - name: 📦 Install required Python dependency
         run: pip install requests
 
-      - name: 📦 Switched to httpx
-        run: pip install httpx
+      - name: Install dependencies
+        run: |
+          pip install httpx selectolax
 
       - name: 🎯 Run scraping script
         run: python totalsport.py
