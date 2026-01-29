@@ -14,15 +14,26 @@ except ImportError:
     print("Error: Dependencies missing. Run 'pip install httpx selectolax'")
     sys.exit(1)
 
-# Setup basic logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 log = logging.getLogger(__name__)
 
 urls: dict[str, dict] = {}
 TAG = "TOTALSPRTK"
 CACHE_PATH = "totalsportk_cache.json"
-# Updated output filename
 M3U_FILENAME = "totalsport.m3u8"
+
+TEAM_MAP = {
+    "Atlanta Hawks": "ATL", "Boston Celtics": "BOS", "Brooklyn Nets": "BKN",
+    "Charlotte Hornets": "CHA", "Chicago Bulls": "CHI", "Cleveland Cavaliers": "CLE",
+    "Dallas Mavericks": "DAL", "Denver Nuggets": "DEN", "Detroit Pistons": "DET",
+    "Golden State Warriors": "GSW", "Houston Rockets": "HOU", "Indiana Pacers": "IND",
+    "Los Angeles Clippers": "LAC", "Los Angeles Lakers": "LAL", "Memphis Grizzlies": "MEM",
+    "Miami Heat": "MIA", "Milwaukee Bucks": "MIL", "Minnesota Timberwolves": "MIN",
+    "New Orleans Pelicans": "NOP", "New York Knicks": "NYK", "Oklahoma City Thunder": "OKC",
+    "Orlando Magic": "ORL", "Philadelphia 76ers": "PHI", "Phoenix Suns": "PHX",
+    "Portland Trail Blazers": "POR", "Sacramento Kings": "SAC", "San Antonio Spurs": "SAS",
+    "Toronto Raptors": "TOR", "Utah Jazz": "UTA", "Washington Wizards": "WAS"
+}
 
 MIRRORS = [
     {"base": "https://live.totalsportek777.com/", "hex_decode": True},
@@ -32,6 +43,15 @@ MIRRORS = [
 def fix_txt(s: str) -> str:
     s = " ".join(s.split())
     return s.upper() if s.islower() else s
+
+def shorten_nba_teams(event_name: str) -> str:
+    # Checks the event name against the TEAM_MAP and replaces full names with abbreviations
+    new_name = event_name
+    for full_name, short_name in TEAM_MAP.items():
+        # Case insensitive replacement to be safe
+        pattern = re.compile(re.escape(full_name), re.IGNORECASE)
+        new_name = pattern.sub(short_name, new_name)
+    return new_name
 
 def load_cache():
     try:
@@ -46,23 +66,19 @@ def save_cache(data):
 
 async def process_event(client, href: str, url_num: int) -> tuple[str | None, str | None]:
     valid_m3u8 = re.compile(r'var\s+(\w+)\s*=\s*"([^"]*)"', re.IGNORECASE)
-
     for x, mirror in enumerate(MIRRORS, start=1):
         url = urljoin(mirror["base"], href)
         try:
             resp = await client.get(url, timeout=10.0)
             if resp.status_code != 200: continue
-
             soup = HTMLParser(resp.text)
             iframe = soup.css_first("iframe")
             if not iframe or not (iframe_src := iframe.attributes.get("src")):
                 continue
-
             iframe_resp = await client.get(iframe_src, timeout=10.0)
             if match := valid_m3u8.search(iframe_resp.text):
                 raw = match[2]
                 m3u8_url = bytes.fromhex(raw).decode("utf-8") if mirror["hex_decode"] else raw
-                log.info(f"M{x} | URL {url_num}) Captured stream link")
                 return m3u8_url, iframe_src
         except Exception:
             continue
@@ -73,13 +89,11 @@ async def get_events(client, url: str, cached_keys: list[str]) -> list[dict]:
     try:
         resp = await client.get(url, timeout=10.0)
         if resp.status_code != 200: return events
-        
         soup = HTMLParser(resp.text)
         sport = "Live Event"
 
         for node in soup.css("a"):
             if not node.attributes.get("class"): continue
-            
             if (parent := node.parent) and "my-1" in parent.attributes.get("class", ""):
                 if span := node.css_first("span"):
                     sport = span.text(strip=True)
@@ -92,11 +106,14 @@ async def get_events(client, url: str, cached_keys: list[str]) -> list[dict]:
             time_node = node.css_first(".col-3 span")
             
             if time_node and time_node.text(strip=True) == "MatchStarted":
-                event_name = fix_txt(" vs ".join(teams))
-                key = f"[{sport}] {event_name} ({TAG})"
+                raw_event_name = " vs ".join(teams)
+                # Apply NBA abbreviations
+                event_name = shorten_nba_teams(raw_event_name)
+                # Create title without the (TOTALSPRTK) tag
+                title = f"[{sport}] {event_name}"
                 
-                if key not in cached_keys:
-                    events.append({"sport": sport, "event": event_name, "href": href, "key": key})
+                if title not in cached_keys:
+                    events.append({"sport": sport, "event": event_name, "href": href, "key": title})
     except Exception as e:
         log.error(f"Failed to fetch events: {e}")
     return events
@@ -104,10 +121,7 @@ async def get_events(client, url: str, cached_keys: list[str]) -> list[dict]:
 async def scrape() -> None:
     cached_data = load_cache()
     current_time = time.time()
-    # Keep entries for 8 hours (28800 seconds)
     active_cache = {k: v for k, v in cached_data.items() if current_time - v.get("timestamp", 0) < 28800}
-    
-    # Pre-load working URLs from cache
     urls.update({k: v for k, v in active_cache.items() if v.get("url")})
 
     async with httpx.AsyncClient(follow_redirects=True, headers={"User-Agent": "Mozilla/5.0"}) as client:
@@ -120,27 +134,17 @@ async def scrape() -> None:
                     break
             except: continue
 
-        if not base_url:
-            log.warning("No working TotalSportek mirrors available.")
-            return
+        if not base_url: return
 
-        log.info(f"Scraping from: {base_url}")
         new_events = await get_events(client, base_url, list(active_cache.keys()))
 
         for i, ev in enumerate(new_events, start=1):
             m3u8, iframe = await process_event(client, ev["href"], i)
-            
-            entry = {
-                "url": m3u8,
-                "base": iframe,
-                "timestamp": time.time(),
-                "href": ev["href"],
-            }
+            entry = {"url": m3u8, "base": iframe, "timestamp": time.time(), "href": ev["href"]}
             active_cache[ev["key"]] = entry
             if m3u8:
                 urls[ev["key"]] = entry
 
-    # Create M3U8 Playlist file
     m3u_lines = ["#EXTM3U"]
     for title, data in urls.items():
         if stream_url := data.get("url"):
@@ -151,7 +155,7 @@ async def scrape() -> None:
         f.write("\n".join(m3u_lines))
 
     save_cache(active_cache)
-    log.info(f"Done! All active streams saved to {M3U_FILENAME}")
+    log.info(f"Updated {M3U_FILENAME}")
 
 if __name__ == "__main__":
     asyncio.run(scrape())
