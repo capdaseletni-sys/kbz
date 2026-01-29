@@ -10,9 +10,11 @@ from selectolax.parser import HTMLParser
 BASE_URL = "https://xstreameast.com"
 TAG = "XSTRMEST"
 CACHE_FILE = "cache.json"
+OUTPUT_FILE = "xstreameast.m3u8"
 SPORT_ENDPOINTS = ["mma", "nba", "nfl", "nhl", "soccer", "wwe"]
 
 async def process_event(client: httpx.AsyncClient, url: str, url_num: int):
+    # Regex to find the hex-encoded source within the iframe scripts
     valid_m3u8 = re.compile(r'var\s+(\w+)\s*=\s*"([^"]*)"', re.IGNORECASE)
     
     try:
@@ -21,16 +23,16 @@ async def process_event(client: httpx.AsyncClient, url: str, url_num: int):
         iframe = soup.css_first("iframe")
         
         if not iframe or not (iframe_src := iframe.attributes.get("src")) or iframe_src == "about:blank":
-            return None, None
+            return None
 
         iframe_resp = await client.get(iframe_src)
         if match := valid_m3u8.search(iframe_resp.text):
-            # Decode the hex-encoded M3U8 URL
-            return bytes.fromhex(match[2]).decode("utf-8"), iframe_src
-    except Exception as e:
-        print(f"Error processing URL {url_num}: {e}")
+            # Decode the hex-encoded string to get the direct .m3u8 URL
+            return bytes.fromhex(match[2]).decode("utf-8")
+    except Exception:
+        pass
     
-    return None, None
+    return None
 
 async def get_events(client: httpx.AsyncClient):
     events = []
@@ -48,54 +50,62 @@ async def get_events(client: httpx.AsyncClient):
                 link_elem = card.css_first("a.stream-button")
                 live_badge = card.css_first("span.bg-green-600")
 
+                # Only collect events currently marked as LIVE
                 if team_elem and link_elem and live_badge and live_badge.text(strip=True) == "LIVE":
                     events.append({
                         "sport": sport_name,
                         "event": team_elem.text(strip=True),
                         "link": link_elem.attributes.get("href"),
                     })
-        except Exception as e:
-            print(f"Error fetching {sport_path}: {e}")
+        except Exception:
+            continue
     return events
 
 async def scrape():
-    # Basic JSON Cache loading
+    # Load cache to avoid redundant processing
     cache = {}
     if os.path.exists(CACHE_FILE):
-        with open(CACHE_FILE, "r") as f:
-            cache = json.load(f)
+        try:
+            with open(CACHE_FILE, "r") as f:
+                cache = json.load(f)
+        except json.JSONDecodeError:
+            cache = {}
 
-    async with httpx.AsyncClient(timeout=10.0) as client:
-        print(f"Scraping {BASE_URL}...")
+    # Set a User-Agent to mimic a real browser
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
+
+    async with httpx.AsyncClient(headers=headers, timeout=10.0, follow_redirects=True) as client:
+        print(f"Searching for live events on {BASE_URL}...")
         found_events = await get_events(client)
         
         m3u_lines = ["#EXTM3U"]
-        
+        new_cache = {}
+
         for i, ev in enumerate(found_events, start=1):
             title = f"[{ev['sport']}] {ev['event']} ({TAG})"
             
-            # Use cache if available, otherwise scrape
+            # Check cache first
             if title in cache:
                 url = cache[title]["url"]
             else:
-                url, iframe = await process_event(client, ev["link"], i)
-                if url:
-                    cache[title] = {"url": url, "link": ev["link"]}
+                url = await process_event(client, ev["link"], i)
             
             if url:
-                # Format: #EXTINF:-1 group-title="xstreameast", {title}
+                # Add to M3U list with the specified format
                 m3u_lines.append(f'#EXTINF:-1 group-title="xstreameast", {title}')
                 m3u_lines.append(url)
+                # Update new cache
+                new_cache[title] = {"url": url, "link": ev["link"]}
 
-        # Save Cache
+        # Update cache file with only active streams
         with open(CACHE_FILE, "w") as f:
-            json.dump(cache, f)
+            json.dump(new_cache, f)
 
-        # Output M3U
-        with open("playlist.m3u", "w", encoding="utf-8") as f:
+        # Write the final playlist
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(m3u_lines))
         
-        print(f"Done! Created playlist.m3u with {len(m3u_lines)//2} streams.")
+        print(f"Success! Saved {len(m3u_lines)//2} streams to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     asyncio.run(scrape())
