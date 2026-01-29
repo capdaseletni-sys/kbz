@@ -1,4 +1,4 @@
-name: 🚀 Update Merged Playlist 📺
+name: 🚀 Scrape TotalSports 📺
 
 on:
   workflow_dispatch:
