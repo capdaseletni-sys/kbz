@@ -29,6 +29,11 @@ jobs:
       - name: Install dependencies
         run: |
           pip install httpx selectolax
+          
+      - name: Install playwright
+        run: |
+          pip install playwright httpx selectolax
+          playwright install chromium
 
       - name: 🎯 Run scraping script
         run: python streamhub.py
