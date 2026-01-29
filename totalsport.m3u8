@@ -1,19 +1,13 @@
 #EXTM3U
-#EXTINF:-1 group-title="Totalsport", [NBA] IND vs CHI
+#EXTINF:-1 group-title="Totalsports", [NBA] IND vs CHI
 https://matchify.zip/nbaa2.php
-#EXTINF:-1 group-title="Totalsport", [NBA] CLE vs LAL
+#EXTINF:-1 group-title="Totalsports", [NBA] CLE vs LAL
 https://matchify.zip/nbaa1.php
-#EXTINF:-1 group-title="Totalsport", [NBA] BOS vs ATL
-https://matchify.zip/nbaa3.php
-#EXTINF:-1 group-title="Totalsport", [NBA] MIA vs ORL
+#EXTINF:-1 group-title="Totalsports", [NBA] MIA vs ORL
 https://matchify.zip/nbaa4.php
-#EXTINF:-1 group-title="Totalsport", [NBA] TOR vs NYK
-https://matchify.zip/nbaa5.php
-#EXTINF:-1 group-title="Totalsport", [NBA] MEM vs CHA
+#EXTINF:-1 group-title="Totalsports", [NBA] MEM vs CHA
 https://matchify.zip/nbaa6.php
-#EXTINF:-1 group-title="Totalsport", [NBA] DAL vs MIN
+#EXTINF:-1 group-title="Totalsports", [NBA] DAL vs MIN
 https://matchify.zip/nbaa7.php
-#EXTINF:-1 group-title="Totalsport", [NBA] UTA vs GSW
-https://matchify.zip/nbaa8.php
-#EXTINF:-1 group-title="Totalsport", [NBA] HOU vs SAS
+#EXTINF:-1 group-title="Totalsports", [NBA] HOU vs SAS
 https://matchify.zip/nbaa9.php
