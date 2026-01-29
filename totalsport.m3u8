@@ -1,1 +1,19 @@
-
+#EXTM3U
+#EXTINF:-1 group-title="Totalsport", [NBA] Indiana Pacers vs Chicago Bulls (TOTALSPRTK)
+https://matchify.zip/nbaa2.php
+#EXTINF:-1 group-title="Totalsport", [NBA] Cleveland Cavaliers vs Los Angeles Lakers (TOTALSPRTK)
+https://matchify.zip/nbaa1.php
+#EXTINF:-1 group-title="Totalsport", [NBA] Boston Celtics vs Atlanta Hawks (TOTALSPRTK)
+https://matchify.zip/nbaa3.php
+#EXTINF:-1 group-title="Totalsport", [NBA] Miami Heat vs Orlando Magic (TOTALSPRTK)
+https://matchify.zip/nbaa4.php
+#EXTINF:-1 group-title="Totalsport", [NBA] Toronto Raptors vs New York Knicks (TOTALSPRTK)
+https://matchify.zip/nbaa5.php
+#EXTINF:-1 group-title="Totalsport", [NBA] Memphis Grizzlies vs Charlotte Hornets (TOTALSPRTK)
+https://matchify.zip/nbaa6.php
+#EXTINF:-1 group-title="Totalsport", [NBA] Dallas Mavericks vs Minnesota Timberwolves (TOTALSPRTK)
+https://matchify.zip/nbaa7.php
+#EXTINF:-1 group-title="Totalsport", [NBA] Utah Jazz vs Golden State Warriors (TOTALSPRTK)
+https://matchify.zip/nbaa8.php
+#EXTINF:-1 group-title="Totalsport", [NBA] Houston Rockets vs San Antonio Spurs (TOTALSPRTK)
+https://matchify.zip/nbaa9.php
