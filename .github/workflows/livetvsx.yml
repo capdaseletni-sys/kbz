@@ -28,7 +28,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install httpx selectolax
+          pip install feedparser httpx playwright
+          playwright install chromium
 
       - name: 🎯 Run scraping script
         run: python livetvsx.py
