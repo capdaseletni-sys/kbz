@@ -1,38 +1,44 @@
 import requests
 
 def save_m3u8_to_file(username, filename="chat.m3u8"):
-    # Chaturbate internal API endpoint
     url = "https://chaturbate.com/get_edge_hls_url_ajax/"
     
+    # These headers mimic a real Chrome browser session
     headers = {
-        "X-Requested-With": "XMLHttpRequest",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "en-US,en;q=0.9",
         "Content-Type": "application/x-www-form-urlencoded",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+        "X-Requested-With": "XMLHttpRequest",
+        "Origin": "https://chaturbate.com",
+        "Referer": f"https://chaturbate.com/{username}/",
     }
     
     data = {"room_slug": username}
     
     try:
-        response = requests.post(url, headers=headers, data=data)
-        response.raise_for_status()
-        json_data = response.json()
+        # Using a Session object helps maintain cookies
+        session = requests.Session()
+        # First, visit the home page to get a CSRF cookie
+        session.get("https://chaturbate.com/", headers={"User-Agent": headers["User-Agent"]})
         
+        # Now make the POST request
+        response = session.post(url, headers=headers, data=data)
+        
+        if response.status_code == 403:
+            print("❌ Still blocked (403). Cloudflare is likely challenging the request.")
+            return
+
+        json_data = response.json()
         if json_data.get('success'):
             m3u8_url = json_data.get('url')
-            
-            # Creating the content for a standard M3U playlist file
-            m3u_content = f"#EXTM3U\n#EXT-X-STREAM-INF:BANDWIDTH=1280000\n{m3u8_url}"
-            
-            with open(filename, "w", encoding="utf-8") as f:
-                f.write(m3u_content)
-                
-            print(f"✅ Success! Playlist saved to {filename}")
-            print(f"🔗 Stream URL: {m3u8_url}")
+            with open(filename, "w") as f:
+                f.write(f"#EXTM3U\n{m3u8_url}")
+            print(f"✅ Success! Saved to {filename}")
         else:
-            print(f"❌ Error: {json_data.get('room_status', 'Unknown error')}")
-            
-    except Exception as e:
-        print(f"⚠️ Failed to connect: {e}")
+            print(f"⚠️ Room Error: {json_data.get('room_status')}")
 
-# Replace 'username' with the actual model name
+    except Exception as e:
+        print(f"⚠️ Error: {e}")
+
 save_m3u8_to_file("username_here")
