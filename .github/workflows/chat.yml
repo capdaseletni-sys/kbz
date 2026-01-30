@@ -35,6 +35,11 @@ jobs:
         run: |
           pip install yt-dlp
 
+      - name: Install Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
       - name: 🎯 Run scraping script
         run: python chat.py
 
