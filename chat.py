@@ -5,23 +5,26 @@ import yt_dlp
 from yt_dlp.networking.impersonate import ImpersonateTarget
 
 async def get_online_models(limit=20):
-    print("🌐 Launching stealth browser with sandbox disabled...")
+    print("🌐 Launching stealth browser with mandatory sandbox bypass...")
     
-    # CRITICAL: These arguments allow nodriver to run in GitHub Actions
+    # In 2026, 'sandbox=False' is a direct keyword in nodriver.start
+    # This is more effective than just passing it in browser_args
     browser = await uc.start(
         headless=True,
+        sandbox=False, # THIS IS THE CRITICAL FIX
         browser_args=[
-            "--no-sandbox",
-            "--disable-setuid-sandbox",
-            "--disable-dev-shm-usage"
+            "--disable-dev-shm-usage",
+            "--disable-gpu",
+            "--no-first-run"
         ]
     )
     
     try:
         page = await browser.get("https://chaturbate.com/")
-        # Give Cloudflare time to "Verify you are human"
-        print("⏳ Waiting for Cloudflare verification...")
-        await page.wait_for("ul.list", timeout=60)
+        print("⏳ Waiting for site to stabilize...")
+        
+        # We wait for the main grid to load
+        await page.wait_for("ul.list", timeout=45)
         
         content = await page.get_content()
         soup = BeautifulSoup(content, "html.parser")
@@ -34,11 +37,12 @@ async def get_online_models(limit=20):
         
         return usernames
     finally:
-        await browser.stop()
+        # Prevent the 'NoneType' error by checking if browser exists before stopping
+        if browser:
+            await browser.stop()
 
 def create_playlist(usernames):
     playlist = "#EXTM3U\n"
-    # yt-dlp 2026 logic with impersonation
     ydl_opts = {
         'quiet': True, 
         'extract_flat': True,
@@ -59,12 +63,15 @@ def create_playlist(usernames):
 
     with open("chat.m3u8", "w") as f:
         f.write(playlist)
-    print(f"✅ chat.m3u8 updated with {len(usernames)} streams!")
+    print(f"✅ chat.m3u8 saved with {len(usernames)} entries.")
 
 if __name__ == "__main__":
-    loop = asyncio.get_event_loop()
-    names = loop.run_until_complete(get_online_models(20))
-    if names:
-        create_playlist(names)
-    else:
-        print("❌ Could not find models. Check if the site layout changed.")
+    # Fix for DeprecationWarning and Python 3.12 logic
+    try:
+        names = asyncio.run(get_online_models(20))
+        if names:
+            create_playlist(names)
+        else:
+            print("❌ No models found.")
+    except Exception as e:
+        print(f"❌ Script failed: {e}")
