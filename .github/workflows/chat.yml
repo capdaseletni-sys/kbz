@@ -27,8 +27,8 @@ jobs:
         with:
           deno-version: v1.x
 
-      - name: Install yt-dlp
-        run: pip install yt-dlp
+      - name: Install yt-dlp and networking dependencies
+        run: pip install "yt-dlp[default,curl-cffi]"
 
       - name: Run Scraper
         # Replace 'your_target_username' with the actual model name
