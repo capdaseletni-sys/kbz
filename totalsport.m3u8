@@ -1,19 +1,21 @@
 #EXTM3U
 #EXTINF:-1 group-title="Totalsports", [UEFA Champions League] UEFA Champions league vs Live
 https://matchify.zip/1111.php
+#EXTINF:-1 group-title="Totalsports", [UEFA Champions League] UEFA Europa League vs Live
+https://matchify.zip/1111.php
 #EXTINF:-1 group-title="Totalsports", [NBA] PHI vs SAC
-https://d37w970r8uelg1.cloudfront.net/status/n1/fronts.woff2?a5d2ab
+https://d37w970r8uelg1.cloudfront.net/status/n1/fronts.woff2?580e89
 #EXTINF:-1 group-title="Totalsports", [NBA] WAS vs MIL
-https://d37w970r8uelg1.cloudfront.net/status/n2/fronts.woff2?fc1e1c
+https://d37w970r8uelg1.cloudfront.net/status/n2/fronts.woff2?872f49
 #EXTINF:-1 group-title="Totalsports", [NBA] ATL vs HOU
-https://d37w970r8uelg1.cloudfront.net/status/n3/fronts.woff2?4e0e37
+https://d37w970r8uelg1.cloudfront.net/status/n3/fronts.woff2?cf43bb
 #EXTINF:-1 group-title="Totalsports", [NBA] DAL vs CHA
-https://d37w970r8uelg1.cloudfront.net/status/n5/fronts.woff2?6f03e2
+https://d37w970r8uelg1.cloudfront.net/status/n5/fronts.woff2?89fb7e
 #EXTINF:-1 group-title="Totalsports", [NBA] DEN vs BKN
-https://d37w970r8uelg1.cloudfront.net/status/n6/fronts.woff2?fe6052
+https://d37w970r8uelg1.cloudfront.net/status/n6/fronts.woff2?e0486b
 #EXTINF:-1 group-title="Totalsports", [NBA] PHX vs DET
-https://d37w970r8uelg1.cloudfront.net/status/n7/fronts.woff2?b9d5bd
+https://d37w970r8uelg1.cloudfront.net/status/n7/fronts.woff2?caad7f
 #EXTINF:-1 group-title="Totalsports", [NBA] MIN vs OKC
-https://d37w970r8uelg1.cloudfront.net/status/n8/fronts.woff2?ea7bb2
+https://d37w970r8uelg1.cloudfront.net/status/n8/fronts.woff2?44ed9b
 #EXTINF:-1 group-title="Totalsports", [NBA] CHI vs MIA
-https://d37w970r8uelg1.cloudfront.net/status/n4/fronts.woff2?5a47bb
+https://d37w970r8uelg1.cloudfront.net/status/n4/fronts.woff2?1d1777
