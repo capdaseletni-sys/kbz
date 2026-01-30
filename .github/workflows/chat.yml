@@ -13,31 +13,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Linux dependencies
+      - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y \
-            libgbm-dev \
-            wget \
-            unzip \
-            xvfb \
-            libnss3 \
-            libatk-bridge2.0-0 \
-            libasound2t64 \
-            libcups2 \
-            libdrm2 \
-            libxcomposite1 \
-            libxdamage1 \
-            libxrandr2 \
-            libatk1.0-0t64 \
-            libgtk-3-0t64
-
-      - name: Install Python dependencies
-        run: |
+          sudo apt-get install -y xvfb libnss3 libatk-bridge2.0-0 libasound2t64 libcups2 libdrm2 libxcomposite1 libxdamage1 libxrandr2 libatk1.0-0t64 libgtk-3-0t64
           pip install nodriver beautifulsoup4 yt-dlp[curl-cffi]
 
       - name: Run Scraper
-        run: xvfb-run python chat.py
+        run: xvfb-run --auto-servernum python chat.py
 
       - name: Commit and Push
         run: |
