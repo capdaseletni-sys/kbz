@@ -1,36 +1,27 @@
-import undetected_chromedriver as uc
-import time
+import yt_dlp
 
-def scrape_with_stealth(username):
-    options = uc.ChromeOptions()
+def save_to_playlist(username):
+    ydl_opts = {
+        'quiet': True,
+        'no_warnings': True,
+        'extract_flat': True,
+    }
     
-    # REQUIRED for GitHub Actions / Linux Runners
-    options.add_argument('--headless') 
-    options.add_argument('--no-sandbox')
-    options.add_argument('--disable-dev-shm-usage')
+    url = f"https://chaturbate.com/{username}/"
     
-    try:
-        # Initialize the driver with these options
-        driver = uc.Chrome(options=options)
-        
-        # Navigate to the API endpoint
-        url = f"https://chaturbate.com/get_edge_hls_url_ajax/?room_slug={username}"
-        driver.get(url)
-        
-        # Cloudflare needs a moment to 'verify' the headless browser
-        time.sleep(10) 
-        
-        # Get the page source or body text
-        raw_text = driver.find_element('tag name', 'body').text
-        
-        if "url" in raw_text:
-            print(f"✅ Data Found: {raw_text}")
-        else:
-            print("❌ Still blocked or model is offline. Body content:", raw_text)
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+        try:
+            info = ydl.extract_info(url, download=False)
+            stream_url = info.get('url')
             
-        driver.quit()
-        
-    except Exception as e:
-        print(f"⚠️ Execution failed: {e}")
+            if stream_url:
+                with open("chat.m3u8", "w") as f:
+                    # M3U8 standard formatting
+                    f.write(f"#EXTM3U\n#EXTINF:-1, {username}\n{stream_url}")
+                print(f"✅ chat.m3u8 created successfully for {username}")
+            else:
+                print("❌ Stream URL not found.")
+        except Exception as e:
+            print(f"⚠️ yt-dlp error: {e}")
 
-scrape_with_stealth("your_target_username")
+save_to_playlist("username_here")
