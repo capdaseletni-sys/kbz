@@ -27,8 +27,11 @@ jobs:
         with:
           deno-version: v1.x
 
-      - name: Install yt-dlp and networking dependencies
-        run: pip install "yt-dlp[default,curl-cffi]"
+      - name: Install yt-dlp Nightly and curl-cffi
+        run: |
+          python -m pip install --upgrade pip
+          # Installing the --pre (pre-release) version is often necessary for 2026 bypasses
+          pip install -U --pre "yt-dlp[default,curl-cffi]"
 
       - name: Run Scraper
         # Replace 'your_target_username' with the actual model name
