@@ -36,7 +36,7 @@ jobs:
         run: |
           pip install nodriver beautifulsoup4 yt-dlp[curl-cffi]
 
-      - name: Run Scraper with Virtual Display
+      - name: Run Scraper
         run: xvfb-run python chat.py
 
       - name: Commit and Push
