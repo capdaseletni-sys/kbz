@@ -33,7 +33,7 @@ jobs:
 
       - name: Install chromedriver
         run: |
-          pip install undetected-chromedriver selenium
+          pip install yt-dlp
 
       - name: 🎯 Run scraping script
         run: python chat.py
