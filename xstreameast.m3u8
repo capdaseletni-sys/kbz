@@ -1,5 +1,9 @@
 #EXTM3U
-#EXTINF:-1 group-title="xstreameast", [NBA] Sacramento Kings vs Philadelphia 76ers (XSTRMEST)
-https://d37w970r8uelg1.cloudfront.net/status/n1/fronts.woff2?071737
-#EXTINF:-1 group-title="xstreameast", [NBA] Milwaukee Bucks vs Washington Wizards (XSTRMEST)
-https://d37w970r8uelg1.cloudfront.net/status/n2/fronts.woff2?c61970
+#EXTINF:-1 group-title="xstreameast", [NBA] Charlotte Hornets vs Dallas Mavericks (XSTRMEST)
+https://d37w970r8uelg1.cloudfront.net/status/n5/fronts.woff2?a87e4e
+#EXTINF:-1 group-title="xstreameast", [NBA] Brooklyn Nets vs Denver Nuggets (XSTRMEST)
+https://d37w970r8uelg1.cloudfront.net/status/n6/fronts.woff2?a80f66
+#EXTINF:-1 group-title="xstreameast", [NBA] Detroit Pistons vs Phoenix Suns (XSTRMEST)
+https://d37w970r8uelg1.cloudfront.net/status/n7/fronts.woff2?b5bae2
+#EXTINF:-1 group-title="xstreameast", [NBA] Oklahoma City Thunder vs Minnesota Timberwolves (XSTRMEST)
+https://d37w970r8uelg1.cloudfront.net/status/n8/fronts.woff2?e3e6e0
