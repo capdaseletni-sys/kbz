@@ -5,14 +5,15 @@ import yt_dlp
 from yt_dlp.networking.impersonate import ImpersonateTarget
 
 async def get_online_models(limit=20):
-    print("🌐 Launching stealth browser with mandatory sandbox bypass...")
+    print("🌐 Launching stealth browser with container-specific flags...")
     
-    # In 2026, 'sandbox=False' is a direct keyword in nodriver.start
-    # This is more effective than just passing it in browser_args
+    # Passing sandbox=False directly in start is the key for GitHub Runners
     browser = await uc.start(
         headless=True,
-        sandbox=False, # THIS IS THE CRITICAL FIX
+        sandbox=False, 
         browser_args=[
+            "--no-sandbox",
+            "--disable-setuid-sandbox",
             "--disable-dev-shm-usage",
             "--disable-gpu",
             "--no-first-run"
@@ -21,10 +22,10 @@ async def get_online_models(limit=20):
     
     try:
         page = await browser.get("https://chaturbate.com/")
-        print("⏳ Waiting for site to stabilize...")
+        print("⏳ Waiting for model list (bypassing Cloudflare)...")
         
-        # We wait for the main grid to load
-        await page.wait_for("ul.list", timeout=45)
+        # Increased timeout for slower cloud CPUs
+        await page.wait_for("ul.list", timeout=60)
         
         content = await page.get_content()
         soup = BeautifulSoup(content, "html.parser")
@@ -37,15 +38,13 @@ async def get_online_models(limit=20):
         
         return usernames
     finally:
-        # Prevent the 'NoneType' error by checking if browser exists before stopping
         if browser:
             await browser.stop()
 
 def create_playlist(usernames):
     playlist = "#EXTM3U\n"
     ydl_opts = {
-        'quiet': True, 
-        'extract_flat': True,
+        'quiet': True, 'extract_flat': True,
         'source_address': '0.0.0.0', 
         'impersonate': ImpersonateTarget.from_str('chrome'),
     }
@@ -63,15 +62,16 @@ def create_playlist(usernames):
 
     with open("chat.m3u8", "w") as f:
         f.write(playlist)
-    print(f"✅ chat.m3u8 saved with {len(usernames)} entries.")
+    print(f"✅ chat.m3u8 saved!")
 
 if __name__ == "__main__":
-    # Fix for DeprecationWarning and Python 3.12 logic
+    # Use the nodriver-provided loop helper to avoid 'Event loop is closed' errors
     try:
-        names = asyncio.run(get_online_models(20))
+        uc.loop().run_until_complete(get_online_models(20))
+        # Logic to call create_playlist needs the returned names
+        # Simplified for final run:
+        names = uc.loop().run_until_complete(get_online_models(20))
         if names:
             create_playlist(names)
-        else:
-            print("❌ No models found.")
     except Exception as e:
-        print(f"❌ Script failed: {e}")
+        print(f"❌ Final Script Attempt Failed: {e}")
