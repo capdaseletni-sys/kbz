@@ -1,27 +1,17 @@
 #EXTM3U
-#EXTINF:-1 group-title="Totalsports", [UEFA Europa League] Aston Villa vs Salzburg
-https://d37w970r8uelg1.cloudfront.net/status/1/fronts.woff2?4fd2de
-#EXTINF:-1 group-title="Totalsports", [UEFA Europa League] Nottingham Forest vs Ferencvaros
-https://d37w970r8uelg1.cloudfront.net/status/3/fronts.woff2?e5a5ff
-#EXTINF:-1 group-title="Totalsports", [UEFA Europa League] Panathinaikos vs Roma
-https://d37w970r8uelg1.cloudfront.net/status/4/fronts.woff2?29fc69
-#EXTINF:-1 group-title="Totalsports", [UEFA Europa League] Porto vs Rangers
-https://d37w970r8uelg1.cloudfront.net/status/2/fronts.woff2?4df965
-#EXTINF:-1 group-title="Totalsports", [UEFA Europa League] Real Betis vs Feyenoord
-https://d37w970r8uelg1.cloudfront.net/status/5/fronts.woff2?929a6c
 #EXTINF:-1 group-title="Totalsports", [NBA] PHI vs SAC
-https://d37w970r8uelg1.cloudfront.net/status/n1/fronts.woff2?4d2445
+https://d37w970r8uelg1.cloudfront.net/status/n1/fronts.woff2?0d891d
 #EXTINF:-1 group-title="Totalsports", [NBA] WAS vs MIL
-https://d37w970r8uelg1.cloudfront.net/status/n2/fronts.woff2?e1df82
+https://d37w970r8uelg1.cloudfront.net/status/n2/fronts.woff2?d5330e
 #EXTINF:-1 group-title="Totalsports", [NBA] ATL vs HOU
-https://d37w970r8uelg1.cloudfront.net/status/n3/fronts.woff2?91348f
+https://d37w970r8uelg1.cloudfront.net/status/n3/fronts.woff2?cf9480
 #EXTINF:-1 group-title="Totalsports", [NBA] DAL vs CHA
-https://d37w970r8uelg1.cloudfront.net/status/n5/fronts.woff2?96cf55
+https://d37w970r8uelg1.cloudfront.net/status/n5/fronts.woff2?406fcc
 #EXTINF:-1 group-title="Totalsports", [NBA] DEN vs BKN
-https://d37w970r8uelg1.cloudfront.net/status/n6/fronts.woff2?ab2fe5
+https://d37w970r8uelg1.cloudfront.net/status/n6/fronts.woff2?ecb8da
 #EXTINF:-1 group-title="Totalsports", [NBA] PHX vs DET
-https://d37w970r8uelg1.cloudfront.net/status/n7/fronts.woff2?89588c
+https://d37w970r8uelg1.cloudfront.net/status/n7/fronts.woff2?24ef9d
 #EXTINF:-1 group-title="Totalsports", [NBA] MIN vs OKC
-https://d37w970r8uelg1.cloudfront.net/status/n8/fronts.woff2?0c594a
+https://d37w970r8uelg1.cloudfront.net/status/n8/fronts.woff2?9e31eb
 #EXTINF:-1 group-title="Totalsports", [NBA] CHI vs MIA
-https://d37w970r8uelg1.cloudfront.net/status/n4/fronts.woff2?4de5ee
+https://d37w970r8uelg1.cloudfront.net/status/n4/fronts.woff2?16dd6d
