@@ -1,19 +1,38 @@
-from playwright.sync_api import sync_playwright
+import requests
 
-def scrape_chaturbate():
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
-        page.goto("https://chaturbate.com/")
+def save_m3u8_to_file(username, filename="chat.m3u8"):
+    # Chaturbate internal API endpoint
+    url = "https://chaturbate.com/get_edge_hls_url_ajax/"
+    
+    headers = {
+        "X-Requested-With": "XMLHttpRequest",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    }
+    
+    data = {"room_slug": username}
+    
+    try:
+        response = requests.post(url, headers=headers, data=data)
+        response.raise_for_status()
+        json_data = response.json()
         
-        # Wait for the model cards to load
-        page.wait_for_selector('.room_list')
-        
-        # Extract names and viewer counts
-        models = page.query_selector_all('.room_list li')
-        for model in models:
-            name = model.query_selector('.title a').inner_text()
-            viewers = model.query_selector('.viewers').inner_text()
-            print(f"Model: {name.strip()} | Viewers: {viewers}")
+        if json_data.get('success'):
+            m3u8_url = json_data.get('url')
             
-        browser.close()
+            # Creating the content for a standard M3U playlist file
+            m3u_content = f"#EXTM3U\n#EXT-X-STREAM-INF:BANDWIDTH=1280000\n{m3u8_url}"
+            
+            with open(filename, "w", encoding="utf-8") as f:
+                f.write(m3u_content)
+                
+            print(f"✅ Success! Playlist saved to {filename}")
+            print(f"🔗 Stream URL: {m3u8_url}")
+        else:
+            print(f"❌ Error: {json_data.get('room_status', 'Unknown error')}")
+            
+    except Exception as e:
+        print(f"⚠️ Failed to connect: {e}")
+
+# Replace 'username' with the actual model name
+save_m3u8_to_file("username_here")
