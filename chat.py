@@ -1,60 +1,58 @@
-import yt_dlp
-import requests
+import nodriver as uc
+import asyncio
 from bs4 import BeautifulSoup
-import sys
+import yt_dlp
 from yt_dlp.networking.impersonate import ImpersonateTarget
 
-def get_online_usernames(limit=10):
-    print(f"🕵️ Scanning Chaturbate for the first {limit} online models...")
+async def get_online_models(limit=20):
+    print("🌐 Launching stealth browser to bypass Cloudflare...")
+    browser = await uc.start()
+    page = await browser.get("https://chaturbate.com/")
+    
+    # Wait for the model list to actually appear (bypassing the challenge)
+    await page.wait_for("ul.list", timeout=30)
+    
+    # Get the rendered HTML
+    content = await page.get_content()
+    soup = BeautifulSoup(content, "html.parser")
+    
     usernames = []
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
-    
-    try:
-        # We scrape the main page to get names
-        res = requests.get("https://chaturbate.com/", headers=headers, timeout=15)
-        soup = BeautifulSoup(res.text, "html.parser")
-        
-        # Look for the model names in the title links
-        for a in soup.select('ul.list li div.title a'):
-            name = a.get('href').strip('/')
-            if name and len(usernames) < limit:
-                usernames.append(name)
-    except Exception as e:
-        print(f"⚠️ Failed to scrape model list: {e}")
-    
+    for a in soup.select('ul.list li div.title a'):
+        name = a.get('href').strip('/')
+        if name and len(usernames) < limit:
+            usernames.append(name)
+            
+    await browser.stop()
     return usernames
 
-def create_mega_playlist(usernames):
-    playlist_content = "#EXTM3U\n"
+def create_playlist(usernames):
+    playlist = "#EXTM3U\n"
     ydl_opts = {
-        'quiet': True,
-        'no_warnings': True,
-        'extract_flat': True,
-        'source_address': '0.0.0.0', 
+        'quiet': True, 'extract_flat': True,
+        'source_address': '0.0.0.0',
         'impersonate': ImpersonateTarget.from_str('chrome'),
     }
-
+    
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         for name in usernames:
             try:
                 print(f"🔗 Extracting: {name}")
                 info = ydl.extract_info(f"https://chaturbate.com/{name}/", download=False)
-                stream_url = info.get('url')
-                if stream_url:
-                    playlist_content += f"#EXTINF:-1, {name}\n{stream_url}\n"
-            except Exception:
-                print(f"⏩ Skipping {name} (Private or blocked)")
+                url = info.get('url')
+                if url:
+                    playlist += f"#EXTINF:-1, {name}\n{url}\n"
+            except:
                 continue
 
     with open("chat.m3u8", "w") as f:
-        f.write(playlist_content)
-    print(f"✅ Playlist saved with {len(usernames)} streams.")
+        f.write(playlist)
+    print("✅ Playlist Updated!")
 
 if __name__ == "__main__":
-    # 1. Get list of online names
-    names = get_online_usernames(limit=20) # Limit to 20 to avoid GitHub time-outs
-    # 2. Convert names to m3u8 links
+    # nodriver requires an event loop
+    loop = asyncio.get_event_loop()
+    names = loop.run_until_complete(get_online_models(20))
     if names:
-        create_mega_playlist(names)
+        create_playlist(names)
     else:
-        print("❌ No models found.")
+        print("❌ Could not bypass verification. Try using a proxy.")
