@@ -3,18 +3,34 @@ import time
 
 def scrape_with_stealth(username):
     options = uc.ChromeOptions()
-    # options.add_argument('--headless') # Headless often triggers 403; keep it False first
     
-    driver = uc.Chrome(options=options)
-    driver.get(f"https://chaturbate.com/get_edge_hls_url_ajax/?room_slug={username}")
+    # REQUIRED for GitHub Actions / Linux Runners
+    options.add_argument('--headless') 
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
     
-    # Wait for Cloudflare to finish its 'Checking your browser' dance
-    time.sleep(5) 
-    
-    # Extract the JSON response from the page body
-    raw_text = driver.find_element('tag name', 'body').text
-    print(f"Server Response: {raw_text}")
-    
-    driver.quit()
+    try:
+        # Initialize the driver with these options
+        driver = uc.Chrome(options=options)
+        
+        # Navigate to the API endpoint
+        url = f"https://chaturbate.com/get_edge_hls_url_ajax/?room_slug={username}"
+        driver.get(url)
+        
+        # Cloudflare needs a moment to 'verify' the headless browser
+        time.sleep(10) 
+        
+        # Get the page source or body text
+        raw_text = driver.find_element('tag name', 'body').text
+        
+        if "url" in raw_text:
+            print(f"✅ Data Found: {raw_text}")
+        else:
+            print("❌ Still blocked or model is offline. Body content:", raw_text)
+            
+        driver.quit()
+        
+    except Exception as e:
+        print(f"⚠️ Execution failed: {e}")
 
-scrape_with_stealth("username_here")
+scrape_with_stealth("your_target_username")
