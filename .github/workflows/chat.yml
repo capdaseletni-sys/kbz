@@ -13,30 +13,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install Deno
-        uses: denoland/setup-deno@v1
-        with:
-          deno-version: v1.x
-
-      - name: Install Latest Nightly yt-dlp
+      - name: Install Linux dependencies
         run: |
-          pip install -U --pre "yt-dlp[default,curl-cffi]"
+          sudo apt-get update
+          sudo apt-get install -y libgbm-dev wget unzip xvfb libnss3 libatk-bridge2.0-0 libcups2 libdrm2 libxcomposite1 libxdamage1 libxrandr2 libasound2
 
-      - name: Install Stealth Dependencies
+      - name: Install Python dependencies
         run: |
           pip install nodriver beautifulsoup4 yt-dlp[curl-cffi]
-          
 
-      - name: Run Scraper
-        run: python chat.py "your_target_username"
-        # Optional: environment variable for proxy
-        # env:
-        #   PROXY_URL: ${{ secrets.PROXY_URL }}
+      - name: Run Scraper with Virtual Display
+        run: xvfb-run python chat.py
 
       - name: Commit and Push
         run: |
