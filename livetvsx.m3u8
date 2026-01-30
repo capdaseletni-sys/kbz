@@ -1,1 +1,7 @@
-
+#EXTM3U
+#EXTINF:-1 group-title="livetvsx", Sarmiento - Banfield
+https://a73.azplay23.me/hls/streama246307/index.m3u8?cst=a53f864e70e92b2a059197f3ec51a346
+#EXTINF:-1 group-title="livetvsx", Botafogo-RJ - Cruzeiro-MG
+https://a74.azplay23.me/hls/streama242325/index.m3u8?cst=876ac833a41c5c0495256d77ede1754a
+#EXTINF:-1 group-title="livetvsx", America de Cali - Once Caldas
+https://a80.azplay23.me/hls/streama246318/index.m3u8?cst=890732217b50568a9d8408bc0d86fcf6
