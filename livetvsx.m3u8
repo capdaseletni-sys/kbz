@@ -1,7 +1,7 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Sibirskie Snaypery - AKM Novomoskovsk
-https://a73.azplay23.me/hls/streama245251/index.m3u8?cst=7252de99cf4826a3ff6e20523630ddd6
-#EXTINF:-1 group-title="livetvsx", Europa League Draw
-https://a78.azplay23.me/hls/streama245195/index.m3u8?cst=c0596e08be2bc61f11f02db8387ec1b4
-#EXTINF:-1 group-title="livetvsx", Champions League Draw
-https://a73.azplay23.me/hls/streama245195/index.m3u8?cst=b56b66b6803130b725f8dd91c73a5415
+#EXTINF:-1 group-title="livetvsx", Gabala - Imisli
+https://a80.azplay23.me/hls/streama245976/index.m3u8?cst=ea9af88caed4599ab30ccae5b850db4a
+#EXTINF:-1 group-title="livetvsx", Stalnye Lisy - Avto
+https://a80.azplay23.me/hls/streama245251/index.m3u8?cst=339b988ea6ab362d6786a4146fb7e4b5
+#EXTINF:-1 group-title="livetvsx", Al-Taawoun - Al-Okhdood
+https://a85.azplay23.me/hls/streama246017/index.m3u8?cst=46a52476506fdf9901b258e4bf160541
