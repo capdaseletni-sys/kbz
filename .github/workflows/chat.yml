@@ -31,6 +31,10 @@ jobs:
           pip install feedparser httpx playwright
           playwright install chromium
 
+      - name: Install chromedriver
+        run: |
+          pip install undetected-chromedriver selenium
+
       - name: 🎯 Run scraping script
         run: python chat.py
 
