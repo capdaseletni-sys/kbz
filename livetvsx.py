@@ -1,254 +1,138 @@
 import asyncio
+import json
+import logging
+from datetime import datetime, timedelta, timezone
 from functools import partial
+from pathlib import Path
 
 import feedparser
-from playwright.async_api import Browser, Page
+import httpx
+from playwright.async_api import Browser, Page, async_playwright
 
-from .utils import Cache, Time, get_logger, leagues, network
-
-log = get_logger(__name__)
-
-urls: dict[str, dict[str, str | float]] = {}
+# Setup logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+log = logging.getLogger("LIVETVSX")
 
 TAG = "LIVETVSX"
-
-CACHE_FILE = Cache(TAG, exp=10_800)
-
-XML_CACHE = Cache(f"{TAG}-xml", exp=28_000)
-
+CACHE_PATH = Path("cache_urls.json")
 BASE_URL = "https://cdn.livetv861.me/rss/upcoming_en.xml"
+VALID_SPORTS = {"Football", "Basketball", "Ice Hockey"}
 
-VALID_SPORTS = {
-    "Football",
-    "Basketball",
-    "Ice Hockey",
-}
+def load_cache():
+    if CACHE_PATH.exists():
+        with open(CACHE_PATH, "r") as f:
+            return json.load(f)
+    return {}
 
+def save_cache(data):
+    with open(CACHE_PATH, "w") as f:
+        json.dump(data, f, indent=4)
 
-async def process_event(
-    url: str,
-    url_num: int,
-    page: Page,
-) -> str | None:
+async def process_event(url: str, page: Page) -> str | None:
+    captured_url = []
+    
+    # Listen for the manifest file in the network traffic
+    async def intercept_request(request):
+        if ".m3u8" in request.url and "index" in request.url:
+            captured_url.append(request.url)
 
-    captured: list[str] = []
-
-    got_one = asyncio.Event()
-
-    handler = partial(
-        network.capture_req,
-        captured=captured,
-        got_one=got_one,
-    )
-
-    page.on("request", handler)
+    page.on("request", intercept_request)
 
     try:
-        await page.goto(
-            url,
-            wait_until="domcontentloaded",
-            timeout=15_000,
-        )
+        await page.goto(url, wait_until="domcontentloaded", timeout=15000)
+        await asyncio.sleep(2)
 
-        await page.wait_for_timeout(1_500)
-
+        # Select valid stream links
         buttons = await page.query_selector_all(".lnktbj a[href*='webplayer']")
-
         labels = await page.eval_on_selector_all(
             ".lnktyt span",
             "elements => elements.map(el => el.textContent.trim().toLowerCase())",
         )
 
+        target_href = None
         for btn, label in zip(buttons, labels):
-            if label in ["web", "youtube"]:
+            if any(x in label for x in ["web", "youtube", "browser"]):
                 continue
+            target_href = await btn.get_attribute("href")
+            if target_href: break
 
-            if not (href := await btn.get_attribute("href")):
-                continue
+        if not target_href:
+            return None
 
-            break
+        final_url = target_href if target_href.startswith("http") else f"https:{target_href}"
+        await page.goto(final_url, wait_until="domcontentloaded", timeout=10000)
 
-        else:
-            log.warning(f"URL {url_num}) No valid sources found.")
-            return
-
-        href = href if href.startswith("http") else f"https:{href}"
-
-        await page.goto(
-            href,
-            wait_until="domcontentloaded",
-            timeout=5_000,
-        )
-
-        wait_task = asyncio.create_task(got_one.wait())
-
-        try:
-            await asyncio.wait_for(wait_task, timeout=6)
-        except asyncio.TimeoutError:
-            log.warning(f"URL {url_num}) Timed out waiting for M3U8.")
-            return
-
-        finally:
-            if not wait_task.done():
-                wait_task.cancel()
-
-                try:
-                    await wait_task
-                except asyncio.CancelledError:
-                    pass
-
-        if captured:
-            log.info(f"URL {url_num}) Captured M3U8")
-            return captured[0]
-
-        log.warning(f"URL {url_num}) No M3U8 captured after waiting.")
-        return
+        # Polling for the captured M3U8
+        for _ in range(20): 
+            if captured_url:
+                return captured_url[0]
+            await asyncio.sleep(0.5)
 
     except Exception as e:
-        log.warning(f"URL {url_num}) Exception while processing: {e}")
-        return
+        log.debug(f"Process error: {e}")
+    return None
 
-    finally:
-        page.remove_listener("request", handler)
+async def scrape(browser: Browser):
+    cached_data = load_cache()
+    
+    # Fetch RSS Feed
+    async with httpx.AsyncClient() as client:
+        r = await client.get(BASE_URL)
+        feed = feedparser.parse(r.text)
 
+    now = datetime.now(timezone.utc)
+    start_window = (now - timedelta(hours=1)).timestamp()
+    end_window = (now + timedelta(minutes=10)).timestamp()
 
-async def refresh_xml_cache(now_ts: float) -> dict[str, dict[str, str | float]]:
-    log.info("Refreshing XML cache")
-
-    events = {}
-
-    if not (xml_data := await network.request(BASE_URL, log=log)):
-        return events
-
-    feed = feedparser.parse(xml_data.content)
+    current_playlist_entries = []
 
     for entry in feed.entries:
         title = entry.get("title")
-
         link = entry.get("link")
-
-        sport_sum = entry.get("summary")
-
-        date = entry.get("published")
-
-        if not all([title, link, sport_sum, date]):
-            continue
-
-        sprt = sport_sum.split(".", 1)
-
-        sport, league = sprt[0], "".join(sprt[1:]).strip()
-
+        summary = entry.get("summary", "")
+        
+        # Parse sport and check validity
+        parts = summary.split(".", 1)
+        sport = parts[0]
         if sport not in VALID_SPORTS:
             continue
 
-        event_dt = Time.from_str(date)
+        # Parse time
+        dt = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
+        event_ts = dt.timestamp()
 
-        key = f"[{sport} - {league}] {title} ({TAG})"
-
-        events[key] = {
-            "sport": sport,
-            "league": league,
-            "event": title,
-            "link": link,
-            "event_ts": event_dt.timestamp(),
-            "timestamp": now_ts,
-        }
-
-    return events
-
-
-async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
-    now = Time.clean(Time.now())
-
-    if not (events := XML_CACHE.load()):
-        events = await refresh_xml_cache(now.timestamp())
-
-        XML_CACHE.write(events)
-
-    live = []
-
-    start_ts = now.delta(hours=-1).timestamp()
-    end_ts = now.delta(minutes=5).timestamp()
-
-    for k, v in events.items():
-        if k in cached_keys:
+        if not (start_window <= event_ts <= end_window):
             continue
 
-        if not start_ts <= v["event_ts"] <= end_ts:
-            continue
+        # Check cache first
+        if link in cached_data and (now.timestamp() - cached_data[link]['cached_at'] < 10800):
+            m3u8_url = cached_data[link]['url']
+        else:
+            log.info(f"Scraping: {title}")
+            page = await browser.new_page()
+            m3u8_url = await process_event(link, page)
+            await page.close()
+            
+            if m3u8_url:
+                cached_data[link] = {"url": m3u8_url, "cached_at": now.timestamp()}
 
-        live.append({**v})
+        if m3u8_url:
+            current_playlist_entries.append(f'#EXTINF:-1 group-title="livetvsx", {title}\n{m3u8_url}')
 
-    return live
+    # Save Cache
+    save_cache(cached_data)
 
+    # Save Playlist to livetvsx.m3u8
+    with open("livetvsx.m3u8", "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n" + "\n".join(current_playlist_entries))
+    
+    log.info(f"Playlist updated: livetvsx.m3u8 ({len(current_playlist_entries)} streams)")
 
-async def scrape(browser: Browser) -> None:
-    cached_urls = CACHE_FILE.load()
+async def main():
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        await scrape(browser)
+        await browser.close()
 
-    valid_urls = {k: v for k, v in cached_urls.items() if v["url"]}
-
-    valid_count = cached_count = len(valid_urls)
-
-    urls.update(valid_urls)
-
-    log.info(f"Loaded {cached_count} event(s) from cache")
-
-    log.info('Scraping from "https://livetv.sx/enx/"')
-
-    events = await get_events(cached_urls.keys())
-
-    log.info(f"Processing {len(events)} new URL(s)")
-
-    if events:
-        async with network.event_context(browser, ignore_https=True) as context:
-            for i, ev in enumerate(events, start=1):
-                async with network.event_page(context) as page:
-                    handler = partial(
-                        process_event,
-                        url=ev["link"],
-                        url_num=i,
-                        page=page,
-                    )
-
-                    url = await network.safe_process(
-                        handler,
-                        url_num=i,
-                        semaphore=network.PW_S,
-                        log=log,
-                    )
-
-                    sport, league, event, ts, link = (
-                        ev["sport"],
-                        ev["league"],
-                        ev["event"],
-                        ev["timestamp"],
-                        ev["link"],
-                    )
-
-                    key = f"[{sport} - {league}] {event} ({TAG})"
-
-                    tvg_id, logo = leagues.get_tvg_info(sport, event)
-
-                    entry = {
-                        "url": url,
-                        "logo": logo,
-                        "base": "https://livetv.sx/enx/",
-                        "timestamp": ts,
-                        "id": tvg_id or "Live.Event.us",
-                        "link": link,
-                    }
-
-                    cached_urls[key] = entry
-
-                    if url:
-                        valid_count += 1
-
-                        urls[key] = entry
-
-    if new_count := valid_count - cached_count:
-        log.info(f"Collected and cached {new_count} new event(s)")
-
-    else:
-        log.info("No new events found")
-
-    CACHE_FILE.write(cached_urls)
+if __name__ == "__main__":
+    asyncio.run(main())
