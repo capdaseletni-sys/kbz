@@ -1,3 +1,25 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Buyukcekmece - Besiktas
-https://a85.azplay23.me/hls/streama245815/index.m3u8?cst=0b38689665c40119222e2f98f32786b6
+#EXTINF:-1 group-title="livetvsx", Metallurg-Zhlobin - Lokomotiv Orsha
+https://a80.azplay23.me/hls/streama245245/index.m3u8?cst=1e6d361b690c999e3fcd6997b39d99cb
+#EXTINF:-1 group-title="livetvsx", Kunlun RS - Sochi
+https://a80.azplay23.me/hls/streama245251/index.m3u8?cst=593ba9c6d73b80808eddc8f44883ef5a
+#EXTINF:-1 group-title="livetvsx", Spartak M - SKA
+https://a85.azplay23.me/hls/streama242757/index.m3u8?cst=ef6a6f62bae0a3a865296d639ba7a8b5
+#EXTINF:-1 group-title="livetvsx", Tappara - Saipa
+https://a78.azplay23.me/hls/streama245794/index.m3u8?cst=1dba3fd31516a527a3144b42c6e5a7fb
+#EXTINF:-1 group-title="livetvsx", Istra - Lokomotiva Zagreb
+https://a75.azplay23.me/hls/streama245962/index.m3u8?cst=71f6271ede6742ac6b2ec41f53d58fb5
+#EXTINF:-1 group-title="livetvsx", Istanbulspor - Hatayspor
+https://a74.azplay23.me/hls/streama245637/index.m3u8?cst=381b291de10c5ad6cb9266d449010407
+#EXTINF:-1 group-title="livetvsx", Kasimpasa - Samsunspor
+https://a85.azplay23.me/hls/streama247208/index.m3u8?cst=afb15695f2ac47e6ffdb66b92587d853
+#EXTINF:-1 group-title="livetvsx", Antalyaspor - Trabzonspor
+https://a75.azplay23.me/hls/streama247209/index.m3u8?cst=c27bdd6cb46b4d724182180ebee17d52
+#EXTINF:-1 group-title="livetvsx", Simulcast
+https://a78.azplay23.me/hls/streama245212/index.m3u8?cst=73d22203956a8012338d98ecb3ad6677
+#EXTINF:-1 group-title="livetvsx", Al-Kholood - Al Nassr
+https://a74.azplay23.me/hls/streama245738/index.m3u8?cst=6b51f3155bd1993644f53c08d243f70c
+#EXTINF:-1 group-title="livetvsx", Nuremberg - Preussen Muenster
+https://a73.azplay23.me/hls/streama243128/index.m3u8?cst=c1caf465697fd866c952e7e661ae806a
+#EXTINF:-1 group-title="livetvsx", Magdeburg - Hanover 96
+https://a85.azplay23.me/hls/streama245807/index.m3u8?cst=f9ffeb5f831cfcfebd39de46135b5437
