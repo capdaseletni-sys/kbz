@@ -1,1 +1,5 @@
 #EXTM3U
+#EXTINF:-1 group-title="livetvsx", Karvan - Sumqayit
+https://a74.azplay23.me/hls/streama245976/index.m3u8?cst=e5cb9bac276050bf45fd717ed842017e
+#EXTINF:-1 group-title="livetvsx", Sibirskie Snaypery - AKM Novomoskovsk
+https://a80.azplay23.me/hls/streama245251/index.m3u8?cst=a3a16fcd9cb85ba9ad27142b8f1cfc90
