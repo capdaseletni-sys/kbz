@@ -1,39 +1,50 @@
 import yt_dlp
-import sys
-from yt_dlp.networking.impersonate import ImpersonateTarget
+import requests
+from bs4 import BeautifulSoup
+import time
 
-def get_chaturbate_m3u8(username, proxy=None):
+def get_online_usernames(pages=2):
+    print(f"🕵️ Searching for online models across {pages} pages...")
+    usernames = []
+    headers = {"User-Agent": "Mozilla/5.0"}
+    
+    for i in range(1, pages + 1):
+        try:
+            url = f"https://chaturbate.com/?page={i}"
+            res = requests.get(url, headers=headers, timeout=10)
+            soup = BeautifulSoup(res.text, "html.parser")
+            # Find the title links which contain model names
+            links = soup.select('ul.list li div.title a')
+            for a in links:
+                name = a.get('href').replace('/', '')
+                if name: usernames.append(name)
+        except Exception as e:
+            print(f"⚠️ Page {i} error: {e}")
+    return list(set(usernames))
+
+def fetch_streams(usernames):
+    playlist_content = "#EXTM3U\n"
     ydl_opts = {
-        'quiet': True,
-        'no_warnings': True,
-        'extract_flat': True,
-        'source_address': '0.0.0.0', # Force IPv4
-        'impersonate': ImpersonateTarget.from_str('chrome'),
-        # Adding a proxy is the only way to escape GitHub's banned IP range
-        'proxy': proxy if proxy else None, 
-        'http_headers': {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
-        }
+        'quiet': True, 'no_warnings': True, 'extract_flat': True,
+        'source_address': '0.0.0.0', 'impersonate': 'chrome',
     }
     
-    url = f"https://chaturbate.com/{username}/"
-    
-    try:
-        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            print(f"🔍 Bypassing Cloudflare for {username} via Proxy: {bool(proxy)}...")
-            info = ydl.extract_info(url, download=False)
-            m3u8_url = info.get('url')
-            
-            if m3u8_url:
-                with open("chat.m3u8", "w") as f:
-                    f.write(f"#EXTM3U\n#EXTINF:-1, {username}\n{m3u8_url}")
-                print(f"✅ Success! Saved to chat.m3u8")
-            else:
-                print("❌ Link not found. Is the model offline?")
-    except Exception as e:
-        print(f"⚠️ Bypass Failed: {e}")
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+        for name in usernames:
+            try:
+                print(f"🔗 Getting link for: {name}")
+                info = ydl.extract_info(f"https://chaturbate.com/{name}/", download=False)
+                stream_url = info.get('url')
+                if stream_url:
+                    playlist_content += f"#EXTINF:-1, {name}\n{stream_url}\n"
+            except:
+                continue # Skip models that trigger 403 or are offline
+            time.sleep(1) # Be gentle to avoid IP bans
+
+    with open("all_online.m3u8", "w") as f:
+        f.write(playlist_content)
+    print("✅ Created all_online.m3u8 with available streams.")
 
 if __name__ == "__main__":
-    target_user = sys.argv[1] if len(sys.argv) > 1 else "target_username"
-    # To use a proxy: get_chaturbate_m3u8(target_user, "http://user:pass@host:port")
-    get_chaturbate_m3u8(target_user)
+    online_names = get_online_usernames(2) # Scrape ~120 models
+    fetch_streams(online_names)
