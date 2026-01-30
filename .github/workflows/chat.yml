@@ -16,7 +16,21 @@ jobs:
       - name: Install Linux dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libgbm-dev wget unzip xvfb libnss3 libatk-bridge2.0-0 libcups2 libdrm2 libxcomposite1 libxdamage1 libxrandr2 libasound2
+          sudo apt-get install -y \
+            libgbm-dev \
+            wget \
+            unzip \
+            xvfb \
+            libnss3 \
+            libatk-bridge2.0-0 \
+            libasound2t64 \
+            libcups2 \
+            libdrm2 \
+            libxcomposite1 \
+            libxdamage1 \
+            libxrandr2 \
+            libatk1.0-0t64 \
+            libgtk-3-0t64
 
       - name: Install Python dependencies
         run: |
