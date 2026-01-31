@@ -1,9 +1,3 @@
 #EXTM3U
-#EXTINF:-1 group-title="xstreameast", [NBA] Cleveland Cavaliers vs Phoenix Suns (XSTRMEST)
-https://d37w970r8uelg1.cloudfront.net/status/n6/fronts.woff2?70938f
-#EXTINF:-1 group-title="xstreameast", [NBA] LA Clippers vs Denver Nuggets (XSTRMEST)
-https://d37w970r8uelg1.cloudfront.net/status/n7/fronts.woff2?6eea74
-#EXTINF:-1 group-title="xstreameast", [NBA] Brooklyn Nets vs Utah Jazz (XSTRMEST)
-https://d37w970r8uelg1.cloudfront.net/status/n8/fronts.woff2?5a9623
 #EXTINF:-1 group-title="xstreameast", [NBA] Detroit Pistons vs Golden State Warriors (XSTRMEST)
-https://d37w970r8uelg1.cloudfront.net/status/n9/fronts.woff2?ebbf27
+https://d37w970r8uelg1.cloudfront.net/status/n9/fronts.woff2?eaebfa
