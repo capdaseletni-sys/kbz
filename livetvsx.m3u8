@@ -1,13 +1,11 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Kaiserslautern - Elversberg
-https://a27.azplay23.me/hls/streama247295/index.m3u8?cst=9c1630f5d46311d4c869bd10db9b6097
-#EXTINF:-1 group-title="livetvsx", Cagliari - Hellas Verona
-https://a50.azplay23.me/hls/streama242757/index.m3u8?cst=088ec654990d9a88bb008cc506472f3f
 #EXTINF:-1 group-title="livetvsx", Dundee United - Hearts
-https://a108.azplay23.me/hls/streama247504/index.m3u8?cst=5bd72cc9963022ca23d6985423d9115e
+https://a49.azplay23.me/hls/streama245623/index.m3u8?cst=ad6d842218492ddd6a08be78b05b8311
 #EXTINF:-1 group-title="livetvsx", Liverpool - Newcastle United
-https://a49.azplay23.me/hls/streama233080/index.m3u8?cst=bcecf6530304b5493f6d196e71ff3312
+https://a49.azplay23.me/hls/streama242914/index.m3u8?cst=e2e6986d84346541ad753d365bd8435a
 #EXTINF:-1 group-title="livetvsx", Elche - Barcelona
-https://a113.azplay23.me/hls/streama245220/index.m3u8?cst=4b987adedc6f708ca536a427ac87d579
+https://a49.azplay23.me/hls/streama245220/index.m3u8?cst=93d12f86bde4049736a7b62163fe7c52
 #EXTINF:-1 group-title="livetvsx", Sparta Rotterdam - Groningen
-https://a113.azplay23.me/hls/streama241822/index.m3u8?cst=e27a87fc3b8f7c403d0cc8da32429137
+https://a93.azplay23.me/hls/streama241822/index.m3u8?cst=a860b85c5b5904af5dc260217caa7d5b
+#EXTINF:-1 group-title="livetvsx", AS Monaco - Rennes
+https://a106.azplay23.me/hls/streama242327/index.m3u8?cst=964800d802230d242e020deae8d95426
