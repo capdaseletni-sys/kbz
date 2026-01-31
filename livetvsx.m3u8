@@ -1,5 +1,15 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Perth Glory - Auckland
-https://a110.azplay23.me/hls/streama245738/index.m3u8?cst=b5adfae43c06b7e6158e297b4b20540e
 #EXTINF:-1 group-title="livetvsx", Leverkusen (W) -  Nuremberg (W)
-https://a94.azplay23.me/hls/streama245220/index.m3u8?cst=01a1e1b45765b44b5bcb6014a9646e08
+https://a107.azplay23.me/hls/streama245220/index.m3u8?cst=683964f2b4f3136a405b5be07c7a96ca
+#EXTINF:-1 group-title="livetvsx", Simulcast
+https://a49.azplay23.me/hls/streama246023/index.m3u8?cst=d44d9be05016a73c46cb8bc90c76445c
+#EXTINF:-1 group-title="livetvsx", Radnicki 1923 - Novi Beograd
+https://a51.azplay23.me/hls/streama245948/index.m3u8?cst=4fb99e3e28dc6e6fc939d7ddd9ddcd31
+#EXTINF:-1 group-title="livetvsx", Napredak - Javor
+https://a107.azplay23.me/hls/streama245815/index.m3u8?cst=1445240dd4ff05b674b0d4bf469d374f
+#EXTINF:-1 group-title="livetvsx", Holstein Kiel - Greuther Fuerth
+https://a49.azplay23.me/hls/streama247379/index.m3u8?cst=1fccca486d5adccb1bc7d9151441e779
+#EXTINF:-1 group-title="livetvsx", Braunschweig - Karlsruhe
+https://a108.azplay23.me/hls/streama247380/index.m3u8?cst=4213b2b221fddcfc0b1f5f0046382e19
+#EXTINF:-1 group-title="livetvsx", Bochum - Schalke 04
+https://a112.azplay23.me/hls/streama247381/index.m3u8?cst=330b2f2062821a81320a8d658301c9bc
