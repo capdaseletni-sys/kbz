@@ -1,15 +1,1 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Napoli - Fiorentina
-https://a90.azplay23.me/hls/streama242757/index.m3u8?cst=5abeae2828fe83f3eed027d456127f1e
-#EXTINF:-1 group-title="livetvsx", Besiktas - Konyaspor
-https://a105.azplay23.me/hls/streama241802/index.m3u8?cst=ed62c7d94fe1a93ee7ec9cd396b8c75f
-#EXTINF:-1 group-title="livetvsx", Malmoe - Djurgarden
-https://a49.azplay23.me/hls/streama245623/index.m3u8?cst=5969c432a44aa79d580aaae9bed1f704
-#EXTINF:-1 group-title="livetvsx", Levante - Atletico Madrid
-https://a49.azplay23.me/hls/streama245220/index.m3u8?cst=f5d6d1b0f750b65f0dff3e411c7b5e06
-#EXTINF:-1 group-title="livetvsx", Chelsea - West Ham United
-https://a59.azplay23.me/hls/streama247498/index.m3u8?cst=e61dea276f80fa303944323783c99d0b
-#EXTINF:-1 group-title="livetvsx", Hamburg - Bayern Munich
-https://a51.azplay23.me/hls/streama247510/index.m3u8?cst=d1fedf8681f47eb5f10538fb2b78f9ff
-#EXTINF:-1 group-title="livetvsx", Lorient - Nantes
-https://a49.azplay23.me/hls/streama242327/index.m3u8?cst=d099b6bafb6617002c1045acdc7869c0
