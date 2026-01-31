@@ -1,1 +1,5 @@
 #EXTM3U
+#EXTINF:-1 group-title="livetvsx", Sydney - Western Sydney
+https://a59.azplay23.me/hls/streama245738/index.m3u8?cst=cf0de26efaf54c7b21e8d3c5e25d1000
+#EXTINF:-1 group-title="livetvsx", The Hawks - Perth Wildcats
+https://a52.azplay23.me/hls/streama245324/index.m3u8?cst=dfe4ebc630c09e465d2630a26ab2bcb2
