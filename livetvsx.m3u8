@@ -1,13 +1,7 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Leeds Utd - Arsenal
-https://a110.azplay23.me/hls/streama247499/index.m3u8?cst=81b113b26ac16e79818a8c313f590f5f
-#EXTINF:-1 group-title="livetvsx", Brighton - Everton
-https://a106.azplay23.me/hls/streama237399/index.m3u8?cst=258443e28ad0a5d0eee39b3d1c9f8241
-#EXTINF:-1 group-title="livetvsx", Osasuna - Villarreal
-https://a112.azplay23.me/hls/streama245220/index.m3u8?cst=b70fa10236733b6e99cff41d4915809c
-#EXTINF:-1 group-title="livetvsx", AZ - NEC
-https://a90.azplay23.me/hls/streama241822/index.m3u8?cst=5a82e95454b2f6e9ac3f7745e7275316
-#EXTINF:-1 group-title="livetvsx", Schweinfurt - Regensburg
-https://a112.azplay23.me/hls/streama247612/index.m3u8?cst=dcec1b5f0484f4811cc43fd5c020a220
-#EXTINF:-1 group-title="livetvsx", Paris - Marseille
-https://a93.azplay23.me/hls/streama242327/index.m3u8?cst=ac308339d6689a8b1241dbef8456adb9
+#EXTINF:-1 group-title="livetvsx", Napoli - Fiorentina
+https://a59.azplay23.me/hls/streama242757/index.m3u8?cst=33ee0c4ac96279e05bfa46684776c1be
+#EXTINF:-1 group-title="livetvsx", Besiktas - Konyaspor
+https://a106.azplay23.me/hls/streama241802/index.m3u8?cst=1589554025fc5eef96cca2b3c3197c27
+#EXTINF:-1 group-title="livetvsx", Malmoe - Djurgarden
+https://a90.azplay23.me/hls/streama245623/index.m3u8?cst=591238816db137fefea18c40b6157333
