@@ -1,11 +1,1 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Dundee United - Hearts
-https://a49.azplay23.me/hls/streama245623/index.m3u8?cst=ad6d842218492ddd6a08be78b05b8311
-#EXTINF:-1 group-title="livetvsx", Liverpool - Newcastle United
-https://a49.azplay23.me/hls/streama242914/index.m3u8?cst=e2e6986d84346541ad753d365bd8435a
-#EXTINF:-1 group-title="livetvsx", Elche - Barcelona
-https://a49.azplay23.me/hls/streama245220/index.m3u8?cst=93d12f86bde4049736a7b62163fe7c52
-#EXTINF:-1 group-title="livetvsx", Sparta Rotterdam - Groningen
-https://a93.azplay23.me/hls/streama241822/index.m3u8?cst=a860b85c5b5904af5dc260217caa7d5b
-#EXTINF:-1 group-title="livetvsx", AS Monaco - Rennes
-https://a106.azplay23.me/hls/streama242327/index.m3u8?cst=964800d802230d242e020deae8d95426
