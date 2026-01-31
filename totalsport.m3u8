@@ -1,3 +1,7 @@
 #EXTM3U
+#EXTINF:-1 group-title="Totalsports", [Live Event] Liverpool vs Newcastle United
+https://d1t4jq8ra72ioi.cloudfront.net/status/1/fronts.woff2?824de5
+#EXTINF:-1 group-title="Totalsports", [Live Event] Elche vs Barcelona
+https://d1t4jq8ra72ioi.cloudfront.net/status/4/fronts.woff2?38a9b0
 #EXTINF:-1 group-title="Totalsports", [NBA] CHA vs SAS
-https://d37w970r8uelg1.cloudfront.net/status/n1/fronts.woff2?8ee6a7
+https://d1t4jq8ra72ioi.cloudfront.net/status/n1/fronts.woff2?e490d0
