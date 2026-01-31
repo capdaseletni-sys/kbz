@@ -1,15 +1,9 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Leverkusen (W) -  Nuremberg (W)
-https://a107.azplay23.me/hls/streama245220/index.m3u8?cst=683964f2b4f3136a405b5be07c7a96ca
-#EXTINF:-1 group-title="livetvsx", Simulcast
-https://a49.azplay23.me/hls/streama246023/index.m3u8?cst=d44d9be05016a73c46cb8bc90c76445c
-#EXTINF:-1 group-title="livetvsx", Radnicki 1923 - Novi Beograd
-https://a51.azplay23.me/hls/streama245948/index.m3u8?cst=4fb99e3e28dc6e6fc939d7ddd9ddcd31
-#EXTINF:-1 group-title="livetvsx", Napredak - Javor
-https://a107.azplay23.me/hls/streama245815/index.m3u8?cst=1445240dd4ff05b674b0d4bf469d374f
-#EXTINF:-1 group-title="livetvsx", Holstein Kiel - Greuther Fuerth
-https://a49.azplay23.me/hls/streama247379/index.m3u8?cst=1fccca486d5adccb1bc7d9151441e779
-#EXTINF:-1 group-title="livetvsx", Braunschweig - Karlsruhe
-https://a108.azplay23.me/hls/streama247380/index.m3u8?cst=4213b2b221fddcfc0b1f5f0046382e19
-#EXTINF:-1 group-title="livetvsx", Bochum - Schalke 04
-https://a112.azplay23.me/hls/streama247381/index.m3u8?cst=330b2f2062821a81320a8d658301c9bc
+#EXTINF:-1 group-title="livetvsx", Stoke City - Southampton
+https://a109.azplay23.me/hls/streama245303/index.m3u8?cst=3e10eca08d9e1df6687bc90bc5b68fbf
+#EXTINF:-1 group-title="livetvsx", Real Oviedo - Girona
+https://a93.azplay23.me/hls/streama245814/index.m3u8?cst=feb0b218333a6ffaa2a3e5722f008e0f
+#EXTINF:-1 group-title="livetvsx", Troyes - Le Mans
+https://a112.azplay23.me/hls/streama245807/index.m3u8?cst=39e9f6b044bdc19b1b889ed97e0de893
+#EXTINF:-1 group-title="livetvsx", Essen (W) -  Union Berlin (W)
+https://a105.azplay23.me/hls/streama245220/index.m3u8?cst=7222dc2ab8af11f5c9dd70df895cdef7
