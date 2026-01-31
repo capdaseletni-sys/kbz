@@ -1,9 +1,11 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Stoke City - Southampton
-https://a109.azplay23.me/hls/streama245303/index.m3u8?cst=3e10eca08d9e1df6687bc90bc5b68fbf
-#EXTINF:-1 group-title="livetvsx", Real Oviedo - Girona
-https://a93.azplay23.me/hls/streama245814/index.m3u8?cst=feb0b218333a6ffaa2a3e5722f008e0f
-#EXTINF:-1 group-title="livetvsx", Troyes - Le Mans
-https://a112.azplay23.me/hls/streama245807/index.m3u8?cst=39e9f6b044bdc19b1b889ed97e0de893
-#EXTINF:-1 group-title="livetvsx", Essen (W) -  Union Berlin (W)
-https://a105.azplay23.me/hls/streama245220/index.m3u8?cst=7222dc2ab8af11f5c9dd70df895cdef7
+#EXTINF:-1 group-title="livetvsx", Partizan - Radnicki Nis
+https://a49.azplay23.me/hls/streama245948/index.m3u8?cst=ef692d73cf5d609db73a3f5975069200
+#EXTINF:-1 group-title="livetvsx", Pisa - Sassuolo
+https://a108.azplay23.me/hls/streama242757/index.m3u8?cst=7fa39924ac08a322581887d17bfa2a7c
+#EXTINF:-1 group-title="livetvsx", Gorica - Hajduk
+https://a111.azplay23.me/hls/streama245962/index.m3u8?cst=324e83f3f8691cfa6ef2dec3b40f0227
+#EXTINF:-1 group-title="livetvsx", Basaksehir - Rizespor
+https://a107.azplay23.me/hls/streama237854/index.m3u8?cst=8c23c2a0a93f33eed16df2be2905bede
+#EXTINF:-1 group-title="livetvsx", Olimpija Ljubljana - Mura
+https://a49.azplay23.me/hls/streama245324/index.m3u8?cst=1b945cfdfe5c08135d4d8b558e052dca
