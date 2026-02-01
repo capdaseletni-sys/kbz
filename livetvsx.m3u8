@@ -1,1 +1,5 @@
 #EXTM3U
+#EXTINF:-1 group-title="livetvsx", Mega Bemax - Crvena Zvezda
+https://a113.azplay24.me/hls/streama247553/index.m3u8?cst=8a5edfe42b1df8b34a36b1110c0073ad
+#EXTINF:-1 group-title="livetvsx", CSKA Moscow - UNICS
+https://a111.azplay24.me/hls/streama247550/index.m3u8?cst=a3288cb8d70c821fe27584f985a33926
