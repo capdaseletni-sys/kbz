@@ -1,1 +1,13 @@
 #EXTM3U
+#EXTINF:-1 group-title="livetvsx", Boca Juniors - Newell`s Old Boys
+https://a111.azplay24.me/hls/streama247755/index.m3u8?cst=9caa2c08e9f090bac4e87e48ebebdf9a
+#EXTINF:-1 group-title="livetvsx", Nacional M - Penarol
+https://a112.azplay24.me/hls/streama242313/index.m3u8?cst=cee2614df7f5fd26c452118c4df4b08b
+#EXTINF:-1 group-title="livetvsx", Toronto - Utah
+https://a113.azplay24.me/hls/streama247639/index.m3u8?cst=324627856339d883ad52db99c57ea482
+#EXTINF:-1 group-title="livetvsx", Washington - Sacramento
+https://a113.azplay24.me/hls/streama247702/index.m3u8?cst=f0086d6e41faf06adabe3e3e69648d99
+#EXTINF:-1 group-title="livetvsx", Miami - Chicago
+https://a108.azplay24.me/hls/streama247381/index.m3u8?cst=2bfa0091fd1f2dcaf6361c93e62e0839
+#EXTINF:-1 group-title="livetvsx", Detroit - Brooklyn Nets
+https://a109.azplay24.me/hls/streama247706/index.m3u8?cst=2f3d004ecb8ce9af20131dbaa3cfe9a6
