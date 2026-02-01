@@ -1,7 +1,3 @@
 #EXTM3U
-#EXTINF:-1 group-title="xstreameast", [Soccer] Brentford vs Aston Villa (XSTRMEST)
-https://dgzz4gmtu2krx.cloudfront.net/status/1/fronts.woff2?6c20ce
-#EXTINF:-1 group-title="xstreameast", [Soccer] Fulham vs Manchester United (XSTRMEST)
-https://dgzz4gmtu2krx.cloudfront.net/status/2/fronts.woff2?831308
-#EXTINF:-1 group-title="xstreameast", [Soccer] Crystal Palace vs Nottingham Forest (XSTRMEST)
-https://dgzz4gmtu2krx.cloudfront.net/status/3/fronts.woff2?a18ecc
+#EXTINF:-1 group-title="xstreameast", [Soccer] Manchester City vs Tottenham Hotspur (XSTRMEST)
+https://dgzz4gmtu2krx.cloudfront.net/status/1/fronts.woff2?9f031b
