@@ -1,15 +1,13 @@
 #EXTM3U
 #EXTINF:-1 group-title="Totalsports", [Live Event] UFC 325 vs Live
-https://d30brrmga5hcts.cloudfront.net/status/u1/fronts.woff2?0451b9
-#EXTINF:-1 group-title="Totalsports", [NBA] CHA vs SAS
-https://d30brrmga5hcts.cloudfront.net/status/n1/fronts.woff2?889919
+https://d1gisgrzgkmzmy.cloudfront.net/index_1.m3u8
+#EXTINF:-1 group-title="Totalsports", [UFC] UFC 325 vs Live
+https://d1gisgrzgkmzmy.cloudfront.net/index_1.m3u8
 #EXTINF:-1 group-title="Totalsports", [NBA] MIA vs CHI
-https://d30brrmga5hcts.cloudfront.net/status/n4/fronts.woff2?5161a0
-#EXTINF:-1 group-title="Totalsports", [NBA] IND vs ATL
-https://d30brrmga5hcts.cloudfront.net/status/n2/fronts.woff2?4e971c
+https://d30brrmga5hcts.cloudfront.net/status/n4/fronts.woff2?f7941f
 #EXTINF:-1 group-title="Totalsports", [NBA] PHI vs NOP
-https://d30brrmga5hcts.cloudfront.net/status/n3/fronts.woff2?cec800
+https://d30brrmga5hcts.cloudfront.net/status/n3/fronts.woff2?d0805e
 #EXTINF:-1 group-title="Totalsports", [NBA] MEM vs MIN
-https://d30brrmga5hcts.cloudfront.net/status/n5/fronts.woff2?1f3ca6
+https://d30brrmga5hcts.cloudfront.net/status/n5/fronts.woff2?fb384f
 #EXTINF:-1 group-title="Totalsports", [NBA] HOU vs DAL
-https://d30brrmga5hcts.cloudfront.net/status/n6/fronts.woff2?8beb58
+https://d30brrmga5hcts.cloudfront.net/status/n6/fronts.woff2?579ba3
