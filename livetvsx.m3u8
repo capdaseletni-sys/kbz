@@ -1,7 +1,19 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Real Madrid RM - Rayo Vallecano
-https://a113.azplay24.me/hls/streama247755/index.m3u8?cst=53b9d3df253ff5cd15fdd9a3368decca
-#EXTINF:-1 group-title="livetvsx", Hamburg (W) -  Freiburg (W)
-https://a109.azplay24.me/hls/streama247622/index.m3u8?cst=636fea9bafe1adf7193917793444d90c
 #EXTINF:-1 group-title="livetvsx", PSV - Feyenoord
-https://a110.azplay24.me/hls/streama241822/index.m3u8?cst=538ba213ace24ee1bcf08d5fe98eb4c8
+https://a105.azplay24.me/hls/streama241822/index.m3u8?cst=1f9a01460fde84e0ddb0736370c34d97
+#EXTINF:-1 group-title="livetvsx", Cukaricki - Crvena Zvezda
+https://a109.azplay24.me/hls/streama247553/index.m3u8?cst=9ac76e1a418aaf4baa78b12045748d65
+#EXTINF:-1 group-title="livetvsx", Aris - Panathinaikos
+https://a109.azplay24.me/hls/streama247548/index.m3u8?cst=54126386e98c2c7c80eb60c828e00162
+#EXTINF:-1 group-title="livetvsx", Osijek - Rijeka
+https://a108.azplay24.me/hls/streama247747/index.m3u8?cst=e970f7bfba3cda98aa9f78cbeca812e0
+#EXTINF:-1 group-title="livetvsx", Nottingham Forest - Crystal Palace
+https://a110.azplay24.me/hls/streama247756/index.m3u8?cst=4babeaa3540802ae582f1cf987d944e9
+#EXTINF:-1 group-title="livetvsx", Manchester Utd - Fulham
+https://a113.azplay24.me/hls/streama247504/index.m3u8?cst=a6640c5129a27a734a413fd09549f5dc
+#EXTINF:-1 group-title="livetvsx", Aston Villa - Brentford
+https://a108.azplay24.me/hls/streama247498/index.m3u8?cst=6f4f994c8b1b14baeedb50d0128c1b49
+#EXTINF:-1 group-title="livetvsx", Como - Atalanta
+https://a105.azplay24.me/hls/streama242757/index.m3u8?cst=2e9999e0dfbf4fe21244f91db0f42057
+#EXTINF:-1 group-title="livetvsx", Lyon - Lille
+https://a112.azplay24.me/hls/streama246089/index.m3u8?cst=7d9d9935002deffbf500a51a90629a33
