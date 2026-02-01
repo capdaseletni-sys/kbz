@@ -1,17 +1,3 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Galatasaray - Kayserispor
-https://a108.azplay24.me/hls/streama247548/index.m3u8?cst=755f94f3e749e974dc1abc69098c1026
-#EXTINF:-1 group-title="livetvsx", Arsenal (W) - Corinthians (W)
-https://a110.azplay24.me/hls/streama247504/index.m3u8?cst=a44324ae364622659c2401db91f66c1e
-#EXTINF:-1 group-title="livetvsx", Cremonese - Inter
-https://a112.azplay24.me/hls/streama242757/index.m3u8?cst=8d928cd9ceeaa74a7f231f4682baf7d5
-#EXTINF:-1 group-title="livetvsx", RB Leipzig (W) -  Eintracht (W)
-https://a109.azplay24.me/hls/streama247622/index.m3u8?cst=f3939fa1ffc76eec7fa786d40458b9d8
-#EXTINF:-1 group-title="livetvsx", PAOK - Panserraikos
-https://a108.azplay24.me/hls/streama241802/index.m3u8?cst=0defec1473afcc78c939ab55a7ac80f8
-#EXTINF:-1 group-title="livetvsx", Getafe - Celta
-https://a108.azplay24.me/hls/streama242325/index.m3u8?cst=9372d850c8e36b8907b5f7f33319920d
-#EXTINF:-1 group-title="livetvsx", Al-Ittihad Jeddah - Al-Najma
-https://a113.azplay24.me/hls/streama238237/index.m3u8?cst=d382c39b2f36e61cde5261b53f4070e2
-#EXTINF:-1 group-title="livetvsx", Sporting - Nacional
-https://a105.azplay24.me/hls/streama241822/index.m3u8?cst=b8829eb81fbeaf7472eb0def2918496d
+#EXTINF:-1 group-title="livetvsx", AEK - Olympiacos
+https://a109.azplay24.me/hls/streama247547/index.m3u8?cst=ccf012cfd3e5e41c561731cac396c964
