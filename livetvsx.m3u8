@@ -1,13 +1,11 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Hoffenheim (W) -  Werder Bremen (W)
-https://a105.azplay24.me/hls/streama247592/index.m3u8?cst=69375138fb6bdfaba02415eeea574889
-#EXTINF:-1 group-title="livetvsx", Real Betis - Valencia
-https://a105.azplay24.me/hls/streama242325/index.m3u8?cst=4c752be2519789d86dee0442619451e1
-#EXTINF:-1 group-title="livetvsx", Verl - Stuttgart II
-https://a111.azplay24.me/hls/streama247693/index.m3u8?cst=be9eafaa27abfdc769657ec8dd4f9364
-#EXTINF:-1 group-title="livetvsx", Panathinaikos - Kifisia
-https://a111.azplay24.me/hls/streama241802/index.m3u8?cst=889f86b3cc3af87ffebe0991609cc2ff
-#EXTINF:-1 group-title="livetvsx", Heerenveen - Utrecht
-https://a109.azplay24.me/hls/streama247736/index.m3u8?cst=e37766caafd0313a23005b96d43905b7
-#EXTINF:-1 group-title="livetvsx", Real Madrid - Zaragoza
-https://a113.azplay24.me/hls/streama247547/index.m3u8?cst=8cfaa3522ffe18b6ecefa18da7073027
+#EXTINF:-1 group-title="livetvsx", Toulouse - Auxerre
+https://a110.azplay24.me/hls/streama246089/index.m3u8?cst=3478722dfbb422fb4606631a3a7811c5
+#EXTINF:-1 group-title="livetvsx", Tottenham - Manchester City
+https://a109.azplay24.me/hls/streama247498/index.m3u8?cst=f050bb47597225b5927d7c27dc88a94e
+#EXTINF:-1 group-title="livetvsx", Dortmund - Heidenheim
+https://a109.azplay24.me/hls/streama242311/index.m3u8?cst=2317e8e3382d3b90376851a999942aa5
+#EXTINF:-1 group-title="livetvsx", Arsenal (W) - Corinthians (W)
+https://a113.azplay24.me/hls/streama247504/index.m3u8?cst=14ae752e8e20624d4adde3af0547586e
+#EXTINF:-1 group-title="livetvsx", Cremonese - Inter
+https://a110.azplay24.me/hls/streama242757/index.m3u8?cst=72e3469d96b01ed9296338997a9aaf41
