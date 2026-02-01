@@ -1,5 +1,19 @@
 #EXTM3U
-#EXTINF:-1 group-title="Totalsports", [NBA] MIA vs CHI
-https://dgzz4gmtu2krx.cloudfront.net/status/n3/fronts.woff2?33b517
 #EXTINF:-1 group-title="Totalsports", [NBA] BOS vs MIL
-https://dgzz4gmtu2krx.cloudfront.net/status/n1/fronts.woff2?73b6b5
+https://dgzz4gmtu2krx.cloudfront.net/status/n1/fronts.woff2?7c15f6
+#EXTINF:-1 group-title="Totalsports", [NBA] SAS vs ORL
+https://dgzz4gmtu2krx.cloudfront.net/status/n6/fronts.woff2?1cafbc
+#EXTINF:-1 group-title="Totalsports", [NBA] DET vs BKN
+https://dgzz4gmtu2krx.cloudfront.net/status/n2/fronts.woff2?5299c2
+#EXTINF:-1 group-title="Totalsports", [NBA] WAS vs SAC
+https://dgzz4gmtu2krx.cloudfront.net/status/n5/fronts.woff2?e180c1
+#EXTINF:-1 group-title="Totalsports", [NBA] TOR vs UTA
+https://dgzz4gmtu2krx.cloudfront.net/status/n4/fronts.woff2?03945c
+#EXTINF:-1 group-title="Totalsports", [NBA] NYK vs LAL
+https://dgzz4gmtu2krx.cloudfront.net/status/n7/fronts.woff2?8cc1df
+#EXTINF:-1 group-title="Totalsports", [NBA] PHX vs LA Clippers
+https://dgzz4gmtu2krx.cloudfront.net/status/n8/fronts.woff2?bc0c25
+#EXTINF:-1 group-title="Totalsports", [NBA] POR vs CLE
+https://dgzz4gmtu2krx.cloudfront.net/status/n9/fronts.woff2?fb762c
+#EXTINF:-1 group-title="Totalsports", [NBA] DEN vs OKC
+https://dgzz4gmtu2krx.cloudfront.net/status/n10/fronts.woff2?8c7729
