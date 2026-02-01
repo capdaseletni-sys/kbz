@@ -1,9 +1,11 @@
 #EXTM3U
+#EXTINF:-1 group-title="Totalsports", [Live Event] Real Madrid vs Rayo Vallecano
+https://storage.googleapis.com/othertrifncae/mux_video_ts/index-1.m3u8
 #EXTINF:-1 group-title="Totalsports", [NBA] MIA vs CHI
-https://d30brrmga5hcts.cloudfront.net/status/n4/fronts.woff2?db002a
+https://d30brrmga5hcts.cloudfront.net/status/n4/fronts.woff2?836cbf
 #EXTINF:-1 group-title="Totalsports", [NBA] PHI vs NOP
-https://d30brrmga5hcts.cloudfront.net/status/n3/fronts.woff2?551e84
+https://d30brrmga5hcts.cloudfront.net/status/n3/fronts.woff2?a49b55
 #EXTINF:-1 group-title="Totalsports", [NBA] MEM vs MIN
-https://d30brrmga5hcts.cloudfront.net/status/n5/fronts.woff2?c2eb74
+https://d30brrmga5hcts.cloudfront.net/status/n5/fronts.woff2?0d1a71
 #EXTINF:-1 group-title="Totalsports", [NBA] HOU vs DAL
-https://d30brrmga5hcts.cloudfront.net/status/n6/fronts.woff2?232ab7
+https://d30brrmga5hcts.cloudfront.net/status/n6/fronts.woff2?805a48
