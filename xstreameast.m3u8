@@ -1,3 +1,9 @@
 #EXTM3U
-#EXTINF:-1 group-title="xstreameast", [NBA] Orlando Magic vs San Antonio Spurs (XSTRMEST)
-https://dgzz4gmtu2krx.cloudfront.net/status/n6/fronts.woff2?5dbc15
+#EXTINF:-1 group-title="xstreameast", [NBA] Brooklyn Nets vs Detroit Pistons (XSTRMEST)
+https://dgzz4gmtu2krx.cloudfront.net/status/n2/fronts.woff2?f267c1
+#EXTINF:-1 group-title="xstreameast", [NBA] Chicago Bulls vs Miami Heat (XSTRMEST)
+https://dgzz4gmtu2krx.cloudfront.net/status/n3/fronts.woff2?414246
+#EXTINF:-1 group-title="xstreameast", [NBA] Utah Jazz vs Toronto Raptors (XSTRMEST)
+https://dgzz4gmtu2krx.cloudfront.net/status/n4/fronts.woff2?235bc7
+#EXTINF:-1 group-title="xstreameast", [NBA] Sacramento Kings vs Washington Wizards (XSTRMEST)
+https://dgzz4gmtu2krx.cloudfront.net/status/n5/fronts.woff2?ffb6dc
