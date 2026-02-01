@@ -1,17 +1,7 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Mega Bemax - Crvena Zvezda
-https://a113.azplay24.me/hls/streama247553/index.m3u8?cst=976dd1db40f2dca31e991bf60365b562
-#EXTINF:-1 group-title="livetvsx", CSKA Moscow - UNICS
-https://a109.azplay24.me/hls/streama247550/index.m3u8?cst=34f1dfae2fcdeee3c406222161664377
-#EXTINF:-1 group-title="livetvsx", Motor - Pogon Szczecin
-https://a111.azplay24.me/hls/streama247552/index.m3u8?cst=d8ebba74b74e5f65778b926ac8de96c7
-#EXTINF:-1 group-title="livetvsx", Excelsior - Ajax
-https://a113.azplay24.me/hls/streama241822/index.m3u8?cst=958b8bcea4cff6e7bc9b778e47aa1384
-#EXTINF:-1 group-title="livetvsx", Torino - Lecce
-https://a109.azplay24.me/hls/streama242914/index.m3u8?cst=bfae5ae31b40d9ccc1963b4d52956a1a
-#EXTINF:-1 group-title="livetvsx", Manchester United (W) -  Liverpool (W)
-https://a111.azplay24.me/hls/streama247504/index.m3u8?cst=d839c20e7640074e7b3daa97730492a1
-#EXTINF:-1 group-title="livetvsx", West Ham United (W) -  Tottenham (W)
-https://a105.azplay24.me/hls/streama247497/index.m3u8?cst=ad7d82b9a08819a61ec49c3913cb1617
-#EXTINF:-1 group-title="livetvsx", Mladost Lucani - OFK Belgrade
-https://a111.azplay24.me/hls/streama247551/index.m3u8?cst=4f7972bfd03736217989752aa2f4c2c9
+#EXTINF:-1 group-title="livetvsx", Real Madrid RM - Rayo Vallecano
+https://a113.azplay24.me/hls/streama247755/index.m3u8?cst=53b9d3df253ff5cd15fdd9a3368decca
+#EXTINF:-1 group-title="livetvsx", Hamburg (W) -  Freiburg (W)
+https://a109.azplay24.me/hls/streama247622/index.m3u8?cst=636fea9bafe1adf7193917793444d90c
+#EXTINF:-1 group-title="livetvsx", PSV - Feyenoord
+https://a110.azplay24.me/hls/streama241822/index.m3u8?cst=538ba213ace24ee1bcf08d5fe98eb4c8
