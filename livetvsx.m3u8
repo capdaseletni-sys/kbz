@@ -1,3 +1,7 @@
 #EXTM3U
 #EXTINF:-1 group-title="livetvsx", Al-Riyadh - Al Nassr
-https://a113.azplay24.me/hls/streama245220/index.m3u8?cst=fcb2f5cd0722b5a968e5dd497beae33e
+https://a113.azplay24.me/hls/streama245220/index.m3u8?cst=98f0cdc398d1e7dca8d0072eb057f6f6
+#EXTINF:-1 group-title="livetvsx", Krka - Split
+https://a110.azplay24.me/hls/streama247550/index.m3u8?cst=43f3013016ce08a5281ac01f15e647b8
+#EXTINF:-1 group-title="livetvsx", Bursaspor - Trabzonspor
+https://a105.azplay24.me/hls/streama247551/index.m3u8?cst=1f7d882aa6de53ec670caee0bbddbdcd
