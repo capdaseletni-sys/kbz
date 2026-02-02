@@ -1,7 +1,13 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Al-Riyadh - Al Nassr
-https://a113.azplay24.me/hls/streama245220/index.m3u8?cst=98f0cdc398d1e7dca8d0072eb057f6f6
-#EXTINF:-1 group-title="livetvsx", Krka - Split
-https://a110.azplay24.me/hls/streama247550/index.m3u8?cst=43f3013016ce08a5281ac01f15e647b8
-#EXTINF:-1 group-title="livetvsx", Bursaspor - Trabzonspor
-https://a105.azplay24.me/hls/streama247551/index.m3u8?cst=1f7d882aa6de53ec670caee0bbddbdcd
+#EXTINF:-1 group-title="livetvsx", Helios Domzale - Rogaska
+https://a105.azplay24.me/hls/streama247547/index.m3u8?cst=66956d494fc2f5b9af87f659813fb8d1
+#EXTINF:-1 group-title="livetvsx", Severstal - Spartak M
+https://a109.azplay24.me/hls/streama247575/index.m3u8?cst=f60e4fabcec653c24c8b7ec705589569
+#EXTINF:-1 group-title="livetvsx", Dinamo Zagreb - Vukovar '91
+https://a113.azplay24.me/hls/streama247747/index.m3u8?cst=36b025b06f3b72c68c3d1f0018d517de
+#EXTINF:-1 group-title="livetvsx", Kocaelispor - Fenerbahce
+https://a113.azplay24.me/hls/streama242325/index.m3u8?cst=e359b70ecd5569b35f356037af85174c
+#EXTINF:-1 group-title="livetvsx", Wolfsburg (W) -  Cologne (W)
+https://a105.azplay24.me/hls/streama247516/index.m3u8?cst=498917bf369ffc9fc260c54e258d10a4
+#EXTINF:-1 group-title="livetvsx", Al-Hilal Riyadh - Al Ahli Jeddah
+https://a105.azplay24.me/hls/streama245220/index.m3u8?cst=d013f73e528e84d29852fb0b874a131e
