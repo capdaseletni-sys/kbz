@@ -1,17 +1,1 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Nacional M - Penarol
-https://a108.azplay24.me/hls/streama242313/index.m3u8?cst=ca5756dd5aaf491d3d3312fadacbdb6b
-#EXTINF:-1 group-title="livetvsx", Toronto - Utah
-https://a111.azplay24.me/hls/streama247379/index.m3u8?cst=5b80d512efa3018dd403b6e4fe241c1d
-#EXTINF:-1 group-title="livetvsx", Washington - Sacramento
-https://a108.azplay24.me/hls/streama247380/index.m3u8?cst=8cae8961f6478350f058beebd0ee2e02
-#EXTINF:-1 group-title="livetvsx", Miami - Chicago
-https://a111.azplay24.me/hls/streama247381/index.m3u8?cst=12b62326dddcf62dd20700a713f3ea9d
-#EXTINF:-1 group-title="livetvsx", Detroit - Brooklyn Nets
-https://a113.azplay24.me/hls/streama247382/index.m3u8?cst=6bdb45e6ca3fa7bd8034a48b1b008e32
-#EXTINF:-1 group-title="livetvsx", Tampa Bay - Boston
-https://a105.azplay24.me/hls/streama242757/index.m3u8?cst=0d7086d9a8c7859217c0e1bc02350fd6
-#EXTINF:-1 group-title="livetvsx", New York - LA Lakers
-https://a110.azplay24.me/hls/streama247383/index.m3u8?cst=62370696e94a4eea47ad4f677b85646e
-#EXTINF:-1 group-title="livetvsx", San Antonio - Orlando
-https://a110.azplay24.me/hls/streama247384/index.m3u8?cst=b90edd1c02bb1700897960d50dc2e9b6
