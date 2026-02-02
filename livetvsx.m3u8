@@ -1,7 +1,3 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Al-Hilal Riyadh - Al Ahli Jeddah
-https://a113.azplay24.me/hls/streama245220/index.m3u8?cst=e20c0ed0acdd3eafcf10160499968fe6
-#EXTINF:-1 group-title="livetvsx", Nieciecza - Cracovia
-https://a109.azplay24.me/hls/streama247552/index.m3u8?cst=7e43848027180f07150bfcb88c83486c
-#EXTINF:-1 group-title="livetvsx", FMP - Borac
-https://a105.azplay24.me/hls/streama247550/index.m3u8?cst=65d283781013472818145cb5cdc93ac3
+#EXTINF:-1 group-title="livetvsx", Tigre - Racing
+https://a108.azplay24.me/hls/streama247551/index.m3u8?cst=cbc174dd14432eaedd9d891f589ff923
