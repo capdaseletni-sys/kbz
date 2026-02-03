@@ -1,1 +1,5 @@
 #EXTM3U
+#EXTINF:-1 group-title="NBA-OVOGOAL", NBA Stream 2
+https://gametimes.top/nbaa2.php
+#EXTINF:-1 group-title="NBA-OVOGOAL", NBA Stream 3
+https://gametimes.top/nbaa3.php
