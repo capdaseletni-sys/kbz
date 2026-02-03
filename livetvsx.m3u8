@@ -1,7 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", North Carolina Tar Heels - Syracuse Orange
-https://a109.azplay24.me/hls/streama247548/index.m3u8?cst=38082b0949b8abc6b9fdfa224523aaaf
-#EXTINF:-1 group-title="livetvsx", Pittsburgh - Ottawa
-https://a112.azplay24.me/hls/streama247382/index.m3u8?cst=9afb7446c2eb16f4b3d89b2084237212
-#EXTINF:-1 group-title="livetvsx", Indiana - Houston
-https://a111.azplay24.me/hls/streama247379/index.m3u8?cst=0f88b8d56632b27646d9d9addf4fe2fb
+#EXTINF:-1 group-title="livetvsx", LA Clippers - Philadelphia
+https://a108.azplay24.me/hls/streama247504/index.m3u8?cst=7145348bac5108527f9302d9b2163002
+#EXTINF:-1 group-title="livetvsx", Calgary - Toronto
+https://a105.azplay24.me/hls/streama247755/index.m3u8?cst=9a673d465401c1261dbaab4a127e6463
