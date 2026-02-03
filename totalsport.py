@@ -36,7 +36,7 @@ TEAM_MAP = {
 }
 
 MIRRORS = [
-    {"base": "https://totalsportek.army/", "hex_decode": True},
+    {"base": "https://live.totalsportek777.com/", "hex_decode": True},
     {"base": "https://live2.totalsportek777.com/", "hex_decode": False},
 ]
 
