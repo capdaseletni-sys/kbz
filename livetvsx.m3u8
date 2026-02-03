@@ -1,11 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Rizespor - Beyoglu
-https://a74.azplay24.me/hls/streama247770/index.m3u8?cst=568d234118de60b361c994fc6030921a
-#EXTINF:-1 group-title="livetvsx", Real Madrid U-19 -  Marseille U-19
-https://a74.azplay24.me/hls/streama242355/index.m3u8?cst=3f12c753c03b5ae8856a6d3962ba8f32
-#EXTINF:-1 group-title="livetvsx", Brugge U-19 -  AS Monaco U-19
-https://a74.azplay24.me/hls/streama247873/index.m3u8?cst=3f1b24f02632af898436ca90634f0315
-#EXTINF:-1 group-title="livetvsx", Zilina U-19 -  Liverpool U-19
-https://a80.azplay24.me/hls/streama247820/index.m3u8?cst=3547b8e0612be19f60292eaf64379dd3
-#EXTINF:-1 group-title="livetvsx", Damac - Al-Kholood
-https://a78.azplay24.me/hls/streama247963/index.m3u8?cst=b51d0f3eeab686c685bea3bc9a2fc48d
+#EXTINF:-1 group-title="livetvsx", Dubai - Olympiacos
+https://a80.azplay24.me/hls/streama247862/index.m3u8?cst=6e32b067d47b2b27806530e427323355
+#EXTINF:-1 group-title="livetvsx", Ludogorets - Levski
+https://a85.azplay24.me/hls/streama247547/index.m3u8?cst=edc6f4bd3f4ef139589bcc76ce20dfe0
