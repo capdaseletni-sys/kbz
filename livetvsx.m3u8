@@ -1,3 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Zenit - Dynamo M
-https://a85.azplay24.me/hls/streama247575/index.m3u8?cst=7350ad3d0959e100ae704821bf8088b5
+#EXTINF:-1 group-title="livetvsx", AZ U-19 -  Dortmund U-19
+https://a75.azplay24.me/hls/streama247802/index.m3u8?cst=721f62730b66514ad4ed1cd489e290d1
+#EXTINF:-1 group-title="livetvsx", Petrolul - Unirea Slobozia
+https://a75.azplay24.me/hls/streama247555/index.m3u8?cst=d664fd0d626708d98e2c2399d3b9182f
