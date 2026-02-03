@@ -28,7 +28,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install httpx selectolax
+          pip install "httpx[http2]" selectolax
 
       - name: 🎯 Run scraping script
         run: python ovogoal.py
