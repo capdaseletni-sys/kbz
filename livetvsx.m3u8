@@ -1,5 +1,13 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Dubai - Olympiacos
-https://a80.azplay24.me/hls/streama247862/index.m3u8?cst=6e32b067d47b2b27806530e427323355
-#EXTINF:-1 group-title="livetvsx", Ludogorets - Levski
-https://a85.azplay24.me/hls/streama247547/index.m3u8?cst=edc6f4bd3f4ef139589bcc76ce20dfe0
+#EXTINF:-1 group-title="livetvsx", Tofas - AEK
+https://a75.azplay24.me/hls/streama243367/index.m3u8?cst=0d09542f14f9cdb1cead43f2f0b2da49
+#EXTINF:-1 group-title="livetvsx", Chelsea U-19 -  PSV U-19
+https://a74.azplay24.me/hls/streama246198/index.m3u8?cst=0164d3e1bd0cd909242805bcdc6a1dde
+#EXTINF:-1 group-title="livetvsx", Trabzonspor - Fethiyespor
+https://a75.azplay24.me/hls/streama247770/index.m3u8?cst=c6a15f3f71435ed870a3c6f598920243
+#EXTINF:-1 group-title="livetvsx", Anadolu Efes - Valencia
+https://a74.azplay24.me/hls/streama247613/index.m3u8?cst=34dfd5e524def839587224aa6f157ae2
+#EXTINF:-1 group-title="livetvsx", Al-Khaleej - Al Quadisiya
+https://a74.azplay24.me/hls/streama247963/index.m3u8?cst=efc07ee1e50cd9ea77ccb28d31900b14
+#EXTINF:-1 group-title="livetvsx", Al-Ettifaq - Al-Taawoun
+https://a78.azplay24.me/hls/streama247963/index.m3u8?cst=ed63ea932a23c493e38f9948919663da
