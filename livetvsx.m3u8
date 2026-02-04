@@ -1,11 +1,17 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", NEC - Volendam
-https://a59.azplay24.me/hls/streama247953/index.m3u8?cst=3d6221688dfd1fc348eb29723570263d
-#EXTINF:-1 group-title="livetvsx", Chemnitz - Trento
-https://a110.azplay24.me/hls/streama248137/index.m3u8?cst=dba0272717aba3a3740edffcadc13c6a
-#EXTINF:-1 group-title="livetvsx", Hapoel Jerusalem - Cluj-Napoca
-https://a108.azplay24.me/hls/streama247623/index.m3u8?cst=18a702872153e3a5c966e411b9334b02
 #EXTINF:-1 group-title="livetvsx", Farul - Dinamo Bucharest
-https://a52.azplay24.me/hls/streama247791/index.m3u8?cst=ebfd81e55b2e7976a0aad3d92e541bee
+https://a78.azplay24.me/hls/streama247791/index.m3u8?cst=2af88b6c8b0bcd645110c5fc8bf712a9
+#EXTINF:-1 group-title="livetvsx", Panathinaikos - PAOK
+https://a75.azplay24.me/hls/streama247668/index.m3u8?cst=5019d8ba0622db9f6694b4ea5ee8a101
 #EXTINF:-1 group-title="livetvsx", JL Bourg - London Lions
-https://a80.azplay24.me/hls/streama247613/index.m3u8?cst=4bba843401231e5166b3be2ea3b59e7e
+https://a25.azplay24.me/hls/streama247613/index.m3u8?cst=8cd34a8f9f992d2c61dc4fc7b0082078
+#EXTINF:-1 group-title="livetvsx", Aris - Neptunas
+https://a74.azplay24.me/hls/streama247611/index.m3u8?cst=55d5fab563e78e952525b596630d717f
+#EXTINF:-1 group-title="livetvsx", Simulcast
+https://a25.azplay24.me/hls/streama247824/index.m3u8?cst=d9d8d5d2c551c800f2a38411acc91bb3
+#EXTINF:-1 group-title="livetvsx", Lorient - Paris
+https://a106.azplay24.me/hls/streama247766/index.m3u8?cst=dc2427a599e793a0f850ba81496d3775
+#EXTINF:-1 group-title="livetvsx", Lyon - Laval
+https://a113.azplay24.me/hls/streama247956/index.m3u8?cst=c56a4673de3f952bbfc35602047c3546
+#EXTINF:-1 group-title="livetvsx", Nice - Montpellier
+https://a27.azplay24.me/hls/streama248148/index.m3u8?cst=4186a0c7a20a7ea79e85193cd8bd6260
