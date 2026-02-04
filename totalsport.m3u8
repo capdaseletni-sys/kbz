@@ -1,1 +1,21 @@
 #EXTM3U
+#EXTINF:-1 group-title="Totalsports", [NBA] WAS vs NYK
+https://dgzz4gmtu2krx.cloudfront.net/status/n3/fronts.woff2?38e5f8
+#EXTINF:-1 group-title="Totalsports", [NBA] DET vs DEN
+https://dgzz4gmtu2krx.cloudfront.net/status/n1/fronts.woff2?72324b
+#EXTINF:-1 group-title="Totalsports", [NBA] IND vs UTA
+https://dgzz4gmtu2krx.cloudfront.net/status/n2/fronts.woff2?20bb50
+#EXTINF:-1 group-title="Totalsports", [NBA] MIA vs ATL
+https://dgzz4gmtu2krx.cloudfront.net/status/n5/fronts.woff2?94ea1f
+#EXTINF:-1 group-title="Totalsports", [NBA] BKN vs LAL
+https://dgzz4gmtu2krx.cloudfront.net/status/n4/fronts.woff2?8c82f2
+#EXTINF:-1 group-title="Totalsports", [NBA] DAL vs BOS
+https://dgzz4gmtu2krx.cloudfront.net/status/n6/fronts.woff2?e09196
+#EXTINF:-1 group-title="Totalsports", [NBA] MIL vs CHI
+https://dgzz4gmtu2krx.cloudfront.net/status/n7/fronts.woff2?15d815
+#EXTINF:-1 group-title="Totalsports", [NBA] OKC vs ORL
+https://dgzz4gmtu2krx.cloudfront.net/status/n8/fronts.woff2?3d526f
+#EXTINF:-1 group-title="Totalsports", [NBA] GSW vs PHI
+https://dgzz4gmtu2krx.cloudfront.net/status/n9/fronts.woff2?a1926b
+#EXTINF:-1 group-title="Totalsports", [NBA] POR vs PHX
+https://dgzz4gmtu2krx.cloudfront.net/status/n10/fronts.woff2?25af3e
