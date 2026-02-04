@@ -1,1 +1,13 @@
 #EXTM3U
+#EXTINF:-1 group-title="livetvsx", Belarus U20 - Russia U17
+https://a93.azplay24.me/hls/streama247584/index.m3u8?cst=4bdf2eac1be8e01cc2ec43d311d8b7e9
+#EXTINF:-1 group-title="livetvsx", Belarus U20 - Russia U17
+https://a93.azplay24.me/hls/streama247584/index.m3u8?cst=3dece8f45bc9f0ccc7d914e7ec076fd5
+#EXTINF:-1 group-title="livetvsx", Legia U-19 -  Ajax U-19
+https://a59.azplay24.me/hls/streama246198/index.m3u8?cst=f1beccb0745e9da0573f2b519e48dbba
+#EXTINF:-1 group-title="livetvsx", Metaloglobus - Miercurea Ciuc
+https://a50.azplay24.me/hls/streama247791/index.m3u8?cst=6a7e0bbba32fd44e9fc1835233035745
+#EXTINF:-1 group-title="livetvsx", Uralmash - UNICS
+https://a49.azplay24.me/hls/streama242325/index.m3u8?cst=c65de51a4c53c633da5cfd4169d22804
+#EXTINF:-1 group-title="livetvsx", Traktor - Ak Bars
+https://a106.azplay24.me/hls/streama247577/index.m3u8?cst=5069d8c3eb6900f8cdef694ee6d2cfcd
