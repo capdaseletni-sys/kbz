@@ -1,5 +1,9 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", OFI - Levadiakos
-https://a52.azplay24.me/hls/streama247671/index.m3u8?cst=3e04fafbe603272b8aa32c6df7b3fdaa
-#EXTINF:-1 group-title="livetvsx", HJK U-19 -  Manchester City U-19
-https://a108.azplay24.me/hls/streama246198/index.m3u8?cst=0d189661765575cc92ef08fd87270467
+#EXTINF:-1 group-title="livetvsx", Lokomotiv - Spartak M
+https://a27.azplay24.me/hls/streama242325/index.m3u8?cst=0b595d12062ccfb2cfb8ecfe5e849c56
+#EXTINF:-1 group-title="livetvsx", Nizhnyi Novgorod - Lokomotiv Kuban
+https://a75.azplay24.me/hls/streama248137/index.m3u8?cst=b2f375e2ecba843ea7a65e2836faa13b
+#EXTINF:-1 group-title="livetvsx", UTA Arad - CFR Cluj
+https://a80.azplay24.me/hls/streama247791/index.m3u8?cst=7072e5af8e6fa46f8bf04d373ed16ccc
+#EXTINF:-1 group-title="livetvsx", Asteras - Olympiacos
+https://a85.azplay24.me/hls/streama247781/index.m3u8?cst=36d02357c3e7db467dca863db1c330f8
