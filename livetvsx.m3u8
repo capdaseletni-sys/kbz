@@ -1,9 +1,15 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Lokomotiv - Spartak M
-https://a27.azplay24.me/hls/streama242325/index.m3u8?cst=0b595d12062ccfb2cfb8ecfe5e849c56
-#EXTINF:-1 group-title="livetvsx", Nizhnyi Novgorod - Lokomotiv Kuban
-https://a75.azplay24.me/hls/streama248137/index.m3u8?cst=b2f375e2ecba843ea7a65e2836faa13b
-#EXTINF:-1 group-title="livetvsx", UTA Arad - CFR Cluj
-https://a80.azplay24.me/hls/streama247791/index.m3u8?cst=7072e5af8e6fa46f8bf04d373ed16ccc
-#EXTINF:-1 group-title="livetvsx", Asteras - Olympiacos
-https://a85.azplay24.me/hls/streama247781/index.m3u8?cst=36d02357c3e7db467dca863db1c330f8
+#EXTINF:-1 group-title="livetvsx", Real Betis U-19 -  Tottenham U-19
+https://a107.azplay24.me/hls/streama245846/index.m3u8?cst=79a67ebbeb96385e433a707a7808c851
+#EXTINF:-1 group-title="livetvsx", Besiktas - Turk Telekom
+https://a109.azplay24.me/hls/streama247622/index.m3u8?cst=fbd332618829a29264a1aa083a112303
+#EXTINF:-1 group-title="livetvsx", Lietkabelis - Panionios
+https://a111.azplay24.me/hls/streama247693/index.m3u8?cst=b52aa3ebf858c6e37999c59548f11203
+#EXTINF:-1 group-title="livetvsx", Galatasaray (W) -  Spar Girona (W)
+https://a51.azplay24.me/hls/streama247890/index.m3u8?cst=f67792dee7553f2924fe8c3b9415b371
+#EXTINF:-1 group-title="livetvsx", Cologne U-19 -  Inter U-19
+https://a74.azplay24.me/hls/streama246198/index.m3u8?cst=3911d1280e743fe2879422ff806688ea
+#EXTINF:-1 group-title="livetvsx", Belarus U20 - Russia U17
+https://a74.azplay24.me/hls/streama247584/index.m3u8?cst=08432fe05b065a4c9d0c7875ed570409
+#EXTINF:-1 group-title="livetvsx", Belarus U18 - Russia U18
+https://a112.azplay24.me/hls/streama247584/index.m3u8?cst=accf755b09335f28f1420b122aa8bb7d
