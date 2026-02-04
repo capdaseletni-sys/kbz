@@ -1,5 +1,3 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Detroit - Denver
-https://a51.azplay24.me/hls/streama247380/index.m3u8?cst=f530cd4384e707f4471115f80f724782
-#EXTINF:-1 group-title="livetvsx", Washington - New York
-https://a59.azplay24.me/hls/streama247381/index.m3u8?cst=3d7ecccf5f5769af695be6e69268ca2d
+#EXTINF:-1 group-title="livetvsx", Golden State - Philadelphia
+https://a90.azplay24.me/hls/streama247387/index.m3u8?cst=823cc93feb7e7ce9d6112361421daa16
