@@ -1,1 +1,5 @@
 #EXTM3U
+#EXTINF:-1 group-title="livetvsx", Winnipeg - Montreal
+https://a109.azplay24.me/hls/streama243128/index.m3u8?cst=679f4606f6d6e59886d3a86bafa9fed7
+#EXTINF:-1 group-title="livetvsx", New York - Denver
+https://a106.azplay24.me/hls/streama247379/index.m3u8?cst=ba598b737d6958d27d97657ba1bfab5d
