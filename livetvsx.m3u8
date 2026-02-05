@@ -1,9 +1,1 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Vancouver - Cruz Azul
-https://a85.azplay24.me/hls/streama248082/index.m3u8?cst=7c94cb9a4b1df664f44087a76003c972
-#EXTINF:-1 group-title="livetvsx", Calgary - Edmonton
-https://a74.azplay24.me/hls/streama242757/index.m3u8?cst=682fc44cee467a0061fcef4490b610af
-#EXTINF:-1 group-title="livetvsx", Sacramento - Memphis
-https://a50.azplay24.me/hls/streama247384/index.m3u8?cst=7c02faf378279aaa3faf87f4c4779b2a
-#EXTINF:-1 group-title="livetvsx", LA Clippers - Cleveland
-https://a74.azplay24.me/hls/streama247385/index.m3u8?cst=e44a936025cbd3f38fca5a832233b2a2
