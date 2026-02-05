@@ -1,13 +1,1 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Partizan - Panathinaikos
-https://a27.azplay24.me/hls/streama243366/index.m3u8?cst=72949eaa5ad07f9c313db1e69127eeda
-#EXTINF:-1 group-title="livetvsx", Bayern Munich - AS Monaco
-https://a52.azplay24.me/hls/streama247613/index.m3u8?cst=cebcb19485dcc946719bdc0d7d19b92e
-#EXTINF:-1 group-title="livetvsx", Paris - Fenerbahce
-https://a85.azplay24.me/hls/streama247612/index.m3u8?cst=0eb17d0f887a7f3859bc43aca29fec6c
-#EXTINF:-1 group-title="livetvsx", Real Madrid (W) -  Barcelona (W)
-https://a27.azplay24.me/hls/streama245845/index.m3u8?cst=36afe286a6a6d7dbeb7b06c8d3c03335
-#EXTINF:-1 group-title="livetvsx", Strasbourg - AS Monaco
-https://a93.azplay24.me/hls/streama242355/index.m3u8?cst=ff4021d666475d690971df7b1aa122ea
-#EXTINF:-1 group-title="livetvsx", Atalanta - Juventus
-https://a74.azplay24.me/hls/streama247499/index.m3u8?cst=cf630eed2ae47da00e5fad111e93987f
