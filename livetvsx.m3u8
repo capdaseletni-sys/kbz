@@ -1,5 +1,15 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Krasnodar - Zenit
-https://a51.azplay24.me/hls/streama247575/index.m3u8?cst=4136128086345c62c655ee3ec57cef5f
 #EXTINF:-1 group-title="livetvsx", Lukko - TPS
-https://a106.azplay24.me/hls/streama247583/index.m3u8?cst=17841f8f01abdb672413cfd73ee11c68
+https://a109.azplay24.me/hls/streama247583/index.m3u8?cst=6e2d30f7cdb4b1bc0ddda193acee3131
+#EXTINF:-1 group-title="livetvsx", Freiburg (W) -  Bayern Munich (W)
+https://a85.azplay24.me/hls/streama247612/index.m3u8?cst=da4df7058edc01f4283d29e7ddf1acbf
+#EXTINF:-1 group-title="livetvsx", Simulcast
+https://a51.azplay24.me/hls/streama247295/index.m3u8?cst=e304b595c662b4f5f7f6e1f2eb9f6d4e
+#EXTINF:-1 group-title="livetvsx", Anadolu Efes - Zalgiris
+https://a113.azplay24.me/hls/streama245722/index.m3u8?cst=859bc9ac3f49fea073b1ad5f517a0737
+#EXTINF:-1 group-title="livetvsx", Preussen Muenster - Bochum
+https://a52.azplay24.me/hls/streama247379/index.m3u8?cst=ddca314856cf6a744a9bf1c5f969793f
+#EXTINF:-1 group-title="livetvsx", Greuther Fuerth - Magdeburg
+https://a106.azplay24.me/hls/streama247380/index.m3u8?cst=c44db03fd072f98e12ee9b0473b023e3
+#EXTINF:-1 group-title="livetvsx", Al Nassr - Al-Ittihad Jeddah
+https://a108.azplay24.me/hls/streama233080/index.m3u8?cst=b82b555e776737a531cad68c0ce79b8e
