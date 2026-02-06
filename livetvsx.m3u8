@@ -1,13 +1,17 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Crvena Zvezda - Maccabi T-A
-https://a59.azplay24.me/hls/streama247553/index.m3u8?cst=15e22f76345eb205dde7c84ca139a43b
-#EXTINF:-1 group-title="livetvsx", ASVEL - Milan
-https://a52.azplay24.me/hls/streama247623/index.m3u8?cst=a82d87f52ebbea328cd9fb4a0b598273
+#EXTINF:-1 group-title="livetvsx", Olympiacos - Virtus Bologna
+https://a85.azplay24.me/hls/streama243366/index.m3u8?cst=829d37940fd2418bc1b25677c7e34030
 #EXTINF:-1 group-title="livetvsx", Baskonia - Barcelona
-https://a113.azplay24.me/hls/streama247611/index.m3u8?cst=2f895e86c9f64fc7577e5c5602280319
+https://a107.azplay24.me/hls/streama247611/index.m3u8?cst=ef2f0cd7a8b638619cf92baebf1c5e3b
 #EXTINF:-1 group-title="livetvsx", Leganes - Granada
-https://a27.azplay24.me/hls/streama242355/index.m3u8?cst=8ebf874096207e218a2505ad2b2fafd2
+https://a93.azplay24.me/hls/streama242355/index.m3u8?cst=db5467f5bdc9128e8f5ef85a6bcdf01b
 #EXTINF:-1 group-title="livetvsx", Union Berlin - Eintracht
-https://a74.azplay24.me/hls/streama247382/index.m3u8?cst=838c65ebd4c60ad699ae68a1fcc75a83
+https://a50.azplay24.me/hls/streama247382/index.m3u8?cst=3deb3244b3d024f8b76bf31d0f212b35
 #EXTINF:-1 group-title="livetvsx", RB Salzburg - Austria Vienna
-https://a75.azplay24.me/hls/streama246198/index.m3u8?cst=7ae7c0b440a0dff92a9c0ff24c03742d
+https://a74.azplay24.me/hls/streama246198/index.m3u8?cst=9eb586c7f13feb6e75990f1432330385
+#EXTINF:-1 group-title="livetvsx", Hellas Verona - Pisa
+https://a113.azplay24.me/hls/streama242757/index.m3u8?cst=b59a169114652b016218b4fda48a39b9
+#EXTINF:-1 group-title="livetvsx", Leeds Utd - Nottingham Forest
+https://a80.azplay24.me/hls/streama247498/index.m3u8?cst=abe89d73a72f6b6c4f7b4f6ce55d55be
+#EXTINF:-1 group-title="livetvsx", Celta - Osasuna
+https://a108.azplay24.me/hls/streama242325/index.m3u8?cst=fa25e4dd1b5dc47a6bdb2324f4e4ee07
