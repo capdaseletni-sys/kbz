@@ -1,3 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Arges Pitesti - Hermannstadt
-https://a94.azplay24.me/hls/streama247791/index.m3u8?cst=71c367139c204f852af016d95d65de65
+#EXTINF:-1 group-title="livetvsx", Krasnodar - Zenit
+https://a51.azplay24.me/hls/streama247575/index.m3u8?cst=4136128086345c62c655ee3ec57cef5f
+#EXTINF:-1 group-title="livetvsx", Lukko - TPS
+https://a106.azplay24.me/hls/streama247583/index.m3u8?cst=17841f8f01abdb672413cfd73ee11c68
