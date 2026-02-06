@@ -1,1 +1,7 @@
 #EXTM3U
+#EXTINF:-1 group-title="livetvsx", Wellington Phoenix (W) -  Perth Glory (W)
+https://a110.azplay24.me/hls/streama247757/index.m3u8?cst=04e7b9e0750336aacf6e9582a18de209
+#EXTINF:-1 group-title="livetvsx", LA Lakers - Philadelphia
+https://a111.azplay24.me/hls/streama247385/index.m3u8?cst=b10a5742ca8b4329c5691a38de43abfc
+#EXTINF:-1 group-title="livetvsx", Phoenix - Golden State
+https://a93.azplay24.me/hls/streama247386/index.m3u8?cst=820c1f8c25a32752d94c3c166981ac39
