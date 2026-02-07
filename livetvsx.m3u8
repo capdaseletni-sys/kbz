@@ -1,3 +1,25 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Sweden (W) -  Italy (W)
-https://a112.azplay24.me/hls/streama247631/index.m3u8?cst=dc5d25a324ff462dc62aea63db16e160
+#EXTINF:-1 group-title="livetvsx", Simulcast
+https://a74.azplay24.me/hls/streama227403/index.m3u8?cst=cdb477e755fe9adf17334106083e44f8
+#EXTINF:-1 group-title="livetvsx", Wolfsburg - Dortmund
+https://a93.azplay24.me/hls/streama243128/index.m3u8?cst=f0d5f3e4a855e85fe7d41acecb9fcb68
+#EXTINF:-1 group-title="livetvsx", St Pauli - Stuttgart
+https://a108.azplay24.me/hls/streama247295/index.m3u8?cst=9242c369eab6343e619339fe00ccae01
+#EXTINF:-1 group-title="livetvsx", Mainz 05 - Augsburg
+https://a49.azplay24.me/hls/streama247434/index.m3u8?cst=c94c693cdd037a78159540362314ac01
+#EXTINF:-1 group-title="livetvsx", Heidenheim - Hamburg
+https://a59.azplay24.me/hls/streama246359/index.m3u8?cst=a36bb8949177f6f4908a5c4b956cba30
+#EXTINF:-1 group-title="livetvsx", Freiburg - Werder Bremen
+https://a80.azplay24.me/hls/streama248333/index.m3u8?cst=f4025ff07dbb4af196e55632b052e243
+#EXTINF:-1 group-title="livetvsx", Burnley - West Ham United
+https://a90.azplay24.me/hls/streama247557/index.m3u8?cst=a1d14ccbf8db705c6bb87b6a05ddc3b3
+#EXTINF:-1 group-title="livetvsx", Arsenal - Sunderland
+https://a80.azplay24.me/hls/streama248137/index.m3u8?cst=8879dd267f467b49a591e0d4791c3605
+#EXTINF:-1 group-title="livetvsx", Bournemouth - Aston Villa
+https://a49.azplay24.me/hls/streama248259/index.m3u8?cst=64adc8ee793c93f717708dfda87b97be
+#EXTINF:-1 group-title="livetvsx", Crvena Zvezda - Novi Pazar
+https://a108.azplay24.me/hls/streama247553/index.m3u8?cst=8042630a11bdfa73c6dd2fb1dee47f3e
+#EXTINF:-1 group-title="livetvsx", Varzim - Amarante
+https://a80.azplay24.me/hls/streama247932/index.m3u8?cst=32620091ddd365b65d409b7cf062f772
+#EXTINF:-1 group-title="livetvsx", Coquimbo Unido - Palestino
+https://a75.azplay24.me/hls/streama247981/index.m3u8?cst=652c7a899b9b04b41c7ac2bf96694974
