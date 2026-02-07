@@ -1,9 +1,21 @@
 #EXTM3U
 #EXTINF:-1 group-title="livetvsx", Aguilas Doradas - Cucuta Deportivo
-https://a85.azplay24.me/hls/streama247998/index.m3u8?cst=62ef5239b04b0060093b114e2714bb6c
+https://a51.azplay24.me/hls/streama247998/index.m3u8?cst=4ca9d17765f60d16dc91a642b0f00e18
 #EXTINF:-1 group-title="livetvsx", Saint-Etienne - Montpellier
-https://a90.azplay24.me/hls/streama247559/index.m3u8?cst=6121fa97e5aef075bc08bc3ea1c9df46
+https://a78.azplay24.me/hls/streama247557/index.m3u8?cst=b0e7e9ea27f72b6b9ec3653f0735184c
 #EXTINF:-1 group-title="livetvsx", Breogan - Murcia
-https://a90.azplay24.me/hls/streama243531/index.m3u8?cst=24801a33e0c86cd8ef74bef43040766c
+https://a74.azplay24.me/hls/streama243531/index.m3u8?cst=56fc499766b905cdb988ae0894f7a1d2
 #EXTINF:-1 group-title="livetvsx", Gornik Zabrze - Lech Poznan
-https://a50.azplay24.me/hls/streama247614/index.m3u8?cst=5363ef3122547fc7ec6f9f16b15cb3a0
+https://a110.azplay24.me/hls/streama247840/index.m3u8?cst=f6c3105aaa05d2c366b7a42e264ee73b
+#EXTINF:-1 group-title="livetvsx", Darmstadt - Kaiserslautern
+https://a106.azplay24.me/hls/streama247451/index.m3u8?cst=26c030fcfd7eca748f75cc38712c84df
+#EXTINF:-1 group-title="livetvsx", Grasshopper - Young Boys
+https://a59.azplay24.me/hls/streama248259/index.m3u8?cst=cef9fb524226aa308e2ea38ec9c1cc5e
+#EXTINF:-1 group-title="livetvsx", Fiorentina - Torino
+https://a80.azplay24.me/hls/streama242757/index.m3u8?cst=1af4e8e9147fe8be37fb1fa1cccb1e12
+#EXTINF:-1 group-title="livetvsx", Real Sociedad - Elche
+https://a25.azplay24.me/hls/streama243368/index.m3u8?cst=2950e30620215309f1833afb8c28c224
+#EXTINF:-1 group-title="livetvsx", Nantes - Lyon
+https://a90.azplay24.me/hls/streama245220/index.m3u8?cst=0314fc74cfd5b905748af28a0ae27bf6
+#EXTINF:-1 group-title="livetvsx", Paris (W) -  PSG (W)
+https://a110.azplay24.me/hls/streama217572/index.m3u8?cst=47b5af6b95df86275feadbb63ad8caf9
