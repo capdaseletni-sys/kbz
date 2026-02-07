@@ -1,1 +1,7 @@
 #EXTM3U
+#EXTINF:-1 group-title="livetvsx", Melbourne Victory (W) -  Newcastle Jets (W)
+https://a108.azplay24.me/hls/streama247990/index.m3u8?cst=2e1f8908dba898b4f87cb7de3f7f2c0c
+#EXTINF:-1 group-title="livetvsx", Western Sydney - Melbourne City
+https://a105.azplay24.me/hls/streama247614/index.m3u8?cst=4d054371e0e07768a5fb35e532b60bf5
+#EXTINF:-1 group-title="livetvsx", KHL All Star Game
+https://a111.azplay24.me/hls/streama247577/index.m3u8?cst=cd22276a359d574bc2b95e49ed1d731b
