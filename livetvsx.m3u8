@@ -1,3 +1,7 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", KHL All Star Game
-https://a105.azplay24.me/hls/streama247577/index.m3u8?cst=bb86e53c9b7f35df1134cbbb6d09afdb
+#EXTINF:-1 group-title="livetvsx", Unirea Slobozia - Farul
+https://a59.azplay24.me/hls/streama247791/index.m3u8?cst=8a70ce7ac0fbaa92d1431cdc9c45bcc5
+#EXTINF:-1 group-title="livetvsx", Werder Bremen (W) -  Wolfsburg (W)
+https://a94.azplay24.me/hls/streama245220/index.m3u8?cst=af2e142e642a93210f45f7ace1560246
+#EXTINF:-1 group-title="livetvsx", Germany (W) -  Japan (W)
+https://a112.azplay24.me/hls/streama241822/index.m3u8?cst=e9fdeebe720a90037631c52aa4564025
