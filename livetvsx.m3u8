@@ -1,7 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Audax Italiano - Univ de Concepcion
-https://a106.azplay24.me/hls/streama247981/index.m3u8?cst=2328b2db4075dd6590e9e98723421f75
-#EXTINF:-1 group-title="livetvsx", Deportivo Pasto - Atl Bucaramanga
-https://a94.azplay24.me/hls/streama247998/index.m3u8?cst=0aa98e65f08a5b627fd488856062dd22
-#EXTINF:-1 group-title="livetvsx", Central Cordoba - Union de Santa Fe
-https://a75.azplay24.me/hls/streama247978/index.m3u8?cst=a550ee566ee04b6cbceaf99daf16ced1
+#EXTINF:-1 group-title="livetvsx", Sacramento - LA Clippers
+https://a78.azplay24.me/hls/streama247383/index.m3u8?cst=aa0db90990663f55277f5355f7da1d1f
+#EXTINF:-1 group-title="livetvsx", Portland - Memphis
+https://a113.azplay24.me/hls/streama247384/index.m3u8?cst=98c72c4f8c9a27dfffb950a333053f67
