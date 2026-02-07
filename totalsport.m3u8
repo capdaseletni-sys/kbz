@@ -1,3 +1,15 @@
 #EXTM3U
+#EXTINF:-1 group-title="Totalsports", [Live Event] Arsenal vs Sunderland
+https://gametimes.plus/1111.php
+#EXTINF:-1 group-title="Totalsports", [Live Event] Wolverhampton Wanderers vs Chelsea
+https://gametimes.plus/2222.php
+#EXTINF:-1 group-title="Totalsports", [Live Event] Barcelona vs Mallorca
+https://gametimes.plus/6666.php
 #EXTINF:-1 group-title="Totalsports", [Live Event] Nurmagomedov vs Davis
 https://gametimes.plus/pfl.php
+#EXTINF:-1 group-title="Totalsports", [Premier League] AFC Bournemouth vs Aston Villa
+https://gametimes.plus/3333.php
+#EXTINF:-1 group-title="Totalsports", [Premier League] Burnley vs West Ham United
+https://gametimes.plus/5555.php
+#EXTINF:-1 group-title="Totalsports", [Premier League] Fulham vs Everton
+https://gametimes.plus/4444.php
