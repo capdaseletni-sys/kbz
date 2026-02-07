@@ -1,7 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Racing - Argentinos Juniors
-https://a93.azplay24.me/hls/streama242328/index.m3u8?cst=e42aaef5268f5af0a017bf2bae3aa88e
-#EXTINF:-1 group-title="livetvsx", O`Higgins - La Serena
-https://a51.azplay24.me/hls/streama247981/index.m3u8?cst=c5bf33b7c6cb4bb35c346b46b4ccd429
-#EXTINF:-1 group-title="livetvsx", Deportes Tolima - Llaneros
-https://a49.azplay24.me/hls/streama247998/index.m3u8?cst=170c56c4b931feec1f628d3898864b87
+#EXTINF:-1 group-title="livetvsx", San Antonio - Dallas
+https://a112.azplay24.me/hls/streama247381/index.m3u8?cst=ace277af10dcabcf52ab6a1fc8250389
+#EXTINF:-1 group-title="livetvsx", River Plate - Tigre
+https://a85.azplay24.me/hls/streama247553/index.m3u8?cst=64c8726617ff53515fd7dd84b8fd1a1d
