@@ -1,7 +1,17 @@
 #EXTM3U
 #EXTINF:-1 group-title="livetvsx", Unirea Slobozia - Farul
-https://a59.azplay24.me/hls/streama247791/index.m3u8?cst=8a70ce7ac0fbaa92d1431cdc9c45bcc5
+https://a90.azplay24.me/hls/streama247791/index.m3u8?cst=f5ff2379cd7a1522c09df058e1c531b6
 #EXTINF:-1 group-title="livetvsx", Werder Bremen (W) -  Wolfsburg (W)
-https://a94.azplay24.me/hls/streama245220/index.m3u8?cst=af2e142e642a93210f45f7ace1560246
+https://a50.azplay24.me/hls/streama245220/index.m3u8?cst=c61897f11583aa35bc112cc4adf3f6bf
 #EXTINF:-1 group-title="livetvsx", Germany (W) -  Japan (W)
-https://a112.azplay24.me/hls/streama241822/index.m3u8?cst=e9fdeebe720a90037631c52aa4564025
+https://a25.azplay24.me/hls/streama241822/index.m3u8?cst=e8a22d52647f45b08e0306c040cd43a2
+#EXTINF:-1 group-title="livetvsx", Simulcast
+https://a94.azplay24.me/hls/streama247716/index.m3u8?cst=8cbb73fb61651163018202ff0999b3a1
+#EXTINF:-1 group-title="livetvsx", Schalke 04 - Dynamo Dresden
+https://a59.azplay24.me/hls/streama247451/index.m3u8?cst=9a8079a80eb30eb793950c3f7c07b7cd
+#EXTINF:-1 group-title="livetvsx", Paderborn - Nuremberg
+https://a108.azplay24.me/hls/streama243128/index.m3u8?cst=e7bd29e102720d0a81d6c6725a64446a
+#EXTINF:-1 group-title="livetvsx", Elversberg - Hertha Berlin
+https://a75.azplay24.me/hls/streama247434/index.m3u8?cst=7b87052ffaa34d062a005018e1a33417
+#EXTINF:-1 group-title="livetvsx", Leicester City (W) -  Manchester United (W)
+https://a27.azplay24.me/hls/streama245623/index.m3u8?cst=1d4dee9c14eed66d984960329d3ce83c
