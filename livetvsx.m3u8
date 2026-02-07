@@ -1,23 +1,3 @@
 #EXTM3U
-#EXTINF:-1 group-title="livetvsx", Rayo Vallecano - Real Oviedo
-https://a59.azplay24.me/hls/streama248124/index.m3u8?cst=754a0470d8733493e6fd3ab1892dfcca
-#EXTINF:-1 group-title="livetvsx", Nancy - Troyes
-https://a59.azplay24.me/hls/streama242355/index.m3u8?cst=8d4eb57a74cd727a3990a22ec96bfb31
-#EXTINF:-1 group-title="livetvsx", Le Mans - Laval
-https://a90.azplay24.me/hls/streama247559/index.m3u8?cst=71976be815a9ab39842ea520fdde3075
-#EXTINF:-1 group-title="livetvsx", Radnik - Partizan
-https://a80.azplay24.me/hls/streama247553/index.m3u8?cst=9a6ea96f373eecc5c36b43c680eec7e9
-#EXTINF:-1 group-title="livetvsx", Miercurea Ciuc - UTA Arad
-https://a75.azplay24.me/hls/streama247791/index.m3u8?cst=60760ca2a2da86622dbac6c0b7d5dd91
-#EXTINF:-1 group-title="livetvsx", Regensburg - Viktoria Cologne
-https://a75.azplay24.me/hls/streama247623/index.m3u8?cst=a0ccab5badff86cadfa9eac467a19af9
-#EXTINF:-1 group-title="livetvsx", Ingolstadt - Energie Cottbus
-https://a49.azplay24.me/hls/streama247622/index.m3u8?cst=f29a137c5b3fe161cabeb7ef367e6a72
-#EXTINF:-1 group-title="livetvsx", Wehen - Schweinfurt
-https://a108.azplay24.me/hls/streama247613/index.m3u8?cst=e0d01c62796f36ca511cb46877755a1d
-#EXTINF:-1 group-title="livetvsx", Osnabrueck - Havelse
-https://a93.azplay24.me/hls/streama247611/index.m3u8?cst=59a9bd19f65ee684419250d27108d9bf
-#EXTINF:-1 group-title="livetvsx", Eintracht (W) -  Leverkusen (W)
-https://a75.azplay24.me/hls/streama245220/index.m3u8?cst=9a9a789f42a7187fe8f9e1f4fad2cde7
 #EXTINF:-1 group-title="livetvsx", Sweden (W) -  Italy (W)
-https://a110.azplay24.me/hls/streama247631/index.m3u8?cst=3a2ddc603fbf13a067f52284120da90f
+https://a112.azplay24.me/hls/streama247631/index.m3u8?cst=dc5d25a324ff462dc62aea63db16e160
