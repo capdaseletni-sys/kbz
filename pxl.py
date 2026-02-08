@@ -5,7 +5,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from playwright.async_api import async_playwright, Page
-from playwright_stealth import stealth_async
 
 # --------------------------------------------------
 # Config
@@ -103,8 +102,6 @@ async def main():
         browser = await p.chromium.launch(headless=True)
         context = await browser.new_context()
         page = await context.new_page()
-
-        await stealth_async(page)
 
         log.info("Fetching PixelSport events...")
         events = await get_events(page)
