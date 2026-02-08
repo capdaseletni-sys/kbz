@@ -1,7 +1,9 @@
 name: Pixel Scraper
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # Keep this so you can still run it manually
+  schedule:
+    - cron: '30 * * * *' # Runs at minute 30 of every hour
 
 jobs:
   scrape:
