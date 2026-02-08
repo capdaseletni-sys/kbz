@@ -21,11 +21,10 @@ jobs:
 
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install playwright
-        # Install the browser binary and dependencies
-        playwright install chromium
-        playwright install-deps chromium
+          python -m pip install --upgrade pip
+          pip install playwright playwright-stealth
+          playwright install chromium
+          playwright install-deps chromium
 
     - name: Run Scraper
       run: python pxl.py  # <--- Change this to your actual filename
