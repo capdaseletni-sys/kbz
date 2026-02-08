@@ -1,94 +1,122 @@
+import asyncio
 import json
 import logging
-import asyncio
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone
 from pathlib import Path
-from playwright.async_api import async_playwright
-import playwright_stealth
 
-# --- Configuration ---
-TAG = "PIXEL"
+from playwright.async_api import async_playwright, Page
+from playwright_stealth import stealth_async
+
+# --------------------------------------------------
+# Config
+# --------------------------------------------------
+
 BASE_URL = "https://pixelsport.tv/backend/livetv/events"
-M3U_FILENAME = "pixelsports.m3u8"
+M3U_FILE = Path("pixelsports.m3u8")
+TAG = "PIXEL"
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-log = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO)
+log = logging.getLogger("pixelsport")
 
-def generate_m3u(events, filename):
-    if not events: 
-        log.warning("No events found to save.")
-        return
-    m3u_lines = [f"#EXTM3U\n# UPDATED: {datetime.now(timezone.utc).isoformat()}"]
+# --------------------------------------------------
+# Helpers
+# --------------------------------------------------
+
+def now_utc() -> datetime:
+    return datetime.now(timezone.utc)
+
+
+def write_m3u(events: dict[str, dict]) -> None:
+    lines = ["#EXTM3U"]
+
     for name, data in events.items():
-        sport = name.split(']')[0].replace('[', '') if ']' in name else "Sports"
-        m3u_lines.append(f'#EXTINF:-1 tvg-id="{data["id"]}" group-title="{sport}",{name}')
-        m3u_lines.append(data["url"])
-    
-    Path(filename).write_text("\n".join(m3u_lines), encoding="utf-8")
-    log.info(f"Successfully generated {filename} with {len(events)} events.")
+        lines.append(
+            '#EXTINF:-1 '
+            f'tvg-id="{data["id"]}" '
+            f'tvg-logo="{data["logo"]}",'
+            f'{name}'
+        )
+        lines.append(data["url"])
 
-async def scrape():
+    M3U_FILE.write_text("\n".join(lines), encoding="utf-8")
+
+
+# --------------------------------------------------
+# Scraping
+# --------------------------------------------------
+
+async def get_api_data(page: Page) -> dict:
+    await page.goto(
+        BASE_URL,
+        wait_until="domcontentloaded",
+        timeout=15_000,
+    )
+
+    raw_json = await page.locator("pre").inner_text(timeout=10_000)
+    return json.loads(raw_json)
+
+
+async def get_events(page: Page) -> dict[str, dict]:
+    api_data = await get_api_data(page)
+    today = now_utc().date()
+
+    events = {}
+
+    for event in api_data.get("events", []):
+        try:
+            event_dt = datetime.fromisoformat(
+                event["date"].replace("Z", "+00:00")
+            )
+        except Exception:
+            continue
+
+        if event_dt.date() != today:
+            continue
+
+        event_name = event.get("match_name", "Live Event")
+        channel = event.get("channel", {})
+        sport = channel.get("TVCategory", {}).get("name", "Sport")
+
+        for i in range(1, 4):
+            stream = channel.get(f"server{i}URL")
+            if not stream or stream == "null":
+                continue
+
+            key = f"[{sport}] {event_name} {i} ({TAG})"
+
+            events[key] = {
+                "url": stream,
+                "logo": "",
+                "id": "Live.Event",
+                "timestamp": now_utc().timestamp(),
+            }
+
+    return events
+
+
+# --------------------------------------------------
+# Main
+# --------------------------------------------------
+
+async def main():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
-        context = await browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-        )
+        context = await browser.new_context()
         page = await context.new_page()
-        
-        # Handle stealth versions
-        if hasattr(playwright_stealth, "stealth_async"):
-            await playwright_stealth.stealth_async(page)
+
+        await stealth_async(page)
+
+        log.info("Fetching PixelSport events...")
+        events = await get_events(page)
+
+        if events:
+            write_m3u(events)
+            log.info(f"Saved {len(events)} streams to {M3U_FILE}")
         else:
-            await playwright_stealth.stealth(page)
+            log.warning("No events found")
 
-        try:
-            log.info(f"Navigating to: {BASE_URL}")
-            await page.goto(BASE_URL, wait_until="networkidle", timeout=60000)
-            
-            # Extract content
-            try:
-                raw_data = await page.locator("pre").inner_text(timeout=10000)
-            except:
-                raw_data = await page.inner_text("body")
+        await browser.close()
 
-            if not raw_data or "<!DOCTYPE" in raw_data:
-                log.error("Failed to get JSON (Blocked by Cloudflare).")
-                return
-
-            api_json = json.loads(raw_data)
-            events_list = api_json.get("events", [])
-            log.info(f"API returned {len(events_list)} total events.")
-
-            events = {}
-            now = datetime.now(timezone.utc).date()
-            tomorrow = now + timedelta(days=1)
-            
-            for event in events_list:
-                try:
-                    # Parse date
-                    clean_date = event["date"].replace(" ", "T")
-                    event_dt = datetime.fromisoformat(clean_date).date()
-                    
-                    # BROADENED FILTER: Today and Tomorrow
-                    if event_dt == now or event_dt == tomorrow:
-                        event_name = event["match_name"]
-                        chan = event.get("channel", {})
-                        sport = chan.get("TVCategory", {}).get("name", "Sports")
-
-                        for i in range(1, 4):
-                            link = chan.get(f"server{i}URL")
-                            if link and str(link).lower() != "null":
-                                key = f"[{sport}] {event_name} S{i} ({TAG})"
-                                events[key] = {"url": link, "id": "Live.Event.us"}
-                except Exception as e:
-                    continue
-
-            generate_m3u(events, M3U_FILENAME)
-
-        except Exception as e:
-            log.error(f"Scrape failed: {e}")
-        finally:
-            await browser.close()
 
 if __name__ == "__main__":
-    asyncio.run(scrape())
+    asyncio.run(main())
