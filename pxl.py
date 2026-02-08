@@ -4,7 +4,8 @@ import asyncio
 from datetime import datetime, timezone
 from pathlib import Path
 from playwright.async_api import async_playwright
-from playwright_stealth import stealth
+# This is the specific path to the function to avoid the "module not callable" error
+from playwright_stealth.stealth import stealth_async
 
 # --- Configuration ---
 TAG = "PIXEL"
@@ -40,23 +41,24 @@ async def scrape():
 
         page = await context.new_page()
         
-        # This is the correct way to call stealth in current versions
-        await stealth(page)
+        # Now we call the specific function we imported
+        await stealth_async(page)
 
         try:
             log.info(f"Navigating to API: {BASE_URL}")
             await page.goto(BASE_URL, wait_until="networkidle", timeout=60000)
             
             try:
+                # Some sites render JSON inside a <pre> tag
                 element = page.locator("pre")
                 await element.wait_for(state="visible", timeout=15000)
                 raw_data = await element.inner_text()
             except:
-                log.warning("Pre tag not found, attempting body text extraction...")
+                log.warning("Pre tag not found, trying body text...")
                 raw_data = await page.inner_text("body")
 
             if not raw_data or "<!DOCTYPE" in raw_data:
-                log.error("Blocked by Cloudflare challenge or received HTML.")
+                log.error("Received HTML/Cloudflare block instead of JSON.")
                 return
 
             api_json = json.loads(raw_data)
