@@ -2,14 +2,12 @@ name: PixelSport Update
 
 on:
   schedule:
-    # Runs every 4 hours
     - cron: '0 */4 * * *'
-  workflow_dispatch: # Allows you to run it manually from the "Actions" tab
+  workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    # Essential for pushing the .m3u8 file back to the repo
     permissions:
       contents: write
     
@@ -24,9 +22,10 @@ jobs:
 
     - name: Install dependencies
       run: |
-          pip install playwright playwright-stealth
-          playwright install chromium
-          playwright install-deps chromium
+        python -m pip install --upgrade pip
+        pip install playwright playwright-stealth
+        playwright install chromium
+        playwright install-deps chromium
 
     - name: Run Scraper
       run: python pxl.py 
@@ -35,8 +34,6 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        # Adds the file if it was created or changed
         git add pixelsports.m3u8
-        # Only commits if there are actual changes to the file
-        git commit -m "Update M3U: $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "No changes to commit"
+        git commit -m "Update M3U: $(date -u)" || echo "No changes to commit"
         git push
