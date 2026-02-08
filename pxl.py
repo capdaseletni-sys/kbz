@@ -93,4 +93,4 @@ async def scrape():
             await browser.close()
 
 if __name__ == "__main__":
-    async asyncio.run(scrape())
+     asyncio.run(scrape())
