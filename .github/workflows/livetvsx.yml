@@ -22,7 +22,8 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install httpx
+        pip install playwright
+        playwright install chromium
 
     - name: Run Scraper
       run: python pxl.py 
