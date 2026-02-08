@@ -1,10 +1,9 @@
 import asyncio
-import json
 import logging
 from datetime import datetime, timezone
 from pathlib import Path
 
-from playwright.async_api import async_playwright, Page
+import httpx
 
 # --------------------------------------------------
 # Config
@@ -13,6 +12,17 @@ from playwright.async_api import async_playwright, Page
 BASE_URL = "https://pixelsport.tv/backend/livetv/events"
 M3U_FILE = Path("pixelsports.m3u8")
 TAG = "PIXEL"
+
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (X11; Linux x86_64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/120.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/json",
+    "Referer": "https://pixelsport.tv/",
+    "Origin": "https://pixelsport.tv",
+}
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger("pixelsport")
@@ -44,22 +54,13 @@ def write_m3u(events: dict[str, dict]) -> None:
 # API
 # --------------------------------------------------
 
-async def get_api_data(page: Page) -> dict:
-    response = await page.request.get(
-        BASE_URL,
-        timeout=15_000,
-    )
+async def get_events() -> dict[str, dict]:
+    async with httpx.AsyncClient(headers=HEADERS, timeout=15.0) as client:
+        r = await client.get(BASE_URL)
+        r.raise_for_status()
+        api_data = r.json()
 
-    if not response.ok:
-        raise RuntimeError(f"API request failed: {response.status}")
-
-    return await response.json()
-
-
-async def get_events(page: Page) -> dict[str, dict]:
-    api_data = await get_api_data(page)
     today = now_utc().date()
-
     events = {}
 
     for event in api_data.get("events", []):
@@ -99,21 +100,15 @@ async def get_events(page: Page) -> dict[str, dict]:
 # --------------------------------------------------
 
 async def main():
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        context = await browser.new_context()
-        page = await context.new_page()
+    log.info("Fetching PixelSport events...")
+    events = await get_events()
 
-        log.info("Fetching PixelSport events...")
-        events = await get_events(page)
+    if not events:
+        log.warning("No events found")
+        return
 
-        if events:
-            write_m3u(events)
-            log.info(f"Saved {len(events)} streams to {M3U_FILE}")
-        else:
-            log.warning("No events found")
-
-        await browser.close()
+    write_m3u(events)
+    log.info(f"Saved {len(events)} streams to {M3U_FILE}")
 
 
 if __name__ == "__main__":
