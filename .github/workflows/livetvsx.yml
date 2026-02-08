@@ -18,14 +18,8 @@ jobs:
       - name: Install dependencies
         run: |
           pip install playwright playwright-stealth
-          python -m playwright install chromium --with-dep
+          # Correct command for Python Playwright:
+          playwright install --with-deps chromium
 
       - name: Run script
         run: python pxl.py
-
-      - name: Upload Debug Screenshot (If fails)
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: debug-screen
-          path: debug_screenshot.png
