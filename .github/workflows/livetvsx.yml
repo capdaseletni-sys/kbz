@@ -1,6 +1,9 @@
 name: PixelSport Update
 
 on:
+  schedule:
+    # Runs every 4 hours
+    - cron: '0 */4 * * *'
   workflow_dispatch: # Allows manual trigger
 
 jobs:
@@ -24,34 +27,13 @@ jobs:
         playwright install chromium
         playwright install-deps chromium
 
-      - name: 💾 Commit & Safely Push if Playlist Changed
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions@users.noreply.github.com"
+    - name: Run Scraper
+      run: python pxl.py  # <--- Change this to your actual filename
 
-          git add pixelsports.m3u8
-
-          if git diff --cached --quiet; then
-            echo "✅ No changes to commit"
-            exit 0
-          fi
-
-          git commit -m "🔁 Update playlist $(date -u +'%a %b %d %T UTC %Y')"
-
-          sleep $((RANDOM % 10 + 5))
-
-          if ! git push origin main; then
-            echo "⚠️ Push rejected. Trying safe fetch + rebase..."
-            git pull origin main --rebase || {
-              echo "❌ Rebase failed. Exiting to avoid corruption."
-              exit 1
-            }
-            git push origin main || {
-              echo "❌ Second push failed. Remote changed again."
-              exit 1
-            }
-          fi
-
-     
+    - name: Commit and Push M3U
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add pixelsports.m3u8
+        git commit -m "Update M3U: $(date -u)" || echo "No changes to commit"
+        git push
