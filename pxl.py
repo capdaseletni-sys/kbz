@@ -41,18 +41,19 @@ def write_m3u(events: dict[str, dict]) -> None:
 
 
 # --------------------------------------------------
-# Scraping
+# API
 # --------------------------------------------------
 
 async def get_api_data(page: Page) -> dict:
-    await page.goto(
+    response = await page.request.get(
         BASE_URL,
-        wait_until="domcontentloaded",
         timeout=15_000,
     )
 
-    raw_json = await page.locator("pre").inner_text(timeout=10_000)
-    return json.loads(raw_json)
+    if not response.ok:
+        raise RuntimeError(f"API request failed: {response.status}")
+
+    return await response.json()
 
 
 async def get_events(page: Page) -> dict[str, dict]:
