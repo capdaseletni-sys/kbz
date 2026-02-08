@@ -25,6 +25,7 @@ jobs:
         pip install requests
         pip install playwright
         playwright install chromium
+        pip install curl_cffi
 
     - name: Run Scraper
       run: python pxl.py 
