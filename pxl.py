@@ -5,6 +5,7 @@ import random
 from datetime import datetime, timezone
 from pathlib import Path
 from playwright.async_api import async_playwright
+from playwright_stealth import stealth_async
 
 # --- Configuration ---
 TAG = "PIXEL"
@@ -27,35 +28,46 @@ def generate_m3u(events, filename):
 
 async def scrape():
     async with async_playwright() as p:
+        # 1. Launch browser
         browser = await p.chromium.launch(headless=True)
-        
-        # High-quality headers to look less like a bot
         context = await browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
-            viewport={'width': 1920, 'height': 1080}
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
         )
 
         page = await context.new_page()
+        # 2. Apply Stealth
+        await stealth_async(page)
+
         events = {}
 
         try:
             log.info(f"Performing handshake with {SITE_URL}...")
-            # Navigate and wait for the page to actually load to solve challenges
-            await page.goto(SITE_URL, wait_until="networkidle")
-            await asyncio.sleep(5) # Give Cloudflare extra time to settle
-
-            log.info(f"Fetching API data from {BASE_URL}...")
+            # Visit homepage to get cookies
+            await page.goto(SITE_URL, wait_until="networkidle", timeout=60000)
             
-            # We use page.evaluate but wrap it in a try/catch to see the raw text if it fails
+            # Wait for a specific element that exists on the real site to ensure page loaded
+            await asyncio.sleep(8) 
+
+            log.info(f"Attempting stealthy API fetch...")
+            
+            # 3. Enhanced Fetch with Headers
             raw_data = await page.evaluate(f"""
                 async () => {{
-                    const response = await fetch('{BASE_URL}');
-                    return await response.text(); 
+                    const response = await fetch('{BASE_URL}', {{
+                        "headers": {{
+                            "accept": "application/json, text/plain, */*",
+                            "referer": "{SITE_URL}",
+                            "x-requested-with": "XMLHttpRequest"
+                        }},
+                        "method": "GET"
+                    }});
+                    return await response.text();
                 }}
             """)
 
             if raw_data.strip().startswith("<!DOCTYPE"):
-                log.error("Received HTML instead of JSON. We are likely blocked by Cloudflare.")
+                # If we still get HTML, let's log a snippet of it to see the error (e.g., 403 or Cloudflare)
+                log.error(f"Blocked. HTML Snippet: {raw_data[:200]}")
                 return
 
             api_json = json.loads(raw_data)
@@ -85,7 +97,7 @@ async def scrape():
                 generate_m3u(events, M3U_FILENAME)
                 log.info(f"Success! Generated {M3U_FILENAME} with {len(events)} events.")
             else:
-                log.warning("API returned 0 events for today.")
+                log.warning("No events found for today.")
 
         except Exception as e:
             log.error(f"Scrape failed: {e}")
@@ -93,4 +105,4 @@ async def scrape():
             await browser.close()
 
 if __name__ == "__main__":
-     asyncio.run(scrape())
+    asyncio.run(scrape())
