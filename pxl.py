@@ -1,35 +1,26 @@
 import asyncio
+import json
 import logging
 from datetime import datetime, timezone
 from pathlib import Path
 
-import httpx
+from playwright.async_api import async_playwright
 
-# --------------------------------------------------
+# ----------------------------
 # Config
-# --------------------------------------------------
+# ----------------------------
 
-BASE_URL = "https://pixelsport.tv/backend/livetv/events"
+LIVE_URL = "https://pixelsport.tv/livetv"
 M3U_FILE = Path("pixelsports.m3u8")
 TAG = "PIXEL"
-
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (X11; Linux x86_64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/120.0.0.0 Safari/537.36"
-    ),
-    "Accept": "application/json",
-    "Referer": "https://pixelsport.tv/",
-    "Origin": "https://pixelsport.tv",
-}
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger("pixelsport")
 
-# --------------------------------------------------
+
+# ----------------------------
 # Helpers
-# --------------------------------------------------
+# ----------------------------
 
 def now_utc() -> datetime:
     return datetime.now(timezone.utc)
@@ -37,7 +28,6 @@ def now_utc() -> datetime:
 
 def write_m3u(events: dict[str, dict]) -> None:
     lines = ["#EXTM3U"]
-
     for name, data in events.items():
         lines.append(
             '#EXTINF:-1 '
@@ -46,69 +36,78 @@ def write_m3u(events: dict[str, dict]) -> None:
             f'{name}'
         )
         lines.append(data["url"])
-
     M3U_FILE.write_text("\n".join(lines), encoding="utf-8")
 
 
-# --------------------------------------------------
-# API
-# --------------------------------------------------
+# ----------------------------
+# Scraping
+# ----------------------------
 
-async def get_events() -> dict[str, dict]:
-    async with httpx.AsyncClient(headers=HEADERS, timeout=15.0) as client:
-        r = await client.get(BASE_URL)
-        r.raise_for_status()
-        api_data = r.json()
-
-    today = now_utc().date()
+async def get_events(page) -> dict[str, dict]:
+    await page.goto(LIVE_URL, wait_until="networkidle", timeout=30000)
+    
+    # Extract the JSON from the page's script tag or global object
+    # PixelSport embeds events in a <script> tag with JSON
+    content = await page.content()
+    
+    # Find JSON in page
     events = {}
-
-    for event in api_data.get("events", []):
-        try:
-            event_dt = datetime.fromisoformat(
-                event["date"].replace("Z", "+00:00")
-            )
-        except Exception:
-            continue
-
-        if event_dt.date() != today:
-            continue
-
-        event_name = event.get("match_name", "Live Event")
-        channel = event.get("channel", {})
-        sport = channel.get("TVCategory", {}).get("name", "Sport")
-
-        for i in range(1, 4):
-            stream = channel.get(f"server{i}URL")
-            if not stream or stream == "null":
+    if 'window.__INITIAL_STATE__' in content:
+        start = content.find('window.__INITIAL_STATE__ =') + len('window.__INITIAL_STATE__ =')
+        end = content.find(';</script>', start)
+        raw_json = content[start:end].strip()
+        data = json.loads(raw_json)
+        
+        today = now_utc().date()
+        for event in data.get("events", []):
+            try:
+                event_dt = datetime.fromisoformat(event["date"].replace("Z", "+00:00"))
+            except Exception:
+                continue
+            if event_dt.date() != today:
                 continue
 
-            key = f"[{sport}] {event_name} {i} ({TAG})"
+            event_name = event.get("match_name", "Live Event")
+            channel = event.get("channel", {})
+            sport = channel.get("TVCategory", {}).get("name", "Sport")
 
-            events[key] = {
-                "url": stream,
-                "logo": "",
-                "id": "Live.Event",
-                "timestamp": now_utc().timestamp(),
-            }
+            for i in range(1, 4):
+                stream = channel.get(f"server{i}URL")
+                if not stream or stream == "null":
+                    continue
+
+                key = f"[{sport}] {event_name} {i} ({TAG})"
+                events[key] = {
+                    "url": stream,
+                    "logo": "",
+                    "id": "Live.Event",
+                    "timestamp": now_utc().timestamp(),
+                }
 
     return events
 
 
-# --------------------------------------------------
+# ----------------------------
 # Main
-# --------------------------------------------------
+# ----------------------------
 
 async def main():
-    log.info("Fetching PixelSport events...")
-    events = await get_events()
+    log.info("Launching browser...")
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        context = await browser.new_context()
+        page = await context.new_page()
 
-    if not events:
-        log.warning("No events found")
-        return
+        log.info("Fetching PixelSport events...")
+        events = await get_events(page)
 
-    write_m3u(events)
-    log.info(f"Saved {len(events)} streams to {M3U_FILE}")
+        if events:
+            write_m3u(events)
+            log.info(f"Saved {len(events)} streams to {M3U_FILE}")
+        else:
+            log.warning("No events found")
+
+        await browser.close()
 
 
 if __name__ == "__main__":
