@@ -1,5 +1,13 @@
 #EXTM3U
-#EXTINF:-1 group-title="Totalsports", [NBA] BOS vs NYK
-https://gametimes.plus/nbaa1.php
+#EXTINF:-1 group-title="Totalsports", [Live Event] Valencia vs Real Madrid
+https://gametimes.plus/1111.php
+#EXTINF:-1 group-title="Totalsports", [Live Event] Juventus vs Lazio
+https://gametimes.plus/2222.php
+#EXTINF:-1 group-title="Totalsports", [Live Event] PSG vs Olympique Marseille
+https://gametimes.plus/3333.php
 #EXTINF:-1 group-title="Totalsports", [NBA] WAS vs MIA
 https://gametimes.plus/nbaa2.php
+#EXTINF:-1 group-title="Totalsports", [NBA] TOR vs IND
+https://gametimes.plus/nbaa3.php
+#EXTINF:-1 group-title="Totalsports", [NBA] MIN vs LA Clippers
+https://gametimes.plus/nbaa4.php
