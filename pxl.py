@@ -1,12 +1,12 @@
 import json
 import logging
+import asyncio
 from datetime import datetime, timezone
 from pathlib import Path
-from curl_cffi import requests
+from playwright.async_api import async_playwright
 
 # --- Configuration ---
 TAG = "PIXEL"
-SITE_URL = "https://pixelsport.tv/"
 BASE_URL = "https://pixelsport.tv/backend/livetv/events"
 M3U_FILENAME = "pixelsports.m3u8"
 
@@ -14,64 +14,43 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 log = logging.getLogger(__name__)
 
 def generate_m3u(events, filename):
-    if not events:
-        log.warning("No events to write to file.")
-        return
-    # Added a timestamp comment so the file changes every run, ensuring a Git commit
-    m3u_lines = [f"#EXTM3U\n# UPDATED: {datetime.now(timezone.utc).isoformat()}"]
+    if not events: return
+    m3u_lines = ["#EXTM3U"]
     for name, data in events.items():
         sport = name.split(']')[0].replace('[', '') if ']' in name else "Sports"
-        m3u_lines.append(f'#EXTINF:-1 tvg-id="{data["id"]}" tvg-logo="" group-title="{sport}",{name}')
+        m3u_lines.append(f'#EXTINF:-1 tvg-id="{data["id"]}" group-title="{sport}",{name}')
         m3u_lines.append(data["url"])
-    
-    Path(filename).write_text("\n".join(m3u_lines), encoding="utf-8")
-    log.info(f"Successfully generated {filename} with {len(events)} events.")
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write("\n".join(m3u_lines))
 
-def scrape():
-    events = {}
-    try:
-        log.info(f"Fetching API via Enhanced TLS Impersonation...")
-        
-        # We simulate a full browser session
-        with requests.Session() as s:
-            # First, hit the home page to get session cookies
-            s.get(SITE_URL, impersonate="chrome124")
+async def scrape():
+    async with async_playwright() as p:
+        # Launch browser - sometimes 'channel: chrome' helps on local, 
+        # but for GH Actions standard chromium is fine.
+        browser = await p.chromium.launch(headless=True)
+        context = await browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+        )
+        page = await context.new_page()
+        events = {}
+
+        try:
+            log.info(f"Navigating directly to API: {BASE_URL}")
+            # Navigate directly to the JSON URL
+            await page.goto(BASE_URL, wait_until="domcontentloaded", timeout=30000)
             
-            # Now hit the API with the full headers a real browser uses
-            response = s.get(
-                BASE_URL,
-                impersonate="chrome124",
-                headers={
-                    "authority": "pixelsport.tv",
-                    "accept": "application/json, text/plain, */*",
-                    "accept-language": "en-US,en;q=0.9",
-                    "referer": SITE_URL,
-                    "sec-ch-ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
-                    "sec-ch-ua-mobile": "?0",
-                    "sec-ch-ua-platform": '"Windows"',
-                    "sec-fetch-dest": "empty",
-                    "sec-fetch-mode": "cors",
-                    "sec-fetch-site": "same-origin",
-                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                },
-                timeout=30
-            )
+            # The "Magic": Browsers wrap raw JSON in a <pre> tag
+            raw_json = await page.locator("pre").inner_text(timeout=10000)
+            api_json = json.loads(raw_json)
+            
+            now = datetime.now(timezone.utc)
+            for event in api_json.get("events", []):
+                try:
+                    clean_date = event["date"].replace(" ", "T")
+                    event_dt = datetime.fromisoformat(clean_date).replace(tzinfo=timezone.utc)
+                    
+                    if event_dt.date() != now.date(): continue
 
-        if response.status_code != 200:
-            log.error(f"Failed to fetch. Status: {response.status_code}")
-            log.error(f"Response snippet: {response.text[:200]}")
-            return
-
-        api_json = response.json()
-        now = datetime.now(timezone.utc)
-
-        for event in api_json.get("events", []):
-            try:
-                clean_date = event["date"].replace(" ", "T")
-                event_dt = datetime.fromisoformat(clean_date).replace(tzinfo=timezone.utc)
-                
-                # Check if event is today
-                if event_dt.date() == now.date():
                     event_name = event["match_name"]
                     chan = event.get("channel", {})
                     sport = chan.get("TVCategory", {}).get("name", "Sports")
@@ -81,17 +60,20 @@ def scrape():
                         if link and str(link).lower() != "null":
                             key = f"[{sport}] {event_name} S{i} ({TAG})"
                             events[key] = {
-                                "url": link, 
-                                "id": "Live.Event.us", 
-                                "timestamp": now.timestamp()
+                                "url": link, "id": "Live.Event.us"
                             }
-            except Exception:
-                continue
+                except: continue
 
-        generate_m3u(events, M3U_FILENAME)
+            if events:
+                generate_m3u(events, M3U_FILENAME)
+                log.info(f"Success! Found {len(events)} events.")
+            else:
+                log.warning("No events found for today.")
 
-    except Exception as e:
-        log.error(f"Scraper encountered an error: {e}")
+        except Exception as e:
+            log.error(f"Scrape failed: {e}")
+        finally:
+            await browser.close()
 
 if __name__ == "__main__":
-    scrape()
+    asyncio.run(scrape())
