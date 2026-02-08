@@ -26,6 +26,7 @@ jobs:
         pip install playwright
         playwright install chromium
         pip install curl_cffi
+        pip install drissionpage
 
     - name: Run Scraper
       run: python pxl.py 
