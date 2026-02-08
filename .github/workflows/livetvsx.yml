@@ -17,8 +17,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install playwright playwright-stealth
-          # Correct command for Python Playwright:
+          pip install playwright playwright-stealth --upgrade
           playwright install --with-deps chromium
 
       - name: Run script
