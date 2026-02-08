@@ -1,10 +1,10 @@
 import json
 import logging
+import asyncio
 import random
-import time
 from datetime import datetime, timezone
 from pathlib import Path
-from seleniumbase import Driver
+from playwright.async_api import async_playwright
 
 # --- Configuration ---
 TAG = "PIXEL"
@@ -16,11 +16,11 @@ CACHE_EXPIRY = 19_800
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 log = logging.getLogger(__name__)
 
-# --- Utility Functions ---
+# --- Functions ---
 
 def load_cache():
     if not CACHE_PATH.exists(): return None
-    if (time.time() - CACHE_PATH.stat().st_mtime) > CACHE_EXPIRY: return None
+    if (datetime.now().timestamp() - CACHE_PATH.stat().st_mtime) > CACHE_EXPIRY: return None
     try: return json.loads(CACHE_PATH.read_text())
     except: return None
 
@@ -35,67 +35,78 @@ def generate_m3u(events, filename):
         f.write("\n".join(m3u_lines))
     log.info(f"Playlist generated: {filename}")
 
-# --- Scraper Logic ---
-
-def scrape():
-    # 1. Check Cache
+async def scrape():
     cached = load_cache()
     if cached:
         log.info(f"Loaded {len(cached)} items from cache.")
         generate_m3u(cached, M3U_FILENAME)
         return
 
-    # 2. Launch Stealth Driver (UC Mode)
-    # uc=True is the "Undetected" mode that bypasses 403/Cloudflare
-    log.info("Launching stealth browser...")
-    driver = Driver(uc=True, headless=True) 
-    
-    events = {}
-    try:
-        log.info(f"Navigating to {BASE_URL}...")
-        driver.get(BASE_URL)
+    async with async_playwright() as p:
+        # Launch persistent context to mimic a real profile
+        user_data_dir = Path("./browser_profile")
+        browser_context = await p.chromium.launch_persistent_context(
+            user_data_dir,
+            headless=True,
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            viewport={'width': 1920, 'height': 1080},
+            args=[
+                "--disable-blink-features=AutomationControlled",
+                "--no-sandbox"
+            ]
+        )
+
+        # 1. Hide the webdriver property
+        await browser_context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
         
-        # Give it a second to resolve any background challenges
-        time.sleep(random.uniform(3, 5))
+        page = await browser_context.new_page()
+        events = {}
 
-        # 3. Extract JSON
-        # SeleniumBase will handle the challenge, then we grab the result
-        page_source = driver.get_text("body")
-        api_data = json.loads(page_source)
+        try:
+            log.info(f"Navigating to {BASE_URL}...")
+            # Random delay before navigation
+            await asyncio.sleep(random.uniform(1, 3))
+            
+            response = await page.goto(BASE_URL, wait_until="networkidle", timeout=60000)
+            
+            if response.status == 403:
+                log.error("Access Forbidden (403). The site is still blocking us.")
+                # Optional: Save a screenshot to see why it blocked
+                await page.screenshot(path="blocked.png")
+                return
+
+            # Extract content - site returns raw JSON
+            raw_text = await page.inner_text("body")
+            api_data = json.loads(raw_text)
+            
+            now = datetime.now(timezone.utc)
+            for event in api_data.get("events", []):
+                try:
+                    event_dt = datetime.fromisoformat(event["date"].replace(" ", "T"))
+                    if event_dt.date() != now.date(): continue
+
+                    event_name = event["match_name"]
+                    chan = event.get("channel", {})
+                    sport = chan.get("TVCategory", {}).get("name", "Sports")
+
+                    for i in range(1, 4):
+                        link = chan.get(f"server{i}URL")
+                        if link and str(link).lower() != "null":
+                            key = f"[{sport}] {event_name} S{i} ({TAG})"
+                            events[key] = {
+                                "url": link, "id": "Live.Event.us", "timestamp": now.timestamp()
+                            }
+                except: continue
+
+            if events:
+                CACHE_PATH.write_text(json.dumps(events, indent=4))
+                generate_m3u(events, M3U_FILENAME)
+                log.info(f"Successfully scraped {len(events)} events.")
         
-        now = datetime.now(timezone.utc)
-
-        for event in api_data.get("events", []):
-            try:
-                event_dt = datetime.fromisoformat(event["date"].replace(" ", "T"))
-                if event_dt.date() != now.date(): continue
-
-                event_name = event["match_name"]
-                chan = event.get("channel", {})
-                sport = chan.get("TVCategory", {}).get("name", "Sports")
-
-                for i in range(1, 4):
-                    link = chan.get(f"server{i}URL")
-                    if link and str(link).lower() != "null":
-                        key = f"[{sport}] {event_name} S{i} ({TAG})"
-                        events[key] = {
-                            "url": link, 
-                            "id": "Live.Event.us", 
-                            "timestamp": now.timestamp()
-                        }
-            except: continue
-
-        if events:
-            CACHE_PATH.write_text(json.dumps(events, indent=4))
-            generate_m3u(events, M3U_FILENAME)
-            log.info(f"Successfully scraped {len(events)} events.")
-        else:
-            log.warning("No events found in the API response.")
-
-    except Exception as e:
-        log.error(f"Failed to bypass or parse: {e}")
-    finally:
-        driver.quit()
+        except Exception as e:
+            log.error(f"Scrape failed: {e}")
+        finally:
+            await browser_context.close()
 
 if __name__ == "__main__":
-    scrape()
+    asyncio.run(scrape())
