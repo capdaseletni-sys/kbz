@@ -8,6 +8,7 @@ from playwright.async_api import async_playwright
 
 # --- Configuration ---
 TAG = "PIXEL"
+SITE_URL = "https://pixelsport.tv/" # Main site for cookies
 BASE_URL = "https://pixelsport.tv/backend/livetv/events"
 CACHE_PATH = Path(f"{TAG}_cache.json")
 M3U_FILENAME = "pixelsports.m3u8"
@@ -16,13 +17,7 @@ CACHE_EXPIRY = 19_800
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 log = logging.getLogger(__name__)
 
-# --- Functions ---
-
-def load_cache():
-    if not CACHE_PATH.exists(): return None
-    if (datetime.now().timestamp() - CACHE_PATH.stat().st_mtime) > CACHE_EXPIRY: return None
-    try: return json.loads(CACHE_PATH.read_text())
-    except: return None
+# --- Logic ---
 
 def generate_m3u(events, filename):
     if not events: return
@@ -33,56 +28,49 @@ def generate_m3u(events, filename):
         m3u_lines.append(data["url"])
     with open(filename, "w", encoding="utf-8") as f:
         f.write("\n".join(m3u_lines))
-    log.info(f"Playlist generated: {filename}")
 
 async def scrape():
-    cached = load_cache()
-    if cached:
-        log.info(f"Loaded {len(cached)} items from cache.")
-        generate_m3u(cached, M3U_FILENAME)
-        return
-
     async with async_playwright() as p:
-        # Launch persistent context to mimic a real profile
-        user_data_dir = Path("./browser_profile")
-        browser_context = await p.chromium.launch_persistent_context(
-            user_data_dir,
-            headless=True,
+        # 1. Start with a real-looking browser
+        browser = await p.chromium.launch(headless=True)
+        
+        # Use a high-quality User-Agent
+        context = await browser.new_context(
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
-            viewport={'width': 1920, 'height': 1080},
-            args=[
-                "--disable-blink-features=AutomationControlled",
-                "--no-sandbox"
-            ]
+            extra_http_headers={
+                "Accept-Language": "en-US,en;q=0.9",
+                "Referer": SITE_URL
+            }
         )
 
-        # 1. Hide the webdriver property
-        await browser_context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-        
-        page = await browser_context.new_page()
+        page = await context.new_page()
         events = {}
 
         try:
-            log.info(f"Navigating to {BASE_URL}...")
-            # Random delay before navigation
-            await asyncio.sleep(random.uniform(1, 3))
-            
-            response = await page.goto(BASE_URL, wait_until="networkidle", timeout=60000)
-            
-            if response.status == 403:
-                log.error("Access Forbidden (403). The site is still blocking us.")
-                # Optional: Save a screenshot to see why it blocked
-                await page.screenshot(path="blocked.png")
-                return
+            # 2. THE HANDSHAKE: Visit the homepage first to collect session cookies/tokens
+            log.info(f"Performing handshake with {SITE_URL}...")
+            await page.goto(SITE_URL, wait_until="networkidle")
+            await asyncio.sleep(random.uniform(2, 4)) # Act human
 
-            # Extract content - site returns raw JSON
-            raw_text = await page.inner_text("body")
-            api_data = json.loads(raw_text)
+            # 3. THE REQUEST: Now try the API while carrying those cookies
+            log.info(f"Fetching API data from {BASE_URL}...")
             
+            # Instead of goto, we use page.evaluate to fetch via the browser's internal fetch
+            # This ensures all cookies, headers, and fingerprints are 100% correct.
+            api_json = await page.evaluate(f"""
+                async () => {{
+                    const response = await fetch('{BASE_URL}');
+                    return await response.json();
+                }}
+            """)
+
             now = datetime.now(timezone.utc)
-            for event in api_data.get("events", []):
+            for event in api_json.get("events", []):
                 try:
-                    event_dt = datetime.fromisoformat(event["date"].replace(" ", "T"))
+                    # Fix date format for standard ISO parsing
+                    clean_date = event["date"].replace(" ", "T")
+                    event_dt = datetime.fromisoformat(clean_date).replace(tzinfo=timezone.utc)
+                    
                     if event_dt.date() != now.date(): continue
 
                     event_name = event["match_name"]
@@ -96,17 +84,20 @@ async def scrape():
                             events[key] = {
                                 "url": link, "id": "Live.Event.us", "timestamp": now.timestamp()
                             }
-                except: continue
+                except Exception: continue
 
             if events:
-                CACHE_PATH.write_text(json.dumps(events, indent=4))
+                Path(M3U_FILENAME).write_text("") # Clear old file
                 generate_m3u(events, M3U_FILENAME)
-                log.info(f"Successfully scraped {len(events)} events.")
-        
+                log.info(f"Success! Generated {M3U_FILENAME} with {len(events)} events.")
+            else:
+                log.warning("API returned 0 events for today.")
+
         except Exception as e:
-            log.error(f"Scrape failed: {e}")
+            log.error(f"Handshake failed: {e}")
+            # If the site uses Cloudflare, it might need 'headless: False' once locally.
         finally:
-            await browser_context.close()
+            await browser.close()
 
 if __name__ == "__main__":
     asyncio.run(scrape())
