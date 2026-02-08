@@ -30,6 +30,7 @@ jobs:
         run: |
           pip install feedparser httpx playwright
           playwright install chromium
+          pip install cloudscraper requests
 
       - name: 🎯 Run scraping script
         run: python pxl.py
