@@ -1,35 +1,31 @@
-import cloudscraper
-import json
+name: Pixel Scraper
 
-def fetch_data():
-    # Create a scraper instance that bypasses Cloudflare
-    scraper = cloudscraper.create_scraper(
-        browser={
-            'browser': 'chrome',
-            'platform': 'windows',
-            'desktop': True
-        }
-    )
-    
-    url = "https://pixelsport.tv/backend/livetv/events"
-    
-    try:
-        response = scraper.get(url)
-        
-        if response.status_code == 200:
-            events = response.json()
-            print(f"{'MATCH NAME':<40} | {'SERVER 1 URL'}")
-            print("-" * 80)
-            for event in events:
-                print(f"{event.get('match_name', 'N/A'):<40} | {event.get('server1URL', 'N/A')}")
-        else:
-            print(f"Failed. Status: {response.status_code}")
-            # If we still get a 403, Cloudflare is in 'High' security mode
-            if "Cloudflare" in response.text:
-                print("Cloudflare detected and blocked the request.")
+on:
+  workflow_dispatch:
 
-    except Exception as e:
-        print(f"Error: {e}")
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-if __name__ == "__main__":
-    fetch_data()
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          python -m playwright install chromium --with-deps
+
+      - name: Run script
+        run: python pxl.py
+
+      - name: Upload Debug Screenshot (If fails)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-screen
+          path: debug_screenshot.png
