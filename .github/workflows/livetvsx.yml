@@ -9,6 +9,9 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    # Add these lines here:
+    permissions:
+      contents: write
     
     steps:
     - name: Checkout code
