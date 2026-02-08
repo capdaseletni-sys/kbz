@@ -1,10 +1,10 @@
 import json
 import logging
-import asyncio
 import random
+import time
 from datetime import datetime, timezone
 from pathlib import Path
-from playwright.async_api import async_playwright, Browser, Page
+from seleniumbase import Driver
 
 # --- Configuration ---
 TAG = "PIXEL"
@@ -16,13 +16,11 @@ CACHE_EXPIRY = 19_800
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 log = logging.getLogger(__name__)
 
-urls: dict[str, dict[str, str | float]] = {}
-
-# --- Helper Functions ---
+# --- Utility Functions ---
 
 def load_cache():
     if not CACHE_PATH.exists(): return None
-    if (datetime.now().timestamp() - CACHE_PATH.stat().st_mtime) > CACHE_EXPIRY: return None
+    if (time.time() - CACHE_PATH.stat().st_mtime) > CACHE_EXPIRY: return None
     try: return json.loads(CACHE_PATH.read_text())
     except: return None
 
@@ -39,24 +37,33 @@ def generate_m3u(events, filename):
 
 # --- Scraper Logic ---
 
-async def get_events(page: Page) -> dict:
-    now = datetime.now(timezone.utc)
+def scrape():
+    # 1. Check Cache
+    cached = load_cache()
+    if cached:
+        log.info(f"Loaded {len(cached)} items from cache.")
+        generate_m3u(cached, M3U_FILENAME)
+        return
+
+    # 2. Launch Stealth Driver (UC Mode)
+    # uc=True is the "Undetected" mode that bypasses 403/Cloudflare
+    log.info("Launching stealth browser...")
+    driver = Driver(uc=True, headless=True) 
+    
     events = {}
-
     try:
-        # 1. Navigate to the URL instead of using raw request
         log.info(f"Navigating to {BASE_URL}...")
-        response = await page.goto(BASE_URL, wait_until="networkidle", timeout=30000)
+        driver.get(BASE_URL)
         
-        if response.status == 403:
-            log.error("Access Forbidden (403). The site is blocking the automated browser.")
-            return {}
+        # Give it a second to resolve any background challenges
+        time.sleep(random.uniform(3, 5))
 
-        # 2. Extract JSON from the page body (browsers often wrap JSON in <pre> tags)
-        content = await page.content()
-        # Clean the content to find the JSON string
-        raw_text = await page.inner_text("body")
-        api_data = json.loads(raw_text)
+        # 3. Extract JSON
+        # SeleniumBase will handle the challenge, then we grab the result
+        page_source = driver.get_text("body")
+        api_data = json.loads(page_source)
+        
+        now = datetime.now(timezone.utc)
 
         for event in api_data.get("events", []):
             try:
@@ -72,48 +79,23 @@ async def get_events(page: Page) -> dict:
                     if link and str(link).lower() != "null":
                         key = f"[{sport}] {event_name} S{i} ({TAG})"
                         events[key] = {
-                            "url": link, "id": "Live.Event.us", "timestamp": now.timestamp()
+                            "url": link, 
+                            "id": "Live.Event.us", 
+                            "timestamp": now.timestamp()
                         }
             except: continue
+
+        if events:
+            CACHE_PATH.write_text(json.dumps(events, indent=4))
+            generate_m3u(events, M3U_FILENAME)
+            log.info(f"Successfully scraped {len(events)} events.")
+        else:
+            log.warning("No events found in the API response.")
+
     except Exception as e:
-        log.error(f"Parsing error: {e}")
-
-    return events
-
-async def scrape(browser: Browser):
-    global urls
-    cached = load_cache()
-    if cached:
-        urls.update(cached)
-        generate_m3u(urls, M3U_FILENAME)
-        log.info(f"Loaded {len(urls)} items from cache.")
-        return
-
-    # Use a realistic User-Agent and disable the automation flag
-    context = await browser.new_context(
-        user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        viewport={'width': 1920, 'height': 1080}
-    )
-    
-    # Anti-detection script: Remove the 'webdriver' property
-    await context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-    
-    page = await context.new_page()
-    try:
-        scraped_events = await get_events(page)
-        if scraped_events:
-            urls.update(scraped_events)
-            CACHE_PATH.write_text(json.dumps(urls, indent=4))
-            generate_m3u(urls, M3U_FILENAME)
+        log.error(f"Failed to bypass or parse: {e}")
     finally:
-        await context.close()
-
-async def main():
-    async with async_playwright() as p:
-        # Headless=False can sometimes help bypass 403s if Headless is detected
-        browser = await p.chromium.launch(headless=True)
-        await scrape(browser)
-        await browser.close()
+        driver.quit()
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    scrape()
