@@ -17,8 +17,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install playwright
-          python -m playwright install chromium --with-deps
+          pip install playwright playwright-stealth
+          python -m playwright install chromium --with-dep
 
       - name: Run script
         run: python pxl.py
