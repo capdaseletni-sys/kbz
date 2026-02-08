@@ -7,21 +7,20 @@ async def run():
     stealth = Stealth()
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
-        # Your specific User-Agent
-        ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
-        
-        context = await browser.new_context(user_agent=ua)
+        context = await browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+        )
         await stealth.apply_stealth_async(context)
         page = await context.new_page()
         
         url = "https://pixelsport.tv/backend/livetv/events"
         
         try:
-            print("Warming up on homepage...")
+            print("Warming up...")
             await page.goto("https://pixelsport.tv/", wait_until="networkidle")
             await asyncio.sleep(5) 
 
-            print(f"Fetching data for NBA games...")
+            print(f"Fetching data from API...")
             await page.goto(url, wait_until="domcontentloaded")
 
             try:
@@ -36,37 +35,25 @@ async def run():
             count = 0
             
             for event in events:
-                name = event.get('match_name', '')
+                name = event.get('match_name', 'Unknown Match')
                 channel = event.get('channel', {})
-                category_info = channel.get('TVCategory', {})
-                sport_name = category_info.get('name', '')
-
-                # --- NBA FILTERING LOGIC ---
-                # Checks if "NBA" is in the title or the sport category
-                if "NBA" in name.upper() or "NBA" in sport_name.upper():
+                url_s1 = channel.get('server1URL') or event.get('server1URL')
+                
+                if url_s1 and url_s1 != "null":
+                    # --- DOMAIN REPLACEMENT LOGIC ---
+                    if "hd.bestlive.top:443" in url_s1:
+                        url_s1 = url_s1.replace("hd.bestlive.top:443", "hd.pixelhd.online:443")
+                    # --------------------------------
                     
-                    url_s1 = channel.get('server1URL') or event.get('server1URL')
-                    
-                    if url_s1 and url_s1 != "null":
-                        # Domain replacement logic
-                        if "hd.bestlive.top:443" in url_s1:
-                            url_s1 = url_s1.replace("hd.bestlive.top:443", "hd.pixelhd.online:443")
-                        
-                        # Formatting the M3U entry
-                        m3u_content += f'#EXTINF:-1 group-title="NBA",{name}\n'
-                        m3u_content += f'#EXTVLCOPT:http-referrer=https://pixelsport.tv\n'
-                        m3u_content += f'#EXTVLCOPT:http-origin=https://pixelsport.tv\n'
-                        m3u_content += f'#EXTVLCOPT:http-user-agent={ua}\n'
-                        m3u_content += f'{url_s1}\n'
-                        count += 1
+                    category = channel.get('TVCategory', {}).get('name', 'Live Sports')
+                    m3u_content += f'#EXTINF:-1 group-title="{category}",{name}\n'
+                    m3u_content += f'{url_s1}\n'
+                    count += 1
 
             with open("pixelsports.m3u8", "w", encoding="utf-8") as f:
                 f.write(m3u_content)
             
-            if count > 0:
-                print(f"Success! {count} NBA games saved to pixelsports.m3u8.")
-            else:
-                print("No NBA games found at the moment.")
+            print(f"Success! {count} matches saved to pixelsports.m3u8 with domain updates.")
 
         except Exception as e:
             print(f"Scrape failed: {e}")
