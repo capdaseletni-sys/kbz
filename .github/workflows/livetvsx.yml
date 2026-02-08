@@ -4,12 +4,12 @@ on:
   schedule:
     # Runs every 4 hours
     - cron: '0 */4 * * *'
-  workflow_dispatch: # Allows manual trigger
+  workflow_dispatch: # Allows you to run it manually from the "Actions" tab
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    # Add these lines here:
+    # Essential for pushing the .m3u8 file back to the repo
     permissions:
       contents: write
     
@@ -25,15 +25,20 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install curl_cffi
+        pip install playwright
+        # Install Chromium and the system libraries it needs to run on Linux
+        playwright install chromium
+        playwright install-deps chromium
 
     - name: Run Scraper
-      run: python pxl.py  # <--- Change this to your actual filename
+      run: python pxl.py 
 
     - name: Commit and Push M3U
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
+        # Adds the file if it was created or changed
         git add pixelsports.m3u8
-        git commit -m "Update M3U: $(date -u)" || echo "No changes to commit"
+        # Only commits if there are actual changes to the file
+        git commit -m "Update M3U: $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "No changes to commit"
         git push
