@@ -22,7 +22,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install playwright playwright-stealth
+        pip install playwright
         playwright install chromium
 
     - name: Run Scraper
