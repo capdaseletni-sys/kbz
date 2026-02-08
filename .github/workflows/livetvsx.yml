@@ -24,11 +24,9 @@ jobs:
 
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install playwright
-        # Install Chromium and the system libraries it needs to run on Linux
-        playwright install chromium
-        playwright install-deps chromium
+          pip install playwright playwright-stealth
+          playwright install chromium
+          playwright install-deps chromium
 
     - name: Run Scraper
       run: python pxl.py 
