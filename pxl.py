@@ -1,23 +1,24 @@
 import json
 import asyncio
 from playwright.async_api import async_playwright
-from playwright_stealth import stealth_async
+from playwright_stealth import Stealth
 
 async def run():
+    # Initialize the new Stealth object
+    stealth = Stealth()
+
     async with async_playwright() as p:
-        # Launch browser with anti-detection args
-        browser = await p.chromium.launch(
-            headless=True,
-            args=["--disable-blink-features=AutomationControlled"]
-        )
+        browser = await p.chromium.launch(headless=True)
         
+        # New recommended way: Apply stealth to the entire context
         context = await browser.new_context(
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
         )
         
-        page = await context.new_page()
-        await stealth_async(page)
+        # Apply stealth to all pages in this context
+        await stealth.apply_stealth_async(context)
         
+        page = await context.new_page()
         url = "https://pixelsport.tv/backend/livetv/events"
         
         try:
@@ -25,41 +26,29 @@ async def run():
             await page.goto("https://pixelsport.tv/", wait_until="networkidle")
             await asyncio.sleep(5) 
 
-            print(f"Fetching API from {url}...")
+            print(f"Fetching API: {url}")
             await page.goto(url, wait_until="domcontentloaded")
 
-            # The secret sauce: Look for the <pre> tag where browsers dump raw JSON
+            # Try to grab the JSON wrapped in <pre> tags
             try:
-                raw_json = await page.locator("pre").inner_text(timeout=10000)
+                raw_json = await page.locator("pre").inner_text(timeout=5000)
             except:
-                # Fallback to body if <pre> isn't used
                 raw_json = await page.locator("body").inner_text()
 
             data = json.loads(raw_json)
-            
-            # The structure is usually {"events": [...]} or a direct list []
-            events_list = data.get("events", data) if isinstance(data, dict) else data
+            events = data.get("events", data) if isinstance(data, dict) else data
 
-            print(f"\n{'SPORT':<15} | {'MATCH NAME':<35} | {'SERVER 1 URL'}")
-            print("-" * 100)
+            print(f"\n{'MATCH NAME':<45} | {'SERVER 1 URL'}")
+            print("-" * 90)
 
-            for event in events_list:
-                # Extracting details based on the structure you shared
-                match_name = event.get('match_name', 'N/A')
-                
-                # Digging into the 'channel' object if it exists
+            for event in events:
+                name = event.get('match_name', 'N/A')
                 channel = event.get('channel', {})
-                server1 = channel.get('server1URL') or event.get('server1URL', 'N/A')
-                
-                # Get category/sport if available
-                category = channel.get('TVCategory', {})
-                sport = category.get('name', 'Live')
-
-                print(f"{sport[:15]:<15} | {match_name[:35]:<35} | {server1}")
+                url_s1 = channel.get('server1URL') or event.get('server1URL', 'N/A')
+                print(f"{name[:45]:<45} | {url_s1}")
 
         except Exception as e:
             print(f"Scrape failed: {e}")
-            await page.screenshot(path="error.png")
         
         await browser.close()
 
