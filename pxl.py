@@ -5,7 +5,7 @@ import random
 from datetime import datetime, timezone
 from pathlib import Path
 from playwright.async_api import async_playwright
-from playwright_stealth import stealth_async
+await stealth(page)
 
 # --- Configuration ---
 TAG = "PIXEL"
