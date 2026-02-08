@@ -3,31 +3,31 @@ import requests
 def fetch_pixel_events():
     url = "https://pixelsport.tv/backend/livetv/events"
     
-    # Adding a User-Agent header is good practice to prevent the request from 
-    # being blocked by basic bot security.
+    # More comprehensive headers to bypass the 403 block
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://pixelsport.tv/",
+        "Origin": "https://pixelsport.tv",
+        "Connection": "keep-alive"
     }
 
     try:
         response = requests.get(url, headers=headers)
-        response.raise_for_status()  # Check for HTTP errors (404, 500, etc.)
         
-        # Parse the JSON data
+        if response.status_code == 403:
+            print("Still getting 403. The server might be using Cloudflare or a WAF.")
+            return
+
+        response.raise_for_status()
         events = response.json()
         
-        print(f"{'MATCH NAME':<40} | {'SERVER 1 URL'}")
-        print("-" * 80)
-
         for event in events:
-            # Using .get() prevents the script from crashing if a key is missing
-            name = event.get('match_name', 'N/A')
-            url_server = event.get('server1URL', 'N/A')
-            
-            print(f"{name:<40} | {url_server}")
+            print(f"Match: {event.get('match_name')} | URL: {event.get('server1URL')}")
 
     except requests.exceptions.RequestException as e:
-        print(f"Error fetching data: {e}")
+        print(f"Error: {e}")
 
 if __name__ == "__main__":
     fetch_pixel_events()
