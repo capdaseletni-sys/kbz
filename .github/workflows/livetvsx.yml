@@ -32,7 +32,7 @@ jobs:
           playwright install chromium
 
       - name: 🎯 Run scraping script
-        run: python livetvsx.py
+        run: python pxl.py
 
       - name: 💾 Commit & Safely Push if Playlist Changed
         env:
@@ -41,7 +41,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions@users.noreply.github.com"
 
-          git add livetvsx.m3u8
+          git add pixelsports.m3u8
 
           if git diff --cached --quiet; then
             echo "✅ No changes to commit"
