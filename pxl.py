@@ -1,140 +1,157 @@
 import json
-import cloudscraper
-import time
+import logging
+import asyncio
+from datetime import datetime, timezone
+from pathlib import Path
+from playwright.async_api import async_playwright, Browser, Page
 
-# Configuration
-BASE = "https://pixelsport.tv"
-API_EVENTS = f"{BASE}/backend/liveTV/events"
-API_SLIDERS = f"{BASE}/backend/slider/getSliders"
-OUTPUT_FILE = "pixelsports.m3u8"
+# --- Configuration ---
+TAG = "PIXEL"
+BASE_URL = "https://pixelsport.tv/backend/livetv/events"
+CACHE_PATH = Path(f"{TAG}_cache.json")
+M3U_FILENAME = "pixelsports.m3u8"
+CACHE_EXPIRY = 19_800  # 5.5 hours
 
-LIVE_TV_LOGO = "https://pixelsport.tv/static/media/PixelSportLogo.1182b5f687c239810f6d.png"
-LIVE_TV_ID = "24.7.Dummy.us"
+# Setup logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+log = logging.getLogger(__name__)
 
-# Headers for playback compatibility
-VLC_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-VLC_REFERER = f"{BASE}/"
+# Global storage for URLs
+urls: dict[str, dict[str, str | float]] = {}
 
-LEAGUE_INFO = {
-    "NFL": ("NFL.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/Maxx.png", "NFL"),
-    "MLB": ("MLB.Baseball.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/Baseball3.png", "MLB"),
-    "NHL": ("NHL.Hockey.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/Hockey2.png", "NHL"),
-    "NBA": ("NBA.Basketball.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/Basketball-2.png", "NBA"),
-    "NASCAR": ("Racing.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/Motorsports2.png", "NASCAR"),
-    "UFC": ("UFC.Fight.Pass.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/CombatSports2.png", "UFC"),
-    "SOCCER": ("Soccer.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/Soccer.png", "Soccer"),
-    "BOXING": ("PPV.EVENTS.Dummy.us", "http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png", "Boxing"),
-}
+# --- Utility Functions ---
 
-def fetch_json(url):
-    """Uses cloudscraper to bypass 403 Forbidden errors"""
-    try:
-        # Create scraper instance
-        scraper = cloudscraper.create_scraper(
-            browser={
-                'browser': 'chrome',
-                'platform': 'windows',
-                'desktop': True
-            }
-        )
-        response = scraper.get(url, timeout=15)
+def load_cache() -> dict | None:
+    """Loads data from local JSON if it hasn't expired."""
+    if not CACHE_PATH.exists():
+        return None
+    
+    stats = CACHE_PATH.stat()
+    if (datetime.now().timestamp() - stats.st_mtime) > CACHE_EXPIRY:
+        log.info("Cache expired.")
+        return None
         
-        if response.status_code == 200:
-            return response.json()
-        else:
-            print(f"[!] Error {response.status_code} for {url}")
-            return None
+    try:
+        return json.loads(CACHE_PATH.read_text())
     except Exception as e:
-        print(f"[!] Connection Error: {e}")
+        log.error(f"Failed to read cache: {e}")
         return None
 
-def collect_links(obj):
-    """Cleanly extracts server URLs and avoids duplicates"""
-    links = []
-    if not obj:
-        return links
-    for i in range(1, 4):
-        key = f"server{i}URL"
-        url = obj.get(key)
-        if url and str(url).strip().lower() not in ["null", ""]:
-            if url not in links:
-                links.append(url.strip())
-    return links
+def save_cache(data: dict):
+    """Saves the scraped data to a local JSON file."""
+    CACHE_PATH.write_text(json.dumps(data, indent=4))
 
-def get_league_info(name):
-    """Maps categories to EPG IDs and Logos"""
-    name_lower = name.lower()
-    for key, (tvid, logo, group) in LEAGUE_INFO.items():
-        if key.lower() in name_lower:
-            return tvid, logo, group
-    return ("Pixelsports.Dummy.us", LIVE_TV_LOGO, "Sports")
-
-def build_m3u(events, sliders):
-    """Generates the M3U string"""
-    lines = ["#EXTM3U"]
-
-    # 1. Process Live Match Events
-    for ev in events:
-        channel_data = ev.get("channel", {})
-        links = collect_links(channel_data)
-        if not links:
-            continue
-
-        title = ev.get("match_name", "Unknown Event").strip()
-        logo = ev.get("competitors1_logo") or LIVE_TV_LOGO
-        league_name = channel_data.get("TVCategory", {}).get("name", "Sports")
-        tvid, _, group_name = get_league_info(league_name)
-
-        for idx, link in enumerate(links, 1):
-            # Append suffix if multiple links exist
-            suffix = f" [Link {idx}]" if len(links) > 1 else ""
-            lines.append(f'#EXTINF:-1 tvg-id="{tvid}" tvg-logo="{logo}" group-title="PixelSport - {group_name}",{title}{suffix}')
-            lines.append(f'#EXTVLCOPT:http-user-agent={VLC_USER_AGENT}')
-            lines.append(f'#EXTVLCOPT:http-referrer={VLC_REFERER}')
-            lines.append(link)
-
-    # 2. Process Slider (24/7) Channels
-    for ch in sliders:
-        live_data = ch.get("liveTV", {})
-        links = collect_links(live_data)
-        if not links:
-            continue
-
-        title = ch.get("title", "Live Channel").strip()
-        for idx, link in enumerate(links, 1):
-            suffix = f" [Link {idx}]" if len(links) > 1 else ""
-            lines.append(f'#EXTINF:-1 tvg-id="{LIVE_TV_ID}" tvg-logo="{LIVE_TV_LOGO}" group-title="PixelSport - 24/7",{title}{suffix}')
-            lines.append(f'#EXTVLCOPT:http-user-agent={VLC_USER_AGENT}')
-            lines.append(f'#EXTVLCOPT:http-referrer={VLC_REFERER}')
-            lines.append(link)
-
-    return "\n".join(lines)
-
-def main():
-    print("[*] Bypassing security and fetching PixelSport data...")
-    
-    events_raw = fetch_json(API_EVENTS)
-    # Pause slightly between requests to be polite
-    time.sleep(1) 
-    sliders_raw = fetch_json(API_SLIDERS)
-
-    events = events_raw.get("events", []) if isinstance(events_raw, dict) else []
-    sliders = sliders_raw.get("data", []) if isinstance(sliders_raw, dict) else []
-
-    if not events and not sliders:
-        print("[!] No data retrieved. The site might be down or blocking the scraper.")
+def generate_m3u(events: dict, filename: str):
+    """Converts the events dictionary into an M3U8 playlist file."""
+    if not events:
+        log.warning("No events found; M3U not generated.")
         return
 
-    m3u_content = build_m3u(events, sliders)
-    
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(m3u_content)
+    m3u_lines = ["#EXTM3U"]
+    for name, data in events.items():
+        tvg_id = data.get("id", "Live.Event.us")
+        logo = data.get("logo", "")
+        url = data.get("url")
+        # Extract sport for group-title
+        sport_match = name.split(']')[0].replace('[', '') if ']' in name else "Sports"
 
-    print("-" * 30)
-    print(f"[+] Success! File saved to: {OUTPUT_FILE}")
-    print(f"[+] Found {len(events)} Live Events")
-    print(f"[+] Found {len(sliders)} 24/7 Channels")
-    print("-" * 30)
+        line = f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}" group-title="{sport_match}",{name}'
+        m3u_lines.append(line)
+        m3u_lines.append(url)
+
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write("\n".join(m3u_lines))
+    log.info(f"Playlist generated: {filename}")
+
+# --- Core Logic ---
+
+async def get_api_data(page: Page) -> dict:
+    """Fetches JSON data directly via Playwright's request context."""
+    try:
+        response = await page.request.get(BASE_URL, timeout=10_000)
+        if response.ok:
+            return await response.json()
+        log.error(f"API Error: {response.status}")
+    except Exception as e:
+        log.error(f"Request failed: {e}")
+    return {}
+
+async def get_events(page: Page) -> dict:
+    """Parses the raw API data into a structured event dictionary."""
+    now = datetime.now(timezone.utc)
+    api_data = await get_api_data(page)
+    events = {}
+
+    for event in api_data.get("events", []):
+        try:
+            # Parse '2026-02-08 15:30:00' format (common in sports APIs)
+            event_dt = datetime.fromisoformat(event["date"].replace(" ", "T"))
+            
+            # Only include today's events
+            if event_dt.date() != now.date():
+                continue
+
+            event_name = event["match_name"]
+            channel_info = event.get("channel", {})
+            sport = channel_info.get("TVCategory", {}).get("name", "Sports")
+
+            # Check servers 1 through 3
+            for i in range(1, 4):
+                stream_link = channel_info.get(f"server{i}URL")
+
+                if stream_link and str(stream_link).lower() != "null":
+                    key = f"[{sport}] {event_name} S{i} ({TAG})"
+                    
+                    events[key] = {
+                        "url": stream_link,
+                        "logo": "", 
+                        "base": "https://pixelsport.tv",
+                        "timestamp": now.timestamp(),
+                        "id": "Live.Event.us",
+                    }
+        except (KeyError, ValueError):
+            continue
+
+    return events
+
+async def scrape(browser: Browser) -> None:
+    """Main execution flow for scraping and file generation."""
+    global urls
+    
+    cached = load_cache()
+    if cached:
+        urls.update(cached)
+        log.info(f"Loaded {len(urls)} event(s) from cache")
+        generate_m3u(urls, M3U_FILENAME)
+        return
+
+    log.info(f'Scraping fresh data from "{BASE_URL}"')
+    context = await browser.new_context()
+    page = await context.new_page()
+    
+    try:
+        scraped_events = await get_events(page)
+        if scraped_events:
+            urls.update(scraped_events)
+            save_cache(urls)
+            generate_m3u(urls, M3U_FILENAME)
+            log.info(f"Success! {len(urls)} events processed.")
+        else:
+            log.warning("No active events found on the API today.")
+    finally:
+        await context.close()
+
+# --- Entry Point ---
+
+async def main():
+    async with async_playwright() as p:
+        # Launching headless browser
+        browser = await p.chromium.launch(headless=True)
+        await scrape(browser)
+        await browser.close()
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
