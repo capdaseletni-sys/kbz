@@ -1,69 +1,147 @@
-import json
+#!/usr/bin/env python3
+
 import asyncio
-from playwright.async_api import async_playwright
-from playwright_stealth import Stealth
+import json
+import os
+import sys
+import urllib.request
+from datetime import datetime, timedelta
+from urllib.parse import quote
+from urllib.error import URLError, HTTPError
+import requests
 
-async def run():
-    stealth = Stealth()
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        context = await browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+# ---------------- CONFIG ---------------- #
+
+BASE = "https://pixelsport.tv"
+
+# 🔐 API URL MUST come from env (GitHub Secrets / Variables)
+API_EVENTS = os.getenv("PIXELSPORTS_API_URL")
+
+OUT_VLC = "pixelsports.m3u8"
+OUT_TIVI = "pixelsportstivi.m3u8"
+
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0"
+UA_ENC = quote(UA, safe="")
+
+# ---------------- SAFETY ---------------- #
+
+def log(*a):
+    print(*a)
+    sys.stdout.flush()
+
+if not API_EVENTS:
+    log("❌ Missing API URL. Set PIXELSPORTS_API_URL env variable.")
+    sys.exit(1)
+
+# ---------------- TIME HELPERS ---------------- #
+
+def utc_to_et(utc_str: str) -> str:
+    try:
+        dt = datetime.fromisoformat(utc_str.replace("Z", "+00:00"))
+        # US Eastern DST approx
+        offset = -4 if 3 <= dt.month <= 11 else -5
+        et = dt + timedelta(hours=offset)
+        return et.strftime("%I:%M %p ET %m/%d/%Y").replace(" 0", " ")
+    except Exception:
+        return ""
+
+# ---------------- API FETCH ---------------- #
+
+def fetch_events() -> list:
+    log("[*] Fetching PixelSports events API…")
+
+    try:
+        r = requests.get(
+            API_EVENTS,
+            headers={
+                "User-Agent": UA,
+                "Accept": "application/json",
+                "Referer": BASE + "/"
+            },
+            timeout=15
         )
-        await stealth.apply_stealth_async(context)
-        page = await context.new_page()
-        
-        url = "https://pixelsport.tv/backend/livetv/events"
-        
-        try:
-            print("Warming up...")
-            await page.goto("https://pixelsport.tv/", wait_until="networkidle")
-            await asyncio.sleep(5) 
+        r.raise_for_status()
+    except Exception as e:
+        log("❌ API request failed:", e)
+        return []
 
-            print(f"Fetching data from API...")
-            await page.goto(url, wait_until="domcontentloaded")
+    raw = r.text.strip()
 
-            try:
-                raw_json = await page.locator("pre").inner_text(timeout=5000)
-            except:
-                raw_json = await page.locator("body").inner_text()
+    if not raw.startswith("{") and not raw.startswith("["):
+        log("❌ API did not return JSON")
+        log(raw[:200])
+        return []
 
-            data = json.loads(raw_json)
-            events = data.get("events", data) if isinstance(data, dict) else data
+    try:
+        data = json.loads(raw)
+    except Exception as e:
+        log("❌ JSON parse failed:", e)
+        log(raw[:200])
+        return []
 
-            m3u_content = "#EXTM3U\n"
-            count = 0
-            
-            for event in events:
-                name = event.get('match_name', 'Unknown Match')
-                channel = event.get('channel', {})
-                url_s1 = channel.get('server1URL') or event.get('server1URL')
-                
-                if url_s1 and url_s1 != "null":
-                    # --- DOMAIN REPLACEMENT LOGIC ---
-                    if "hd.bestlive.top:443" in url_s1:
-                        url_s1 = url_s1.replace("hd.bestlive.top:443", "hd.pixelhd.online:443")
-                    # --------------------------------
-                    
-                    # GROUP CHANGED TO "pixelsports"
-                    m3u_content += f'#EXTINF:-1 group-title="pixelsports",{name}\n'
-                    # --- VLC OPTIONS ---
-                    m3u_content += f'#EXTVLCOPT:http-referrer=https://pixelsport.tv\n'
-                    m3u_content += f'#EXTVLCOPT:http-origin=https://pixelsport.tv\n'
-                    m3u_content += f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0\n'
-                    # -------------------
-                    m3u_content += f'{url_s1}\n'
-                    count += 1
+    events = data.get("events", [])
+    if not isinstance(events, list):
+        log("❌ Invalid API format")
+        return []
 
-            with open("pixelsports.m3u8", "w", encoding="utf-8") as f:
-                f.write(m3u_content)
-            
-            print(f"Success! {count} matches saved to pixelsports.m3u8 with domain updates.")
+    return events
 
-        except Exception as e:
-            print(f"Scrape failed: {e}")
-        
-        await browser.close()
+# ---------------- PLAYLIST BUILD ---------------- #
+
+def build_playlist(events: list, tivimate: bool = False) -> str:
+    out = ["#EXTM3U"]
+
+    for ev in events:
+        title = ev.get("match_name", "Live Event")
+        logo = ev.get("logo", "")
+        time_et = utc_to_et(ev.get("date", ""))
+
+        if time_et:
+            title = f"{title} - {time_et}"
+
+        channels = ev.get("channel", {})
+
+        for idx, label in [(1, "Home"), (2, "Away"), (3, "Alt")]:
+            url = channels.get(f"server{idx}URL")
+            if not url or url == "null":
+                continue
+
+            extinf = f'#EXTINF:-1 group-title="PixelSport"'
+            if logo:
+                extinf += f' tvg-logo="{logo}"'
+            extinf += f",{title} ({label})"
+
+            out.append(extinf)
+
+            if tivimate:
+                out.append(
+                    f"{url}|user-agent={UA_ENC}|referer={BASE}/|origin={BASE}|icy-metadata=1"
+                )
+            else:
+                out.append(f"#EXTVLCOPT:http-user-agent={UA}")
+                out.append(f"#EXTVLCOPT:http-referrer={BASE}/")
+                out.append(url)
+
+    return "\n".join(out)
+
+# ---------------- MAIN ---------------- #
+
+async def main():
+    events = fetch_events()
+
+    if not events:
+        log("❌ No events found")
+        return
+
+    with open(OUT_VLC, "w", encoding="utf-8") as f:
+        f.write(build_playlist(events, tivimate=False))
+
+    with open(OUT_TIVI, "w", encoding="utf-8") as f:
+        f.write(build_playlist(events, tivimate=True))
+
+    log(f"✔ Generated {len(events)} events")
+    log(f"✔ {OUT_VLC}")
+    log(f"✔ {OUT_TIVI}")
 
 if __name__ == "__main__":
-    asyncio.run(run())
+    asyncio.run(main())
