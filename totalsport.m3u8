@@ -1,1 +1,7 @@
 #EXTM3U
+#EXTINF:-1 group-title="Totalsports", [Live Event] Chelsea vs Leeds United
+https://gametimes.plus/1111.php
+#EXTINF:-1 group-title="Totalsports", [Live Event] Tottenham Hotspur vs Newcastle United
+https://gametimes.plus/2222.php
+#EXTINF:-1 group-title="Totalsports", [Premier League] Everton vs AFC Bournemouth
+https://gametimes.plus/3333.php
