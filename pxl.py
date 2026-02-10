@@ -15,7 +15,7 @@ import requests
 BASE = "https://pixelsport.tv"
 
 # 🔐 API URL MUST come from env (GitHub Secrets / Variables)
-API_EVENTS = os.getenv("PIXELSPORTS_API_URL")
+API_EVENTS = os.getenv("https://pixelsport.tv/backend/livetv/events")
 
 OUT_VLC = "pixelsports.m3u8"
 OUT_TIVI = "pixelsportstivi.m3u8"
