@@ -1,14 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Totalsports", [NBA] CHA vs DET
-https://gametimes.plus/nbaa1.php
-#EXTINF:-1 group-title="Totalsports", [NBA] ORL vs MIL
-https://gametimes.plus/nbaa4.php
-#EXTINF:-1 group-title="Totalsports", [NBA] MIA vs UTA
-https://gametimes.plus/nbaa3.php
-#EXTINF:-1 group-title="Totalsports", [NBA] BKN vs CHI
-https://gametimes.plus/nbaa2.php
-#EXTINF:-1 group-title="Totalsports", [NBA] NOP vs SAC
-https://gametimes.plus/nbaa6.php
 #EXTINF:-1 group-title="Totalsports", [NBA] MIN vs ATL
 https://gametimes.plus/nbaa5.php
 #EXTINF:-1 group-title="Totalsports", [NBA] DEN vs CLE
