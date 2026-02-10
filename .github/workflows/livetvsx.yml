@@ -1,36 +1,63 @@
-name: Pixel Scraper
+name: PixelSport Playlist Generator
 
 on:
-  workflow_dispatch: # Keep this so you can still run it manually
   schedule:
-    - cron: '30 * * * *' # Runs at minute 30 of every hour
+    # Runs every hour
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
-  scrape:
+  build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Important: allows the runner to push files back
+      contents: write
+
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Install system dependencies (Playwright)
         run: |
-          pip install playwright playwright-stealth --upgrade
-          playwright install --with-deps chromium
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 \
+            libxss1 \
+            libatk-bridge2.0-0 \
+            libgtk-3-0 \
+            libdrm2 \
+            libgbm1 \
+            libasound2t64 \
+            libxshmfence1
 
-      - name: Run script
-        run: python pxl.py
-
-      - name: Commit and Push M3U8
+      - name: Install Python dependencies
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add pixelsports.m3u8
-          git commit -m "Update playlist" || echo "No changes to commit"
-          git push
+          pip install --upgrade pip
+          pip install requests
+          pip install playwright
+          playwright install firefox
+
+      - name: Run PixelSport scraper
+        env:
+          PIXELSPORTS_API_URL: ${{ secrets.PIXELSPORTS_API_URL }}
+        run: |
+          echo "🚀 Running PixelSport scraper..."
+          python pxl.py
+
+      - name: Commit and push playlists
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          git add pixelsports.m3u8 pixelsportstivi.m3u8 || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🔄 Update PixelSport playlists"
+            git push
+          fi
