@@ -1,100 +1,123 @@
 #!/usr/bin/env python3
 
+import asyncio
 import json
+import os
 import sys
+import urllib.request
 from datetime import datetime, timedelta
 from urllib.parse import quote
+from urllib.error import URLError, HTTPError
 import requests
 
 # ---------------- CONFIG ---------------- #
 
 BASE = "https://pixelsport.tv"
 
-# ✅ Hardcoded Direct API Link
-API_URL = "https://pixelsport.tv/backend/livetv/events"
+# 🔐 API URL MUST come from env (GitHub Secrets / Variables)
+API_EVENTS = os.getenv("PIXELSPORTS_API_URL")
 
-OUT_VLC = "pixelsports.m3u8"
-OUT_TIVI = "pixelsportstivi.m3u8"
+OUT_VLC = "Pixelsports_VLC.m3u8"
+OUT_TIVI = "Pixelsports_TiviMate.m3u8"
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0"
 UA_ENC = quote(UA, safe="")
 
-# ---------------- HELPERS ---------------- #
+# ---------------- SAFETY ---------------- #
 
 def log(*a):
     print(*a)
     sys.stdout.flush()
 
+if not API_EVENTS:
+    log("❌ Missing API URL. Set PIXELSPORTS_API_URL env variable.")
+    sys.exit(1)
+
+# ---------------- TIME HELPERS ---------------- #
+
 def utc_to_et(utc_str: str) -> str:
-    if not utc_str: return ""
     try:
-        # Handles 'Z' or '+00:00' offsets
         dt = datetime.fromisoformat(utc_str.replace("Z", "+00:00"))
-        # Standard Eastern Time offset (approx -5)
-        et = dt - timedelta(hours=5) 
-        return et.strftime("%I:%M %p ET %m/%d").replace(" 0", " ")
+        # US Eastern DST approx
+        offset = -4 if 3 <= dt.month <= 11 else -5
+        et = dt + timedelta(hours=offset)
+        return et.strftime("%I:%M %p ET %m/%d/%Y").replace(" 0", " ")
     except Exception:
         return ""
 
-# ---------------- CORE LOGIC ---------------- #
+# ---------------- API FETCH ---------------- #
 
 def fetch_events() -> list:
-    log(f"[*] Fetching PixelSports events...")
+    log("[*] Fetching PixelSports events API…")
+
     try:
         r = requests.get(
-            API_URL,
+            API_EVENTS,
             headers={
                 "User-Agent": UA,
                 "Accept": "application/json",
-                "Referer": f"{BASE}/"
+                "Referer": BASE + "/"
             },
             timeout=15
         )
         r.raise_for_status()
-        data = r.json()
-        
-        # Adjusting based on common API structures
-        if isinstance(data, dict):
-            return data.get("events", [])
-        elif isinstance(data, list):
-            return data
-        return []
-        
     except Exception as e:
-        log(f"❌ API request failed: {e}")
+        log("❌ API request failed:", e)
         return []
+
+    raw = r.text.strip()
+
+    if not raw.startswith("{") and not raw.startswith("["):
+        log("❌ API did not return JSON")
+        log(raw[:200])
+        return []
+
+    try:
+        data = json.loads(raw)
+    except Exception as e:
+        log("❌ JSON parse failed:", e)
+        log(raw[:200])
+        return []
+
+    events = data.get("events", [])
+    if not isinstance(events, list):
+        log("❌ Invalid API format")
+        return []
+
+    return events
+
+# ---------------- PLAYLIST BUILD ---------------- #
 
 def build_playlist(events: list, tivimate: bool = False) -> str:
     out = ["#EXTM3U"]
 
     for ev in events:
-        match_name = ev.get("match_name", "Live Event")
+        title = ev.get("match_name", "Live Event")
         logo = ev.get("logo", "")
         time_et = utc_to_et(ev.get("date", ""))
-        
-        display_name = f"{match_name} ({time_et})" if time_et else match_name
+
+        if time_et:
+            title = f"{title} - {time_et}"
+
         channels = ev.get("channel", {})
 
-        # Mapping API server keys
-        mapping = [("server1URL", "Home"), ("server2URL", "Away"), ("server3URL", "Alt")]
-
-        for key, label in mapping:
-            url = channels.get(key)
-            if not url or str(url).lower() == "null" or not str(url).startswith("http"):
+        for idx, label in [(1, "Home"), (2, "Away"), (3, "Alt")]:
+            url = channels.get(f"server{idx}URL")
+            if not url or url == "null":
                 continue
 
             extinf = f'#EXTINF:-1 group-title="PixelSport"'
             if logo:
                 extinf += f' tvg-logo="{logo}"'
-            extinf += f',{display_name} [{label}]'
-            
+            extinf += f",{title} ({label})"
+
             out.append(extinf)
 
             if tivimate:
-                # TiViMate/OTT Navigator format for headers
-                out.append(f"{url}|User-Agent={UA_ENC}&Referer={quote(BASE + '/')}")
+                out.append(
+                    f"{url}|user-agent={UA_ENC}|referer={BASE}/|origin={BASE}|icy-metadata=1"
+                )
             else:
-                # Standard VLC/generic player options
                 out.append(f"#EXTVLCOPT:http-user-agent={UA}")
                 out.append(f"#EXTVLCOPT:http-referrer={BASE}/")
                 out.append(url)
@@ -103,23 +126,22 @@ def build_playlist(events: list, tivimate: bool = False) -> str:
 
 # ---------------- MAIN ---------------- #
 
-def main():
+async def main():
     events = fetch_events()
 
     if not events:
-        log("❌ No events found or failed to parse API.")
+        log("❌ No events found")
         return
 
-    # Write VLC Playlist
     with open(OUT_VLC, "w", encoding="utf-8") as f:
         f.write(build_playlist(events, tivimate=False))
 
-    # Write TiViMate Playlist
     with open(OUT_TIVI, "w", encoding="utf-8") as f:
         f.write(build_playlist(events, tivimate=True))
 
-    log(f"✔ Successfully generated playlists with {len(events)} events.")
-    log(f"✔ Files created: {OUT_VLC}, {OUT_TIVI}")
+    log(f"✔ Generated {len(events)} events")
+    log(f"✔ {OUT_VLC}")
+    log(f"✔ {OUT_TIVI}")
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
