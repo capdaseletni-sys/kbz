@@ -1,1 +1,9 @@
 #EXTM3U
+#EXTINF:-1 group-title="Totalsports", [Live Event] Manchester City vs Fulham
+https://gametimes.plus/1111.php
+#EXTINF:-1 group-title="Totalsports", [Live Event] Nottingham Forest vs Wolverhampton Wanderers
+https://gametimes.plus/4444.php
+#EXTINF:-1 group-title="Totalsports", [Premier League] Aston Villa vs Brighton & Hove Albion
+https://gametimes.plus/2222.php
+#EXTINF:-1 group-title="Totalsports", [Premier League] Crystal Palace vs Burnley
+https://gametimes.plus/3333.php
