@@ -1,5 +1,7 @@
 #EXTM3U
-#EXTINF:-1 group-title="Totalsports", [Live Event] Brentford vs Arsenal
-https://gametimes.plus/1111.php
-#EXTINF:-1 group-title="Totalsports", [Live Event] Atletico Madrid vs Barcelona
-https://gametimes.plus/2222.php
+#EXTINF:-1 group-title="Totalsports", [NBA] OKC vs MIL
+https://gametimes.plus/nbaa1.php
+#EXTINF:-1 group-title="Totalsports", [NBA] UTA vs POR
+https://gametimes.plus/nbaa2.php
+#EXTINF:-1 group-title="Totalsports", [NBA] LAL vs DAL
+https://gametimes.plus/nbaa3.php
