@@ -1,1 +1,15 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] Arsenal vs Wolverhampton Wanderers (STRMHUB)
+https://streamhub.pro/event/espn_740901/arsenal-at-wolverhampton-wanderers
+#EXTINF:-1 group-title="Streamhub", [Soccer] Como vs AC Milan (STRMHUB)
+https://streamhub.pro/event/espn_737015/como-at-ac-milan
+#EXTINF:-1 group-title="Streamhub", [Soccer] Villarreal vs Levante (STRMHUB)
+https://streamhub.pro/event/espn_748302/villarreal-at-levante
+#EXTINF:-1 group-title="Streamhub", [Soccer] Newcastle United vs FK Qarabag (STRMHUB)
+https://streamhub.pro/event/espn_401858736/newcastle-united-at-fk-qarabag
+#EXTINF:-1 group-title="Streamhub", [Soccer] Internazionale vs Bodo/Glimt (STRMHUB)
+https://streamhub.pro/event/espn_401858734/internazionale-at-bodo-glimt
+#EXTINF:-1 group-title="Streamhub", [Soccer] Atlético Madrid vs Club Brugge (STRMHUB)
+https://streamhub.pro/event/espn_401858760/atletico-madrid-at-club-brugge
+#EXTINF:-1 group-title="Streamhub", [Soccer] Bayer Leverkusen vs Olympiacos (STRMHUB)
+https://streamhub.pro/event/espn_401858737/bayer-leverkusen-at-olympiacos
