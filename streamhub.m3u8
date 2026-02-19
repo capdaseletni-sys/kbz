@@ -1,4 +1,12 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] Belgrano (Córdoba) vs Defensa y Justicia (STRMHUB)
+https://streamhub.pro/event/espn_762853/belgrano--cordoba--at-defensa-y-justicia
+#EXTINF:-1 group-title="Streamhub", [Soccer] Estudiantes de Río Cuarto vs San Lorenzo (STRMHUB)
+https://streamhub.pro/event/espn_762861/estudiantes-de-rio-cuarto-at-san-lorenzo
+#EXTINF:-1 group-title="Streamhub", [Soccer] Independiente vs Independiente Rivadavia (STRMHUB)
+https://streamhub.pro/event/espn_762857/independiente-at-independiente-rivadavia
+#EXTINF:-1 group-title="Streamhub", [Soccer] Atlético Tucumán vs Instituto (Córdoba) (STRMHUB)
+https://streamhub.pro/event/espn_762858/atletico-tucuman-at-instituto--cordoba-
 #EXTINF:-1 group-title="Streamhub", [Basketball] Rockets vs Hornets (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810647/houston-rockets-vs-charlotte-hornets
 #EXTINF:-1 group-title="Streamhub", [Basketball] Nets vs Cavaliers (STRMHUB)
