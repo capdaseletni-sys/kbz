@@ -1,28 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] NK Celje vs Drita Gjilan (STRMHUB)
-https://streamhub.pro/event/espn_401854523/nk-celje-at-drita-gjilan
-#EXTINF:-1 group-title="Streamhub", [Soccer] Fiorentina vs Jagiellonia Bialystok (STRMHUB)
-https://streamhub.pro/event/espn_401854524/fiorentina-at-jagiellonia-bialystok
-#EXTINF:-1 group-title="Streamhub", [Soccer] Samsunspor vs KF Shkëndija (STRMHUB)
-https://streamhub.pro/event/espn_401854528/samsunspor-at-kf-shkendija
-#EXTINF:-1 group-title="Streamhub", [Soccer] Rijeka vs Omonia Nicosia (STRMHUB)
-https://streamhub.pro/event/espn_401854527/rijeka-at-omonia-nicosia
-#EXTINF:-1 group-title="Streamhub", [Soccer] VfB Stuttgart vs Celtic (STRMHUB)
-https://streamhub.pro/event/espn_401858771/vfb-stuttgart-at-celtic
-#EXTINF:-1 group-title="Streamhub", [Soccer] Red Star Belgrade vs Lille (STRMHUB)
-https://streamhub.pro/event/espn_401858775/red-star-belgrade-at-lille
-#EXTINF:-1 group-title="Streamhub", [Soccer] Ferencvaros vs Ludogorets Razgrad (STRMHUB)
-https://streamhub.pro/event/espn_401858774/ferencvaros-at-ludogorets-razgrad
-#EXTINF:-1 group-title="Streamhub", [Soccer] Viktoria Plzen vs Panathinaikos (STRMHUB)
-https://streamhub.pro/event/espn_401858772/viktoria-plzen-at-panathinaikos
-#EXTINF:-1 group-title="Streamhub", [Soccer] Belgrano (Córdoba) vs Defensa y Justicia (STRMHUB)
-https://streamhub.pro/event/espn_762853/belgrano--cordoba--at-defensa-y-justicia
-#EXTINF:-1 group-title="Streamhub", [Soccer] Estudiantes de Río Cuarto vs San Lorenzo (STRMHUB)
-https://streamhub.pro/event/espn_762861/estudiantes-de-rio-cuarto-at-san-lorenzo
-#EXTINF:-1 group-title="Streamhub", [Soccer] Independiente vs Independiente Rivadavia (STRMHUB)
-https://streamhub.pro/event/espn_762857/independiente-at-independiente-rivadavia
-#EXTINF:-1 group-title="Streamhub", [Soccer] Atlético Tucumán vs Instituto (Córdoba) (STRMHUB)
-https://streamhub.pro/event/espn_762858/atletico-tucuman-at-instituto--cordoba-
 #EXTINF:-1 group-title="Streamhub", [Basketball] Rockets vs Hornets (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810647/houston-rockets-vs-charlotte-hornets
 #EXTINF:-1 group-title="Streamhub", [Basketball] Nets vs Cavaliers (STRMHUB)
