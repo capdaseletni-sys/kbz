@@ -1,5 +1,9 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] Vejle Boldklub vs FC Nordsjælland (STRMHUB)
+https://streamhub.pro/event/espn_738089/vejle-boldklub-at-fc-nordsjaelland
+#EXTINF:-1 group-title="Streamhub", [Soccer] Arminia Bielefeld vs SpVgg Greuther Fürth (STRMHUB)
+https://streamhub.pro/event/espn_747229/arminia-bielefeld-at-spvgg-greuther-furth
+#EXTINF:-1 group-title="Streamhub", [Soccer] 1. FC Nürnberg vs VfL Bochum (STRMHUB)
+https://streamhub.pro/event/espn_747230/1--fc-nurnberg-at-vfl-bochum
 #EXTINF:-1 group-title="Streamhub", [Soccer] Kocaelispor vs Caykur Rizespor (STRMHUB)
 https://streamhub.pro/event/espn_750122/kocaelispor-at-caykur-rizespor
-#EXTINF:-1 group-title="Streamhub", [Basketball] Nuggets vs Clippers (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810656/denver-nuggets-vs-la-clippers
