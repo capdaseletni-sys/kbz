@@ -1,9 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Basketball] Suns vs Spurs (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810653/phoenix-suns-vs-san-antonio-spurs
-#EXTINF:-1 group-title="Streamhub", [Basketball] Celtics vs Warriors (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810654/boston-celtics-vs-golden-state-warriors
-#EXTINF:-1 group-title="Streamhub", [Basketball] Magic vs Kings (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810655/orlando-magic-vs-sacramento-kings
+#EXTINF:-1 group-title="Streamhub", [Soccer] Kocaelispor vs Caykur Rizespor (STRMHUB)
+https://streamhub.pro/event/espn_750122/kocaelispor-at-caykur-rizespor
 #EXTINF:-1 group-title="Streamhub", [Basketball] Nuggets vs Clippers (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810656/denver-nuggets-vs-la-clippers
