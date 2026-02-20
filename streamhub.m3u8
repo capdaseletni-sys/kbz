@@ -1,16 +1,8 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Elche vs Athletic Club (STRMHUB)
-https://streamhub.pro/event/espn_748388/elche-at-athletic-club
-#EXTINF:-1 group-title="Streamhub", [Soccer] Sarmiento (Junín) vs Estudiantes de La Plata (STRMHUB)
-https://streamhub.pro/event/espn_762855/sarmiento--junin--at-estudiantes-de-la-plata
 #EXTINF:-1 group-title="Streamhub", [Soccer] Racing Club vs Boca Juniors (STRMHUB)
 https://streamhub.pro/event/espn_762851/racing-club-at-boca-juniors
-#EXTINF:-1 group-title="Streamhub", [Soccer] Ñublense vs Unión La Calera (STRMHUB)
-https://streamhub.pro/event/espn_401850476/nublense-at-union-la-calera
 #EXTINF:-1 group-title="Streamhub", [Soccer] Cobresal vs Deportes Concepcion (STRMHUB)
 https://streamhub.pro/event/espn_401850473/cobresal-at-deportes-concepcion
-#EXTINF:-1 group-title="Streamhub", [Soccer] Tondela vs Estrela (STRMHUB)
-https://streamhub.pro/event/espn_750448/tondela-at-estrela
 #EXTINF:-1 group-title="Streamhub", [Basketball] Pacers vs Wizards (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810658/indiana-pacers-vs-washington-wizards
 #EXTINF:-1 group-title="Streamhub", [Soccer] Gimnasia La Plata vs Gimnasia (Mendoza) (STRMHUB)
@@ -19,6 +11,8 @@ https://streamhub.pro/event/espn_762856/gimnasia-la-plata-at-gimnasia--mendoza-
 https://streamhub.pro/event/espn_762860/talleres--cordoba--at-rosario-central
 #EXTINF:-1 group-title="Streamhub", [Soccer] Sport Boys vs Alianza Lima (STRMHUB)
 https://streamhub.pro/event/espn_401857398/sport-boys-at-alianza-lima
+#EXTINF:-1 group-title="Streamhub", [Soccer] Genclerbirligi vs Eyupspor (STRMHUB)
+https://streamhub.pro/event/espn_750121/genclerbirligi-at-eyupspor
 #EXTINF:-1 group-title="Streamhub", [Basketball] Cavaliers vs Hornets (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810657/cleveland-cavaliers-vs-charlotte-hornets
 #EXTINF:-1 group-title="Streamhub", [Basketball] Jazz vs Grizzlies (STRMHUB)
