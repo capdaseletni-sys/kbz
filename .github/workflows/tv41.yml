@@ -25,7 +25,7 @@ jobs:
         run: pip install requests
 
       - name: 🎯 Run scraping script
-        run: python cd41.py
+        run: python tv41.py
 
       - name: 💾 Commit & Safely Push if Playlist Changed
         env:
