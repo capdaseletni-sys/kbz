@@ -22,8 +22,8 @@ jobs:
           python-version: '3.11'
 
       - name: 📦 Install required Python dependency
-        run: pip install requests
-             pip install curl_cffi
+        run: pip install requests curl_cffi
+             
 
       - name: 🎯 Run scraping script
         run: python tv41.py
