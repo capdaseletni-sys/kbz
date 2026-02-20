@@ -1,6 +1,12 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] Marseille vs Brest (STRMHUB)
+https://streamhub.pro/event/espn_746613/marseille-at-brest
 #EXTINF:-1 group-title="Streamhub", [Soccer] Hamburg SV vs Mainz (STRMHUB)
 https://streamhub.pro/event/espn_746919/hamburg-sv-at-mainz
+#EXTINF:-1 group-title="Streamhub", [Soccer] Hellas Verona vs Sassuolo (STRMHUB)
+https://streamhub.pro/event/espn_737038/hellas-verona-at-sassuolo
+#EXTINF:-1 group-title="Streamhub", [Soccer] Elche vs Athletic Club (STRMHUB)
+https://streamhub.pro/event/espn_748388/elche-at-athletic-club
 #EXTINF:-1 group-title="Streamhub", [Soccer] Vejle Boldklub vs FC Nordsjælland (STRMHUB)
 https://streamhub.pro/event/espn_738089/vejle-boldklub-at-fc-nordsjaelland
 #EXTINF:-1 group-title="Streamhub", [Soccer] Excelsior vs Fortuna Sittard (STRMHUB)
