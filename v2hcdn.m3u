@@ -1,10 +1,23 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/F2npB7o.png" group-title="Cable TV [Mix]", Pba Rush
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_pbarush_hd1/default/index.mpd
+#EXTINF:-1 group-title="pixelsports", TEST
+#EXTVLCOPT:http-referrer=https://s.rocketdns.info:8080
+#EXTVLCOPT:http-origin=https:/s.rocketdns.info:8080
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (m3u-ip.tv 3.0.9) Android
+http://s.rocketdns.info:8080//live/Z3nXfkOnf0/Madt8rUvmN/3146.m3u8
+
+#EXTINF:-1 group-title="pixelsports", TEST 2 ORIG
+http://s.rocketdns.info:8080//live/Z3nXfkOnf0/Madt8rUvmN/3146.m3u8
+
+#EXTINF:-1 group-title="pixelsports", TEST 3
+#EXTVLCOPT:http-referrer=https://s.rocketdns.info:8080
+#EXTVLCOPT:http-origin=https:/s.rocketdns.info:8080
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (m3u-ip.tv 3.0.9) Android
+https://ny31.rocketdns.info:25463//live/Z3nXfkOnf0/Madt8rUvmN/3146.ts
+
+#EXTINF:-1 group-title="pixelsports", TEST 4
+https://ny31.rocketdns.info:25463//live/Z3nXfkOnf0/Madt8rUvmN/3146.ts?token=HkNcWEBYFAkUAFcCUAJQBlRQBAZUXVYAV1YLBwZSAVFRUAIJBFRTUAISH0ZAFRFRUwtoXlQaXgBTVQUdERBBVhc+XV0RChQAAQAEUgNDTxZGD1pSEgJVBFVQBgcKVQYHSUNEUFcSDBEFCAddCllTFh5EUk9EXRZdAw1sVVYTW1AAQw5XRlxaHxRfXTtXBA5VXAIVDRIIRh9ACEBBEV9cRgkNGBtRWUJBV0RWRglDVgMLVRUbElsLRgwVQUgRXxBjLUMYG1ZIQlZYQ1oLXUNZFkYVFRsSURdsEARARUEAU14AExYDEQAUHxRdUhxsAgxaXANUQ1lXCkBAWxEAAVUQH0cMW1daRFlBaUBaABFbQQUGVwECAw9GTg==
+
+
 
 
