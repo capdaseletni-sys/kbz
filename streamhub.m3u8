@@ -1,16 +1,10 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Independiente vs Independiente Rivadavia (STRMHUB)
-https://streamhub.pro/event/espn_762857/independiente-at-independiente-rivadavia
-#EXTINF:-1 group-title="Streamhub", [Soccer] Atlético Tucumán vs Instituto (Córdoba) (STRMHUB)
-https://streamhub.pro/event/espn_762858/atletico-tucuman-at-instituto--cordoba-
 #EXTINF:-1 group-title="Streamhub", [Basketball] Rockets vs Hornets (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810647/houston-rockets-vs-charlotte-hornets
 #EXTINF:-1 group-title="Streamhub", [Basketball] Nets vs Cavaliers (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810648/brooklyn-nets-vs-cleveland-cavaliers
 #EXTINF:-1 group-title="Streamhub", [Basketball] Hawks vs 76ers (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810649/atlanta-hawks-vs-philadelphia-76ers
-#EXTINF:-1 group-title="Streamhub", [Basketball] Pacers vs Wizards (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810650/indiana-pacers-vs-washington-wizards
 #EXTINF:-1 group-title="Streamhub", [Basketball] Pistons vs Knicks (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810651/detroit-pistons-vs-new-york-knicks
 #EXTINF:-1 group-title="Streamhub", [Basketball] Raptors vs Bulls (STRMHUB)
