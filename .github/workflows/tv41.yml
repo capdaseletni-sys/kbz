@@ -23,6 +23,8 @@ jobs:
 
       - name: 📦 Install required Python dependency
         run: pip install requests
+             python -m pip install --upgrade pip
+             pip install curl_cffi
 
       - name: 🎯 Run scraping script
         run: python tv41.py
