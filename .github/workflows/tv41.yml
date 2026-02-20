@@ -1,6 +1,8 @@
 name: 🚀 Update Merged Playlist 📺
 
 on:
+  schedule:
+    - cron: '45 * * * *'  
   workflow_dispatch:
 
 permissions:
