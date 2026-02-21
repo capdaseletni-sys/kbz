@@ -1,16 +1,16 @@
 #EXTM3U
 #EXTINF:-1 group-title="Streamhub", [Soccer] Huracán vs Deportivo Riestra (STRMHUB)
 https://streamhub.pro/event/espn_762854/huracan-at-deportivo-riestra
-#EXTINF:-1 group-title="Streamhub", [Soccer] Colo Colo vs O'Higgins (STRMHUB)
-https://streamhub.pro/event/espn_401850467/colo-colo-at-o%E2%80%99higgins
 #EXTINF:-1 group-title="Streamhub", [Soccer] Coquimbo Unido vs Universidad Católica (STRMHUB)
 https://streamhub.pro/event/espn_401850465/coquimbo-unido-at-universidad-catolica
-#EXTINF:-1 group-title="Streamhub", [Soccer] Universitario vs Sporting Cristal (STRMHUB)
-https://streamhub.pro/event/espn_401857399/universitario-at-sporting-cristal
 #EXTINF:-1 group-title="Streamhub", [Basketball] Magic vs Suns (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810666/orlando-magic-vs-phoenix-suns
+#EXTINF:-1 group-title="Streamhub", [Soccer] Torino vs Genoa (STRMHUB)
+https://streamhub.pro/event/espn_737039/torino-at-genoa
 #EXTINF:-1 group-title="Streamhub", [Soccer] Tigre vs Central Córdoba (Santiago del Estero) (STRMHUB)
 https://streamhub.pro/event/espn_762852/tigre-at-central-cordoba--santiago-del-estero-
+#EXTINF:-1 group-title="Streamhub", [Soccer] FC Groningen vs FC Twente (STRMHUB)
+https://streamhub.pro/event/espn_741184/fc-groningen-at-fc-twente
 #EXTINF:-1 group-title="Streamhub", [Soccer] Alianza Atlético vs Cienciano del Cusco (STRMHUB)
 https://streamhub.pro/event/espn_401857403/alianza-atletico-at-cienciano-del-cusco
 #EXTINF:-1 group-title="Streamhub", [Soccer] Antalyaspor vs Kayserispor (STRMHUB)
