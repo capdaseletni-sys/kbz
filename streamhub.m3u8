@@ -1,10 +1,18 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] Wolfsberger vs Rapid Vienna (STRMHUB)
+https://streamhub.pro/event/espn_747447/wolfsberger-at-rapid-vienna
+#EXTINF:-1 group-title="Streamhub", [Soccer] Austria Vienna vs SC Rheindorf Altach (STRMHUB)
+https://streamhub.pro/event/espn_747444/austria-vienna-at-sc-rheindorf-altach
+#EXTINF:-1 group-title="Streamhub", [Soccer] Grazer AK vs TSV Hartberg (STRMHUB)
+https://streamhub.pro/event/espn_747448/grazer-ak-at-tsv-hartberg
 #EXTINF:-1 group-title="Streamhub", [Soccer] Leeds United vs Aston Villa (STRMHUB)
 https://streamhub.pro/event/espn_740862/leeds-united-at-aston-villa
 #EXTINF:-1 group-title="Streamhub", [Soccer] Brighton & Hove Albion vs Brentford (STRMHUB)
 https://streamhub.pro/event/espn_740858/brighton-&-hove-albion-at-brentford
 #EXTINF:-1 group-title="Streamhub", [Soccer] Burnley vs Chelsea (STRMHUB)
 https://streamhub.pro/event/espn_740864/burnley-at-chelsea
+#EXTINF:-1 group-title="Streamhub", [Soccer] AS Monaco vs Lens (STRMHUB)
+https://streamhub.pro/event/espn_746614/as-monaco-at-lens
 #EXTINF:-1 group-title="Streamhub", [Soccer] Bayer Leverkusen vs 1. FC Union Berlin (STRMHUB)
 https://streamhub.pro/event/espn_746918/bayer-leverkusen-at-1--fc-union-berlin
 #EXTINF:-1 group-title="Streamhub", [Soccer] Eintracht Frankfurt vs Bayern Munich (STRMHUB)
@@ -17,10 +25,8 @@ https://streamhub.pro/event/espn_746924/fc-augsburg-at-vfl-wolfsburg
 https://streamhub.pro/event/espn_737043/como-at-juventus
 #EXTINF:-1 group-title="Streamhub", [Soccer] Real Oviedo vs Real Sociedad (STRMHUB)
 https://streamhub.pro/event/espn_748385/real-oviedo-at-real-sociedad
-#EXTINF:-1 group-title="Streamhub", [Soccer] Gimnasia La Plata vs Gimnasia (Mendoza) (STRMHUB)
-https://streamhub.pro/event/espn_762856/gimnasia-la-plata-at-gimnasia--mendoza-
-#EXTINF:-1 group-title="Streamhub", [Soccer] Talleres (Córdoba) vs Rosario Central (STRMHUB)
-https://streamhub.pro/event/espn_762860/talleres--cordoba--at-rosario-central
+#EXTINF:-1 group-title="Streamhub", [Soccer] Rayo Vallecano vs Real Betis (STRMHUB)
+https://streamhub.pro/event/espn_748386/rayo-vallecano-at-real-betis
 #EXTINF:-1 group-title="Streamhub", [Soccer] Palestino vs Huachipato (STRMHUB)
 https://streamhub.pro/event/espn_401850471/palestino-at-huachipato
 #EXTINF:-1 group-title="Streamhub", [Soccer] F.C. København vs Odense Boldklub (STRMHUB)
@@ -39,6 +45,10 @@ https://streamhub.pro/event/espn_747228/fortuna-dusseldorf-at-sv-darmstadt-98
 https://streamhub.pro/event/espn_752424/atromitos-at-asteras-tripoli
 #EXTINF:-1 group-title="Streamhub", [Soccer] Panetolikos vs Olympiacos (STRMHUB)
 https://streamhub.pro/event/espn_752421/panetolikos-at-olympiacos
+#EXTINF:-1 group-title="Streamhub", [Soccer] Santa Clara vs Alverca (STRMHUB)
+https://streamhub.pro/event/espn_750444/santa-clara-at-alverca
+#EXTINF:-1 group-title="Streamhub", [Soccer] C.D. Nacional vs Arouca (STRMHUB)
+https://streamhub.pro/event/espn_750451/c-d--nacional-at-arouca
 #EXTINF:-1 group-title="Streamhub", [Soccer] Genclerbirligi vs Eyupspor (STRMHUB)
 https://streamhub.pro/event/espn_750121/genclerbirligi-at-eyupspor
 #EXTINF:-1 group-title="Streamhub", [Soccer] Istanbul Basaksehir vs Alanyaspor (STRMHUB)
