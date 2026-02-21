@@ -1,18 +1,12 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] AFC Bournemouth vs West Ham United (STRMHUB)
-https://streamhub.pro/event/espn_740861/afc-bournemouth-at-west-ham-united
 #EXTINF:-1 group-title="Streamhub", [Soccer] Newcastle United vs Manchester City (STRMHUB)
 https://streamhub.pro/event/espn_740857/newcastle-united-at-manchester-city
 #EXTINF:-1 group-title="Streamhub", [Soccer] Paris FC vs Toulouse (STRMHUB)
 https://streamhub.pro/event/espn_746610/paris-fc-at-toulouse
 #EXTINF:-1 group-title="Streamhub", [Soccer] Metz vs Paris Saint-Germain (STRMHUB)
 https://streamhub.pro/event/espn_746617/metz-at-paris-saint-germain
-#EXTINF:-1 group-title="Streamhub", [Soccer] Borussia Dortmund vs RB Leipzig (STRMHUB)
-https://streamhub.pro/event/espn_746922/borussia-dortmund-at-rb-leipzig
 #EXTINF:-1 group-title="Streamhub", [Soccer] Lazio vs Cagliari (STRMHUB)
 https://streamhub.pro/event/espn_737041/lazio-at-cagliari
-#EXTINF:-1 group-title="Streamhub", [Soccer] Real Madrid vs Osasuna (STRMHUB)
-https://streamhub.pro/event/espn_748387/real-madrid-at-osasuna
 #EXTINF:-1 group-title="Streamhub", [Soccer] Espanyol vs Atlético Madrid (STRMHUB)
 https://streamhub.pro/event/espn_748390/espanyol-at-atletico-madrid
 #EXTINF:-1 group-title="Streamhub", [Soccer] Newell's Old Boys vs Banfield (STRMHUB)
@@ -25,8 +19,6 @@ https://streamhub.pro/event/espn_762854/huracan-at-deportivo-riestra
 https://streamhub.pro/event/espn_401850467/colo-colo-at-o%E2%80%99higgins
 #EXTINF:-1 group-title="Streamhub", [Soccer] Coquimbo Unido vs Universidad Católica (STRMHUB)
 https://streamhub.pro/event/espn_401850465/coquimbo-unido-at-universidad-catolica
-#EXTINF:-1 group-title="Streamhub", [Soccer] Heerenveen vs PSV Eindhoven (STRMHUB)
-https://streamhub.pro/event/espn_741190/heerenveen-at-psv-eindhoven
 #EXTINF:-1 group-title="Streamhub", [Soccer] FC Volendam vs NAC Breda (STRMHUB)
 https://streamhub.pro/event/espn_741189/fc-volendam-at-nac-breda
 #EXTINF:-1 group-title="Streamhub", [Soccer] NEC Nijmegen vs Ajax Amsterdam (STRMHUB)
