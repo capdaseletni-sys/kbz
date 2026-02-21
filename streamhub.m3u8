@@ -1,8 +1,6 @@
 #EXTM3U
 #EXTINF:-1 group-title="Streamhub", [Soccer] Newcastle United vs Manchester City (STRMHUB)
 https://streamhub.pro/event/espn_740857/newcastle-united-at-manchester-city
-#EXTINF:-1 group-title="Streamhub", [Soccer] Paris FC vs Toulouse (STRMHUB)
-https://streamhub.pro/event/espn_746610/paris-fc-at-toulouse
 #EXTINF:-1 group-title="Streamhub", [Soccer] Metz vs Paris Saint-Germain (STRMHUB)
 https://streamhub.pro/event/espn_746617/metz-at-paris-saint-germain
 #EXTINF:-1 group-title="Streamhub", [Soccer] Lazio vs Cagliari (STRMHUB)
@@ -27,14 +25,8 @@ https://streamhub.pro/event/espn_741183/nec-nijmegen-at-ajax-amsterdam
 https://streamhub.pro/event/espn_747674/stade-laval-at-saint-etienne
 #EXTINF:-1 group-title="Streamhub", [Soccer] 1. FC Magdeburg vs Schalke 04 (STRMHUB)
 https://streamhub.pro/event/espn_747222/1--fc-magdeburg-at-schalke-04
-#EXTINF:-1 group-title="Streamhub", [Soccer] Melgar vs FC Cajamarca (STRMHUB)
-https://streamhub.pro/event/espn_401857404/melgar-at-fc-cajamarca
 #EXTINF:-1 group-title="Streamhub", [Soccer] Universitario vs Sporting Cristal (STRMHUB)
 https://streamhub.pro/event/espn_401857399/universitario-at-sporting-cristal
-#EXTINF:-1 group-title="Streamhub", [Soccer] AVS vs Benfica (STRMHUB)
-https://streamhub.pro/event/espn_750450/avs-at-benfica
-#EXTINF:-1 group-title="Streamhub", [Soccer] Sporting CP vs Moreirense (STRMHUB)
-https://streamhub.pro/event/espn_750445/sporting-cp-at-moreirense
 #EXTINF:-1 group-title="Streamhub", [Soccer] Vitória de Guimaraes vs Braga (STRMHUB)
 https://streamhub.pro/event/espn_750452/vitoria-de-guimaraes-at-braga
 #EXTINF:-1 group-title="Streamhub", [Basketball] Magic vs Suns (STRMHUB)
