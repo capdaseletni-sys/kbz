@@ -1,19 +1,15 @@
 #EXTM3U
-#EXTINF:-1 group-title="Totalsports", [Live Event] leigh wood vs Josh Warrington
-https://gametimes.plus/5555.php
 #EXTINF:-1 group-title="Totalsports", [Live Event] Mario Barrios vs Ryan Garcia
 https://gametimes.plus/5555.php
 #EXTINF:-1 group-title="Totalsports", [Live Event] UFC Fight Night Strickland vs Hernandez
 https://gametimes.plus/3333.php
-#EXTINF:-1 group-title="Totalsports", [NBA] PHX vs ORL
-https://gametimes.plus/nbaa1.php
+#EXTINF:-1 group-title="Totalsports", [Boxing] Mario Barrios vs Ryan Garcia
+https://gametimes.plus/5555.php
+#EXTINF:-1 group-title="Totalsports", [UFC] UFC Fight Night Strickland vs Hernandez
+https://gametimes.plus/3333.php
 #EXTINF:-1 group-title="Totalsports", [NBA] NOP vs PHI
 https://gametimes.plus/nbaa2.php
 #EXTINF:-1 group-title="Totalsports", [NBA] SAS vs SAC
 https://gametimes.plus/nbaa5.php
-#EXTINF:-1 group-title="Totalsports", [NBA] CHI vs DET
-https://gametimes.plus/nbaa4.php
 #EXTINF:-1 group-title="Totalsports", [NBA] MIA vs MEM
 https://gametimes.plus/nbaa3.php
-#EXTINF:-1 group-title="Totalsports", [NBA] NYK vs HOU
-https://gametimes.plus/nbaa6.php
