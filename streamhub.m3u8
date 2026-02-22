@@ -1,8 +1,6 @@
 #EXTM3U
 #EXTINF:-1 group-title="Streamhub", [Soccer] Lyon vs Strasbourg (STRMHUB)
 https://streamhub.pro/event/espn_746618/lyon-at-strasbourg
-#EXTINF:-1 group-title="Streamhub", [Soccer] VfB Stuttgart vs 1. FC Heidenheim 1846 (STRMHUB)
-https://streamhub.pro/event/espn_746916/vfb-stuttgart-at-1--fc-heidenheim-1846
 #EXTINF:-1 group-title="Streamhub", [Soccer] Cremonese vs AS Roma (STRMHUB)
 https://streamhub.pro/event/espn_737035/cremonese-at-as-roma
 #EXTINF:-1 group-title="Streamhub", [Soccer] Valencia vs Villarreal (STRMHUB)
@@ -17,20 +15,12 @@ https://streamhub.pro/event/espn_401850461/everton-cd-at-audax-italiano
 https://streamhub.pro/event/espn_401850463/deportes-limache-at-universidad-de-chile
 #EXTINF:-1 group-title="Streamhub", [Soccer] Telstar vs Feyenoord Rotterdam (STRMHUB)
 https://streamhub.pro/event/espn_741186/telstar-at-feyenoord-rotterdam
-#EXTINF:-1 group-title="Streamhub", [Soccer] Levadiakos vs AEK Athens (STRMHUB)
-https://streamhub.pro/event/espn_752426/levadiakos-at-aek-athens
-#EXTINF:-1 group-title="Streamhub", [Soccer] Sport Huancayo vs Los Chankas (STRMHUB)
-https://streamhub.pro/event/espn_401857400/sport-huancayo-at-los-chankas
 #EXTINF:-1 group-title="Streamhub", [Soccer] Juan Pablo II vs Atlético Grau (STRMHUB)
 https://streamhub.pro/event/espn_401857405/juan-pablo-ii-at-atletico-grau
 #EXTINF:-1 group-title="Streamhub", [Soccer] Comerciantes Unidos vs Cusco FC (STRMHUB)
 https://streamhub.pro/event/espn_401857402/comerciantes-unidos-at-cusco-fc
-#EXTINF:-1 group-title="Streamhub", [Soccer] Gil Vicente vs Estoril (STRMHUB)
-https://streamhub.pro/event/espn_750449/gil-vicente-at-estoril
 #EXTINF:-1 group-title="Streamhub", [Soccer] Rio Ave vs FC Porto (STRMHUB)
 https://streamhub.pro/event/espn_750447/rio-ave-at-fc-porto
-#EXTINF:-1 group-title="Streamhub", [Basketball] Cavaliers vs Thunder (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810672/cleveland-cavaliers-vs-oklahoma-city-thunder
 #EXTINF:-1 group-title="Streamhub", [Basketball] Nets vs Hawks (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810673/brooklyn-nets-vs-atlanta-hawks
 #EXTINF:-1 group-title="Streamhub", [Basketball] Raptors vs Bucks (STRMHUB)
