@@ -1,27 +1,51 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Huracán vs Deportivo Riestra (STRMHUB)
-https://streamhub.pro/event/espn_762854/huracan-at-deportivo-riestra
-#EXTINF:-1 group-title="Streamhub", [Soccer] Coquimbo Unido vs Universidad Católica (STRMHUB)
-https://streamhub.pro/event/espn_401850465/coquimbo-unido-at-universidad-catolica
-#EXTINF:-1 group-title="Streamhub", [Basketball] Magic vs Suns (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810666/orlando-magic-vs-phoenix-suns
+#EXTINF:-1 group-title="Streamhub", [Soccer] FC Blau-Weiß Linz vs SK Sturm Graz (STRMHUB)
+https://streamhub.pro/event/espn_747446/fc-blau-weis-linz-at-sk-sturm-graz
+#EXTINF:-1 group-title="Streamhub", [Soccer] ki Tirol vs WSG Swaro (STRMHUB)
+https://streamhub.pro/event/espn_747449/sv-josko-ried-at-wsg-swarovski-tirol
+#EXTINF:-1 group-title="Streamhub", [Soccer] Wolverhampton Wanderers vs Crystal Palace (STRMHUB)
+https://streamhub.pro/event/espn_740860/wolverhampton-wanderers-at-crystal-palace
+#EXTINF:-1 group-title="Streamhub", [Soccer] Liverpool vs Nottingham Forest (STRMHUB)
+https://streamhub.pro/event/espn_740863/liverpool-at-nottingham-forest
+#EXTINF:-1 group-title="Streamhub", [Soccer] Fulham vs Sunderland (STRMHUB)
+https://streamhub.pro/event/espn_740859/fulham-at-sunderland
+#EXTINF:-1 group-title="Streamhub", [Soccer] Stade Rennais vs AJ Auxerre (STRMHUB)
+https://streamhub.pro/event/espn_746612/stade-rennais-at-aj-auxerre
+#EXTINF:-1 group-title="Streamhub", [Soccer] Borussia Mönchengladbach vs SC Freiburg (STRMHUB)
+https://streamhub.pro/event/espn_746923/borussia-monchengladbach-at-sc-freiburg
 #EXTINF:-1 group-title="Streamhub", [Soccer] Torino vs Genoa (STRMHUB)
 https://streamhub.pro/event/espn_737039/torino-at-genoa
-#EXTINF:-1 group-title="Streamhub", [Soccer] Tigre vs Central Córdoba (Santiago del Estero) (STRMHUB)
-https://streamhub.pro/event/espn_762852/tigre-at-central-cordoba--santiago-del-estero-
+#EXTINF:-1 group-title="Streamhub", [Soccer] Napoli vs Atalanta (STRMHUB)
+https://streamhub.pro/event/espn_737034/napoli-at-atalanta
+#EXTINF:-1 group-title="Streamhub", [Soccer] Sevilla vs Getafe (STRMHUB)
+https://streamhub.pro/event/espn_748384/sevilla-at-getafe
+#EXTINF:-1 group-title="Streamhub", [Soccer] Levante vs Barcelona (STRMHUB)
+https://streamhub.pro/event/espn_748391/levante-at-barcelona
+#EXTINF:-1 group-title="Streamhub", [Soccer] Universidad de Concepción vs La Serena (STRMHUB)
+https://streamhub.pro/event/espn_401850469/universidad-de-concepcion-at-la-serena
+#EXTINF:-1 group-title="Streamhub", [Soccer] FC Fredericia vs Randers FC (STRMHUB)
+https://streamhub.pro/event/espn_738086/fc-fredericia-at-randers-fc
+#EXTINF:-1 group-title="Streamhub", [Soccer] FC Midtjylland vs Silkeborg IF (STRMHUB)
+https://streamhub.pro/event/espn_738087/fc-midtjylland-at-silkeborg-if
 #EXTINF:-1 group-title="Streamhub", [Soccer] FC Groningen vs FC Twente (STRMHUB)
 https://streamhub.pro/event/espn_741184/fc-groningen-at-fc-twente
-#EXTINF:-1 group-title="Streamhub", [Soccer] Alianza Atlético vs Cienciano del Cusco (STRMHUB)
-https://streamhub.pro/event/espn_401857403/alianza-atletico-at-cienciano-del-cusco
+#EXTINF:-1 group-title="Streamhub", [Soccer] PEC Zwolle vs FC Utrecht (STRMHUB)
+https://streamhub.pro/event/espn_741185/pec-zwolle-at-fc-utrecht
+#EXTINF:-1 group-title="Streamhub", [Soccer] Heracles Almelo vs Go Ahead Eagles (STRMHUB)
+https://streamhub.pro/event/espn_741188/heracles-almelo-at-go-ahead-eagles
+#EXTINF:-1 group-title="Streamhub", [Soccer] Dynamo Dresden vs Hannover 96 (STRMHUB)
+https://streamhub.pro/event/espn_747223/dynamo-dresden-at-hannover-96
+#EXTINF:-1 group-title="Streamhub", [Soccer] Kaiserslautern vs Preußen Münster (STRMHUB)
+https://streamhub.pro/event/espn_747226/kaiserslautern-at-preusen-munster
+#EXTINF:-1 group-title="Streamhub", [Soccer] Hertha Berlin vs SC Paderborn 07 (STRMHUB)
+https://streamhub.pro/event/espn_747225/hertha-berlin-at-sc-paderborn-07
+#EXTINF:-1 group-title="Streamhub", [Soccer] Panathinaikos vs OFI Crete (STRMHUB)
+https://streamhub.pro/event/espn_752422/panathinaikos-at-ofi-crete
+#EXTINF:-1 group-title="Streamhub", [Soccer] Volos NFC vs Panserraikos FC (STRMHUB)
+https://streamhub.pro/event/espn_752427/volos-nfc-at-panserraikos-fc
 #EXTINF:-1 group-title="Streamhub", [Soccer] Antalyaspor vs Kayserispor (STRMHUB)
 https://streamhub.pro/event/espn_750120/antalyaspor-at-kayserispor
-#EXTINF:-1 group-title="Streamhub", [Basketball] 76ers vs Pelicans (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810667/philadelphia-76ers-vs-new-orleans-pelicans
-#EXTINF:-1 group-title="Streamhub", [Basketball] Grizzlies vs Heat (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810668/memphis-grizzlies-vs-miami-heat
-#EXTINF:-1 group-title="Streamhub", [Basketball] Pistons vs Bulls (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810669/detroit-pistons-vs-chicago-bulls
-#EXTINF:-1 group-title="Streamhub", [Basketball] Kings vs Spurs (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810670/sacramento-kings-vs-san-antonio-spurs
+#EXTINF:-1 group-title="Streamhub", [Soccer] Trabzonspor vs Gaziantep FK (STRMHUB)
+https://streamhub.pro/event/espn_750119/trabzonspor-at-gaziantep-fk
 #EXTINF:-1 group-title="Streamhub", [Basketball] Rockets vs Knicks (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810671/houston-rockets-vs-new-york-knicks
