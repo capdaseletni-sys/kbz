@@ -1,26 +1,12 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Valencia vs Villarreal (STRMHUB)
-https://streamhub.pro/event/espn_748389/valencia-at-villarreal
-#EXTINF:-1 group-title="Streamhub", [Soccer] Lanús vs Argentinos Juniors (STRMHUB)
-https://streamhub.pro/event/espn_762849/lanus-at-argentinos-juniors
 #EXTINF:-1 group-title="Streamhub", [Soccer] River Plate vs Vélez Sarsfield (STRMHUB)
 https://streamhub.pro/event/espn_762862/river-plate-at-velez-sarsfield
 #EXTINF:-1 group-title="Streamhub", [Soccer] Everton CD vs Audax Italiano (STRMHUB)
 https://streamhub.pro/event/espn_401850461/everton-cd-at-audax-italiano
 #EXTINF:-1 group-title="Streamhub", [Soccer] Deportes Limache vs Universidad de Chile (STRMHUB)
 https://streamhub.pro/event/espn_401850463/deportes-limache-at-universidad-de-chile
-#EXTINF:-1 group-title="Streamhub", [Soccer] Juan Pablo II vs Atlético Grau (STRMHUB)
-https://streamhub.pro/event/espn_401857405/juan-pablo-ii-at-atletico-grau
 #EXTINF:-1 group-title="Streamhub", [Soccer] Comerciantes Unidos vs Cusco FC (STRMHUB)
 https://streamhub.pro/event/espn_401857402/comerciantes-unidos-at-cusco-fc
-#EXTINF:-1 group-title="Streamhub", [Soccer] Rio Ave vs FC Porto (STRMHUB)
-https://streamhub.pro/event/espn_750447/rio-ave-at-fc-porto
-#EXTINF:-1 group-title="Streamhub", [Basketball] Nets vs Hawks (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810673/brooklyn-nets-vs-atlanta-hawks
-#EXTINF:-1 group-title="Streamhub", [Basketball] Raptors vs Bucks (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810674/toronto-raptors-vs-milwaukee-bucks
-#EXTINF:-1 group-title="Streamhub", [Basketball] Nuggets vs Warriors (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810675/denver-nuggets-vs-golden-state-warriors
 #EXTINF:-1 group-title="Streamhub", [Basketball] Mavericks vs Pacers (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810676/dallas-mavericks-vs-indiana-pacers
 #EXTINF:-1 group-title="Streamhub", [Basketball] Hornets vs Wizards (STRMHUB)
