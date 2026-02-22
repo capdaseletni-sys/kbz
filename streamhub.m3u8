@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Lyon vs Strasbourg (STRMHUB)
-https://streamhub.pro/event/espn_746618/lyon-at-strasbourg
-#EXTINF:-1 group-title="Streamhub", [Soccer] Cremonese vs AS Roma (STRMHUB)
-https://streamhub.pro/event/espn_737035/cremonese-at-as-roma
 #EXTINF:-1 group-title="Streamhub", [Soccer] Valencia vs Villarreal (STRMHUB)
 https://streamhub.pro/event/espn_748389/valencia-at-villarreal
 #EXTINF:-1 group-title="Streamhub", [Soccer] Lanús vs Argentinos Juniors (STRMHUB)
@@ -13,8 +9,6 @@ https://streamhub.pro/event/espn_762862/river-plate-at-velez-sarsfield
 https://streamhub.pro/event/espn_401850461/everton-cd-at-audax-italiano
 #EXTINF:-1 group-title="Streamhub", [Soccer] Deportes Limache vs Universidad de Chile (STRMHUB)
 https://streamhub.pro/event/espn_401850463/deportes-limache-at-universidad-de-chile
-#EXTINF:-1 group-title="Streamhub", [Soccer] Telstar vs Feyenoord Rotterdam (STRMHUB)
-https://streamhub.pro/event/espn_741186/telstar-at-feyenoord-rotterdam
 #EXTINF:-1 group-title="Streamhub", [Soccer] Juan Pablo II vs Atlético Grau (STRMHUB)
 https://streamhub.pro/event/espn_401857405/juan-pablo-ii-at-atletico-grau
 #EXTINF:-1 group-title="Streamhub", [Soccer] Comerciantes Unidos vs Cusco FC (STRMHUB)
