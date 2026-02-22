@@ -35,6 +35,8 @@ https://streamhub.pro/event/espn_737036/parma-at-ac-milan
 https://streamhub.pro/event/espn_748384/sevilla-at-getafe
 #EXTINF:-1 group-title="Streamhub", [Soccer] Levante vs Barcelona (STRMHUB)
 https://streamhub.pro/event/espn_748391/levante-at-barcelona
+#EXTINF:-1 group-title="Streamhub", [Soccer] Mallorca vs Celta Vigo (STRMHUB)
+https://streamhub.pro/event/espn_748392/mallorca-at-celta-vigo
 #EXTINF:-1 group-title="Streamhub", [Soccer] Universidad de Concepción vs La Serena (STRMHUB)
 https://streamhub.pro/event/espn_401850469/universidad-de-concepcion-at-la-serena
 #EXTINF:-1 group-title="Streamhub", [Soccer] FC Fredericia vs Randers FC (STRMHUB)
@@ -65,8 +67,14 @@ https://streamhub.pro/event/espn_752427/volos-nfc-at-panserraikos-fc
 https://streamhub.pro/event/espn_752423/paok-salonika-at-larissa-fc
 #EXTINF:-1 group-title="Streamhub", [Soccer] Kifisia vs Aris (STRMHUB)
 https://streamhub.pro/event/espn_752425/kifisia-at-aris
+#EXTINF:-1 group-title="Streamhub", [Soccer] Levadiakos vs AEK Athens (STRMHUB)
+https://streamhub.pro/event/espn_752426/levadiakos-at-aek-athens
 #EXTINF:-1 group-title="Streamhub", [Soccer] UTC vs ADT (STRMHUB)
 https://streamhub.pro/event/espn_401857397/utc-at-adt
+#EXTINF:-1 group-title="Streamhub", [Soccer] Sport Huancayo vs Los Chankas (STRMHUB)
+https://streamhub.pro/event/espn_401857400/sport-huancayo-at-los-chankas
+#EXTINF:-1 group-title="Streamhub", [Soccer] Gil Vicente vs Estoril (STRMHUB)
+https://streamhub.pro/event/espn_750449/gil-vicente-at-estoril
 #EXTINF:-1 group-title="Streamhub", [Soccer] Antalyaspor vs Kayserispor (STRMHUB)
 https://streamhub.pro/event/espn_750120/antalyaspor-at-kayserispor
 #EXTINF:-1 group-title="Streamhub", [Soccer] Trabzonspor vs Gaziantep FK (STRMHUB)
@@ -75,3 +83,5 @@ https://streamhub.pro/event/espn_750119/trabzonspor-at-gaziantep-fk
 https://streamhub.pro/event/espn_750123/goztepe-at-besiktas
 #EXTINF:-1 group-title="Streamhub", [Soccer] Samsunspor vs Fatih Karagümrük (STRMHUB)
 https://streamhub.pro/event/espn_750117/samsunspor-at-fatih-karagumruk
+#EXTINF:-1 group-title="Streamhub", [Basketball] Cavaliers vs Thunder (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810672/cleveland-cavaliers-vs-oklahoma-city-thunder
