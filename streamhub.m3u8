@@ -1,16 +1,8 @@
 #EXTM3U
 #EXTINF:-1 group-title="Streamhub", [Soccer] RB Salzburg vs LASK Linz (STRMHUB)
 https://streamhub.pro/event/espn_747445/rb-salzburg-at-lask-linz
-#EXTINF:-1 group-title="Streamhub", [Soccer] Wolverhampton Wanderers vs Crystal Palace (STRMHUB)
-https://streamhub.pro/event/espn_740860/wolverhampton-wanderers-at-crystal-palace
-#EXTINF:-1 group-title="Streamhub", [Soccer] Liverpool vs Nottingham Forest (STRMHUB)
-https://streamhub.pro/event/espn_740863/liverpool-at-nottingham-forest
-#EXTINF:-1 group-title="Streamhub", [Soccer] Fulham vs Sunderland (STRMHUB)
-https://streamhub.pro/event/espn_740859/fulham-at-sunderland
 #EXTINF:-1 group-title="Streamhub", [Soccer] Arsenal vs Tottenham Hotspur (STRMHUB)
 https://streamhub.pro/event/espn_740865/arsenal-at-tottenham-hotspur
-#EXTINF:-1 group-title="Streamhub", [Soccer] Stade Rennais vs AJ Auxerre (STRMHUB)
-https://streamhub.pro/event/espn_746612/stade-rennais-at-aj-auxerre
 #EXTINF:-1 group-title="Streamhub", [Soccer] Lille vs Angers (STRMHUB)
 https://streamhub.pro/event/espn_746611/lille-at-angers
 #EXTINF:-1 group-title="Streamhub", [Soccer] Le Havre AC vs Nantes (STRMHUB)
@@ -19,14 +11,10 @@ https://streamhub.pro/event/espn_746615/le-havre-ac-at-nantes
 https://streamhub.pro/event/espn_746616/lorient-at-nice
 #EXTINF:-1 group-title="Streamhub", [Soccer] Lyon vs Strasbourg (STRMHUB)
 https://streamhub.pro/event/espn_746618/lyon-at-strasbourg
-#EXTINF:-1 group-title="Streamhub", [Soccer] Borussia Mönchengladbach vs SC Freiburg (STRMHUB)
-https://streamhub.pro/event/espn_746923/borussia-monchengladbach-at-sc-freiburg
 #EXTINF:-1 group-title="Streamhub", [Soccer] Werder Bremen vs St. Pauli (STRMHUB)
 https://streamhub.pro/event/espn_746921/werder-bremen-at-st--pauli
 #EXTINF:-1 group-title="Streamhub", [Soccer] VfB Stuttgart vs 1. FC Heidenheim 1846 (STRMHUB)
 https://streamhub.pro/event/espn_746916/vfb-stuttgart-at-1--fc-heidenheim-1846
-#EXTINF:-1 group-title="Streamhub", [Soccer] Napoli vs Atalanta (STRMHUB)
-https://streamhub.pro/event/espn_737034/napoli-at-atalanta
 #EXTINF:-1 group-title="Streamhub", [Soccer] Parma vs AC Milan (STRMHUB)
 https://streamhub.pro/event/espn_737036/parma-at-ac-milan
 #EXTINF:-1 group-title="Streamhub", [Soccer] Cremonese vs AS Roma (STRMHUB)
@@ -41,24 +29,16 @@ https://streamhub.pro/event/espn_748389/valencia-at-villarreal
 https://streamhub.pro/event/espn_762849/lanus-at-argentinos-juniors
 #EXTINF:-1 group-title="Streamhub", [Soccer] River Plate vs Vélez Sarsfield (STRMHUB)
 https://streamhub.pro/event/espn_762862/river-plate-at-velez-sarsfield
-#EXTINF:-1 group-title="Streamhub", [Soccer] Universidad de Concepción vs La Serena (STRMHUB)
-https://streamhub.pro/event/espn_401850469/universidad-de-concepcion-at-la-serena
 #EXTINF:-1 group-title="Streamhub", [Soccer] Everton CD vs Audax Italiano (STRMHUB)
 https://streamhub.pro/event/espn_401850461/everton-cd-at-audax-italiano
 #EXTINF:-1 group-title="Streamhub", [Soccer] Deportes Limache vs Universidad de Chile (STRMHUB)
 https://streamhub.pro/event/espn_401850463/deportes-limache-at-universidad-de-chile
-#EXTINF:-1 group-title="Streamhub", [Soccer] FC Midtjylland vs Silkeborg IF (STRMHUB)
-https://streamhub.pro/event/espn_738087/fc-midtjylland-at-silkeborg-if
 #EXTINF:-1 group-title="Streamhub", [Soccer] Viborg FF vs AGF (STRMHUB)
 https://streamhub.pro/event/espn_738091/viborg-ff-at-agf
 #EXTINF:-1 group-title="Streamhub", [Soccer] Sparta Rotterdam vs AZ Alkmaar (STRMHUB)
 https://streamhub.pro/event/espn_741191/sparta-rotterdam-at-az-alkmaar
 #EXTINF:-1 group-title="Streamhub", [Soccer] Telstar vs Feyenoord Rotterdam (STRMHUB)
 https://streamhub.pro/event/espn_741186/telstar-at-feyenoord-rotterdam
-#EXTINF:-1 group-title="Streamhub", [Soccer] Panathinaikos vs OFI Crete (STRMHUB)
-https://streamhub.pro/event/espn_752422/panathinaikos-at-ofi-crete
-#EXTINF:-1 group-title="Streamhub", [Soccer] Volos NFC vs Panserraikos FC (STRMHUB)
-https://streamhub.pro/event/espn_752427/volos-nfc-at-panserraikos-fc
 #EXTINF:-1 group-title="Streamhub", [Soccer] PAOK Salonika vs Larissa FC (STRMHUB)
 https://streamhub.pro/event/espn_752423/paok-salonika-at-larissa-fc
 #EXTINF:-1 group-title="Streamhub", [Soccer] Kifisia vs Aris (STRMHUB)
