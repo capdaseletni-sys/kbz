@@ -29,8 +29,6 @@ https://streamhub.pro/event/espn_746923/borussia-monchengladbach-at-sc-freiburg
 https://streamhub.pro/event/espn_746921/werder-bremen-at-st--pauli
 #EXTINF:-1 group-title="Streamhub", [Soccer] VfB Stuttgart vs 1. FC Heidenheim 1846 (STRMHUB)
 https://streamhub.pro/event/espn_746916/vfb-stuttgart-at-1--fc-heidenheim-1846
-#EXTINF:-1 group-title="Streamhub", [Soccer] Torino vs Genoa (STRMHUB)
-https://streamhub.pro/event/espn_737039/torino-at-genoa
 #EXTINF:-1 group-title="Streamhub", [Soccer] Napoli vs Atalanta (STRMHUB)
 https://streamhub.pro/event/espn_737034/napoli-at-atalanta
 #EXTINF:-1 group-title="Streamhub", [Soccer] Parma vs AC Milan (STRMHUB)
@@ -61,8 +59,6 @@ https://streamhub.pro/event/espn_738086/fc-fredericia-at-randers-fc
 https://streamhub.pro/event/espn_738087/fc-midtjylland-at-silkeborg-if
 #EXTINF:-1 group-title="Streamhub", [Soccer] Viborg FF vs AGF (STRMHUB)
 https://streamhub.pro/event/espn_738091/viborg-ff-at-agf
-#EXTINF:-1 group-title="Streamhub", [Soccer] FC Groningen vs FC Twente (STRMHUB)
-https://streamhub.pro/event/espn_741184/fc-groningen-at-fc-twente
 #EXTINF:-1 group-title="Streamhub", [Soccer] PEC Zwolle vs FC Utrecht (STRMHUB)
 https://streamhub.pro/event/espn_741185/pec-zwolle-at-fc-utrecht
 #EXTINF:-1 group-title="Streamhub", [Soccer] Heracles Almelo vs Go Ahead Eagles (STRMHUB)
@@ -99,8 +95,6 @@ https://streamhub.pro/event/espn_401857402/comerciantes-unidos-at-cusco-fc
 https://streamhub.pro/event/espn_750449/gil-vicente-at-estoril
 #EXTINF:-1 group-title="Streamhub", [Soccer] Rio Ave vs FC Porto (STRMHUB)
 https://streamhub.pro/event/espn_750447/rio-ave-at-fc-porto
-#EXTINF:-1 group-title="Streamhub", [Soccer] Antalyaspor vs Kayserispor (STRMHUB)
-https://streamhub.pro/event/espn_750120/antalyaspor-at-kayserispor
 #EXTINF:-1 group-title="Streamhub", [Soccer] Trabzonspor vs Gaziantep FK (STRMHUB)
 https://streamhub.pro/event/espn_750119/trabzonspor-at-gaziantep-fk
 #EXTINF:-1 group-title="Streamhub", [Soccer] Goztepe vs Besiktas (STRMHUB)
@@ -121,3 +115,11 @@ https://streamhub.pro/event/espn_basketball_401810676/dallas-mavericks-vs-indian
 https://streamhub.pro/event/espn_basketball_401810677/charlotte-hornets-vs-washington-wizards
 #EXTINF:-1 group-title="Streamhub", [Basketball] Celtics vs Lakers (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810678/boston-celtics-vs-los-angeles-lakers
+#EXTINF:-1 group-title="Streamhub", [Soccer] Aldosivi vs Unión (Santa Fe) (STRMHUB)
+https://streamhub.pro/event/espn_762850/aldosivi-at-union--santa-fe-
+#EXTINF:-1 group-title="Streamhub", [Basketball] 76ers vs Timberwolves (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810679/philadelphia-76ers-vs-minnesota-timberwolves
+#EXTINF:-1 group-title="Streamhub", [Basketball] Knicks vs Bulls (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810680/new-york-knicks-vs-chicago-bulls
+#EXTINF:-1 group-title="Streamhub", [Basketball] Trail Blazers vs Suns (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810681/portland-trail-blazers-vs-phoenix-suns
