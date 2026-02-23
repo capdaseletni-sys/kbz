@@ -1,23 +1,7 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Manchester United vs Everton (STRMHUB)
-https://streamhub.pro/event/espn_740856/manchester-united-at-everton
-#EXTINF:-1 group-title="Streamhub", [Soccer] Pisa vs Fiorentina (STRMHUB)
-https://streamhub.pro/event/espn_737040/pisa-at-fiorentina
-#EXTINF:-1 group-title="Streamhub", [Soccer] Udinese vs Bologna (STRMHUB)
-https://streamhub.pro/event/espn_737042/udinese-at-bologna
-#EXTINF:-1 group-title="Streamhub", [Soccer] Girona vs Alavés (STRMHUB)
-https://streamhub.pro/event/espn_748393/girona-at-alaves
-#EXTINF:-1 group-title="Streamhub", [Soccer] Sønderjyske Fodbold vs Brøndby IF (STRMHUB)
-https://streamhub.pro/event/espn_738090/sonderjyske-fodbold-at-brondby-if
-#EXTINF:-1 group-title="Streamhub", [Soccer] Guingamp vs Le Mans (STRMHUB)
-https://streamhub.pro/event/espn_747670/guingamp-at-le-mans
-#EXTINF:-1 group-title="Streamhub", [Soccer] Deportivo Garcilaso vs Deportivo Moquegua (STRMHUB)
-https://streamhub.pro/event/espn_401857401/deportivo-garcilaso-at-deportivo-moquegua
-#EXTINF:-1 group-title="Streamhub", [Soccer] Casa Pia vs FC Famalicao (STRMHUB)
-https://streamhub.pro/event/espn_750446/casa-pia-at-fc-famalicao
-#EXTINF:-1 group-title="Streamhub", [Soccer] Kasimpasa vs Fenerbahce (STRMHUB)
-https://streamhub.pro/event/espn_750118/kasimpasa-at-fenerbahce
 #EXTINF:-1 group-title="Streamhub", [Basketball] Spurs vs Pistons (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810683/san-antonio-spurs-vs-detroit-pistons
 #EXTINF:-1 group-title="Streamhub", [Basketball] Kings vs Grizzlies (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810684/sacramento-kings-vs-memphis-grizzlies
+#EXTINF:-1 group-title="Streamhub", [Basketball] Jazz vs Rockets (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810685/utah-jazz-vs-houston-rockets
