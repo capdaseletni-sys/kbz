@@ -1,508 +1,738 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="24/7 DRAGON BALL Z" tvg-logo="" group-title="Direct TV",24/7 DRAGON BALL Z
+http://1tv41.icu:8080/Y06DNq/295733/79572
+#EXTINF:-1 tvg-id="amc.ca" tvg-name="CA: AMC" tvg-logo="" group-title="Direct TV",CA: AMC
+http://1tv41.icu:8080/Y06DNq/295733/57376
+#EXTINF:-1 tvg-id="cbcedmonton.ca" tvg-name="CA: CBC Edmonton" tvg-logo="" group-title="Direct TV",CA: CBC Edmonton
+http://1tv41.icu:8080/Y06DNq/295733/57384
+#EXTINF:-1 tvg-id="aande.ca" tvg-name="CA: A&E" tvg-logo="" group-title="Direct TV",CA: A&E
+http://1tv41.icu:8080/Y06DNq/295733/57476
+#EXTINF:-1 tvg-id="tsn4.ca" tvg-name="CA TSN 4 HD " tvg-logo="https://pbs.twimg.com/profile_images/2763584720/a7abe58518e68500a7a4bf509fbd903c.png" group-title="Direct TV",CA TSN 4 HD 
+http://1tv41.icu:8080/Y06DNq/295733/16130
+#EXTINF:-1 tvg-id="sportsnet.satellite.digital.ca" tvg-name="CA Sportsnet East (D) " tvg-logo="" group-title="Direct TV",CA Sportsnet East (D) 
+http://1tv41.icu:8080/Y06DNq/295733/41836
+#EXTINF:-1 tvg-id="cbccalgary.ca" tvg-name="CA CBC Calgary HD " tvg-logo="" group-title="Direct TV",CA CBC Calgary HD 
+http://1tv41.icu:8080/Y06DNq/295733/57381
 #EXTINF:-1 tvg-id="" tvg-name="24/7 FULL HOUSE" tvg-logo="" group-title="Direct TV",24/7 FULL HOUSE
 http://1tv41.icu:8080/Y06DNq/295733/66269
-#EXTINF:-1 tvg-id="" tvg-name="24/7 FRIENDS" tvg-logo="" group-title="Direct TV",24/7 FRIENDS
-http://1tv41.icu:8080/Y06DNq/295733/66407
-#EXTINF:-1 tvg-id="cbchalifax.ca" tvg-name="CA CBC Halifax HD " tvg-logo="" group-title="Direct TV",CA CBC Halifax HD 
-http://1tv41.icu:8080/Y06DNq/295733/57385
-#EXTINF:-1 tvg-id="bnn.ca" tvg-name="CA: BNN Bloomberg HD" tvg-logo="" group-title="Direct TV",CA: BNN Bloomberg HD
-http://1tv41.icu:8080/Y06DNq/295733/57358
-#EXTINF:-1 tvg-id="cbcnews.ca" tvg-name="CA CBC NEWS NETWORK (E)" tvg-logo="" group-title="Direct TV",CA CBC NEWS NETWORK (E)
-http://1tv41.icu:8080/Y06DNq/295733/57304
-#EXTINF:-1 tvg-id="cbccharlottetown.ca" tvg-name="CA CBC Charlottetown HD (D)" tvg-logo="" group-title="Direct TV",CA CBC Charlottetown HD (D)
-http://1tv41.icu:8080/Y06DNq/295733/57382
-#EXTINF:-1 tvg-id="24taas.ca" tvg-name="CA: Animal Planet" tvg-logo="" group-title="Direct TV",CA: Animal Planet
-http://1tv41.icu:8080/Y06DNq/295733/57377
-#EXTINF:-1 tvg-id="cbctoronto.ca" tvg-name="CA: CBC TORONTO" tvg-logo="" group-title="Direct TV",CA: CBC TORONTO
-http://1tv41.icu:8080/Y06DNq/295733/57306
+#EXTINF:-1 tvg-id="cbcvancouver.ca" tvg-name="CA: CBC Vancouver" tvg-logo="" group-title="Direct TV",CA: CBC Vancouver
+http://1tv41.icu:8080/Y06DNq/295733/57391
+#EXTINF:-1 tvg-id="cbcmontreal.ca" tvg-name="CA CBC Montreal HD (D) " tvg-logo="" group-title="Direct TV",CA CBC Montreal HD (D) 
+http://1tv41.icu:8080/Y06DNq/295733/57387
+#EXTINF:-1 tvg-id="cablepulse24.ca" tvg-name="CA: CP24 FHD" tvg-logo="" group-title="Direct TV",CA: CP24 FHD
+http://1tv41.icu:8080/Y06DNq/295733/47218
+#EXTINF:-1 tvg-id="cablepulse24.ca" tvg-name="CA CP24 News HD (D)" tvg-logo="" group-title="Direct TV",CA CP24 News HD (D)
+http://1tv41.icu:8080/Y06DNq/295733/57357
+#EXTINF:-1 tvg-id="cottagelife.ca" tvg-name="CA Cottage Life HD (B)" tvg-logo="" group-title="Direct TV",CA Cottage Life HD (B)
+http://1tv41.icu:8080/Y06DNq/295733/47217
 #EXTINF:-1 tvg-id="chrgd.ca" tvg-name="CA: CHRGD" tvg-logo="" group-title="Direct TV",CA: CHRGD
 http://1tv41.icu:8080/Y06DNq/295733/75653
-#EXTINF:-1 tvg-id="cbcottawa.ca" tvg-name="CA: CBC OTTAWA" tvg-logo="" group-title="Direct TV",CA: CBC OTTAWA
-http://1tv41.icu:8080/Y06DNq/295733/57305
-#EXTINF:-1 tvg-id="cnn.ca" tvg-name="CA CNN " tvg-logo="" group-title="Direct TV",CA CNN 
-http://1tv41.icu:8080/Y06DNq/295733/47213
-#EXTINF:-1 tvg-id="cablepulse24.ca" tvg-name="CA CP24 News HD (E)" tvg-logo="" group-title="Direct TV",CA CP24 News HD (E)
-http://1tv41.icu:8080/Y06DNq/295733/57401
+#EXTINF:-1 tvg-id="crave2.ca" tvg-name="CA: CRAVE 2 HD" tvg-logo="" group-title="Direct TV",CA: CRAVE 2 HD
+http://1tv41.icu:8080/Y06DNq/295733/57310
 #EXTINF:-1 tvg-id="cpac.ca" tvg-name="CA CPAC HD " tvg-logo="" group-title="Direct TV",CA CPAC HD 
 http://1tv41.icu:8080/Y06DNq/295733/57351
+#EXTINF:-1 tvg-id="crave3.ca" tvg-name="CA: CRAVE 3" tvg-logo="" group-title="Direct TV",CA: CRAVE 3
+http://1tv41.icu:8080/Y06DNq/295733/57322
 #EXTINF:-1 tvg-id="cpacottawaen.ca" tvg-name="CA: CPAC English" tvg-logo="" group-title="Direct TV",CA: CPAC English
 http://1tv41.icu:8080/Y06DNq/295733/57352
-#EXTINF:-1 tvg-id="crimeinvestigation.ca" tvg-name="CA: CRIME & INVESTIGATION" tvg-logo="" group-title="Direct TV",CA: CRIME & INVESTIGATION
-http://1tv41.icu:8080/Y06DNq/295733/57256
 #EXTINF:-1 tvg-id="ctvkitchener.ca" tvg-name="CA CTV Kitchener " tvg-logo="" group-title="Direct TV",CA CTV Kitchener 
 http://1tv41.icu:8080/Y06DNq/295733/58557
-#EXTINF:-1 tvg-id="ctvregina.ca" tvg-name="CA CTV Regina Saskatchewan HD (D)" tvg-logo="" group-title="Direct TV",CA CTV Regina Saskatchewan HD (D)
-http://1tv41.icu:8080/Y06DNq/295733/66381
-#EXTINF:-1 tvg-id="ctvottawa.ca" tvg-name="CA: CTV OTTAWA" tvg-logo="" group-title="Direct TV",CA: CTV OTTAWA
-http://1tv41.icu:8080/Y06DNq/295733/47237
-#EXTINF:-1 tvg-id="ctvedmonton.ca" tvg-name="CA CTV Edmonton Alberta HD (D)" tvg-logo="" group-title="Direct TV",CA CTV Edmonton Alberta HD (D)
-http://1tv41.icu:8080/Y06DNq/295733/58725
-#EXTINF:-1 tvg-id="ctvnews.ca" tvg-name="CA: CTV NEWS CHANNEL HD" tvg-logo="" group-title="Direct TV",CA: CTV NEWS CHANNEL HD
-http://1tv41.icu:8080/Y06DNq/295733/57350
+#EXTINF:-1 tvg-id="ctvmontreal.ca" tvg-name="CA CTV Montreal HD " tvg-logo="" group-title="Direct TV",CA CTV Montreal HD 
+http://1tv41.icu:8080/Y06DNq/295733/47234
+#EXTINF:-1 tvg-id="ctvcalgary.ca" tvg-name="CA CTV CALGARY (E)" tvg-logo="" group-title="Direct TV",CA CTV CALGARY (E)
+http://1tv41.icu:8080/Y06DNq/295733/57964
+#EXTINF:-1 tvg-id="crave1.ca" tvg-name="CA: CRAVE 1 HD" tvg-logo="" group-title="Direct TV",CA: CRAVE 1 HD
+http://1tv41.icu:8080/Y06DNq/295733/57309
+#EXTINF:-1 tvg-id="ctvcomedyeast.ca" tvg-name="CA CTV Comedy Channel " tvg-logo="" group-title="Direct TV",CA CTV Comedy Channel 
+http://1tv41.icu:8080/Y06DNq/295733/57408
+#EXTINF:-1 tvg-id="ctv2london.ca" tvg-name="CA CTV 2 London HD " tvg-logo="" group-title="Direct TV",CA CTV 2 London HD 
+http://1tv41.icu:8080/Y06DNq/295733/58546
 #EXTINF:-1 tvg-id="ctvscifichannel.ca" tvg-name="CA CTV Sci-Fi Channel (B)" tvg-logo="" group-title="Direct TV",CA CTV Sci-Fi Channel (B)
 http://1tv41.icu:8080/Y06DNq/295733/57253
+#EXTINF:-1 tvg-id="ctv2barrie.ca" tvg-name="CA CTV Barrie Ontario HD " tvg-logo="" group-title="Direct TV",CA CTV Barrie Ontario HD 
+http://1tv41.icu:8080/Y06DNq/295733/57373
+#EXTINF:-1 tvg-id="discoveryscience.ca" tvg-name="CA: Discovery Science" tvg-logo="" group-title="Direct TV",CA: Discovery Science
+http://1tv41.icu:8080/Y06DNq/295733/57418
 #EXTINF:-1 tvg-id="ctvtoronto.ca" tvg-name="CA CTV Toronto HD (R)" tvg-logo="" group-title="Direct TV",CA CTV Toronto HD (R)
 http://1tv41.icu:8080/Y06DNq/295733/47296
 #EXTINF:-1 tvg-id="24taas.ca" tvg-name="CA: DIY NETWORK FHD" tvg-logo="" group-title="Direct TV",CA: DIY NETWORK FHD
 http://1tv41.icu:8080/Y06DNq/295733/47258
-#EXTINF:-1 tvg-id="eentertainment.ca" tvg-name="CA E! (R)" tvg-logo="" group-title="Direct TV",CA E! (R)
-http://1tv41.icu:8080/Y06DNq/295733/57422
-#EXTINF:-1 tvg-id="fxx.ca" tvg-name="CA FXX " tvg-logo="" group-title="Direct TV",CA FXX 
-http://1tv41.icu:8080/Y06DNq/295733/57429
-#EXTINF:-1 tvg-id="global.kingston.on.ca" tvg-name="CA Global News Kingston (D)" tvg-logo="" group-title="Direct TV",CA Global News Kingston (D)
-http://1tv41.icu:8080/Y06DNq/295733/57432
+#EXTINF:-1 tvg-id="foxnews.us" tvg-name="CA FOX NEWS" tvg-logo="" group-title="Direct TV",CA FOX NEWS
+http://1tv41.icu:8080/Y06DNq/295733/47281
+#EXTINF:-1 tvg-id="fx.ca" tvg-name="CA: FX HD" tvg-logo="" group-title="Direct TV",CA: FX HD
+http://1tv41.icu:8080/Y06DNq/295733/57268
+#EXTINF:-1 tvg-id="gameshownetwork.ca" tvg-name="CA Game Show Network HD " tvg-logo="" group-title="Direct TV",CA Game Show Network HD 
+http://1tv41.icu:8080/Y06DNq/295733/57430
+#EXTINF:-1 tvg-id="globaledmonton.ca" tvg-name="CA Global Edmonton News (E)" tvg-logo="" group-title="Direct TV",CA Global Edmonton News (E)
+http://1tv41.icu:8080/Y06DNq/295733/58724
+#EXTINF:-1 tvg-id="hlobalhalifaxCIHF.ca" tvg-name="CA: Global Halifax News" tvg-logo="" group-title="Direct TV",CA: Global Halifax News
+http://1tv41.icu:8080/Y06DNq/295733/57434
 #EXTINF:-1 tvg-id="globalsaskatoon.ca" tvg-name="CA Global Saskatoon (B)" tvg-logo="" group-title="Direct TV",CA Global Saskatoon (B)
 http://1tv41.icu:8080/Y06DNq/295733/66383
 #EXTINF:-1 tvg-id="globalbc.ca" tvg-name="CA: Global Vancouver" tvg-logo="" group-title="Direct TV",CA: Global Vancouver
 http://1tv41.icu:8080/Y06DNq/295733/57436
+#EXTINF:-1 tvg-id="hbo.ca" tvg-name="CA: HBO 1 " tvg-logo="" group-title="Direct TV",CA: HBO 1 
+http://1tv41.icu:8080/Y06DNq/295733/57437
 #EXTINF:-1 tvg-id="hgtv.ca" tvg-name="CA HGTV " tvg-logo="" group-title="Direct TV",CA HGTV 
 http://1tv41.icu:8080/Y06DNq/295733/57273
 #EXTINF:-1 tvg-id="hln.ca" tvg-name="CA: HLN" tvg-logo="" group-title="Direct TV",CA: HLN
 http://1tv41.icu:8080/Y06DNq/295733/57441
+#EXTINF:-1 tvg-id="a3cine.us" tvg-name="CA: Lifetime Movie Network" tvg-logo="" group-title="Direct TV",CA: Lifetime Movie Network
+http://1tv41.icu:8080/Y06DNq/295733/57444
+#EXTINF:-1 tvg-id="makeful.ca" tvg-name="CA: MAKEFUL" tvg-logo="" group-title="Direct TV",CA: MAKEFUL
+http://1tv41.icu:8080/Y06DNq/295733/57270
 #EXTINF:-1 tvg-id="mtv2.ca" tvg-name="CA MTV2 (E)" tvg-logo="" group-title="Direct TV",CA MTV2 (E)
 http://1tv41.icu:8080/Y06DNq/295733/57447
+#EXTINF:-1 tvg-id="natgeo.ca" tvg-name="CA: National Geographics" tvg-logo="" group-title="Direct TV",CA: National Geographics
+http://1tv41.icu:8080/Y06DNq/295733/57281
 #EXTINF:-1 tvg-id="nflnetworkcanada.ca" tvg-name="CA: NFL NETWORK HD" tvg-logo="" group-title="Direct TV",CA: NFL NETWORK HD
 http://1tv41.icu:8080/Y06DNq/295733/47346
+#EXTINF:-1 tvg-id="omni1.ca" tvg-name="CA: OMNI1 HD" tvg-logo="" group-title="Direct TV",CA: OMNI1 HD
+http://1tv41.icu:8080/Y06DNq/295733/57365
+#EXTINF:-1 tvg-id="oprahwinfreynetwork.ca" tvg-name="CA OWN " tvg-logo="" group-title="Direct TV",CA OWN 
+http://1tv41.icu:8080/Y06DNq/295733/57277
+#EXTINF:-1 tvg-id="5.ca" tvg-name="CA: PBS HD" tvg-logo="" group-title="Direct TV",CA: PBS HD
+http://1tv41.icu:8080/Y06DNq/295733/57276
+#EXTINF:-1 tvg-id="sportsnetontario.ca" tvg-name="CA: Sportsnet Ontario" tvg-logo="" group-title="Direct TV",CA: Sportsnet Ontario
+http://1tv41.icu:8080/Y06DNq/295733/57463
 #EXTINF:-1 tvg-id="slice.ca" tvg-name="CA Slice TV " tvg-logo="" group-title="Direct TV",CA Slice TV 
 http://1tv41.icu:8080/Y06DNq/295733/57274
-#EXTINF:-1 tvg-id="smithsonian.ca" tvg-name="CA Smithsonian Channel (B)" tvg-logo="" group-title="Direct TV",CA Smithsonian Channel (B)
-http://1tv41.icu:8080/Y06DNq/295733/47369
-#EXTINF:-1 tvg-id="sportsnetontario.ca" tvg-name="CA Sportsnet Ontario (FHD) " tvg-logo="https://juicetv.app/channellogo/sportsnet.png" group-title="Direct TV",CA Sportsnet Ontario (FHD) 
-http://1tv41.icu:8080/Y06DNq/295733/11649
-#EXTINF:-1 tvg-id="sportsnetone.ca" tvg-name="CA Sportsnet One (HD) " tvg-logo="" group-title="Direct TV",CA Sportsnet One (HD) 
-http://1tv41.icu:8080/Y06DNq/295733/47379
-#EXTINF:-1 tvg-id="sportsnetwest.ca" tvg-name="CA Sportsnet West (FHD)" tvg-logo="https://juicetv.app/channellogo/sportsnet.png" group-title="Direct TV",CA Sportsnet West (FHD)
-http://1tv41.icu:8080/Y06DNq/295733/20975
-#EXTINF:-1 tvg-id="tlc.ca" tvg-name="CA TLC " tvg-logo="" group-title="Direct TV",CA TLC 
-http://1tv41.icu:8080/Y06DNq/295733/57290
+#EXTINF:-1 tvg-id="sportsnetpacific.ca" tvg-name="CA Sportsnet Pacific (FHD) " tvg-logo="https://juicetv.app/channellogo/sportsnet.png" group-title="Direct TV",CA Sportsnet Pacific (FHD) 
+http://1tv41.icu:8080/Y06DNq/295733/9860
+#EXTINF:-1 tvg-id="sportsnet360.ca" tvg-name="CA Sportsnet 360 (HD)" tvg-logo="" group-title="Direct TV",CA Sportsnet 360 (HD)
+http://1tv41.icu:8080/Y06DNq/295733/57299
+#EXTINF:-1 tvg-id="sportsnetone.ca" tvg-name="CA Sportsnet One (FHD) " tvg-logo="" group-title="Direct TV",CA Sportsnet One (FHD) 
+http://1tv41.icu:8080/Y06DNq/295733/57297
+#EXTINF:-1 tvg-id="sportsnet.world.ca" tvg-name="CA Sportsnet World HD " tvg-logo="" group-title="Direct TV",CA Sportsnet World HD 
+http://1tv41.icu:8080/Y06DNq/295733/75675
+#EXTINF:-1 tvg-id="tsn1.ca" tvg-name="CA TSN 1 (R)" tvg-logo="" group-title="Direct TV",CA TSN 1 (R)
+http://1tv41.icu:8080/Y06DNq/295733/47440
 #EXTINF:-1 tvg-id="tsn2.ca" tvg-name="CA TSN 2 HD " tvg-logo="" group-title="Direct TV",CA TSN 2 HD 
 http://1tv41.icu:8080/Y06DNq/295733/47442
-#EXTINF:-1 tvg-id="tsn3.ca" tvg-name="CA TSN 3 HD " tvg-logo="" group-title="Direct TV",CA TSN 3 HD 
-http://1tv41.icu:8080/Y06DNq/295733/47444
-#EXTINF:-1 tvg-id="vision.ca" tvg-name="CA: Vision" tvg-logo="" group-title="Direct TV",CA: Vision
-http://1tv41.icu:8080/Y06DNq/295733/57468
+#EXTINF:-1 tvg-id="tsn4.ca" tvg-name="CA TSN 4 " tvg-logo="" group-title="Direct TV",CA TSN 4 
+http://1tv41.icu:8080/Y06DNq/295733/66783
+#EXTINF:-1 tvg-id="tsn4.ca" tvg-name="CA TSN 4 (B)" tvg-logo="" group-title="Direct TV",CA TSN 4 (B)
+http://1tv41.icu:8080/Y06DNq/295733/47446
+#EXTINF:-1 tvg-id="tsn5.ca" tvg-name="CA TSN 5 " tvg-logo="" group-title="Direct TV",CA TSN 5 
+http://1tv41.icu:8080/Y06DNq/295733/57295
+#EXTINF:-1 tvg-id="wnetwork.ca" tvg-name="CA W Network East (E)" tvg-logo="" group-title="Direct TV",CA W Network East (E)
+http://1tv41.icu:8080/Y06DNq/295733/57284
 #EXTINF:-1 tvg-id="theweathernetwork.ca" tvg-name="CA: Weather Network Toronto" tvg-logo="" group-title="Direct TV",CA: Weather Network Toronto
 http://1tv41.icu:8080/Y06DNq/295733/57470
-#EXTINF:-1 tvg-id="foxsports1.us" tvg-name="US FOX Sports 1 " tvg-logo="" group-title="Direct TV",US FOX Sports 1 
-http://1tv41.icu:8080/Y06DNq/295733/46792
+#EXTINF:-1 tvg-id="cbnnews.us" tvg-name="US CBSN New York (D)" tvg-logo="" group-title="Direct TV",US CBSN New York (D)
+http://1tv41.icu:8080/Y06DNq/295733/46754
+#EXTINF:-1 tvg-id="ballysportsflorida.us" tvg-name="US Bally Sports Florida (A)" tvg-logo="" group-title="Direct TV",US Bally Sports Florida (A)
+http://1tv41.icu:8080/Y06DNq/295733/46794
 #EXTINF:-1 tvg-id="" tvg-name="24/7 KEEPING UP WITH THE KARDASHIANS" tvg-logo="" group-title="Direct TV",24/7 KEEPING UP WITH THE KARDASHIANS
 http://1tv41.icu:8080/Y06DNq/295733/66403
-#EXTINF:-1 tvg-id="" tvg-name="24/7 SEINFELD" tvg-logo="" group-title="Direct TV",24/7 SEINFELD
-http://1tv41.icu:8080/Y06DNq/295733/66303
+#EXTINF:-1 tvg-id="" tvg-name="24/7 RIDICULOUSNESS" tvg-logo="" group-title="Direct TV",24/7 RIDICULOUSNESS
+http://1tv41.icu:8080/Y06DNq/295733/66397
 #EXTINF:-1 tvg-id="" tvg-name="The KING OF QUEENS" tvg-logo="" group-title="Direct TV",The KING OF QUEENS
 http://1tv41.icu:8080/Y06DNq/295733/79567
-#EXTINF:-1 tvg-id="bloombergtv.uk" tvg-name="UK-Boomerang" tvg-logo="" group-title="Direct TV",UK-Boomerang
-http://1tv41.icu:8080/Y06DNq/295733/53718
-#EXTINF:-1 tvg-id="itv1anglia.uk" tvg-name="UK-ITV" tvg-logo="" group-title="Direct TV",UK-ITV
-http://1tv41.icu:8080/Y06DNq/295733/53651
-#EXTINF:-1 tvg-id="mtv.classic.gb" tvg-name="US MTV Classic (A)" tvg-logo="" group-title="Direct TV",US MTV Classic (A)
-http://1tv41.icu:8080/Y06DNq/295733/53734
-#EXTINF:-1 tvg-id="skypremiere.uk" tvg-name="UK-Sky Cinema Premier" tvg-logo="" group-title="Direct TV",UK-Sky Cinema Premier
-http://1tv41.icu:8080/Y06DNq/295733/35256
-#EXTINF:-1 tvg-id="sky.sports.main.event.gb" tvg-name="UK-Sky Sports Main Event" tvg-logo="" group-title="Direct TV",UK-Sky Sports Main Event
-http://1tv41.icu:8080/Y06DNq/295733/35243
-#EXTINF:-1 tvg-id="charge.us" tvg-name="US CHARGE! " tvg-logo="" group-title="Direct TV",US CHARGE! 
-http://1tv41.icu:8080/Y06DNq/295733/79594
-#EXTINF:-1 tvg-id="nbc36kxan.us" tvg-name="US NBC (KXAN) Austin " tvg-logo="" group-title="Direct TV",US NBC (KXAN) Austin 
-http://1tv41.icu:8080/Y06DNq/295733/17749
+#EXTINF:-1 tvg-id="skyaction.uk" tvg-name="UK: SKY CINEMA ACTION FHD" tvg-logo="" group-title="Direct TV",UK: SKY CINEMA ACTION FHD
+http://1tv41.icu:8080/Y06DNq/295733/35254
+#EXTINF:-1 tvg-id="skycomedy.uk" tvg-name="UK MOVIES: SKY COMEDY" tvg-logo="" group-title="Direct TV",UK MOVIES: SKY COMEDY
+http://1tv41.icu:8080/Y06DNq/295733/35253
+#EXTINF:-1 tvg-id="investigationdiscovery.uk" tvg-name="UK-Investigation Discovery" tvg-logo="" group-title="Direct TV",UK-Investigation Discovery
+http://1tv41.icu:8080/Y06DNq/295733/53687
+#EXTINF:-1 tvg-id="more4.uk" tvg-name="UK-More4" tvg-logo="" group-title="Direct TV",UK-More4
+http://1tv41.icu:8080/Y06DNq/295733/53673
+#EXTINF:-1 tvg-id="skysportsf1.uk" tvg-name="UK Sky Sports F1 FHD (D)" tvg-logo="" group-title="Direct TV",UK Sky Sports F1 FHD (D)
+http://1tv41.icu:8080/Y06DNq/295733/53704
+#EXTINF:-1 tvg-id="sony.us" tvg-name="US SONY Movies FHD " tvg-logo="https://d24j9r7lck9cin.cloudfront.net/l/o/1/1374.1569972429.png" group-title="Direct TV",US SONY Movies FHD 
+http://1tv41.icu:8080/Y06DNq/295733/2214
+#EXTINF:-1 tvg-id="starzencoreblack.us" tvg-name="US STARZ ENCORE Black" tvg-logo="https://thestreamable.com/media/pages/news/flash-sale-get-6-months-of-starz-for-only-3-33-a-month-so-you-can-binge-power-outlander-and-american-gods/3821036974-1583185843/starz.png" group-title="Direct TV",US STARZ ENCORE Black
+http://1tv41.icu:8080/Y06DNq/295733/16141
+#EXTINF:-1 tvg-id="3abn.latino.houston.tx.us" tvg-name="US FanDuel Sports Oklahoma " tvg-logo="" group-title="Direct TV",US FanDuel Sports Oklahoma 
+http://1tv41.icu:8080/Y06DNq/295733/20934
+#EXTINF:-1 tvg-id="bally.sports.west.us" tvg-name="US FanDuel Sports West (A)" tvg-logo="" group-title="Direct TV",US FanDuel Sports West (A)
+http://1tv41.icu:8080/Y06DNq/295733/20932
 #EXTINF:-1 tvg-id="" tvg-name="US FanDuel Sports Wisconsin " tvg-logo="" group-title="Direct TV",US FanDuel Sports Wisconsin 
 http://1tv41.icu:8080/Y06DNq/295733/78599
-#EXTINF:-1 tvg-id="" tvg-name="US MASN2 " tvg-logo="" group-title="Direct TV",US MASN2 
-http://1tv41.icu:8080/Y06DNq/295733/65698
-#EXTINF:-1 tvg-id="nbc.sports.chicago.us" tvg-name="US NBC Sports Chicago " tvg-logo="https://img2.pngio.com/chicago-sports-transparent-png-clipart-free-download-ywd-nbc-sports-png-800_625.png" group-title="Direct TV",US NBC Sports Chicago 
-http://1tv41.icu:8080/Y06DNq/295733/20941
-#EXTINF:-1 tvg-id="secnetwork.us" tvg-name="US ESPN SEC Network " tvg-logo="" group-title="Direct TV",US ESPN SEC Network 
-http://1tv41.icu:8080/Y06DNq/295733/17608
+#EXTINF:-1 tvg-id="ballysportsohio.us" tvg-name="US FanDuel Sports Ohio " tvg-logo="" group-title="Direct TV",US FanDuel Sports Ohio 
+http://1tv41.icu:8080/Y06DNq/295733/17752
+#EXTINF:-1 tvg-id="nbcsportsbayarea.us" tvg-name="US NBC Sports Bay Area (A)" tvg-logo="https://www.iphonefaq.org/images/archives/nbc_sports_yay.png" group-title="Direct TV",US NBC Sports Bay Area (A)
+http://1tv41.icu:8080/Y06DNq/295733/9900
+#EXTINF:-1 tvg-id="nbc.sports.boston.us" tvg-name="US NBC Sports Boston (A)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/93/NBC_Sports_Boston.png" group-title="Direct TV",US NBC Sports Boston (A)
+http://1tv41.icu:8080/Y06DNq/295733/20939
+#EXTINF:-1 tvg-id="nbc.sports.washington.us" tvg-name="US NBC Sports Washington (F)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fb/NBC_Sports_Washington.png" group-title="Direct TV",US NBC Sports Washington (F)
+http://1tv41.icu:8080/Y06DNq/295733/20944
+#EXTINF:-1 tvg-id="spectrum.sportsnet.us" tvg-name="US Spectrum SportsNet LA Dodgers (HD) " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/97/Spectrum_Sports_logo.png" group-title="Direct TV",US Spectrum SportsNet LA Dodgers (HD) 
+http://1tv41.icu:8080/Y06DNq/295733/31636
+#EXTINF:-1 tvg-id="tennischannel.us" tvg-name="US Tennis Channel" tvg-logo="https://allvectorlogo.com/img/2016/03/tennis-channel-logo.png" group-title="Direct TV",US Tennis Channel
+http://1tv41.icu:8080/Y06DNq/295733/20184
 #EXTINF:-1 tvg-id="poptv.us" tvg-name="US Pop " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Pop_Network_Logo.png" group-title="Direct TV",US Pop 
 http://1tv41.icu:8080/Y06DNq/295733/20976
-#EXTINF:-1 tvg-id="5starmax.us" tvg-name="US 5 StarMax" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/5max.png" group-title="Direct TV",US 5 StarMax
-http://1tv41.icu:8080/Y06DNq/295733/13381
-#EXTINF:-1 tvg-id="actionmaxpacific.us" tvg-name="US ActionMAX (East) " tvg-logo="" group-title="Direct TV",US ActionMAX (East) 
-http://1tv41.icu:8080/Y06DNq/295733/21013
-#EXTINF:-1 tvg-id="aspiretv.us" tvg-name="US Aspire (A)" tvg-logo="" group-title="Direct TV",US Aspire (A)
-http://1tv41.icu:8080/Y06DNq/295733/21927
+#EXTINF:-1 tvg-id="unimas69wami.us" tvg-name="US UniMas  " tvg-logo="" group-title="Direct TV",US UniMas  
+http://1tv41.icu:8080/Y06DNq/295733/57969
+#EXTINF:-1 tvg-id="univision.us" tvg-name="US Univision (East) (SP)" tvg-logo="https://w7.pngwing.com/pngs/618/904/png-transparent-logo-univision-mexico-television-san-antonio-disney-junior-logo-television-text-logo.png" group-title="Direct TV",US Univision (East) (SP)
+http://1tv41.icu:8080/Y06DNq/295733/15336
+#EXTINF:-1 tvg-id="aande.us" tvg-name="USA: A&E" tvg-logo="" group-title="Direct TV",USA: A&E
+http://1tv41.icu:8080/Y06DNq/295733/59056
+#EXTINF:-1 tvg-id="accnetwork.us" tvg-name="US ACC Network (A)" tvg-logo="https://b.thumbs.redditmedia.com/vjPoCrRZM-0Guub5k9HskQWodjmjP1OF3myBvaqLWGE.png" group-title="Direct TV",US ACC Network (A)
+http://1tv41.icu:8080/Y06DNq/295733/9273
+#EXTINF:-1 tvg-id="adultswim.us" tvg-name="CA Adult Swim (R)" tvg-logo="https://www.nicepng.com/png/detail/326-3269271_adult-swim-adult-swim-logo-png.png" group-title="Direct TV",CA Adult Swim (R)
+http://1tv41.icu:8080/Y06DNq/295733/11644
+#EXTINF:-1 tvg-id="amc.us" tvg-name="US AMC " tvg-logo="https://seeklogo.com/images/A/amc-logo-36BD2C5A01-seeklogo.com.png" group-title="Direct TV",US AMC 
+http://1tv41.icu:8080/Y06DNq/295733/18925
+#EXTINF:-1 tvg-id="animalplanet.us" tvg-name="US Animal Planet " tvg-logo="https://i.pinimg.com/originals/d1/18/a4/d118a4d4198818532da51e0a0bfb7969.png" group-title="Direct TV",US Animal Planet 
+http://1tv41.icu:8080/Y06DNq/295733/17870
+#EXTINF:-1 tvg-id="axstv.us" tvg-name="US AXS TV " tvg-logo="" group-title="Direct TV",US AXS TV 
+http://1tv41.icu:8080/Y06DNq/295733/48324
+#EXTINF:-1 tvg-id="betgospel.us" tvg-name="USA: Bet Gospel" tvg-logo="" group-title="Direct TV",USA: Bet Gospel
+http://1tv41.icu:8080/Y06DNq/295733/66080
 #EXTINF:-1 tvg-id="bether.us" tvg-name="US BET (East)  " tvg-logo="https://www.pinclipart.com/picdir/middle/396-3966034_bet-her-logo-png-clipart.png" group-title="Direct TV",US BET (East)  
 http://1tv41.icu:8080/Y06DNq/295733/13702
+#EXTINF:-1 tvg-id="bloombergtv.us" tvg-name="US Bloomberg" tvg-logo="https://www.flirtey.com/wp-content/uploads/2018/04/bloomberg-logo.png" group-title="Direct TV",US Bloomberg
+http://1tv41.icu:8080/Y06DNq/295733/15158
+#EXTINF:-1 tvg-id="buzzertv.us" tvg-name="US BUZZR (STV)" tvg-logo="" group-title="Direct TV",US BUZZR (STV)
+http://1tv41.icu:8080/Y06DNq/295733/21896
 #EXTINF:-1 tvg-id="cartoonnetwork.us" tvg-name="US Cartoon Network " tvg-logo="" group-title="Direct TV",US Cartoon Network 
 http://1tv41.icu:8080/Y06DNq/295733/46708
-#EXTINF:-1 tvg-id="cmt.us" tvg-name="USA: CMT HD" tvg-logo="https://www.vippng.com/png/detail/66-665473_cmt-logo-cmt-network-logo-png.png" group-title="Direct TV",USA: CMT HD
-http://1tv41.icu:8080/Y06DNq/295733/10476
-#EXTINF:-1 tvg-id="comet.us" tvg-name="US Comet (S)" tvg-logo="" group-title="Direct TV",US Comet (S)
-http://1tv41.icu:8080/Y06DNq/295733/66244
-#EXTINF:-1 tvg-id="discoverychannel.us" tvg-name="US Discovery Channel (East)" tvg-logo="" group-title="Direct TV",US Discovery Channel (East)
-http://1tv41.icu:8080/Y06DNq/295733/46720
-#EXTINF:-1 tvg-id="dogtv.us" tvg-name="USA: DOGTV" tvg-logo="" group-title="Direct TV",USA: DOGTV
-http://1tv41.icu:8080/Y06DNq/295733/53539
+#EXTINF:-1 tvg-id="cinemax.us" tvg-name="US Cinemax (East) " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png" group-title="Direct TV",US Cinemax (East) 
+http://1tv41.icu:8080/Y06DNq/295733/13380
+#EXTINF:-1 tvg-id="cnbc.us" tvg-name="US CNBC " tvg-logo="https://piketrail.com/wp-content/uploads/2019/09/cnbclogo.png" group-title="Direct TV",US CNBC 
+http://1tv41.icu:8080/Y06DNq/295733/9815
+#EXTINF:-1 tvg-id="cnbcworld.us" tvg-name="US CNBC World" tvg-logo="https://piketrail.com/wp-content/uploads/2019/09/cnbclogo.png" group-title="Direct TV",US CNBC World
+http://1tv41.icu:8080/Y06DNq/295733/20860
+#EXTINF:-1 tvg-id="cookingchannel.us" tvg-name="US Cooking Channel " tvg-logo="https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/plugin.video.cook/icon/icon.png" group-title="Direct TV",US Cooking Channel 
+http://1tv41.icu:8080/Y06DNq/295733/9229
+#EXTINF:-1 tvg-id="cozinetwork.us" tvg-name="US Cozi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Cozi_TV_logo.png" group-title="Direct TV",US Cozi
+http://1tv41.icu:8080/Y06DNq/295733/11868
+#EXTINF:-1 tvg-id="decadeswvah.us" tvg-name="US Decades " tvg-logo="https://decades.com/images/logo_tagline.png" group-title="Direct TV",US Decades 
+http://1tv41.icu:8080/Y06DNq/295733/20189
+#EXTINF:-1 tvg-id="discoveryfamily.us" tvg-name="USA: DISCOVERY FAMILY" tvg-logo="https://png.pngitem.com/pimgs/s/452-4528679_discovery-family-channel-logo-hd-png-download.png" group-title="Direct TV",USA: DISCOVERY FAMILY
+http://1tv41.icu:8080/Y06DNq/295733/10538
+#EXTINF:-1 tvg-id="discoveryvelocity.us" tvg-name="CA Discovery Velocity HD " tvg-logo="" group-title="Direct TV",CA Discovery Velocity HD 
+http://1tv41.icu:8080/Y06DNq/295733/46212
+#EXTINF:-1 tvg-id="magnolianetwork.us" tvg-name="US Magnolia Network " tvg-logo="https://dockanddeck.com/wp-content/uploads/2019/02/diy.png" group-title="Direct TV",US Magnolia Network 
+http://1tv41.icu:8080/Y06DNq/295733/10503
+#EXTINF:-1 tvg-id="epixdrivein.us" tvg-name="US Epix Drive IN (S)" tvg-logo="https://logodix.com/logo/1104724.png" group-title="Direct TV",US Epix Drive IN (S)
+http://1tv41.icu:8080/Y06DNq/295733/14193
 #EXTINF:-1 tvg-id="epix2.us" tvg-name="US EPIX2 (East)" tvg-logo="https://seeklogo.com/images/E/epix-entertainment-llc-logo-98DC100C56-seeklogo.com.png" group-title="Direct TV",US EPIX2 (East)
 http://1tv41.icu:8080/Y06DNq/295733/12730
-#EXTINF:-1 tvg-id="foxbusiness.us" tvg-name="US Fox Business Network" tvg-logo="https://www.openthebooks.com/assets/1/6/Fox_Business1.png" group-title="Direct TV",US Fox Business Network
-http://1tv41.icu:8080/Y06DNq/295733/17639
+#EXTINF:-1 tvg-id="espn.us" tvg-name="US ESPN 1 (HD) " tvg-logo="https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1460573872/gjea3w1kxocgn0qviykf.png" group-title="Direct TV",US ESPN 1 (HD) 
+http://1tv41.icu:8080/Y06DNq/295733/14197
+#EXTINF:-1 tvg-id="foodnetwork.us" tvg-name="USA: Food Network HD" tvg-logo="https://ww2.chemistry.gatech.edu/software/Conferencing/Default/AppData/Roaming/Kodi/userdata/Thumbnails/c/c272278f.png" group-title="Direct TV",USA: Food Network HD
+http://1tv41.icu:8080/Y06DNq/295733/7323
+#EXTINF:-1 tvg-id="foxnews.us" tvg-name="US Fox News  " tvg-logo="https://juicetv.app/channellogo/foxnews.png" group-title="Direct TV",US Fox News  
+http://1tv41.icu:8080/Y06DNq/295733/1818
+#EXTINF:-1 tvg-id="foxsports1.us" tvg-name="US Fox Sports 1 " tvg-logo="https://awfulannouncing.com/wp-content/uploads/sites/94/2015/09/Screen-Shot-2015-09-04-at-6.09.55-PM.png" group-title="Direct TV",US Fox Sports 1 
+http://1tv41.icu:8080/Y06DNq/295733/1846
+#EXTINF:-1 tvg-id="3abn.latino.houston.tx.us" tvg-name="US Bally Sports South" tvg-logo="https://awfulannouncing.com/wp-content/uploads/sites/94/2014/12/Fox-Sports-e1498612626748.png" group-title="Direct TV",US Bally Sports South
+http://1tv41.icu:8080/Y06DNq/295733/20931
 #EXTINF:-1 tvg-id="ballysportssouth.us" tvg-name="US FanDuel Sports South " tvg-logo="https://logovectorseek.com/wp-content/uploads/2019/08/fox-sports-southeast-logo-vector.png" group-title="Direct TV",US FanDuel Sports South 
 http://1tv41.icu:8080/Y06DNq/295733/20922
-#EXTINF:-1 tvg-id="fxx.us" tvg-name="US FXX (East) " tvg-logo="" group-title="Direct TV",US FXX (East) 
-http://1tv41.icu:8080/Y06DNq/295733/46699
+#EXTINF:-1 tvg-id="fxm.us" tvg-name="US FXM " tvg-logo="https://lamac.org/wp-content/uploads/2020/04/Group-63@2x.png" group-title="Direct TV",US FXM 
+http://1tv41.icu:8080/Y06DNq/295733/10260
+#EXTINF:-1 tvg-id="fyi.us" tvg-name="US FYI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/FYI%2C_logo.png" group-title="Direct TV",US FYI
+http://1tv41.icu:8080/Y06DNq/295733/9240
+#EXTINF:-1 tvg-id="galavision.us" tvg-name="US Latin Galavision" tvg-logo="" group-title="Direct TV",US Latin Galavision
+http://1tv41.icu:8080/Y06DNq/295733/58770
 #EXTINF:-1 tvg-id="grit.us" tvg-name="US Grit TV" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/grittv.png" group-title="Direct TV",US Grit TV
 http://1tv41.icu:8080/Y06DNq/295733/20861
-#EXTINF:-1 tvg-id="hbo.us" tvg-name="US HBO " tvg-logo="https://tvzamora.net/wp-content/uploads/2016/12/hbo2.png" group-title="Direct TV",US HBO 
-http://1tv41.icu:8080/Y06DNq/295733/9264
-#EXTINF:-1 tvg-id="hbozone.us" tvg-name="US HBO Zone (East) " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/HBO_Zone_logo.png" group-title="Direct TV",US HBO Zone (East) 
-http://1tv41.icu:8080/Y06DNq/295733/9265
-#EXTINF:-1 tvg-id="historychannel.us" tvg-name="US History Channel " tvg-logo="https://i.pinimg.com/originals/f0/f5/85/f0f5853626e544b66b851b80af88ef9a.png" group-title="Direct TV",US History Channel 
-http://1tv41.icu:8080/Y06DNq/295733/15017
+#EXTINF:-1 tvg-id="hallmarkmoviesmysteries.us" tvg-name="US Hallmark Movies & Mysteries " tvg-logo="https://p.kindpng.com/picc/s/196-1969955_hallmark-movies-and-mysteries-channel-logo-hd-png.png" group-title="Direct TV",US Hallmark Movies & Mysteries 
+http://1tv41.icu:8080/Y06DNq/295733/10289
+#EXTINF:-1 tvg-id="hbo.us" tvg-name="US HBO East HD  " tvg-logo="" group-title="Direct TV",US HBO East HD  
+http://1tv41.icu:8080/Y06DNq/295733/46713
+#EXTINF:-1 tvg-id="hbofamily.us" tvg-name="US HBO Family (East) " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/HBO_Family_logo.png" group-title="Direct TV",US HBO Family (East) 
+http://1tv41.icu:8080/Y06DNq/295733/17772
+#EXTINF:-1 tvg-id="hdnetmovies.us" tvg-name="US HDNET MOVIES " tvg-logo="https://www.pngjoy.com/pngm/146/2931790_brazzers-hdnet-movies-logo-png-download.png" group-title="Direct TV",US HDNET MOVIES 
+http://1tv41.icu:8080/Y06DNq/295733/16265
+#EXTINF:-1 tvg-id="hgtv.us" tvg-name="US HGTV (East) " tvg-logo="" group-title="Direct TV",US HGTV (East) 
+http://1tv41.icu:8080/Y06DNq/295733/46717
+#EXTINF:-1 tvg-id="hln.us" tvg-name="US HLN " tvg-logo="https://cdn.strivecloud.io/wp-content/uploads/2020/07/14143602/hln-273x202.png" group-title="Direct TV",US HLN 
+http://1tv41.icu:8080/Y06DNq/295733/17748
+#EXTINF:-1 tvg-id="ion.us" tvg-name="US ION " tvg-logo="https://2.bp.blogspot.com/-E__E_oYmXlc/UTWwxOzu9OI/AAAAAAAAY5Y/0Yn3eTdCupY/s1600/Ion+Television+logo+2013.png" group-title="Direct TV",US ION 
+http://1tv41.icu:8080/Y06DNq/295733/9297
 #EXTINF:-1 tvg-id="lafftv.us" tvg-name="US Laff (KNVA)" tvg-logo="https://sky21.com/wp-content/uploads/2019/02/LAFF.png" group-title="Direct TV",US Laff (KNVA)
 http://1tv41.icu:8080/Y06DNq/295733/17777
-#EXTINF:-1 tvg-id="marqueesportsnetwork.us" tvg-name="US Marquee Sports Network (HD) (A)" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/41WaYQ28QLL.png" group-title="Direct TV",US Marquee Sports Network (HD) (A)
-http://1tv41.icu:8080/Y06DNq/295733/13379
-#EXTINF:-1 tvg-id="movieplex.us" tvg-name="US MoviePlex (East)" tvg-logo="https://p.kindpng.com/picc/s/329-3296935_showtime-extreme-logo-hd-png-download.png" group-title="Direct TV",US MoviePlex (East)
-http://1tv41.icu:8080/Y06DNq/295733/1829
+#EXTINF:-1 tvg-id="logo.us" tvg-name="USA: LOGO TV" tvg-logo="https://n7.nextpng.com/sticker-png/347/134/sticker-png-logo-tv-television-channel-viacom-media-networks-others.png" group-title="Direct TV",USA: LOGO TV
+http://1tv41.icu:8080/Y06DNq/295733/20862
+#EXTINF:-1 tvg-id="mavtv.usa.us" tvg-name="US MAV TV (F)" tvg-logo="https://www.mavtv.com/assets/downloads/mavtv-color.png" group-title="Direct TV",US MAV TV (F)
+http://1tv41.icu:8080/Y06DNq/295733/20977
+#EXTINF:-1 tvg-id="moremax.us" tvg-name="US More Max " tvg-logo="https://p.kindpng.com/picc/s/83-836958_more-max-hdtv-cinemax-hd-png-download.png" group-title="Direct TV",US More Max 
+http://1tv41.icu:8080/Y06DNq/295733/17776
+#EXTINF:-1 tvg-id="msg.plus.us" tvg-name="US MSG (A)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Msg_plus.png/520px-Msg_plus.png" group-title="Direct TV",US MSG (A)
+http://1tv41.icu:8080/Y06DNq/295733/21090
+#EXTINF:-1 tvg-id="msnbc.us" tvg-name="US MSNBC " tvg-logo="https://imediatv.com/wp-content/uploads/2018/06/MSNBC.png" group-title="Direct TV",US MSNBC 
+http://1tv41.icu:8080/Y06DNq/295733/9296
 #EXTINF:-1 tvg-id="mtv2.us" tvg-name="US MTV2 " tvg-logo="https://www.bellmedia.ca/wp-content/uploads/2014/02/tv_mtv2-1-490x490.png" group-title="Direct TV",US MTV2 
 http://1tv41.icu:8080/Y06DNq/295733/9308
-#EXTINF:-1 tvg-id="golfchannel.us" tvg-name="US Golf Channel " tvg-logo="https://sc.dish.com/shared/images/station-logos/GOLF.png" group-title="Direct TV",US Golf Channel 
-http://1tv41.icu:8080/Y06DNq/295733/9806
+#EXTINF:-1 tvg-id="cnbc.us" tvg-name="USA: NBC" tvg-logo="" group-title="Direct TV",USA: NBC
+http://1tv41.icu:8080/Y06DNq/295733/46687
+#EXTINF:-1 tvg-id="newenglandsportsnetworkplus.us" tvg-name="US NESN " tvg-logo="" group-title="Direct TV",US NESN 
+http://1tv41.icu:8080/Y06DNq/295733/46726
+#EXTINF:-1 tvg-id="nickjr.us" tvg-name="US Nick Jr " tvg-logo="" group-title="Direct TV",US Nick Jr 
+http://1tv41.icu:8080/Y06DNq/295733/46710
 #EXTINF:-1 tvg-id="outermax.us" tvg-name="US Cinemax Outermax (X)" tvg-logo="" group-title="Direct TV",US Cinemax Outermax (X)
 http://1tv41.icu:8080/Y06DNq/295733/21012
-#EXTINF:-1 tvg-id="paramountnetwork.us" tvg-name="US Paramount Network " tvg-logo="" group-title="Direct TV",US Paramount Network 
-http://1tv41.icu:8080/Y06DNq/295733/46694
+#EXTINF:-1 tvg-id="oprahwinfreynetwork.us" tvg-name="USA: OWN" tvg-logo="" group-title="Direct TV",USA: OWN
+http://1tv41.icu:8080/Y06DNq/295733/46698
+#EXTINF:-1 tvg-id="paramountnetwork.us" tvg-name="US Paramount Network " tvg-logo="https://images.vexels.com/media/users/3/139794/isolated/preview/63948c2cace761d17096170684e4d193-brazil-round-flag-by-vexels.png" group-title="Direct TV",US Paramount Network 
+http://1tv41.icu:8080/Y06DNq/295733/16201
 #EXTINF:-1 tvg-id="pixltv.us" tvg-name="US PixL (S)" tvg-logo="" group-title="Direct TV",US PixL (S)
 http://1tv41.icu:8080/Y06DNq/295733/21648
-#EXTINF:-1 tvg-id="showtime.us" tvg-name="US Showtime East " tvg-logo="" group-title="Direct TV",US Showtime East 
-http://1tv41.icu:8080/Y06DNq/295733/46214
-#EXTINF:-1 tvg-id="showtimefamilyzone.us" tvg-name="US Showtime Family Zone (East) " tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/2/23/Showtime_family_zone.png/revision/latest/scale-to-width-down/340?cb=20121117045222" group-title="Direct TV",US Showtime Family Zone (East) 
-http://1tv41.icu:8080/Y06DNq/295733/13481
-#EXTINF:-1 tvg-id="starzcinema.us" tvg-name="US Starz East (S)" tvg-logo="https://thestreamable.com/media/pages/news/flash-sale-get-6-months-of-starz-for-only-3-33-a-month-so-you-can-binge-power-outlander-and-american-gods/3821036974-1583185843/starz.png" group-title="Direct TV",US Starz East (S)
-http://1tv41.icu:8080/Y06DNq/295733/9299
+#EXTINF:-1 tvg-id="reelzchannel.us" tvg-name="US Reelz " tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b1/Reelz_Channel_Logo.png" group-title="Direct TV",US Reelz 
+http://1tv41.icu:8080/Y06DNq/295733/10526
+#EXTINF:-1 tvg-id="amcplus.us" tvg-name="USA: AMC Thrillers" tvg-logo="" group-title="Direct TV",USA: AMC Thrillers
+http://1tv41.icu:8080/Y06DNq/295733/66243
+#EXTINF:-1 tvg-id="showtime2.us" tvg-name="US Showtime 2 (East) (H)" tvg-logo="https://www.allwest.com/wp-content/uploads/2018/11/showtime2-300x300.png" group-title="Direct TV",US Showtime 2 (East) (H)
+http://1tv41.icu:8080/Y06DNq/295733/13219
+#EXTINF:-1 tvg-id="sny.sportsnet.new.york.us" tvg-name="US Sportsnet New York (SNY) (A)" tvg-logo="https://png.pngitem.com/pimgs/s/244-2442993_sny-logo-png-transparent-png.png" group-title="Direct TV",US Sportsnet New York (SNY) (A)
+http://1tv41.icu:8080/Y06DNq/295733/20938
+#EXTINF:-1 tvg-id="starzcinema.us" tvg-name="US Starz Cinema (East) " tvg-logo="https://thestreamable.com/media/pages/news/flash-sale-get-6-months-of-starz-for-only-3-33-a-month-so-you-can-binge-power-outlander-and-american-gods/3821036974-1583185843/starz.png" group-title="Direct TV",US Starz Cinema (East) 
+http://1tv41.icu:8080/Y06DNq/295733/9301
+#EXTINF:-1 tvg-id="starzencorewesterns.us" tvg-name="US Starz Encore Westerns (East) " tvg-logo="https://p.kindpng.com/picc/s/412-4120429_starz-encore-logo-transparent-hd-png-download.png" group-title="Direct TV",US Starz Encore Westerns (East) 
+http://1tv41.icu:8080/Y06DNq/295733/16263
 #EXTINF:-1 tvg-id="sundancetv.us" tvg-name="US SUNDANCE " tvg-logo="" group-title="Direct TV",US SUNDANCE 
 http://1tv41.icu:8080/Y06DNq/295733/46712
+#EXTINF:-1 tvg-id="weatherchannel.us" tvg-name="US The Weather Channel " tvg-logo="" group-title="Direct TV",US The Weather Channel 
+http://1tv41.icu:8080/Y06DNq/295733/18926
 #EXTINF:-1 tvg-id="tlc.us" tvg-name="US TLC East " tvg-logo="https://logos.xmltv.se/en.tlc.discovery.dk.png" group-title="Direct TV",US TLC East 
 http://1tv41.icu:8080/Y06DNq/295733/12734
-#EXTINF:-1 tvg-id="travel.us" tvg-name="US Travel Channel East " tvg-logo="https://assets.simpleviewinc.com/simpleview/image/upload/c_lpad,h_364,q_50,w_520/v1/clients/chattanooga/Travel_Channel_2019_Logo_41ccc6dd-cc39-4ff9-93a7-a75ca7b509f4.png" group-title="Direct TV",US Travel Channel East 
-http://1tv41.icu:8080/Y06DNq/295733/9315
-#EXTINF:-1 tvg-id="tvlandeast.us" tvg-name="USA: TV Land Classic HD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/76/TV_Land_2009.svg/542px-TV_Land_2009.svg.png" group-title="Direct TV",USA: TV Land Classic HD
-http://1tv41.icu:8080/Y06DNq/295733/9271
-#EXTINF:-1 tvg-id="uptv.us" tvg-name="US Up TV " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/Upmoji-orange.png" group-title="Direct TV",US Up TV 
-http://1tv41.icu:8080/Y06DNq/295733/10525
-#EXTINF:-1 tvg-id="wapaamerica.us" tvg-name="US WAPA America " tvg-logo="" group-title="Direct TV",US WAPA America 
-http://1tv41.icu:8080/Y06DNq/295733/76481
+#EXTINF:-1 tvg-id="trutv.us" tvg-name="US TRUTV East " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/TruTV_logo_2014.png" group-title="Direct TV",US TRUTV East 
+http://1tv41.icu:8080/Y06DNq/295733/10224
+#EXTINF:-1 tvg-id="tvlandeast.us" tvg-name="US TV Land " tvg-logo="" group-title="Direct TV",US TV Land 
+http://1tv41.icu:8080/Y06DNq/295733/46696
+#EXTINF:-1 tvg-id="tvone.us" tvg-name="US TV One " tvg-logo="https://www.kindpng.com/picc/m/335-3354292_tvone-logo-logo-tv-one-2019-hd-png.png" group-title="Direct TV",US TV One 
+http://1tv41.icu:8080/Y06DNq/295733/20868
+#EXTINF:-1 tvg-id="vh1.us" tvg-name="US VH1 (East) " tvg-logo="" group-title="Direct TV",US VH1 (East) 
+http://1tv41.icu:8080/Y06DNq/295733/46705
+#EXTINF:-1 tvg-id="vice.us" tvg-name="US VICELAND " tvg-logo="" group-title="Direct TV",US VICELAND 
+http://1tv41.icu:8080/Y06DNq/295733/46697
+#EXTINF:-1 tvg-id="worldfishingnetwork.us" tvg-name="US World Fishing Network (F)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/90/World_Fishing_Network.png" group-title="Direct TV",US World Fishing Network (F)
+http://1tv41.icu:8080/Y06DNq/295733/10477
+#EXTINF:-1 tvg-id="global.peterborough.on.ca" tvg-name="CA Global Peterborough News (E)" tvg-logo="" group-title="Direct TV",CA Global Peterborough News (E)
+http://1tv41.icu:8080/Y06DNq/295733/85269
 #EXTINF:-1 tvg-id="channel4.uk" tvg-name="UK: Channel 4" tvg-logo="" group-title="Direct TV",UK: Channel 4
 http://1tv41.icu:8080/Y06DNq/295733/99138
 #EXTINF:-1 tvg-id="ctvtimmins.ca" tvg-name="CA CTV Timmins Ontario HD (D)" tvg-logo="" group-title="Direct TV",CA CTV Timmins Ontario HD (D)
 http://1tv41.icu:8080/Y06DNq/295733/100455
+#EXTINF:-1 tvg-id="globalwinnipeg.ca" tvg-name="CA Global News Winnipeg (D)" tvg-logo="" group-title="Direct TV",CA Global News Winnipeg (D)
+http://1tv41.icu:8080/Y06DNq/295733/100629
 #EXTINF:-1 tvg-id="citytvwinnipeg.ca" tvg-name="CA CITY TV WINNIPEG (E)" tvg-logo="" group-title="Direct TV",CA CITY TV WINNIPEG (E)
 http://1tv41.icu:8080/Y06DNq/295733/100631
-#EXTINF:-1 tvg-id="24taas.ca" tvg-name="CA COOKING Channel " tvg-logo="" group-title="Direct TV",CA COOKING Channel 
-http://1tv41.icu:8080/Y06DNq/295733/107960
-#EXTINF:-1 tvg-id="ctvlifechannel.ca" tvg-name="CA CTV LIFE (E)" tvg-logo="" group-title="Direct TV",CA CTV LIFE (E)
-http://1tv41.icu:8080/Y06DNq/295733/116506
-#EXTINF:-1 tvg-id="" tvg-name="CINEBOX: THRILLER" tvg-logo="" group-title="Direct TV",CINEBOX: THRILLER
-http://1tv41.icu:8080/Y06DNq/295733/119437
+#EXTINF:-1 tvg-id="globalcalgary.ca" tvg-name="CA Global News Calgary (D)" tvg-logo="" group-title="Direct TV",CA Global News Calgary (D)
+http://1tv41.icu:8080/Y06DNq/295733/111067
+#EXTINF:-1 tvg-id="qvc.us" tvg-name="US: QVC" tvg-logo="" group-title="Direct TV",US: QVC
+http://1tv41.icu:8080/Y06DNq/295733/117707
+#EXTINF:-1 tvg-id="" tvg-name="CINEBOX: CULT" tvg-logo="" group-title="Direct TV",CINEBOX: CULT
+http://1tv41.icu:8080/Y06DNq/295733/119424
+#EXTINF:-1 tvg-id="" tvg-name="CINEBOX: GREATS" tvg-logo="" group-title="Direct TV",CINEBOX: GREATS
+http://1tv41.icu:8080/Y06DNq/295733/119426
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Horror Movies" tvg-logo="" group-title="Direct TV",24/7 Horror Movies
+http://1tv41.icu:8080/Y06DNq/295733/119429
+#EXTINF:-1 tvg-id="" tvg-name="CINEBOX: WESTERN" tvg-logo="" group-title="Direct TV",CINEBOX: WESTERN
+http://1tv41.icu:8080/Y06DNq/295733/119435
+#EXTINF:-1 tvg-id="" tvg-name="CINEBOX: HITS" tvg-logo="" group-title="Direct TV",CINEBOX: HITS
+http://1tv41.icu:8080/Y06DNq/295733/119436
+#EXTINF:-1 tvg-id="abckatn.us" tvg-name="AK | Anchorage | NBC KTUU" tvg-logo="" group-title="Direct TV",AK | Anchorage | NBC KTUU
+http://1tv41.icu:8080/Y06DNq/295733/120634
+#EXTINF:-1 tvg-id="nbc13wvtm.us" tvg-name="US NBC 13 (WVTM) Birmingham " tvg-logo="" group-title="Direct TV",US NBC 13 (WVTM) Birmingham 
+http://1tv41.icu:8080/Y06DNq/295733/120639
 #EXTINF:-1 tvg-id="cbs5wkrg.us" tvg-name="CBS: AL MOBILE WKRG" tvg-logo="" group-title="Direct TV",CBS: AL MOBILE WKRG
 http://1tv41.icu:8080/Y06DNq/295733/120641
-#EXTINF:-1 tvg-id="fox11kmsb.us" tvg-name="US FOX 11 (KMSB) Tucson " tvg-logo="" group-title="Direct TV",US FOX 11 (KMSB) Tucson 
-http://1tv41.icu:8080/Y06DNq/295733/120651
-#EXTINF:-1 tvg-id="nbc4knbc.us" tvg-name="US NBC (KNBC) Los Angeles (F)" tvg-logo="" group-title="Direct TV",US NBC (KNBC) Los Angeles (F)
-http://1tv41.icu:8080/Y06DNq/295733/120656
+#EXTINF:-1 tvg-id="cbs5kpho.us" tvg-name="AZ | Phoenix | CBS KPHO" tvg-logo="" group-title="Direct TV",AZ | Phoenix | CBS KPHO
+http://1tv41.icu:8080/Y06DNq/295733/120648
+#EXTINF:-1 tvg-id="nbc4kvoa.us" tvg-name="US NBC 4 (KVOA) Tucson " tvg-logo="" group-title="Direct TV",US NBC 4 (KVOA) Tucson 
+http://1tv41.icu:8080/Y06DNq/295733/120652
+#EXTINF:-1 tvg-id="cbs9kcal.us" tvg-name="US CBS (KCAL) Los Angeles (F)" tvg-logo="" group-title="Direct TV",US CBS (KCAL) Los Angeles (F)
+http://1tv41.icu:8080/Y06DNq/295733/120654
+#EXTINF:-1 tvg-id="fox21kxrm.us" tvg-name="FOX: COLORADO SPRINGS CO KXRM" tvg-logo="" group-title="Direct TV",FOX: COLORADO SPRINGS CO KXRM
+http://1tv41.icu:8080/Y06DNq/295733/120660
 #EXTINF:-1 tvg-id="cbs4kcnc.us" tvg-name="US CBS (KCNC) Denver" tvg-logo="" group-title="Direct TV",US CBS (KCNC) Denver
 http://1tv41.icu:8080/Y06DNq/295733/120662
 #EXTINF:-1 tvg-id="telemundokdentv.us" tvg-name="US Telemundo (KDEN) Parker " tvg-logo="" group-title="Direct TV",US Telemundo (KDEN) Parker 
 http://1tv41.icu:8080/Y06DNq/295733/120665
-#EXTINF:-1 tvg-id="foxwofl.us" tvg-name="FOX: ORLANDO FL WOFL" tvg-logo="" group-title="Direct TV",FOX: ORLANDO FL WOFL
-http://1tv41.icu:8080/Y06DNq/295733/120673
-#EXTINF:-1 tvg-id="cbs10wtsp.us" tvg-name="US CBS 10 (WTSP) Tampa/Saint Petersburg (H)" tvg-logo="" group-title="Direct TV",US CBS 10 (WTSP) Tampa/Saint Petersburg (H)
-http://1tv41.icu:8080/Y06DNq/295733/120675
-#EXTINF:-1 tvg-id="nbc13who.us" tvg-name="NBC: IA DES MOINES WHO" tvg-logo="" group-title="Direct TV",NBC: IA DES MOINES WHO
-http://1tv41.icu:8080/Y06DNq/295733/120682
+#EXTINF:-1 tvg-id="cbs47wjax.us" tvg-name="US CBS (WJAX) Jacksonville " tvg-logo="" group-title="Direct TV",US CBS (WJAX) Jacksonville 
+http://1tv41.icu:8080/Y06DNq/295733/120670
+#EXTINF:-1 tvg-id="nbcwtlv.us" tvg-name="US NBC (WTLV) Jacksonville " tvg-logo="" group-title="Direct TV",US NBC (WTLV) Jacksonville 
+http://1tv41.icu:8080/Y06DNq/295733/120672
+#EXTINF:-1 tvg-id="nbc38wltz.us" tvg-name="NBC: GA COLUMBUS WLTZ" tvg-logo="" group-title="Direct TV",NBC: GA COLUMBUS WLTZ
+http://1tv41.icu:8080/Y06DNq/295733/120677
+#EXTINF:-1 tvg-id="cbs5kgmb.us" tvg-name="CBS: HI HONOLULU KGMB" tvg-logo="" group-title="Direct TV",CBS: HI HONOLULU KGMB
+http://1tv41.icu:8080/Y06DNq/295733/120678
+#EXTINF:-1 tvg-id="foxkhon.us" tvg-name="FOX: HONOLULU HI KHON" tvg-logo="" group-title="Direct TV",FOX: HONOLULU HI KHON
+http://1tv41.icu:8080/Y06DNq/295733/120679
 #EXTINF:-1 tvg-id="cbs2kboi.us" tvg-name="CBS: ID BOISE KBOI" tvg-logo="" group-title="Direct TV",CBS: ID BOISE KBOI
 http://1tv41.icu:8080/Y06DNq/295733/120684
-#EXTINF:-1 tvg-id="nbc5wmaq.us" tvg-name="US NBC (WMAQ) Chicago " tvg-logo="" group-title="Direct TV",US NBC (WMAQ) Chicago 
-http://1tv41.icu:8080/Y06DNq/295733/120690
+#EXTINF:-1 tvg-id="nbc7ktvb.us" tvg-name="NBC: ID BOISE KTVB" tvg-logo="" group-title="Direct TV",NBC: ID BOISE KTVB
+http://1tv41.icu:8080/Y06DNq/295733/120685
+#EXTINF:-1 tvg-id="nbc7ktft.us" tvg-name="NBC: ID TWIN FALLS KTFT" tvg-logo="" group-title="Direct TV",NBC: ID TWIN FALLS KTFT
+http://1tv41.icu:8080/Y06DNq/295733/120686
+#EXTINF:-1 tvg-id="telemundowsns.us" tvg-name="US Telemundo (WSNS) Chicago " tvg-logo="" group-title="Direct TV",US Telemundo (WSNS) Chicago 
+http://1tv41.icu:8080/Y06DNq/295733/120691
+#EXTINF:-1 tvg-id="fox59wxin.us" tvg-name="FOX: INDIANAPOLIS IN WXIN" tvg-logo="" group-title="Direct TV",FOX: INDIANAPOLIS IN WXIN
+http://1tv41.icu:8080/Y06DNq/295733/120692
 #EXTINF:-1 tvg-id="nbc13wthr.us" tvg-name="NBC: IN INDIANAPOLIS WTHR" tvg-logo="" group-title="Direct TV",NBC: IN INDIANAPOLIS WTHR
 http://1tv41.icu:8080/Y06DNq/295733/120693
-#EXTINF:-1 tvg-id="nbcwave.us" tvg-name="USA: NBC 3 LOUISVILLE (WAVE)" tvg-logo="" group-title="Direct TV",USA: NBC 3 LOUISVILLE (WAVE)
-http://1tv41.icu:8080/Y06DNq/295733/120697
-#EXTINF:-1 tvg-id="fox15kadn.us" tvg-name="FOX: LAFAYETTE LA KADN" tvg-logo="" group-title="Direct TV",FOX: LAFAYETTE LA KADN
-http://1tv41.icu:8080/Y06DNq/295733/120702
+#EXTINF:-1 tvg-id="nbc4knbc.us" tvg-name="NBC: LA ALEXANDRIA KALB" tvg-logo="" group-title="Direct TV",NBC: LA ALEXANDRIA KALB
+http://1tv41.icu:8080/Y06DNq/295733/120698
+#EXTINF:-1 tvg-id="fox44wgmb.us" tvg-name="US FOX (WGMB) Baton Rouge " tvg-logo="" group-title="Direct TV",US FOX (WGMB) Baton Rouge 
+http://1tv41.icu:8080/Y06DNq/295733/120699
+#EXTINF:-1 tvg-id="nbcwdsu.us" tvg-name="US NBC (WDSU) New Orleans " tvg-logo="" group-title="Direct TV",US NBC (WDSU) New Orleans 
+http://1tv41.icu:8080/Y06DNq/295733/120705
 #EXTINF:-1 tvg-id="foxwvue.us" tvg-name="US FOX (WVUE) New Orleans " tvg-logo="" group-title="Direct TV",US FOX (WVUE) New Orleans 
 http://1tv41.icu:8080/Y06DNq/295733/120706
-#EXTINF:-1 tvg-id="fox33kmss.us" tvg-name="FOX: SHREVPORT LA KMSS" tvg-logo="" group-title="Direct TV",FOX: SHREVPORT LA KMSS
-http://1tv41.icu:8080/Y06DNq/295733/120707
+#EXTINF:-1 tvg-id="fox25wfxt.us" tvg-name="FOX: MA BOSTON WFXT" tvg-logo="" group-title="Direct TV",FOX: MA BOSTON WFXT
+http://1tv41.icu:8080/Y06DNq/295733/120709
 #EXTINF:-1 tvg-id="cbs13wjz.us" tvg-name="US CBS (WJZ) Baltimore" tvg-logo="" group-title="Direct TV",US CBS (WJZ) Baltimore
 http://1tv41.icu:8080/Y06DNq/295733/120712
 #EXTINF:-1 tvg-id="foxwbff.us" tvg-name="MD | Baltimore | FOX WBFF" tvg-logo="" group-title="Direct TV",MD | Baltimore | FOX WBFF
 http://1tv41.icu:8080/Y06DNq/295733/120713
-#EXTINF:-1 tvg-id="fox17wxmi.us" tvg-name="FOX: GRAND RAPIDS MI WXMI" tvg-logo="" group-title="Direct TV",FOX: GRAND RAPIDS MI WXMI
-http://1tv41.icu:8080/Y06DNq/295733/120718
+#EXTINF:-1 tvg-id="nbcwdiv.us" tvg-name="US NBC (WDIV) Detroit " tvg-logo="" group-title="Direct TV",US NBC (WDIV) Detroit 
+http://1tv41.icu:8080/Y06DNq/295733/120717
 #EXTINF:-1 tvg-id="nbc8wood.us" tvg-name="MI | Grand Rapids | NBC WOOD" tvg-logo="" group-title="Direct TV",MI | Grand Rapids | NBC WOOD
 http://1tv41.icu:8080/Y06DNq/295733/120719
-#EXTINF:-1 tvg-id="nbckare.us" tvg-name="MN | Minneapolis | NBC KARE" tvg-logo="" group-title="Direct TV",MN | Minneapolis | NBC KARE
-http://1tv41.icu:8080/Y06DNq/295733/120724
-#EXTINF:-1 tvg-id="cbs5kctv.us" tvg-name="CBS: MO KANSAS CITY KCTV" tvg-logo="" group-title="Direct TV",CBS: MO KANSAS CITY KCTV
-http://1tv41.icu:8080/Y06DNq/295733/120726
-#EXTINF:-1 tvg-id="nbc3wlbt.us" tvg-name="NBC: MS JACKSON WLBT" tvg-logo="" group-title="Direct TV",NBC: MS JACKSON WLBT
-http://1tv41.icu:8080/Y06DNq/295733/120731
-#EXTINF:-1 tvg-id="nbc13keci.us" tvg-name="NBC: MT MISSOULA KECI" tvg-logo="" group-title="Direct TV",NBC: MT MISSOULA KECI
-http://1tv41.icu:8080/Y06DNq/295733/120733
-#EXTINF:-1 tvg-id="nbcwrc.us" tvg-name="US NBC (WITN) Washington (F)" tvg-logo="" group-title="Direct TV",US NBC (WITN) Washington (F)
-http://1tv41.icu:8080/Y06DNq/295733/120737
+#EXTINF:-1 tvg-id="cbs6wlns.us" tvg-name="US CBS 6 (WLNS) Lansing " tvg-logo="" group-title="Direct TV",US CBS 6 (WLNS) Lansing 
+http://1tv41.icu:8080/Y06DNq/295733/120720
+#EXTINF:-1 tvg-id="nbc10whec.us" tvg-name="US NBC (KTTC) Rochester " tvg-logo="" group-title="Direct TV",US NBC (KTTC) Rochester 
+http://1tv41.icu:8080/Y06DNq/295733/120725
+#EXTINF:-1 tvg-id="" tvg-name="FOX: KANSAS CITY MO WDAF" tvg-logo="" group-title="Direct TV",FOX: KANSAS CITY MO WDAF
+http://1tv41.icu:8080/Y06DNq/295733/120727
+#EXTINF:-1 tvg-id="nbc41kshb.us" tvg-name="NBC: MO KANSAS CITY KSHB" tvg-logo="" group-title="Direct TV",NBC: MO KANSAS CITY KSHB
+http://1tv41.icu:8080/Y06DNq/295733/120728
+#EXTINF:-1 tvg-id="nbcwcnc.us" tvg-name="NBC: NC CHARLOTTE WCNC" tvg-logo="" group-title="Direct TV",NBC: NC CHARLOTTE WCNC
+http://1tv41.icu:8080/Y06DNq/295733/120734
+#EXTINF:-1 tvg-id="nbc5wral.us" tvg-name="NBC: NC RALEIGH WRAL" tvg-logo="" group-title="Direct TV",NBC: NC RALEIGH WRAL
+http://1tv41.icu:8080/Y06DNq/295733/120736
+#EXTINF:-1 tvg-id="fox50wraz.us" tvg-name="NC | Raleigh | FOX WRAZ" tvg-logo="" group-title="Direct TV",NC | Raleigh | FOX WRAZ
+http://1tv41.icu:8080/Y06DNq/295733/120735
 #EXTINF:-1 tvg-id="fox42kptm.us" tvg-name="US FOX (KPTM)" tvg-logo="" group-title="Direct TV",US FOX (KPTM)
 http://1tv41.icu:8080/Y06DNq/295733/120740
-#EXTINF:-1 tvg-id="nbcksnv.us" tvg-name="US NBC (KSNV) Las Vegas " tvg-logo="" group-title="Direct TV",US NBC (KSNV) Las Vegas 
-http://1tv41.icu:8080/Y06DNq/295733/120743
-#EXTINF:-1 tvg-id="cbs4wivb.us" tvg-name="US CBS (WIVB) HD " tvg-logo="" group-title="Direct TV",US CBS (WIVB) HD 
-http://1tv41.icu:8080/Y06DNq/295733/120746
-#EXTINF:-1 tvg-id="nbc2wgrz.us" tvg-name="US NBC (WGRZ) HD " tvg-logo="" group-title="Direct TV",US NBC (WGRZ) HD 
-http://1tv41.icu:8080/Y06DNq/295733/120748
+#EXTINF:-1 tvg-id="cbs8klas.us" tvg-name="CBS: LAS VEGAS NV KLAS" tvg-logo="" group-title="Direct TV",CBS: LAS VEGAS NV KLAS
+http://1tv41.icu:8080/Y06DNq/295733/120742
+#EXTINF:-1 tvg-id="nbc7krnv.us" tvg-name="US NBC 7 (KRNV) Reno" tvg-logo="" group-title="Direct TV",US NBC 7 (KRNV) Reno
+http://1tv41.icu:8080/Y06DNq/295733/120744
+#EXTINF:-1 tvg-id="fox29wutv.us" tvg-name="US FOX (WUTV) HD " tvg-logo="" group-title="Direct TV",US FOX (WUTV) HD 
+http://1tv41.icu:8080/Y06DNq/295733/120747
+#EXTINF:-1 tvg-id="cbs2wcbs.us" tvg-name="US CBS 2 (WCBS) NEW YORK " tvg-logo="" group-title="Direct TV",US CBS 2 (WCBS) NEW YORK 
+http://1tv41.icu:8080/Y06DNq/295733/120749
 #EXTINF:-1 tvg-id="cbs55wlny.us" tvg-name="US CBS WLNY " tvg-logo="" group-title="Direct TV",US CBS WLNY 
 http://1tv41.icu:8080/Y06DNq/295733/120752
-#EXTINF:-1 tvg-id="nbc5wlwt.us" tvg-name="NBC: CINCINNATI WLWT" tvg-logo="" group-title="Direct TV",NBC: CINCINNATI WLWT
-http://1tv41.icu:8080/Y06DNq/295733/120755
+#EXTINF:-1 tvg-id="cbs12wkrc.us" tvg-name="CBS: CINCINNATI WKRC" tvg-logo="" group-title="Direct TV",CBS: CINCINNATI WKRC
+http://1tv41.icu:8080/Y06DNq/295733/120754
+#EXTINF:-1 tvg-id="foxwjw.us" tvg-name="US FOX (WJW) HD " tvg-logo="" group-title="Direct TV",US FOX (WJW) HD 
+http://1tv41.icu:8080/Y06DNq/295733/120756
 #EXTINF:-1 tvg-id="nbc38wltz.us" tvg-name="OH | Columbus | NBC WCMH" tvg-logo="" group-title="Direct TV",OH | Columbus | NBC WCMH
 http://1tv41.icu:8080/Y06DNq/295733/120759
 #EXTINF:-1 tvg-id="cbs11wtol.us" tvg-name="CBS: OH TOLEDO WTOL" tvg-logo="" group-title="Direct TV",CBS: OH TOLEDO WTOL
 http://1tv41.icu:8080/Y06DNq/295733/120761
-#EXTINF:-1 tvg-id="fox25kokh.us" tvg-name="US FOX (KOKH) Oklahoma City (F)" tvg-logo="" group-title="Direct TV",US FOX (KOKH) Oklahoma City (F)
-http://1tv41.icu:8080/Y06DNq/295733/120765
+#EXTINF:-1 tvg-id="nbc24wnwo.us" tvg-name="NBC: OH TOLEDO WNWO" tvg-logo="" group-title="Direct TV",NBC: OH TOLEDO WNWO
+http://1tv41.icu:8080/Y06DNq/295733/120763
 #EXTINF:-1 tvg-id="nbc4kfor.us" tvg-name="US NBC 4 (KFOR) Oklahoma City" tvg-logo="" group-title="Direct TV",US NBC 4 (KFOR) Oklahoma City
 http://1tv41.icu:8080/Y06DNq/295733/120766
+#EXTINF:-1 tvg-id="telemundo.us" tvg-name="US Telemundo (KUTU) Tulsa " tvg-logo="" group-title="Direct TV",US Telemundo (KUTU) Tulsa 
+http://1tv41.icu:8080/Y06DNq/295733/120768
 #EXTINF:-1 tvg-id="fox34klsr.us" tvg-name="FOX: EUGENE OR KLSR" tvg-logo="" group-title="Direct TV",FOX: EUGENE OR KLSR
 http://1tv41.icu:8080/Y06DNq/295733/120771
-#EXTINF:-1 tvg-id="" tvg-name="PA | Jeannette | CW WPCW" tvg-logo="" group-title="Direct TV",PA | Jeannette | CW WPCW
-http://1tv41.icu:8080/Y06DNq/295733/120773
-#EXTINF:-1 tvg-id="cbs2kdka.us" tvg-name="US CBS (KDKA) Pittsburgh (F)" tvg-logo="" group-title="Direct TV",US CBS (KDKA) Pittsburgh (F)
-http://1tv41.icu:8080/Y06DNq/295733/120777
-#EXTINF:-1 tvg-id="nbcwpxi.us" tvg-name="US NBC (WPXI) Pittsburgh " tvg-logo="" group-title="Direct TV",US NBC (WPXI) Pittsburgh 
-http://1tv41.icu:8080/Y06DNq/295733/120779
-#EXTINF:-1 tvg-id="nbc2wcbd.us" tvg-name="US NBC (WCBD) Charleston " tvg-logo="" group-title="Direct TV",US NBC (WCBD) Charleston 
-http://1tv41.icu:8080/Y06DNq/295733/120783
+#EXTINF:-1 tvg-id="nbc8wgal.us" tvg-name="NBC: PA LANCASTER WGAL" tvg-logo="" group-title="Direct TV",NBC: PA LANCASTER WGAL
+http://1tv41.icu:8080/Y06DNq/295733/120774
+#EXTINF:-1 tvg-id="foxwtxf.us" tvg-name="US FOX (WTXF) Philadelphia (F)" tvg-logo="" group-title="Direct TV",US FOX (WTXF) Philadelphia (F)
+http://1tv41.icu:8080/Y06DNq/295733/120775
+#EXTINF:-1 tvg-id="foxwpgh.us" tvg-name="US FOX (WPGH) Pittsburgh " tvg-logo="" group-title="Direct TV",US FOX (WPGH) Pittsburgh 
+http://1tv41.icu:8080/Y06DNq/295733/120778
+#EXTINF:-1 tvg-id="nbc10wjar.us" tvg-name="RI | Providence | | WJAR" tvg-logo="" group-title="Direct TV",RI | Providence | | WJAR
+http://1tv41.icu:8080/Y06DNq/295733/120781
+#EXTINF:-1 tvg-id="fox24wtat.us" tvg-name="US FOX 24 (WTAT) Charleston " tvg-logo="" group-title="Direct TV",US FOX 24 (WTAT) Charleston 
+http://1tv41.icu:8080/Y06DNq/295733/120782
 #EXTINF:-1 tvg-id="fox57wach.us" tvg-name="SC | Columbia | FOX WACH" tvg-logo="" group-title="Direct TV",SC | Columbia | FOX WACH
 http://1tv41.icu:8080/Y06DNq/295733/120785
 #EXTINF:-1 tvg-id="nbc4wyff.us" tvg-name="US NBC (WYFF) Greenville " tvg-logo="" group-title="Direct TV",US NBC (WYFF) Greenville 
 http://1tv41.icu:8080/Y06DNq/295733/120788
+#EXTINF:-1 tvg-id="foxwfxb.us" tvg-name="FOX: MYRTLE BEACH SC WFXB" tvg-logo="" group-title="Direct TV",FOX: MYRTLE BEACH SC WFXB
+http://1tv41.icu:8080/Y06DNq/295733/120789
 #EXTINF:-1 tvg-id="nbc3wrcb.us" tvg-name="TN | Chattanooga | NBC WRCB" tvg-logo="" group-title="Direct TV",TN | Chattanooga | NBC WRCB
 http://1tv41.icu:8080/Y06DNq/295733/120792
-#EXTINF:-1 tvg-id="nbc10wbir.us" tvg-name="NBC: TN KNOXVILLE WBIR" tvg-logo="" group-title="Direct TV",NBC: TN KNOXVILLE WBIR
-http://1tv41.icu:8080/Y06DNq/295733/120795
-#EXTINF:-1 tvg-id="nbcwsmw.us" tvg-name="US NBC (WSMV) Nashville " tvg-logo="" group-title="Direct TV",US NBC (WSMV) Nashville 
-http://1tv41.icu:8080/Y06DNq/295733/120799
-#EXTINF:-1 tvg-id="cbs4kdbc.us" tvg-name="LOC | TX | EL PASO | CBS KDBC" tvg-logo="" group-title="Direct TV",LOC | TX | EL PASO | CBS KDBC
-http://1tv41.icu:8080/Y06DNq/295733/120807
+#EXTINF:-1 tvg-id="fox13whbq.us" tvg-name="US FOX (WHBQ) Memphis " tvg-logo="" group-title="Direct TV",US FOX (WHBQ) Memphis 
+http://1tv41.icu:8080/Y06DNq/295733/120796
+#EXTINF:-1 tvg-id="nbc5wmc.us" tvg-name="US NBC (WMC) Memphis " tvg-logo="" group-title="Direct TV",US NBC (WMC) Memphis 
+http://1tv41.icu:8080/Y06DNq/295733/120797
+#EXTINF:-1 tvg-id="nbc9krbc.us" tvg-name="TX | Abilene | | KRBC" tvg-logo="" group-title="Direct TV",TX | Abilene | | KRBC
+http://1tv41.icu:8080/Y06DNq/295733/120800
+#EXTINF:-1 tvg-id="nbc36kxan.us" tvg-name="NBC: TX AUSTIN KXAN" tvg-logo="" group-title="Direct TV",NBC: TX AUSTIN KXAN
+http://1tv41.icu:8080/Y06DNq/295733/120803
+#EXTINF:-1 tvg-id="nbc6kris.us" tvg-name="NBC: TX CORPUS CHRISTI KRIS" tvg-logo="" group-title="Direct TV",NBC: TX CORPUS CHRISTI KRIS
+http://1tv41.icu:8080/Y06DNq/295733/120804
 #EXTINF:-1 tvg-id="nbc9ktsm.us" tvg-name="NBC: EL PASO KTSM" tvg-logo="" group-title="Direct TV",NBC: EL PASO KTSM
 http://1tv41.icu:8080/Y06DNq/295733/120808
+#EXTINF:-1 tvg-id="foxkriv.us" tvg-name="US FOX (KRIV) Houston " tvg-logo="" group-title="Direct TV",US FOX (KRIV) Houston 
+http://1tv41.icu:8080/Y06DNq/295733/120814
 #EXTINF:-1 tvg-id="nbckprc.us" tvg-name="US NBC (KPRC) Houston (F)" tvg-logo="" group-title="Direct TV",US NBC (KPRC) Houston (F)
 http://1tv41.icu:8080/Y06DNq/295733/120815
-#EXTINF:-1 tvg-id="cw35woai.us" tvg-name="US FOX (KABB) San Antonio " tvg-logo="" group-title="Direct TV",US FOX (KABB) San Antonio 
-http://1tv41.icu:8080/Y06DNq/295733/120817
+#EXTINF:-1 tvg-id="cbs2kutv.us" tvg-name="CBS:UT SALT LAKE CITY KUTV" tvg-logo="" group-title="Direct TV",CBS:UT SALT LAKE CITY KUTV
+http://1tv41.icu:8080/Y06DNq/295733/120820
 #EXTINF:-1 tvg-id="nbc10wavy.us" tvg-name="NBC: VA PORTSMOUTH WAVY" tvg-logo="" group-title="Direct TV",NBC: VA PORTSMOUTH WAVY
 http://1tv41.icu:8080/Y06DNq/295733/120822
-#EXTINF:-1 tvg-id="nbcking.us" tvg-name="US NBC 5 (KING) Seattle (H)" tvg-logo="" group-title="Direct TV",US NBC 5 (KING) Seattle (H)
-http://1tv41.icu:8080/Y06DNq/295733/120826
+#EXTINF:-1 tvg-id="nbc12wwbt.us" tvg-name="NBC: VA RICHMOND WWBT" tvg-logo="" group-title="Direct TV",NBC: VA RICHMOND WWBT
+http://1tv41.icu:8080/Y06DNq/295733/120823
 #EXTINF:-1 tvg-id="fox28kayu.us" tvg-name="FOX: SPOKANE WA KAYU" tvg-logo="" group-title="Direct TV",FOX: SPOKANE WA KAYU
 http://1tv41.icu:8080/Y06DNq/295733/120827
+#EXTINF:-1 tvg-id="" tvg-name="FOX: SEATTLE WA KCPQ" tvg-logo="" group-title="Direct TV",FOX: SEATTLE WA KCPQ
+http://1tv41.icu:8080/Y06DNq/295733/120829
 #EXTINF:-1 tvg-id="cbs9wusa.us" tvg-name="US CBS (WUSA) Washington (F)" tvg-logo="" group-title="Direct TV",US CBS (WUSA) Washington (F)
 http://1tv41.icu:8080/Y06DNq/295733/120830
-#EXTINF:-1 tvg-id="" tvg-name="US Telemundo (WZDC( Leesburg (H)" tvg-logo="" group-title="Direct TV",US Telemundo (WZDC( Leesburg (H)
-http://1tv41.icu:8080/Y06DNq/295733/120833
+#EXTINF:-1 tvg-id="cbs29kima.us" tvg-name="LOC | WA | YAKIMA-PASCO-RICHLAND-KENNEWICK | CBS KIMA" tvg-logo="" group-title="Direct TV",LOC | WA | YAKIMA-PASCO-RICHLAND-KENNEWICK | CBS KIMA
+http://1tv41.icu:8080/Y06DNq/295733/120834
 #EXTINF:-1 tvg-id="cbs3wisc.us" tvg-name="CBS: WI MADISON WISC" tvg-logo="" group-title="Direct TV",CBS: WI MADISON WISC
 http://1tv41.icu:8080/Y06DNq/295733/120836
-#EXTINF:-1 tvg-id="abcwews.us" tvg-name="US ABC (WEWS) HD " tvg-logo="" group-title="Direct TV",US ABC (WEWS) HD 
-http://1tv41.icu:8080/Y06DNq/295733/120844
-#EXTINF:-1 tvg-id="abcwmar.us" tvg-name="LOC | MD | BALTIMORE | ABC WMAR" tvg-logo="" group-title="Direct TV",LOC | MD | BALTIMORE | ABC WMAR
-http://1tv41.icu:8080/Y06DNq/295733/120851
-#EXTINF:-1 tvg-id="abcwsoc.us" tvg-name="US ABC (WSOC) " tvg-logo="" group-title="Direct TV",US ABC (WSOC) 
-http://1tv41.icu:8080/Y06DNq/295733/120852
+#EXTINF:-1 tvg-id="cbs58wdjt.us" tvg-name="US CBS (WDJT) Milwaukee (F)" tvg-logo="" group-title="Direct TV",US CBS (WDJT) Milwaukee (F)
+http://1tv41.icu:8080/Y06DNq/295733/120837
+#EXTINF:-1 tvg-id="" tvg-name="US ABC 53 (WLAJ) Lansing " tvg-logo="" group-title="Direct TV",US ABC 53 (WLAJ) Lansing 
+http://1tv41.icu:8080/Y06DNq/295733/120845
+#EXTINF:-1 tvg-id="abcwcpo.us" tvg-name="ABC 9 (WCPO) Cincinnati" tvg-logo="" group-title="Direct TV",ABC 9 (WCPO) Cincinnati
+http://1tv41.icu:8080/Y06DNq/295733/120847
+#EXTINF:-1 tvg-id="abckvue.us" tvg-name="ABC: AUSTIN KVUE" tvg-logo="" group-title="Direct TV",ABC: AUSTIN KVUE
+http://1tv41.icu:8080/Y06DNq/295733/120850
+#EXTINF:-1 tvg-id="" tvg-name="US News 12 Connecticut " tvg-logo="" group-title="Direct TV",US News 12 Connecticut 
+http://1tv41.icu:8080/Y06DNq/295733/120854
 #EXTINF:-1 tvg-id="abc7kabctv.us" tvg-name="US ABC (KABC) Los Angeles " tvg-logo="" group-title="Direct TV",US ABC (KABC) Los Angeles 
 http://1tv41.icu:8080/Y06DNq/295733/120857
 #EXTINF:-1 tvg-id="abcwisn.us" tvg-name="ABC: MILWAUKEE WISN" tvg-logo="" group-title="Direct TV",ABC: MILWAUKEE WISN
 http://1tv41.icu:8080/Y06DNq/295733/120859
 #EXTINF:-1 tvg-id="abc2katu.us" tvg-name="LOC | OR | PORTLAND | ABC KATU" tvg-logo="" group-title="Direct TV",LOC | OR | PORTLAND | ABC KATU
 http://1tv41.icu:8080/Y06DNq/295733/120862
-#EXTINF:-1 tvg-id="abcktnv.us" tvg-name="USA: ABC LAS VEGAS (KTNV)" tvg-logo="" group-title="Direct TV",USA: ABC LAS VEGAS (KTNV)
-http://1tv41.icu:8080/Y06DNq/295733/120866
-#EXTINF:-1 tvg-id="" tvg-name="US ABC3 (WSIL) Illinois" tvg-logo="" group-title="Direct TV",US ABC3 (WSIL) Illinois
-http://1tv41.icu:8080/Y06DNq/295733/120870
+#EXTINF:-1 tvg-id="abckgo.us" tvg-name="ABC: CA SAN FRANCISCO ABC 7" tvg-logo="" group-title="Direct TV",ABC: CA SAN FRANCISCO ABC 7
+http://1tv41.icu:8080/Y06DNq/295733/120865
+#EXTINF:-1 tvg-id="abcwbrz.us" tvg-name="ABC: BATON ROUGE WBRZ" tvg-logo="" group-title="Direct TV",ABC: BATON ROUGE WBRZ
+http://1tv41.icu:8080/Y06DNq/295733/120868
+#EXTINF:-1 tvg-id="abc9kmbc.us" tvg-name="ABC33 (KSPR) Missouri" tvg-logo="" group-title="Direct TV",ABC33 (KSPR) Missouri
+http://1tv41.icu:8080/Y06DNq/295733/120871
 #EXTINF:-1 tvg-id="abcwkbw.us" tvg-name="USA: ABC BUFFALO (WKBW)" tvg-logo="" group-title="Direct TV",USA: ABC BUFFALO (WKBW)
 http://1tv41.icu:8080/Y06DNq/295733/120876
-#EXTINF:-1 tvg-id="" tvg-name="US CW 16 (KMTR) Eugene " tvg-logo="" group-title="Direct TV",US CW 16 (KMTR) Eugene 
-http://1tv41.icu:8080/Y06DNq/295733/120883
+#EXTINF:-1 tvg-id="" tvg-name="US CW (KOLO) (" tvg-logo="" group-title="Direct TV",US CW (KOLO) (
+http://1tv41.icu:8080/Y06DNq/295733/120886
 #EXTINF:-1 tvg-id="cw5ktla.us" tvg-name="US CW (KTLA) " tvg-logo="" group-title="Direct TV",US CW (KTLA) 
 http://1tv41.icu:8080/Y06DNq/295733/120889
-#EXTINF:-1 tvg-id="cw39wsfl.us" tvg-name="US CW 18 (WKCF) ORLANDO " tvg-logo="" group-title="Direct TV",US CW 18 (WKCF) ORLANDO 
-http://1tv41.icu:8080/Y06DNq/295733/120893
+#EXTINF:-1 tvg-id="cw11wpix.us" tvg-name="US CW PIX11 (WPIX) New York " tvg-logo="" group-title="Direct TV",US CW PIX11 (WPIX) New York 
+http://1tv41.icu:8080/Y06DNq/295733/120897
 #EXTINF:-1 tvg-id="cw23wucw.us" tvg-name="US CW (WUCW) (SP)" tvg-logo="" group-title="Direct TV",US CW (WUCW) (SP)
 http://1tv41.icu:8080/Y06DNq/295733/120900
-#EXTINF:-1 tvg-id="" tvg-name="24/7 THE FLINTSTONES" tvg-logo="" group-title="Direct TV",24/7 THE FLINTSTONES
-http://1tv41.icu:8080/Y06DNq/295733/120949
-#EXTINF:-1 tvg-id="abc28wfts.us" tvg-name="US abc 28 (WFTS) Tampa" tvg-logo="" group-title="Direct TV",US abc 28 (WFTS) Tampa
-http://1tv41.icu:8080/Y06DNq/295733/120952
+#EXTINF:-1 tvg-id="" tvg-name="24/7 THE GOLDEN GIRLS" tvg-logo="" group-title="Direct TV",24/7 THE GOLDEN GIRLS
+http://1tv41.icu:8080/Y06DNq/295733/120948
+#EXTINF:-1 tvg-id="foxwtvt.us" tvg-name="US FOX (WTVT) Tampa " tvg-logo="" group-title="Direct TV",US FOX (WTVT) Tampa 
+http://1tv41.icu:8080/Y06DNq/295733/120951
+#EXTINF:-1 tvg-id="cbs10wtsp.us" tvg-name="US CBS 10 (WTSP) TAMPA, FL" tvg-logo="" group-title="Direct TV",US CBS 10 (WTSP) TAMPA, FL
+http://1tv41.icu:8080/Y06DNq/295733/120953
 #EXTINF:-1 tvg-id="fox27wfxr.us" tvg-name="FOX: ROANOKE VA WFXR" tvg-logo="" group-title="Direct TV",FOX: ROANOKE VA WFXR
 http://1tv41.icu:8080/Y06DNq/295733/121078
 #EXTINF:-1 tvg-id="nbc3wsav.us" tvg-name="US NBC (WSAV) " tvg-logo="" group-title="Direct TV",US NBC (WSAV) 
 http://1tv41.icu:8080/Y06DNq/295733/121081
-#EXTINF:-1 tvg-id="cbs2wfmy.us" tvg-name="CBS: NC GREENSBORO WFMY" tvg-logo="" group-title="Direct TV",CBS: NC GREENSBORO WFMY
-http://1tv41.icu:8080/Y06DNq/295733/121084
+#EXTINF:-1 tvg-id="abc11wtvd.us" tvg-name="US abc 45 (WXLV) Greensboro/High Point/Winston-Salem (A)" tvg-logo="" group-title="Direct TV",US abc 45 (WXLV) Greensboro/High Point/Winston-Salem (A)
+http://1tv41.icu:8080/Y06DNq/295733/121083
 #EXTINF:-1 tvg-id="" tvg-name="24/7 COMEDY MOVIES" tvg-logo="" group-title="Direct TV",24/7 COMEDY MOVIES
 http://1tv41.icu:8080/Y06DNq/295733/121096
 #EXTINF:-1 tvg-id="truecrimenetwork.us" tvg-name="US True Crime Network (KARE) " tvg-logo="" group-title="Direct TV",US True Crime Network (KARE) 
 http://1tv41.icu:8080/Y06DNq/295733/121130
-#EXTINF:-1 tvg-id="nbc12wxii.us" tvg-name="US NBC (WXII) Winston-salem " tvg-logo="" group-title="Direct TV",US NBC (WXII) Winston-salem 
-http://1tv41.icu:8080/Y06DNq/295733/121133
+#EXTINF:-1 tvg-id="fox8wghp.us" tvg-name="US FOX (WGHP) High Point (F)" tvg-logo="" group-title="Direct TV",US FOX (WGHP) High Point (F)
+http://1tv41.icu:8080/Y06DNq/295733/121132
 #EXTINF:-1 tvg-id="nbcwxia.us" tvg-name="US NBC (WXIA) Atlanta (F)" tvg-logo="" group-title="Direct TV",US NBC (WXIA) Atlanta (F)
 http://1tv41.icu:8080/Y06DNq/295733/121136
+#EXTINF:-1 tvg-id="abcwabc.us" tvg-name="US abc 7 (WABC) New York" tvg-logo="" group-title="Direct TV",US abc 7 (WABC) New York
+http://1tv41.icu:8080/Y06DNq/295733/121139
 #EXTINF:-1 tvg-id="abc13ktrktv.us" tvg-name="US abc 13 (KTRK) Houston " tvg-logo="" group-title="Direct TV",US abc 13 (KTRK) Houston 
 http://1tv41.icu:8080/Y06DNq/295733/121141
-#EXTINF:-1 tvg-id="" tvg-name="US NBC South Florida News (PC)" tvg-logo="" group-title="Direct TV",US NBC South Florida News (PC)
-http://1tv41.icu:8080/Y06DNq/295733/121142
-#EXTINF:-1 tvg-id="abcwpvi.us" tvg-name="US ABC (WPVI) Philadelphia " tvg-logo="" group-title="Direct TV",US ABC (WPVI) Philadelphia 
-http://1tv41.icu:8080/Y06DNq/295733/121149
+#EXTINF:-1 tvg-id="cbs6wkmg.us" tvg-name="US CBS (WKMG)" tvg-logo="" group-title="Direct TV",US CBS (WKMG)
+http://1tv41.icu:8080/Y06DNq/295733/121144
+#EXTINF:-1 tvg-id="fox28wtgs.us" tvg-name="US FOX 28 (WTGS) Savannah " tvg-logo="" group-title="Direct TV",US FOX 28 (WTGS) Savannah 
+http://1tv41.icu:8080/Y06DNq/295733/121148
 #EXTINF:-1 tvg-id="cbs3kyw.us" tvg-name="US CBS (KYW) Philadelphia (F)" tvg-logo="" group-title="Direct TV",US CBS (KYW) Philadelphia (F)
 http://1tv41.icu:8080/Y06DNq/295733/121150
-#EXTINF:-1 tvg-id="cw35woai.us" tvg-name="US CW 35 (KMYS) San Antonio (Y)" tvg-logo="" group-title="Direct TV",US CW 35 (KMYS) San Antonio (Y)
-http://1tv41.icu:8080/Y06DNq/295733/121158
+#EXTINF:-1 tvg-id="nbc15wpmi.us" tvg-name="Florida - Alabama " tvg-logo="" group-title="Direct TV",Florida - Alabama 
+http://1tv41.icu:8080/Y06DNq/295733/121154
 #EXTINF:-1 tvg-id="nbcwoai.us" tvg-name="US NBC 4 (WOAI) San Antonio (H)" tvg-logo="" group-title="Direct TV",US NBC 4 (WOAI) San Antonio (H)
 http://1tv41.icu:8080/Y06DNq/295733/121157
-#EXTINF:-1 tvg-id="cw8kpax.us" tvg-name="US CW 8 (KPAX) Missoula (H) " tvg-logo="" group-title="Direct TV",US CW 8 (KPAX) Missoula (H) 
-http://1tv41.icu:8080/Y06DNq/295733/121163
+#EXTINF:-1 tvg-id="abc26wgno.us" tvg-name="US ABC 26 (WGNO) New Orleans " tvg-logo="" group-title="Direct TV",US ABC 26 (WGNO) New Orleans 
+http://1tv41.icu:8080/Y06DNq/295733/121159
+#EXTINF:-1 tvg-id="abc24watn.us" tvg-name="US abc 24 (WATN) Memphis (A)" tvg-logo="" group-title="Direct TV",US abc 24 (WATN) Memphis (A)
+http://1tv41.icu:8080/Y06DNq/295733/121161
+#EXTINF:-1 tvg-id="foxwztv.us" tvg-name="FOX: NASHVILLE TN WZTV" tvg-logo="" group-title="Direct TV",FOX: NASHVILLE TN WZTV
+http://1tv41.icu:8080/Y06DNq/295733/121164
+#EXTINF:-1 tvg-id="cbs4wttv.us" tvg-name="US CBS 4 (WTTV) Indianapolis " tvg-logo="" group-title="Direct TV",US CBS 4 (WTTV) Indianapolis 
+http://1tv41.icu:8080/Y06DNq/295733/121166
 #EXTINF:-1 tvg-id="cw19wpcw.us" tvg-name="US CW 19 (WPCW) Pittsburgh " tvg-logo="" group-title="Direct TV",US CW 19 (WPCW) Pittsburgh 
 http://1tv41.icu:8080/Y06DNq/295733/121170
-#EXTINF:-1 tvg-id="nbc12kpnx.us" tvg-name="US NBC 12 (KPNX) PHOENIX, AZ (D)" tvg-logo="" group-title="Direct TV",US NBC 12 (KPNX) PHOENIX, AZ (D)
-http://1tv41.icu:8080/Y06DNq/295733/121172
-#EXTINF:-1 tvg-id="abckgtv.us" tvg-name="US abc10 (KGTV) San Diego " tvg-logo="" group-title="Direct TV",US abc10 (KGTV) San Diego 
-http://1tv41.icu:8080/Y06DNq/295733/121176
-#EXTINF:-1 tvg-id="abckesq.us" tvg-name="US abc3 (KESQ) Palm Springs " tvg-logo="" group-title="Direct TV",US abc3 (KESQ) Palm Springs 
-http://1tv41.icu:8080/Y06DNq/295733/121235
+#EXTINF:-1 tvg-id="abc2katu.us" tvg-name="US abc 2 (KATU) Portland/Oregon " tvg-logo="" group-title="Direct TV",US abc 2 (KATU) Portland/Oregon 
+http://1tv41.icu:8080/Y06DNq/295733/121171
+#EXTINF:-1 tvg-id="foxkswb.us" tvg-name="FOX: SAN DIEGO CA KSWB" tvg-logo="" group-title="Direct TV",FOX: SAN DIEGO CA KSWB
+http://1tv41.icu:8080/Y06DNq/295733/121174
+#EXTINF:-1 tvg-id="foxkvvu.us" tvg-name="FOX: LAS VEGAS NV KVVU" tvg-logo="" group-title="Direct TV",FOX: LAS VEGAS NV KVVU
+http://1tv41.icu:8080/Y06DNq/295733/121178
+#EXTINF:-1 tvg-id="cbs2kcbs.us" tvg-name="US CBS (KCBS) Los Angeles (F)" tvg-logo="" group-title="Direct TV",US CBS (KCBS) Los Angeles (F)
+http://1tv41.icu:8080/Y06DNq/295733/121234
 #EXTINF:-1 tvg-id="cbs21ktxa.us" tvg-name="US CBS (KTXA) Fort Worth  " tvg-logo="" group-title="Direct TV",US CBS (KTXA) Fort Worth  
 http://1tv41.icu:8080/Y06DNq/295733/121238
 #EXTINF:-1 tvg-id="fox27kdfi.us" tvg-name="US MyTV (KDFI)  Dallas" tvg-logo="" group-title="Direct TV",US MyTV (KDFI)  Dallas
 http://1tv41.icu:8080/Y06DNq/295733/121240
-#EXTINF:-1 tvg-id="cbs4wfor.us" tvg-name="US CBS (WFOR) Miami " tvg-logo="" group-title="Direct TV",US CBS (WFOR) Miami 
-http://1tv41.icu:8080/Y06DNq/295733/121243
-#EXTINF:-1 tvg-id="cbs4wfor.us" tvg-name="US MY 33 (WBFS) Miami " tvg-logo="" group-title="Direct TV",US MY 33 (WBFS) Miami 
-http://1tv41.icu:8080/Y06DNq/295733/121246
+#EXTINF:-1 tvg-id="nbc6wtvj.us" tvg-name="US NBC (WTVJ) Miami " tvg-logo="" group-title="Direct TV",US NBC (WTVJ) Miami 
+http://1tv41.icu:8080/Y06DNq/295733/121241
+#EXTINF:-1 tvg-id="" tvg-name="FOX: MIAMI FL WSVN" tvg-logo="" group-title="Direct TV",FOX: MIAMI FL WSVN
+http://1tv41.icu:8080/Y06DNq/295733/121244
+#EXTINF:-1 tvg-id="nbc13wrgx.us" tvg-name="US NBC (WRGX) Dothan" tvg-logo="" group-title="Direct TV",US NBC (WRGX) Dothan
+http://1tv41.icu:8080/Y06DNq/295733/121591
 #EXTINF:-1 tvg-id="abcwdhn.us" tvg-name="US abc18 (WDHN) Dothan " tvg-logo="" group-title="Direct TV",US abc18 (WDHN) Dothan 
 http://1tv41.icu:8080/Y06DNq/295733/121593
-#EXTINF:-1 tvg-id="nbc6wjac.us" tvg-name="US NBC 6 (WJAC) Johnstown " tvg-logo="" group-title="Direct TV",US NBC 6 (WJAC) Johnstown 
-http://1tv41.icu:8080/Y06DNq/295733/121664
+#EXTINF:-1 tvg-id="cbs12wpec.us" tvg-name="US CBS 12 (WPEC) West Palm Beach " tvg-logo="" group-title="Direct TV",US CBS 12 (WPEC) West Palm Beach 
+http://1tv41.icu:8080/Y06DNq/295733/121596
+#EXTINF:-1 tvg-id="abcwcvb.us" tvg-name="US ABC 5 (WCVB) Boston (A)" tvg-logo="" group-title="Direct TV",US ABC 5 (WCVB) Boston (A)
+http://1tv41.icu:8080/Y06DNq/295733/121745
 #EXTINF:-1 tvg-id="wchs.us" tvg-name="US abc 4 (WCIV-DT) Charleston " tvg-logo="" group-title="Direct TV",US abc 4 (WCIV-DT) Charleston 
 http://1tv41.icu:8080/Y06DNq/295733/121759
-#EXTINF:-1 tvg-id="dejaview.ca" tvg-name="CA Dejaview HD (B)" tvg-logo="" group-title="Direct TV",CA Dejaview HD (B)
-http://1tv41.icu:8080/Y06DNq/295733/122001
-#EXTINF:-1 tvg-id="cbs5wtvh.us" tvg-name="US CBS (WTVH) Syracuse (F)" tvg-logo="" group-title="Direct TV",US CBS (WTVH) Syracuse (F)
-http://1tv41.icu:8080/Y06DNq/295733/122004
-#EXTINF:-1 tvg-id="" tvg-name="ABC: MANCHESTER WMUR" tvg-logo="" group-title="Direct TV",ABC: MANCHESTER WMUR
-http://1tv41.icu:8080/Y06DNq/295733/122057
-#EXTINF:-1 tvg-id="abc11wtvd.us" tvg-name="US ABC (WTVD) HD " tvg-logo="" group-title="Direct TV",US ABC (WTVD) HD 
-http://1tv41.icu:8080/Y06DNq/295733/122064
-#EXTINF:-1 tvg-id="cbs12wrdw.us" tvg-name="US CBS (WRDW) Augusta (F)" tvg-logo="" group-title="Direct TV",US CBS (WRDW) Augusta (F)
-http://1tv41.icu:8080/Y06DNq/295733/122273
-#EXTINF:-1 tvg-id="abc2katu.us" tvg-name="US abc8 (WMTW) Portland " tvg-logo="" group-title="Direct TV",US abc8 (WMTW) Portland 
-http://1tv41.icu:8080/Y06DNq/295733/122276
-#EXTINF:-1 tvg-id="thecowboychannel.us" tvg-name="US The Cowboy Channel " tvg-logo="" group-title="Direct TV",US The Cowboy Channel 
-http://1tv41.icu:8080/Y06DNq/295733/122527
-#EXTINF:-1 tvg-id="abckmiz.us" tvg-name="US abc25 (WOLO) Columbia " tvg-logo="" group-title="Direct TV",US abc25 (WOLO) Columbia 
-http://1tv41.icu:8080/Y06DNq/295733/125633
+#EXTINF:-1 tvg-id="" tvg-name="US ABC9 (WSYR) Syracuse" tvg-logo="" group-title="Direct TV",US ABC9 (WSYR) Syracuse
+http://1tv41.icu:8080/Y06DNq/295733/122002
+#EXTINF:-1 tvg-id="cbs57wymtdt.us" tvg-name="US CBS 57 (WYMT-DT) Hazard " tvg-logo="" group-title="Direct TV",US CBS 57 (WYMT-DT) Hazard 
+http://1tv41.icu:8080/Y06DNq/295733/122006
+#EXTINF:-1 tvg-id="cbs5wcsc.us" tvg-name="US CBS 5 (WCSC) Charleston " tvg-logo="" group-title="Direct TV",US CBS 5 (WCSC) Charleston 
+http://1tv41.icu:8080/Y06DNq/295733/122058
+#EXTINF:-1 tvg-id="nbc16wagt.us" tvg-name="US NBC (WAGT) Augusta " tvg-logo="" group-title="Direct TV",US NBC (WAGT) Augusta 
+http://1tv41.icu:8080/Y06DNq/295733/122271
+#EXTINF:-1 tvg-id="cbs4wtvy.us" tvg-name="US CBS 4 (WTVY) Dothan (H) " tvg-logo="" group-title="Direct TV",US CBS 4 (WTVY) Dothan (H) 
+http://1tv41.icu:8080/Y06DNq/295733/122275
+#EXTINF:-1 tvg-id="" tvg-name="24/7 DUCK TALES" tvg-logo="" group-title="Direct TV",24/7 DUCK TALES
+http://1tv41.icu:8080/Y06DNq/295733/125636
 #EXTINF:-1 tvg-id="" tvg-name="24/7 LOONEY TUNES" tvg-logo="" group-title="Direct TV",24/7 LOONEY TUNES
 http://1tv41.icu:8080/Y06DNq/295733/125638
-#EXTINF:-1 tvg-id="abc36wtvq.us" tvg-name="US abc36 (WTVQ) Lexington " tvg-logo="" group-title="Direct TV",US abc36 (WTVQ) Lexington 
-http://1tv41.icu:8080/Y06DNq/295733/125674
+#EXTINF:-1 tvg-id="cbs13kold.us" tvg-name="CBS: AZ TUCSON KOLD" tvg-logo="" group-title="Direct TV",CBS: AZ TUCSON KOLD
+http://1tv41.icu:8080/Y06DNq/295733/125727
 #EXTINF:-1 tvg-id="nbcwsaz.us" tvg-name="US NBC (WSAZ) Huntington " tvg-logo="" group-title="Direct TV",US NBC (WSAZ) Huntington 
 http://1tv41.icu:8080/Y06DNq/295733/125915
-#EXTINF:-1 tvg-id="cbs13wowk.us" tvg-name="CBS: WV HUNTINGTON WOWK" tvg-logo="" group-title="Direct TV",CBS: WV HUNTINGTON WOWK
-http://1tv41.icu:8080/Y06DNq/295733/125916
-#EXTINF:-1 tvg-id="nbc41wmgt.us" tvg-name="US NBC (WMGT) Macon " tvg-logo="" group-title="Direct TV",US NBC (WMGT) Macon 
-http://1tv41.icu:8080/Y06DNq/295733/134938
-#EXTINF:-1 tvg-id="cbs13wmaz.us" tvg-name="US CBS 13 (WMAZ) MACON, GA " tvg-logo="" group-title="Direct TV",US CBS 13 (WMAZ) MACON, GA 
-http://1tv41.icu:8080/Y06DNq/295733/134939
-#EXTINF:-1 tvg-id="fox40wdbd.us" tvg-name="US FOX 40 (WDBD) Jackson" tvg-logo="" group-title="Direct TV",US FOX 40 (WDBD) Jackson
-http://1tv41.icu:8080/Y06DNq/295733/135292
-#EXTINF:-1 tvg-id="foxnews.us" tvg-name="US Fox News " tvg-logo="" group-title="Direct TV",US Fox News 
-http://1tv41.icu:8080/Y06DNq/295733/135794
+#EXTINF:-1 tvg-id="globaledmonton.ca" tvg-name="CA Global Edmonton (D)" tvg-logo="" group-title="Direct TV",CA Global Edmonton (D)
+http://1tv41.icu:8080/Y06DNq/295733/132271
+#EXTINF:-1 tvg-id="fox24wgxa.us" tvg-name="US FOX (WGXA) Macon" tvg-logo="" group-title="Direct TV",US FOX (WGXA) Macon
+http://1tv41.icu:8080/Y06DNq/295733/134940
+#EXTINF:-1 tvg-id="onesoccer.ca" tvg-name="CA One Soccer " tvg-logo="" group-title="Direct TV",CA One Soccer 
+http://1tv41.icu:8080/Y06DNq/295733/135810
 #EXTINF:-1 tvg-id="cbs5wfrv.us" tvg-name="CBS: WI GREEN BAY WFRV" tvg-logo="" group-title="Direct TV",CBS: WI GREEN BAY WFRV
 http://1tv41.icu:8080/Y06DNq/295733/135813
-#EXTINF:-1 tvg-id="" tvg-name="US: CSPAN FHD" tvg-logo="" group-title="Direct TV",US: CSPAN FHD
-http://1tv41.icu:8080/Y06DNq/295733/136589
-#EXTINF:-1 tvg-id="globalmontreal.ca" tvg-name="CA Global Monterial News (E)" tvg-logo="" group-title="Direct TV",CA Global Monterial News (E)
-http://1tv41.icu:8080/Y06DNq/295733/136641
+#EXTINF:-1 tvg-id="chekvancouverisland.ca" tvg-name="CA CTV2 VANCOUVER ISLAND (E)" tvg-logo="" group-title="Direct TV",CA CTV2 VANCOUVER ISLAND (E)
+http://1tv41.icu:8080/Y06DNq/295733/136612
 #EXTINF:-1 tvg-id="fox23kbsi.us" tvg-name="US FOX (KBSI) Paducah " tvg-logo="" group-title="Direct TV",US FOX (KBSI) Paducah 
 http://1tv41.icu:8080/Y06DNq/295733/136884
 #EXTINF:-1 tvg-id="cbs9wnct.us" tvg-name="US CBS (WSPA) HD " tvg-logo="" group-title="Direct TV",US CBS (WSPA) HD 
 http://1tv41.icu:8080/Y06DNq/295733/137048
 #EXTINF:-1 tvg-id="cbs47kgpe.us" tvg-name="US CBS (KGPE) Fresno (F)" tvg-logo="" group-title="Direct TV",US CBS (KGPE) Fresno (F)
 http://1tv41.icu:8080/Y06DNq/295733/137682
-#EXTINF:-1 tvg-id="starttv.us" tvg-name="US Start TV " tvg-logo="" group-title="Direct TV",US Start TV 
-http://1tv41.icu:8080/Y06DNq/295733/137680
-#EXTINF:-1 tvg-id="skysportsmainevent.uk" tvg-name="UK: SKY SPORTS MAIN EVENT HD" tvg-logo="" group-title="Direct TV",UK: SKY SPORTS MAIN EVENT HD
-http://1tv41.icu:8080/Y06DNq/295733/137720
-#EXTINF:-1 tvg-id="nbckcra.us" tvg-name="CA | Sacramento | NBC KCRA" tvg-logo="" group-title="Direct TV",CA | Sacramento | NBC KCRA
-http://1tv41.icu:8080/Y06DNq/295733/137953
+#EXTINF:-1 tvg-id="bether.us" tvg-name="US BET Her " tvg-logo="" group-title="Direct TV",US BET Her 
+http://1tv41.icu:8080/Y06DNq/295733/137790
 #EXTINF:-1 tvg-id="cw69wupa.us" tvg-name="US CW (WUPA) Atlanta " tvg-logo="" group-title="Direct TV",US CW (WUPA) Atlanta 
 http://1tv41.icu:8080/Y06DNq/295733/139462
-#EXTINF:-1 tvg-id="nbc7wdam.us" tvg-name="US NBC (WDAM) Laurel " tvg-logo="" group-title="Direct TV",US NBC (WDAM) Laurel 
-http://1tv41.icu:8080/Y06DNq/295733/140399
-#EXTINF:-1 tvg-id="nbc7kwwl.us" tvg-name="LOC | NBC | KWWL WATERLOO-IOWA" tvg-logo="" group-title="Direct TV",LOC | NBC | KWWL WATERLOO-IOWA
-http://1tv41.icu:8080/Y06DNq/295733/140899
-#EXTINF:-1 tvg-id="documentarychannel.ca" tvg-name="CA documentary HD (B)" tvg-logo="" group-title="Direct TV",CA documentary HD (B)
-http://1tv41.icu:8080/Y06DNq/295733/148610
-#EXTINF:-1 tvg-id="cbs10klfy.us" tvg-name="CBS: LA LAFAYETTE KLFY" tvg-logo="" group-title="Direct TV",CBS: LA LAFAYETTE KLFY
-http://1tv41.icu:8080/Y06DNq/295733/158058
-#EXTINF:-1 tvg-id="" tvg-name="US Al Jazeera" tvg-logo="" group-title="Direct TV",US Al Jazeera
-http://1tv41.icu:8080/Y06DNq/295733/160711
-#EXTINF:-1 tvg-id="nbc11kvly.us" tvg-name="US NBC (KVLY) Fargo " tvg-logo="" group-title="Direct TV",US NBC (KVLY) Fargo 
-http://1tv41.icu:8080/Y06DNq/295733/160732
-#EXTINF:-1 tvg-id="abcwjla.us" tvg-name="US abc 7 (WJLA) Washington " tvg-logo="" group-title="Direct TV",US abc 7 (WJLA) Washington 
-http://1tv41.icu:8080/Y06DNq/295733/167753
-#EXTINF:-1 tvg-id="" tvg-name="US ABC 5 (WOI) West Des Moine (A)" tvg-logo="" group-title="Direct TV",US ABC 5 (WOI) West Des Moine (A)
-http://1tv41.icu:8080/Y06DNq/295733/171160
+#EXTINF:-1 tvg-id="pbswned.us" tvg-name="US PBS (WNED) HD (SP)" tvg-logo="" group-title="Direct TV",US PBS (WNED) HD (SP)
+http://1tv41.icu:8080/Y06DNq/295733/139756
+#EXTINF:-1 tvg-id="cbs17wncn.us" tvg-name="US CBS 7 (WNCN) Raleigh/Durham " tvg-logo="" group-title="Direct TV",US CBS 7 (WNCN) Raleigh/Durham 
+http://1tv41.icu:8080/Y06DNq/295733/140820
+#EXTINF:-1 tvg-id="" tvg-name="LOC | IA | ABC| KCRG-WATERLOO-IOWA CITY" tvg-logo="" group-title="Direct TV",LOC | IA | ABC| KCRG-WATERLOO-IOWA CITY
+http://1tv41.icu:8080/Y06DNq/295733/140901
+#EXTINF:-1 tvg-id="cw50wkbd.us" tvg-name="LOC | MI | DETROIT | CW WKBD" tvg-logo="" group-title="Direct TV",LOC | MI | DETROIT | CW WKBD
+http://1tv41.icu:8080/Y06DNq/295733/147202
+#EXTINF:-1 tvg-id="abcwzvn.us" tvg-name="US abc7 (WZVN) Fort Myers " tvg-logo="" group-title="Direct TV",US abc7 (WZVN) Fort Myers 
+http://1tv41.icu:8080/Y06DNq/295733/149745
+#EXTINF:-1 tvg-id="connecticutnetwork.us" tvg-name="US: NEWS 12 CONNECTICUT HD" tvg-logo="" group-title="Direct TV",US: NEWS 12 CONNECTICUT HD
+http://1tv41.icu:8080/Y06DNq/295733/159246
+#EXTINF:-1 tvg-id="abcwday.us" tvg-name="US ABC 6 (WDAY) Fargo (H)" tvg-logo="" group-title="Direct TV",US ABC 6 (WDAY) Fargo (H)
+http://1tv41.icu:8080/Y06DNq/295733/160730
+#EXTINF:-1 tvg-id="foxwiti.us" tvg-name="US FOX 6 (WITI) Milwaukee " tvg-logo="" group-title="Direct TV",US FOX 6 (WITI) Milwaukee 
+http://1tv41.icu:8080/Y06DNq/295733/161142
+#EXTINF:-1 tvg-id="newenglandsportsnetworkplus.us" tvg-name="US NESN PLUS" tvg-logo="" group-title="Direct TV",US NESN PLUS
+http://1tv41.icu:8080/Y06DNq/295733/161451
+#EXTINF:-1 tvg-id="nbc13who.us" tvg-name="US NBC 13 (WHO) Des Moines (A)" tvg-logo="" group-title="Direct TV",US NBC 13 (WHO) Des Moines (A)
+http://1tv41.icu:8080/Y06DNq/295733/171158
+#EXTINF:-1 tvg-id="fetv.us" tvg-name="US Family Entertainment Television " tvg-logo="" group-title="Direct TV",US Family Entertainment Television 
+http://1tv41.icu:8080/Y06DNq/295733/172481
 #EXTINF:-1 tvg-id="cbs4wcbi.us" tvg-name="US CBS 4 (WCBI) Tupelo (F)" tvg-logo="" group-title="Direct TV",US CBS 4 (WCBI) Tupelo (F)
 http://1tv41.icu:8080/Y06DNq/295733/173100
-#EXTINF:-1 tvg-id="fox2ktvu.us" tvg-name="US Fox 2 (KTVU) San Francisco " tvg-logo="" group-title="Direct TV",US Fox 2 (KTVU) San Francisco 
-http://1tv41.icu:8080/Y06DNq/295733/176768
+#EXTINF:-1 tvg-id="my9wwor.us" tvg-name="US MY 9 (WWOR) New York" tvg-logo="" group-title="Direct TV",US MY 9 (WWOR) New York
+http://1tv41.icu:8080/Y06DNq/295733/176368
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Biography: WWE Legends" tvg-logo="" group-title="Direct TV",24/7 Biography: WWE Legends
+http://1tv41.icu:8080/Y06DNq/295733/178860
 #EXTINF:-1 tvg-id="" tvg-name="CA CTV Halifax Nova Scotia HD (D)" tvg-logo="" group-title="Direct TV",CA CTV Halifax Nova Scotia HD (D)
 http://1tv41.icu:8080/Y06DNq/295733/188776
-#EXTINF:-1 tvg-id="" tvg-name="US  Space City Home Network" tvg-logo="" group-title="Direct TV",US  Space City Home Network
-http://1tv41.icu:8080/Y06DNq/295733/213668
-#EXTINF:-1 tvg-id="muchmusic.ca" tvg-name="CA: MUCH MUSIC" tvg-logo="" group-title="Direct TV",CA: MUCH MUSIC
-http://1tv41.icu:8080/Y06DNq/295733/215268
-#EXTINF:-1 tvg-id="" tvg-name="M4: Blade Runner" tvg-logo="" group-title="Direct TV",M4: Blade Runner
-http://1tv41.icu:8080/Y06DNq/295733/215277
+#EXTINF:-1 tvg-id="" tvg-name="US (LN) HBCU Go" tvg-logo="" group-title="Direct TV",US (LN) HBCU Go
+http://1tv41.icu:8080/Y06DNq/295733/209775
+#EXTINF:-1 tvg-id="nbc9wtva.us" tvg-name="US NBC 9 (WTVA) Tupelo (D)" tvg-logo="" group-title="Direct TV",US NBC 9 (WTVA) Tupelo (D)
+http://1tv41.icu:8080/Y06DNq/295733/213646
+#EXTINF:-1 tvg-id="my28wrdc.us" tvg-name="US mytv28 (WRDC) Raleigh/Durham (A)" tvg-logo="" group-title="Direct TV",US mytv28 (WRDC) Raleigh/Durham (A)
+http://1tv41.icu:8080/Y06DNq/295733/215021
+#EXTINF:-1 tvg-id="" tvg-name="M4: Action" tvg-logo="" group-title="Direct TV",M4: Action
+http://1tv41.icu:8080/Y06DNq/295733/215269
+#EXTINF:-1 tvg-id="" tvg-name="M4: Batman" tvg-logo="" group-title="Direct TV",M4: Batman
+http://1tv41.icu:8080/Y06DNq/295733/215274
+#EXTINF:-1 tvg-id="" tvg-name="M4: Jurassic Park" tvg-logo="" group-title="Direct TV",M4: Jurassic Park
+http://1tv41.icu:8080/Y06DNq/295733/215298
+#EXTINF:-1 tvg-id="" tvg-name="M4: Men in Black" tvg-logo="" group-title="Direct TV",M4: Men in Black
+http://1tv41.icu:8080/Y06DNq/295733/215303
+#EXTINF:-1 tvg-id="" tvg-name="M4: Mission Impossible" tvg-logo="" group-title="Direct TV",M4: Mission Impossible
+http://1tv41.icu:8080/Y06DNq/295733/215304
+#EXTINF:-1 tvg-id="" tvg-name="M4: Oceans Eleven" tvg-logo="" group-title="Direct TV",M4: Oceans Eleven
+http://1tv41.icu:8080/Y06DNq/295733/215308
+#EXTINF:-1 tvg-id="" tvg-name="M4: Resident Evil" tvg-logo="" group-title="Direct TV",M4: Resident Evil
+http://1tv41.icu:8080/Y06DNq/295733/215312
 #EXTINF:-1 tvg-id="" tvg-name="M4: The Bourne" tvg-logo="" group-title="Direct TV",M4: The Bourne
 http://1tv41.icu:8080/Y06DNq/295733/215327
-#EXTINF:-1 tvg-id="" tvg-name="M4: Western" tvg-logo="" group-title="Direct TV",M4: Western
-http://1tv41.icu:8080/Y06DNq/295733/215346
-#EXTINF:-1 tvg-id="" tvg-name="M4: Edward Norton" tvg-logo="" group-title="Direct TV",M4: Edward Norton
-http://1tv41.icu:8080/Y06DNq/295733/215353
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Conjuring" tvg-logo="" group-title="Direct TV",M4: The Conjuring
+http://1tv41.icu:8080/Y06DNq/295733/215328
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Expendables" tvg-logo="" group-title="Direct TV",M4: The Expendables
+http://1tv41.icu:8080/Y06DNq/295733/215329
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Godfather" tvg-logo="" group-title="Direct TV",M4: The Godfather
+http://1tv41.icu:8080/Y06DNq/295733/215330
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Hobbit" tvg-logo="" group-title="Direct TV",M4: The Hobbit
+http://1tv41.icu:8080/Y06DNq/295733/215331
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Matrix" tvg-logo="" group-title="Direct TV",M4: The Matrix
+http://1tv41.icu:8080/Y06DNq/295733/215335
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Lord of The Rings" tvg-logo="" group-title="Direct TV",M4: The Lord of The Rings
+http://1tv41.icu:8080/Y06DNq/295733/215334
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Karete Kid" tvg-logo="" group-title="Direct TV",M4: The Karete Kid
+http://1tv41.icu:8080/Y06DNq/295733/215333
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Mummy" tvg-logo="" group-title="Direct TV",M4: The Mummy
+http://1tv41.icu:8080/Y06DNq/295733/215336
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Terminator" tvg-logo="" group-title="Direct TV",M4: The Terminator
+http://1tv41.icu:8080/Y06DNq/295733/215338
+#EXTINF:-1 tvg-id="" tvg-name="M4: Thriller" tvg-logo="" group-title="Direct TV",M4: Thriller
+http://1tv41.icu:8080/Y06DNq/295733/215340
+#EXTINF:-1 tvg-id="" tvg-name="M4: Transformers" tvg-logo="" group-title="Direct TV",M4: Transformers
+http://1tv41.icu:8080/Y06DNq/295733/215342
+#EXTINF:-1 tvg-id="" tvg-name="M4: Transporter" tvg-logo="" group-title="Direct TV",M4: Transporter
+http://1tv41.icu:8080/Y06DNq/295733/215343
+#EXTINF:-1 tvg-id="" tvg-name="M4: Three Flavours Cornetto" tvg-logo="" group-title="Direct TV",M4: Three Flavours Cornetto
+http://1tv41.icu:8080/Y06DNq/295733/215339
+#EXTINF:-1 tvg-id="" tvg-name="M4: Twilight Saga" tvg-logo="" group-title="Direct TV",M4: Twilight Saga
+http://1tv41.icu:8080/Y06DNq/295733/215344
+#EXTINF:-1 tvg-id="" tvg-name="M4: Cillian Murphy" tvg-logo="" group-title="Direct TV",M4: Cillian Murphy
+http://1tv41.icu:8080/Y06DNq/295733/215352
+#EXTINF:-1 tvg-id="" tvg-name="M4: Johnny Depp" tvg-logo="" group-title="Direct TV",M4: Johnny Depp
+http://1tv41.icu:8080/Y06DNq/295733/215360
 #EXTINF:-1 tvg-id="" tvg-name="M4: Mark Wahlberg" tvg-logo="" group-title="Direct TV",M4: Mark Wahlberg
 http://1tv41.icu:8080/Y06DNq/295733/215363
-#EXTINF:-1 tvg-id="" tvg-name="M4: Micheal Caine" tvg-logo="" group-title="Direct TV",M4: Micheal Caine
-http://1tv41.icu:8080/Y06DNq/295733/215365
 #EXTINF:-1 tvg-id="" tvg-name="M4: Matt Damon" tvg-logo="" group-title="Direct TV",M4: Matt Damon
 http://1tv41.icu:8080/Y06DNq/295733/215364
-#EXTINF:-1 tvg-id="" tvg-name="M4: Ryan Reynolds" tvg-logo="" group-title="Direct TV",M4: Ryan Reynolds
-http://1tv41.icu:8080/Y06DNq/295733/215368
-#EXTINF:-1 tvg-id="" tvg-name="M4: Morgan Freeman" tvg-logo="" group-title="Direct TV",M4: Morgan Freeman
-http://1tv41.icu:8080/Y06DNq/295733/215366
+#EXTINF:-1 tvg-id="" tvg-name="M4: Micheal Caine" tvg-logo="" group-title="Direct TV",M4: Micheal Caine
+http://1tv41.icu:8080/Y06DNq/295733/215365
 #EXTINF:-1 tvg-id="" tvg-name="M4: Will Smith" tvg-logo="" group-title="Direct TV",M4: Will Smith
 http://1tv41.icu:8080/Y06DNq/295733/215372
 #EXTINF:-1 tvg-id="" tvg-name="M4: Adam Sandler" tvg-logo="" group-title="Direct TV",M4: Adam Sandler
 http://1tv41.icu:8080/Y06DNq/295733/215373
-#EXTINF:-1 tvg-id="" tvg-name="M4: Samuel L. Jakson" tvg-logo="" group-title="Direct TV",M4: Samuel L. Jakson
-http://1tv41.icu:8080/Y06DNq/295733/215369
-#EXTINF:-1 tvg-id="" tvg-name="M4: Jackie Chan" tvg-logo="" group-title="Direct TV",M4: Jackie Chan
-http://1tv41.icu:8080/Y06DNq/295733/215378
 #EXTINF:-1 tvg-id="" tvg-name="M4: Jason Statham" tvg-logo="" group-title="Direct TV",M4: Jason Statham
 http://1tv41.icu:8080/Y06DNq/295733/215379
-#EXTINF:-1 tvg-id="" tvg-name="M4: Kevin Hart" tvg-logo="" group-title="Direct TV",M4: Kevin Hart
-http://1tv41.icu:8080/Y06DNq/295733/215380
+#EXTINF:-1 tvg-id="" tvg-name="M4: Halle Berry" tvg-logo="" group-title="Direct TV",M4: Halle Berry
+http://1tv41.icu:8080/Y06DNq/295733/215389
 #EXTINF:-1 tvg-id="" tvg-name="M4: Al Pacino" tvg-logo="" group-title="Direct TV",M4: Al Pacino
 http://1tv41.icu:8080/Y06DNq/295733/215392
+#EXTINF:-1 tvg-id="" tvg-name="M4: Bruce Willis" tvg-logo="" group-title="Direct TV",M4: Bruce Willis
+http://1tv41.icu:8080/Y06DNq/295733/215395
+#EXTINF:-1 tvg-id="" tvg-name="M4: Keira Knightley" tvg-logo="" group-title="Direct TV",M4: Keira Knightley
+http://1tv41.icu:8080/Y06DNq/295733/215406
 #EXTINF:-1 tvg-id="" tvg-name="M4: Denzel Washington" tvg-logo="" group-title="Direct TV",M4: Denzel Washington
 http://1tv41.icu:8080/Y06DNq/295733/215393
+#EXTINF:-1 tvg-id="" tvg-name="M4: Kate Winslet" tvg-logo="" group-title="Direct TV",M4: Kate Winslet
+http://1tv41.icu:8080/Y06DNq/295733/215405
 #EXTINF:-1 tvg-id="" tvg-name="M4: Vin Diesel" tvg-logo="" group-title="Direct TV",M4: Vin Diesel
 http://1tv41.icu:8080/Y06DNq/295733/215394
+#EXTINF:-1 tvg-id="" tvg-name="M4: Natalie Portman" tvg-logo="" group-title="Direct TV",M4: Natalie Portman
+http://1tv41.icu:8080/Y06DNq/295733/215412
 #EXTINF:-1 tvg-id="" tvg-name="M4: Rachel McAdams" tvg-logo="" group-title="Direct TV",M4: Rachel McAdams
 http://1tv41.icu:8080/Y06DNq/295733/215414
-#EXTINF:-1 tvg-id="" tvg-name="M4: Salma Hayek" tvg-logo="" group-title="Direct TV",M4: Salma Hayek
-http://1tv41.icu:8080/Y06DNq/295733/215416
-#EXTINF:-1 tvg-id="" tvg-name="M4: Saoirse Ronan" tvg-logo="" group-title="Direct TV",M4: Saoirse Ronan
-http://1tv41.icu:8080/Y06DNq/295733/215418
+#EXTINF:-1 tvg-id="" tvg-name="M4: Reese Witherspoon" tvg-logo="" group-title="Direct TV",M4: Reese Witherspoon
+http://1tv41.icu:8080/Y06DNq/295733/215415
 #EXTINF:-1 tvg-id="" tvg-name="M4: Scarlett Johansson" tvg-logo="" group-title="Direct TV",M4: Scarlett Johansson
 http://1tv41.icu:8080/Y06DNq/295733/215419
 #EXTINF:-1 tvg-id="" tvg-name="US US CW 39 (KIAH) Houston " tvg-logo="" group-title="Direct TV",US US CW 39 (KIAH) Houston 
