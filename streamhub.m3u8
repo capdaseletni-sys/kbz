@@ -1,18 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Club Brugge vs Atlético Madrid (STRMHUB)
-https://streamhub.pro/event/espn_401858768/club-brugge-at-atletico-madrid
-#EXTINF:-1 group-title="Streamhub", [Soccer] Olympiacos vs Bayer Leverkusen (STRMHUB)
-https://streamhub.pro/event/espn_401858767/olympiacos-at-bayer-leverkusen
-#EXTINF:-1 group-title="Streamhub", [Soccer] Bodo/Glimt vs Internazionale (STRMHUB)
-https://streamhub.pro/event/espn_401858766/bodo-glimt-at-internazionale
-#EXTINF:-1 group-title="Streamhub", [Soccer] FK Qarabag vs Newcastle United (STRMHUB)
-https://streamhub.pro/event/espn_401858764/fk-qarabag-at-newcastle-united
-#EXTINF:-1 group-title="Streamhub", [Soccer] Defensa y Justicia vs Platense (STRMHUB)
-https://streamhub.pro/event/espn_762865/defensa-y-justicia-at-platense
-#EXTINF:-1 group-title="Streamhub", [Soccer] Instituto (Córdoba) vs San Lorenzo (STRMHUB)
-https://streamhub.pro/event/espn_762868/instituto--cordoba--at-san-lorenzo
-#EXTINF:-1 group-title="Streamhub", [Soccer] Talleres (Córdoba) vs Central Córdoba (Santiago del Estero) (STRMHUB)
-https://streamhub.pro/event/espn_762874/talleres--cordoba--at-central-cordoba--santiago-del-estero-
 #EXTINF:-1 group-title="Streamhub", [Soccer] Atlético Tucumán vs Belgrano (Córdoba) (STRMHUB)
 https://streamhub.pro/event/espn_762873/atletico-tucuman-at-belgrano--cordoba-
 #EXTINF:-1 group-title="Streamhub", [Soccer] Independiente vs Gimnasia (Mendoza) (STRMHUB)
@@ -33,3 +19,9 @@ https://streamhub.pro/event/espn_basketball_401810691/charlotte-hornets-vs-chica
 https://streamhub.pro/event/espn_basketball_401810692/miami-heat-vs-milwaukee-bucks
 #EXTINF:-1 group-title="Streamhub", [Basketball] Warriors vs Pelicans (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810693/golden-state-warriors-vs-new-orleans-pelicans
+#EXTINF:-1 group-title="Streamhub", [Basketball] Celtics vs Suns (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810694/boston-celtics-vs-phoenix-suns
+#EXTINF:-1 group-title="Streamhub", [Basketball] Timberwolves vs Trail Blazers (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810696/minnesota-timberwolves-vs-portland-trail-blazers
+#EXTINF:-1 group-title="Streamhub", [Basketball] Magic vs Lakers (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810695/orlando-magic-vs-los-angeles-lakers
