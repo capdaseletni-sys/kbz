@@ -1,3 +1,15 @@
 #EXTM3U
 #EXTINF:-1 group-title="Streamhub", [Soccer] Borussia Dortmund vs Atalanta (STRMHUB)
 https://streamhub.pro/event/espn_401858762/borussia-dortmund-at-atalanta
+#EXTINF:-1 group-title="Streamhub", [Soccer] Galatasaray vs Juventus (STRMHUB)
+https://streamhub.pro/event/espn_401858765/galatasaray-at-juventus
+#EXTINF:-1 group-title="Streamhub", [Soccer] AS Monaco vs Paris Saint-Germain (STRMHUB)
+https://streamhub.pro/event/espn_401858763/as-monaco-at-paris-saint-germain
+#EXTINF:-1 group-title="Streamhub", [Soccer] Benfica vs Real Madrid (STRMHUB)
+https://streamhub.pro/event/espn_401858769/benfica-at-real-madrid
+#EXTINF:-1 group-title="Streamhub", [Soccer] Argentinos Juniors vs Aldosivi (STRMHUB)
+https://streamhub.pro/event/espn_762871/argentinos-juniors-at-aldosivi
+#EXTINF:-1 group-title="Streamhub", [Soccer] Tigre vs Barracas Central (STRMHUB)
+https://streamhub.pro/event/espn_762872/tigre-at-barracas-central
+#EXTINF:-1 group-title="Streamhub", [Soccer] Rosario Central vs Gimnasia La Plata (STRMHUB)
+https://streamhub.pro/event/espn_762876/rosario-central-at-gimnasia-la-plata
