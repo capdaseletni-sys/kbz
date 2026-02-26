@@ -53,6 +53,12 @@ https://streamhub.pro/event/espn_basketball_401810707/houston-rockets-vs-orlando
 https://streamhub.pro/event/espn_basketball_401810708/portland-trail-blazers-vs-chicago-bulls
 #EXTINF:-1 group-title="Streamhub", [Basketball] Kings vs Mavericks (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810709/sacramento-kings-vs-dallas-mavericks
+#EXTINF:-1 group-title="Streamhub", [Basketball] Lakers vs Suns (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810710/los-angeles-lakers-vs-phoenix-suns
+#EXTINF:-1 group-title="Streamhub", [Basketball] Pelicans vs Jazz (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810711/new-orleans-pelicans-vs-utah-jazz
+#EXTINF:-1 group-title="Streamhub", [Basketball] Timberwolves vs Clippers (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810712/minnesota-timberwolves-vs-la-clippers
 #EXTINF:-1 group-title="Streamhub", [Hockey] Blue Jackets vs Bruins (STRMHUB)
 https://streamhub.pro/event/espn_hockey_401803269/columbus-blue-jackets-vs-boston-bruins
 #EXTINF:-1 group-title="Streamhub", [Hockey] Islanders vs Canadiens (STRMHUB)
@@ -71,3 +77,9 @@ https://streamhub.pro/event/espn_hockey_401803275/philadelphia-flyers-vs-new-yor
 https://streamhub.pro/event/espn_hockey_401803276/seattle-kraken-vs-st--louis-blues
 #EXTINF:-1 group-title="Streamhub", [Hockey] Blackhawks vs Predators (STRMHUB)
 https://streamhub.pro/event/espn_hockey_401803277/chicago-blackhawks-vs-nashville-predators
+#EXTINF:-1 group-title="Streamhub", [Hockey] Wild vs Avalanche (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803278/minnesota-wild-vs-colorado-avalanche
+#EXTINF:-1 group-title="Streamhub", [Hockey] Flames vs Sharks (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803279/calgary-flames-vs-san-jose-sharks
+#EXTINF:-1 group-title="Streamhub", [Hockey] Oilers vs Kings (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803280/edmonton-oilers-vs-los-angeles-kings
