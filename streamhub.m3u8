@@ -1,3 +1,17 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Hockey] Oilers vs Ducks (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803268/edmonton-oilers-vs-anaheim-ducks
+#EXTINF:-1 group-title="Streamhub", [Soccer] Jagiellonia Bialystok vs Fiorentina (STRMHUB)
+https://streamhub.pro/event/espn_401854534/jagiellonia-bialystok-at-fiorentina
+#EXTINF:-1 group-title="Streamhub", [Soccer] Drita Gjilan vs NK Celje (STRMHUB)
+https://streamhub.pro/event/espn_401854532/drita-gjilan-at-nk-celje
+#EXTINF:-1 group-title="Streamhub", [Soccer] Omonia Nicosia vs Rijeka (STRMHUB)
+https://streamhub.pro/event/espn_401854530/omonia-nicosia-at-rijeka
+#EXTINF:-1 group-title="Streamhub", [Soccer] KF Shkëndija vs Samsunspor (STRMHUB)
+https://streamhub.pro/event/espn_401854535/kf-shkendija-at-samsunspor
+#EXTINF:-1 group-title="Streamhub", [Soccer] Ludogorets Razgrad vs Ferencvaros (STRMHUB)
+https://streamhub.pro/event/espn_401858782/ludogorets-razgrad-at-ferencvaros
+#EXTINF:-1 group-title="Streamhub", [Soccer] Lille vs Red Star Belgrade (STRMHUB)
+https://streamhub.pro/event/espn_401858783/lille-at-red-star-belgrade
+#EXTINF:-1 group-title="Streamhub", [Soccer] Celtic vs VfB Stuttgart (STRMHUB)
+https://streamhub.pro/event/espn_401858779/celtic-at-vfb-stuttgart
+#EXTINF:-1 group-title="Streamhub", [Soccer] Panathinaikos vs Viktoria Plzen (STRMHUB)
+https://streamhub.pro/event/espn_401858785/panathinaikos-at-viktoria-plzen
