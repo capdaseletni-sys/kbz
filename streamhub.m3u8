@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Huracán vs Estudiantes de Río Cuarto (STRMHUB)
-https://streamhub.pro/event/espn_762875/huracan-at-estudiantes-de-rio-cuarto
-#EXTINF:-1 group-title="Streamhub", [Soccer] Banfield vs River Plate (STRMHUB)
-https://streamhub.pro/event/espn_762867/banfield-at-river-plate
 #EXTINF:-1 group-title="Streamhub", [Basketball] Hornets vs Pacers (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810703/charlotte-hornets-vs-indiana-pacers
 #EXTINF:-1 group-title="Streamhub", [Basketball] Heat vs 76ers (STRMHUB)
