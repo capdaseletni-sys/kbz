@@ -1,5 +1,21 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] FC Cologne vs FC Augsburg (STRMHUB)
+https://streamhub.pro/event/espn_746929/fc-cologne-at-fc-augsburg
+#EXTINF:-1 group-title="Streamhub", [Soccer] NAC Breda vs Telstar (STRMHUB)
+https://streamhub.pro/event/espn_741199/nac-breda-at-telstar
+#EXTINF:-1 group-title="Streamhub", [Soccer] Annecy vs Bastia (STRMHUB)
+https://streamhub.pro/event/espn_747685/annecy-at-bastia
+#EXTINF:-1 group-title="Streamhub", [Soccer] Dunkerque vs Clermont Foot (STRMHUB)
+https://streamhub.pro/event/espn_747684/dunkerque-at-clermont-foot
+#EXTINF:-1 group-title="Streamhub", [Soccer] Boulogne vs Grenoble (STRMHUB)
+https://streamhub.pro/event/espn_747683/boulogne-at-grenoble
+#EXTINF:-1 group-title="Streamhub", [Soccer] Stade de Reims vs Montpellier (STRMHUB)
+https://streamhub.pro/event/espn_747680/stade-de-reims-at-montpellier
+#EXTINF:-1 group-title="Streamhub", [Soccer] AS Nancy Lorraine vs Stade Laval (STRMHUB)
+https://streamhub.pro/event/espn_747681/as-nancy-lorraine-at-stade-laval
 #EXTINF:-1 group-title="Streamhub", [Soccer] SV Darmstadt 98 vs Dynamo Dresden (STRMHUB)
 https://streamhub.pro/event/espn_747238/sv-darmstadt-98-at-dynamo-dresden
 #EXTINF:-1 group-title="Streamhub", [Soccer] VfL Bochum vs Fortuna Düsseldorf (STRMHUB)
 https://streamhub.pro/event/espn_747235/vfl-bochum-at-fortuna-dusseldorf
+#EXTINF:-1 group-title="Streamhub", [Soccer] Arouca vs FC Porto (STRMHUB)
+https://streamhub.pro/event/espn_750457/arouca-at-fc-porto
