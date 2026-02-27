@@ -1,3 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Hockey] Oilers vs Kings (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803280/edmonton-oilers-vs-los-angeles-kings
+#EXTINF:-1 group-title="Streamhub", [Soccer] SV Darmstadt 98 vs Dynamo Dresden (STRMHUB)
+https://streamhub.pro/event/espn_747238/sv-darmstadt-98-at-dynamo-dresden
+#EXTINF:-1 group-title="Streamhub", [Soccer] VfL Bochum vs Fortuna Düsseldorf (STRMHUB)
+https://streamhub.pro/event/espn_747235/vfl-bochum-at-fortuna-dusseldorf
