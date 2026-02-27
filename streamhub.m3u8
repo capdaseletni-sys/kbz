@@ -1,16 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Basketball] Hornets vs Pacers (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810703/charlotte-hornets-vs-indiana-pacers
-#EXTINF:-1 group-title="Streamhub", [Basketball] Heat vs 76ers (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810704/miami-heat-vs-philadelphia-76ers
-#EXTINF:-1 group-title="Streamhub", [Basketball] Wizards vs Hawks (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810705/washington-wizards-vs-atlanta-hawks
-#EXTINF:-1 group-title="Streamhub", [Basketball] Spurs vs Nets (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810706/san-antonio-spurs-vs-brooklyn-nets
-#EXTINF:-1 group-title="Streamhub", [Basketball] Rockets vs Magic (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810707/houston-rockets-vs-orlando-magic
-#EXTINF:-1 group-title="Streamhub", [Basketball] Trail Blazers vs Bulls (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810708/portland-trail-blazers-vs-chicago-bulls
 #EXTINF:-1 group-title="Streamhub", [Basketball] Kings vs Mavericks (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810709/sacramento-kings-vs-dallas-mavericks
 #EXTINF:-1 group-title="Streamhub", [Basketball] Lakers vs Suns (STRMHUB)
@@ -19,24 +7,6 @@ https://streamhub.pro/event/espn_basketball_401810710/los-angeles-lakers-vs-phoe
 https://streamhub.pro/event/espn_basketball_401810711/new-orleans-pelicans-vs-utah-jazz
 #EXTINF:-1 group-title="Streamhub", [Basketball] Timberwolves vs Clippers (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810712/minnesota-timberwolves-vs-la-clippers
-#EXTINF:-1 group-title="Streamhub", [Hockey] Blue Jackets vs Bruins (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803269/columbus-blue-jackets-vs-boston-bruins
-#EXTINF:-1 group-title="Streamhub", [Hockey] Islanders vs Canadiens (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803270/new-york-islanders-vs-montreal-canadiens
-#EXTINF:-1 group-title="Streamhub", [Hockey] Red Wings vs Senators (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803271/detroit-red-wings-vs-ottawa-senators
-#EXTINF:-1 group-title="Streamhub", [Hockey] Maple Leafs vs Panthers (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803272/toronto-maple-leafs-vs-florida-panthers
-#EXTINF:-1 group-title="Streamhub", [Hockey] Devils vs Penguins (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803273/new-jersey-devils-vs-pittsburgh-penguins
-#EXTINF:-1 group-title="Streamhub", [Hockey] Lightning vs Hurricanes (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803274/tampa-bay-lightning-vs-carolina-hurricanes
-#EXTINF:-1 group-title="Streamhub", [Hockey] Flyers vs Rangers (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803275/philadelphia-flyers-vs-new-york-rangers
-#EXTINF:-1 group-title="Streamhub", [Hockey] Kraken vs Blues (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803276/seattle-kraken-vs-st--louis-blues
-#EXTINF:-1 group-title="Streamhub", [Hockey] Blackhawks vs Predators (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803277/chicago-blackhawks-vs-nashville-predators
 #EXTINF:-1 group-title="Streamhub", [Hockey] Wild vs Avalanche (STRMHUB)
 https://streamhub.pro/event/espn_hockey_401803278/minnesota-wild-vs-colorado-avalanche
 #EXTINF:-1 group-title="Streamhub", [Hockey] Flames vs Sharks (STRMHUB)
