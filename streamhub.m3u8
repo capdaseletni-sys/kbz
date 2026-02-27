@@ -11,6 +11,8 @@ https://streamhub.pro/event/espn_737053/cagliari-at-parma
 https://streamhub.pro/event/espn_748399/alaves-at-levante
 #EXTINF:-1 group-title="Streamhub", [Soccer] La Serena vs Cobresal (STRMHUB)
 https://streamhub.pro/event/espn_401850482/la-serena-at-cobresal
+#EXTINF:-1 group-title="Streamhub", [Soccer] Audax Italiano vs Unión La Calera (STRMHUB)
+https://streamhub.pro/event/espn_401850490/audax-italiano-at-union-la-calera
 #EXTINF:-1 group-title="Streamhub", [Soccer] NAC Breda vs Telstar (STRMHUB)
 https://streamhub.pro/event/espn_741199/nac-breda-at-telstar
 #EXTINF:-1 group-title="Streamhub", [Soccer] Annecy vs Bastia (STRMHUB)
@@ -35,3 +37,9 @@ https://streamhub.pro/event/espn_401857414/los-chankas-at-melgar
 https://streamhub.pro/event/espn_750457/arouca-at-fc-porto
 #EXTINF:-1 group-title="Streamhub", [Soccer] Estoril vs Sporting CP (STRMHUB)
 https://streamhub.pro/event/espn_750459/estoril-at-sporting-cp
+#EXTINF:-1 group-title="Streamhub", [Basketball] Cavaliers vs Pistons (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810713/cleveland-cavaliers-vs-detroit-pistons
+#EXTINF:-1 group-title="Streamhub", [Hockey] Sabres vs Panthers (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803281/buffalo-sabres-vs-florida-panthers
+#EXTINF:-1 group-title="Streamhub", [Hockey] Golden Knights vs Capitals (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803282/vegas-golden-knights-vs-washington-capitals
