@@ -1,12 +1,8 @@
 #EXTM3U
 #EXTINF:-1 group-title="Streamhub", [Soccer] Central Córdoba (Santiago del Estero) vs Independiente (STRMHUB)
 https://streamhub.pro/event/espn_762887/central-cordoba--santiago-del-estero--at-independiente
-#EXTINF:-1 group-title="Streamhub", [Soccer] Huachipato vs Deportes Limache (STRMHUB)
-https://streamhub.pro/event/espn_401850484/huachipato-at-deportes-limache
 #EXTINF:-1 group-title="Streamhub", [Soccer] O'Higgins vs Palestino (STRMHUB)
 https://streamhub.pro/event/espn_401850486/o%E2%80%99higgins-at-palestino
-#EXTINF:-1 group-title="Streamhub", [Hockey] Oilers vs Sharks (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803287/edmonton-oilers-vs-san-jose-sharks
 #EXTINF:-1 group-title="Streamhub", [Hockey] Devils vs Blues (STRMHUB)
 https://streamhub.pro/event/espn_hockey_401803294/new-jersey-devils-vs-st--louis-blues
 #EXTINF:-1 group-title="Streamhub", [Hockey] Islanders vs Blue Jackets (STRMHUB)
