@@ -7,8 +7,12 @@ https://streamhub.pro/event/espn_740867/brentford-at-burnley
 https://streamhub.pro/event/espn_740872/west-ham-united-at-liverpool
 #EXTINF:-1 group-title="Streamhub", [Soccer] Everton vs Newcastle United (STRMHUB)
 https://streamhub.pro/event/espn_740874/everton-at-newcastle-united
+#EXTINF:-1 group-title="Streamhub", [Soccer] Manchester City vs Leeds United (STRMHUB)
+https://streamhub.pro/event/espn_740869/manchester-city-at-leeds-united
 #EXTINF:-1 group-title="Streamhub", [Soccer] Toulouse vs Stade Rennais (STRMHUB)
 https://streamhub.pro/event/espn_746626/toulouse-at-stade-rennais
+#EXTINF:-1 group-title="Streamhub", [Soccer] Angers vs AS Monaco (STRMHUB)
+https://streamhub.pro/event/espn_746624/angers-at-as-monaco
 #EXTINF:-1 group-title="Streamhub", [Soccer] Mainz vs Bayer Leverkusen (STRMHUB)
 https://streamhub.pro/event/espn_746925/mainz-at-bayer-leverkusen
 #EXTINF:-1 group-title="Streamhub", [Soccer] 1. FC Union Berlin vs Borussia Mönchengladbach (STRMHUB)
@@ -17,6 +21,8 @@ https://streamhub.pro/event/espn_746927/1--fc-union-berlin-at-borussia-monchengl
 https://streamhub.pro/event/espn_746932/st--pauli-at-tsg-hoffenheim
 #EXTINF:-1 group-title="Streamhub", [Soccer] 1. FC Heidenheim 1846 vs Werder Bremen (STRMHUB)
 https://streamhub.pro/event/espn_746931/1--fc-heidenheim-1846-at-werder-bremen
+#EXTINF:-1 group-title="Streamhub", [Soccer] Bayern Munich vs Borussia Dortmund (STRMHUB)
+https://streamhub.pro/event/espn_746926/bayern-munich-at-borussia-dortmund
 #EXTINF:-1 group-title="Streamhub", [Soccer] Lecce vs Como (STRMHUB)
 https://streamhub.pro/event/espn_737052/lecce-at-como
 #EXTINF:-1 group-title="Streamhub", [Soccer] Napoli vs Hellas Verona (STRMHUB)
@@ -25,10 +31,14 @@ https://streamhub.pro/event/espn_737050/napoli-at-hellas-verona
 https://streamhub.pro/event/espn_748397/athletic-club-at-rayo-vallecano
 #EXTINF:-1 group-title="Streamhub", [Soccer] Villarreal vs Barcelona (STRMHUB)
 https://streamhub.pro/event/espn_748402/villarreal-at-barcelona
+#EXTINF:-1 group-title="Streamhub", [Soccer] Real Sociedad vs Mallorca (STRMHUB)
+https://streamhub.pro/event/espn_748403/real-sociedad-at-mallorca
 #EXTINF:-1 group-title="Streamhub", [Soccer] Deportes Concepcion vs Coquimbo Unido (STRMHUB)
 https://streamhub.pro/event/espn_401850477/deportes-concepcion-at-coquimbo-unido
 #EXTINF:-1 group-title="Streamhub", [Soccer] Sparta Rotterdam vs Heerenveen (STRMHUB)
 https://streamhub.pro/event/espn_741196/sparta-rotterdam-at-heerenveen
+#EXTINF:-1 group-title="Streamhub", [Soccer] PSV Eindhoven vs Heracles Almelo (STRMHUB)
+https://streamhub.pro/event/espn_741200/psv-eindhoven-at-heracles-almelo
 #EXTINF:-1 group-title="Streamhub", [Soccer] Rodez Aveyron vs Guingamp (STRMHUB)
 https://streamhub.pro/event/espn_747682/rodez-aveyron-at-guingamp
 #EXTINF:-1 group-title="Streamhub", [Soccer] Le Mans vs Red Star FC 93 (STRMHUB)
@@ -41,7 +51,17 @@ https://streamhub.pro/event/espn_747237/sv-07-elversberg-at-holstein-kiel
 https://streamhub.pro/event/espn_747231/sc-paderborn-07-at-kaiserslautern
 #EXTINF:-1 group-title="Streamhub", [Soccer] Larissa FC vs OFI Crete (STRMHUB)
 https://streamhub.pro/event/espn_752431/larissa-fc-at-ofi-crete
+#EXTINF:-1 group-title="Streamhub", [Soccer] Panetolikos vs Atromitos (STRMHUB)
+https://streamhub.pro/event/espn_752433/panetolikos-at-atromitos
+#EXTINF:-1 group-title="Streamhub", [Soccer] Levadiakos vs Kifisia (STRMHUB)
+https://streamhub.pro/event/espn_752432/levadiakos-at-kifisia
 #EXTINF:-1 group-title="Streamhub", [Soccer] Sporting Cristal vs Sport Huancayo (STRMHUB)
 https://streamhub.pro/event/espn_401857407/sporting-cristal-at-sport-huancayo
 #EXTINF:-1 group-title="Streamhub", [Soccer] Estrela vs AVS (STRMHUB)
 https://streamhub.pro/event/espn_750453/estrela-at-avs
+#EXTINF:-1 group-title="Streamhub", [Soccer] Braga vs C.D. Nacional (STRMHUB)
+https://streamhub.pro/event/espn_750454/braga-at-c-d--nacional
+#EXTINF:-1 group-title="Streamhub", [Basketball] Trail Blazers vs Hornets (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810718/portland-trail-blazers-vs-charlotte-hornets
+#EXTINF:-1 group-title="Streamhub", [Hockey] Penguins vs Rangers (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803285/pittsburgh-penguins-vs-new-york-rangers
