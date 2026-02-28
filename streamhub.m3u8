@@ -41,10 +41,14 @@ https://streamhub.pro/event/espn_748403/real-sociedad-at-mallorca
 https://streamhub.pro/event/espn_748394/atletico-madrid-at-real-oviedo
 #EXTINF:-1 group-title="Streamhub", [Soccer] Gimnasia (Mendoza) vs Boca Juniors (STRMHUB)
 https://streamhub.pro/event/espn_762882/gimnasia--mendoza--at-boca-juniors
+#EXTINF:-1 group-title="Streamhub", [Soccer] Central Córdoba (Santiago del Estero) vs Independiente (STRMHUB)
+https://streamhub.pro/event/espn_762887/central-cordoba--santiago-del-estero--at-independiente
 #EXTINF:-1 group-title="Streamhub", [Soccer] Deportes Concepcion vs Coquimbo Unido (STRMHUB)
 https://streamhub.pro/event/espn_401850477/deportes-concepcion-at-coquimbo-unido
 #EXTINF:-1 group-title="Streamhub", [Soccer] Huachipato vs Deportes Limache (STRMHUB)
 https://streamhub.pro/event/espn_401850484/huachipato-at-deportes-limache
+#EXTINF:-1 group-title="Streamhub", [Soccer] O'Higgins vs Palestino (STRMHUB)
+https://streamhub.pro/event/espn_401850486/o%E2%80%99higgins-at-palestino
 #EXTINF:-1 group-title="Streamhub", [Soccer] Sparta Rotterdam vs Heerenveen (STRMHUB)
 https://streamhub.pro/event/espn_741196/sparta-rotterdam-at-heerenveen
 #EXTINF:-1 group-title="Streamhub", [Soccer] PSV Eindhoven vs Heracles Almelo (STRMHUB)
@@ -93,3 +97,7 @@ https://streamhub.pro/event/espn_hockey_401803286/boston-bruins-vs-philadelphia-
 https://streamhub.pro/event/espn_hockey_401803287/edmonton-oilers-vs-san-jose-sharks
 #EXTINF:-1 group-title="Streamhub", [Hockey] Devils vs Blues (STRMHUB)
 https://streamhub.pro/event/espn_hockey_401803294/new-jersey-devils-vs-st--louis-blues
+#EXTINF:-1 group-title="Streamhub", [Hockey] Islanders vs Blue Jackets (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803288/new-york-islanders-vs-columbus-blue-jackets
+#EXTINF:-1 group-title="Streamhub", [Hockey] Blackhawks vs Avalanche (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803289/chicago-blackhawks-vs-colorado-avalanche
