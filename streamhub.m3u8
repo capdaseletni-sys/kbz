@@ -1,8 +1,6 @@
 #EXTM3U
 #EXTINF:-1 group-title="Streamhub", [Soccer] Paris Saint-Germain vs Le Havre AC (STRMHUB)
 https://streamhub.pro/event/espn_746619/paris-saint-germain-at-le-havre-ac
-#EXTINF:-1 group-title="Streamhub", [Soccer] Genoa vs Internazionale (STRMHUB)
-https://streamhub.pro/event/espn_737049/genoa-at-internazionale
 #EXTINF:-1 group-title="Streamhub", [Soccer] Atlético Madrid vs Real Oviedo (STRMHUB)
 https://streamhub.pro/event/espn_748394/atletico-madrid-at-real-oviedo
 #EXTINF:-1 group-title="Streamhub", [Soccer] Gimnasia (Mendoza) vs Boca Juniors (STRMHUB)
@@ -15,10 +13,6 @@ https://streamhub.pro/event/espn_401850484/huachipato-at-deportes-limache
 https://streamhub.pro/event/espn_401850486/o%E2%80%99higgins-at-palestino
 #EXTINF:-1 group-title="Streamhub", [Soccer] Fortuna Sittard vs NEC Nijmegen (STRMHUB)
 https://streamhub.pro/event/espn_741197/fortuna-sittard-at-nec-nijmegen
-#EXTINF:-1 group-title="Streamhub", [Soccer] Saint-Étienne vs Pau (STRMHUB)
-https://streamhub.pro/event/espn_747679/saint-etienne-at-pau
-#EXTINF:-1 group-title="Streamhub", [Soccer] Schalke 04 vs SpVgg Greuther Fürth (STRMHUB)
-https://streamhub.pro/event/espn_747239/schalke-04-at-spvgg-greuther-furth
 #EXTINF:-1 group-title="Streamhub", [Soccer] Alverca vs Vitória de Guimaraes (STRMHUB)
 https://streamhub.pro/event/espn_750456/alverca-at-vitoria-de-guimaraes
 #EXTINF:-1 group-title="Streamhub", [Basketball] Rockets vs Heat (STRMHUB)
