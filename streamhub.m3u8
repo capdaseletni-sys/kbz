@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Angers vs AS Monaco (STRMHUB)
-https://streamhub.pro/event/espn_746624/angers-at-as-monaco
 #EXTINF:-1 group-title="Streamhub", [Soccer] Paris Saint-Germain vs Le Havre AC (STRMHUB)
 https://streamhub.pro/event/espn_746619/paris-saint-germain-at-le-havre-ac
 #EXTINF:-1 group-title="Streamhub", [Soccer] Genoa vs Internazionale (STRMHUB)
@@ -21,16 +19,8 @@ https://streamhub.pro/event/espn_741197/fortuna-sittard-at-nec-nijmegen
 https://streamhub.pro/event/espn_747679/saint-etienne-at-pau
 #EXTINF:-1 group-title="Streamhub", [Soccer] Schalke 04 vs SpVgg Greuther Fürth (STRMHUB)
 https://streamhub.pro/event/espn_747239/schalke-04-at-spvgg-greuther-furth
-#EXTINF:-1 group-title="Streamhub", [Soccer] Levadiakos vs Kifisia (STRMHUB)
-https://streamhub.pro/event/espn_752432/levadiakos-at-kifisia
-#EXTINF:-1 group-title="Streamhub", [Soccer] Alianza Lima vs UTC (STRMHUB)
-https://streamhub.pro/event/espn_401857408/alianza-lima-at-utc
-#EXTINF:-1 group-title="Streamhub", [Soccer] Braga vs C.D. Nacional (STRMHUB)
-https://streamhub.pro/event/espn_750454/braga-at-c-d--nacional
 #EXTINF:-1 group-title="Streamhub", [Soccer] Alverca vs Vitória de Guimaraes (STRMHUB)
 https://streamhub.pro/event/espn_750456/alverca-at-vitoria-de-guimaraes
-#EXTINF:-1 group-title="Streamhub", [Basketball] Trail Blazers vs Hornets (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810718/portland-trail-blazers-vs-charlotte-hornets
 #EXTINF:-1 group-title="Streamhub", [Basketball] Rockets vs Heat (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810719/houston-rockets-vs-miami-heat
 #EXTINF:-1 group-title="Streamhub", [Hockey] Bruins vs Flyers (STRMHUB)
