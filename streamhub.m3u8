@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] Bologna vs Pisa (STRMHUB)
+https://streamhub.pro/event/espn_737047/bologna-at-pisa
+#EXTINF:-1 group-title="Streamhub", [Soccer] Fiorentina vs Udinese (STRMHUB)
+https://streamhub.pro/event/espn_737048/fiorentina-at-udinese
 #EXTINF:-1 group-title="Streamhub", [Soccer] Platense vs Deportivo Riestra (STRMHUB)
 https://streamhub.pro/event/espn_762884/platense-at-deportivo-riestra
 #EXTINF:-1 group-title="Streamhub", [Soccer] Vélez Sarsfield vs Estudiantes de La Plata (STRMHUB)
