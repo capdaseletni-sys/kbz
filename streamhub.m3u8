@@ -1,3 +1,7 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] Platense vs Deportivo Riestra (STRMHUB)
+https://streamhub.pro/event/espn_762884/platense-at-deportivo-riestra
+#EXTINF:-1 group-title="Streamhub", [Soccer] Vélez Sarsfield vs Estudiantes de La Plata (STRMHUB)
+https://streamhub.pro/event/espn_762885/velez-sarsfield-at-estudiantes-de-la-plata
 #EXTINF:-1 group-title="Streamhub", [Soccer] Troyes vs SC Amiens (STRMHUB)
 https://streamhub.pro/event/espn_747678/troyes-at-sc-amiens
