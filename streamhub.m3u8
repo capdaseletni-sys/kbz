@@ -1,1 +1,7 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Basketball] Clippers vs Pacers (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810921/la-clippers-vs-indiana-pacers
+#EXTINF:-1 group-title="Streamhub", [Hockey] Red Wings vs Sabres (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803501/detroit-red-wings-vs-buffalo-sabres
+#EXTINF:-1 group-title="Streamhub", [Hockey] Blackhawks vs Rangers (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803502/chicago-blackhawks-vs-new-york-rangers
