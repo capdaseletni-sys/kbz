@@ -1,15 +1,3 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Hockey] Sharks vs Blues (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803494/san-jose-sharks-vs-st--louis-blues
-#EXTINF:-1 group-title="Streamhub", [Hockey] Devils vs Predators (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803495/new-jersey-devils-vs-nashville-predators
-#EXTINF:-1 group-title="Streamhub", [Hockey] Avalanche vs Jets (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803496/colorado-avalanche-vs-winnipeg-jets
-#EXTINF:-1 group-title="Streamhub", [Hockey] Capitals vs Mammoth (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803497/washington-capitals-vs-utah-mammoth
-#EXTINF:-1 group-title="Streamhub", [Hockey] Ducks vs Flames (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803498/anaheim-ducks-vs-calgary-flames
-#EXTINF:-1 group-title="Streamhub", [Hockey] Oilers vs Golden Knights (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803499/edmonton-oilers-vs-vegas-golden-knights
 #EXTINF:-1 group-title="Streamhub", [Hockey] Kings vs Canucks (STRMHUB)
 https://streamhub.pro/event/espn_hockey_401803500/los-angeles-kings-vs-vancouver-canucks
