@@ -1,7 +1,17 @@
 #EXTM3U
 #EXTINF:-1 group-title="Streamhub", [Basketball] Clippers vs Pacers (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810921/la-clippers-vs-indiana-pacers
+#EXTINF:-1 group-title="Streamhub", [Basketball] Hawks vs Celtics (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810922/atlanta-hawks-vs-boston-celtics
+#EXTINF:-1 group-title="Streamhub", [Basketball] Heat vs Cavaliers (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810923/miami-heat-vs-cleveland-cavaliers
 #EXTINF:-1 group-title="Streamhub", [Hockey] Red Wings vs Sabres (STRMHUB)
 https://streamhub.pro/event/espn_hockey_401803501/detroit-red-wings-vs-buffalo-sabres
 #EXTINF:-1 group-title="Streamhub", [Hockey] Blackhawks vs Rangers (STRMHUB)
 https://streamhub.pro/event/espn_hockey_401803502/chicago-blackhawks-vs-new-york-rangers
+#EXTINF:-1 group-title="Streamhub", [Basketball] Rockets vs Grizzlies (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810924/houston-rockets-vs-memphis-grizzlies
+#EXTINF:-1 group-title="Streamhub", [Basketball] Bulls vs Thunder (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810925/chicago-bulls-vs-oklahoma-city-thunder
+#EXTINF:-1 group-title="Streamhub", [Basketball] Pelicans vs Raptors (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810926/new-orleans-pelicans-vs-toronto-raptors
