@@ -1,7 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Basketball] Wizards vs Warriors (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810928/washington-wizards-vs-golden-state-warriors
-#EXTINF:-1 group-title="Streamhub", [Basketball] Mavericks vs Trail Blazers (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810929/dallas-mavericks-vs-portland-trail-blazers
-#EXTINF:-1 group-title="Streamhub", [Basketball] Nets vs Lakers (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810930/brooklyn-nets-vs-los-angeles-lakers
+#EXTINF:-1 group-title="Streamhub", [Hockey] Senators vs Lightning (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803503/ottawa-senators-vs-tampa-bay-lightning
+#EXTINF:-1 group-title="Streamhub", [Hockey] Panthers vs Islanders (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803504/florida-panthers-vs-new-york-islanders
