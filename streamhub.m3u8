@@ -1,7 +1,3 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Basketball] Jazz vs Suns (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810936/utah-jazz-vs-phoenix-suns
-#EXTINF:-1 group-title="Streamhub", [Hockey] Canucks vs Flames (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803516/vancouver-canucks-vs-calgary-flames
-#EXTINF:-1 group-title="Streamhub", [Hockey] Capitals vs Golden Knights (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803517/washington-capitals-vs-vegas-golden-knights
+#EXTINF:-1 group-title="Streamhub", [Hockey] Panthers vs Rangers (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803518/florida-panthers-vs-new-york-rangers
