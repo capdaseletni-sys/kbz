@@ -1,5 +1,13 @@
 #EXTM3U
 #EXTINF:-1 group-title="Streamhub", [Basketball] Clippers vs Bucks (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810937/la-clippers-vs-milwaukee-bucks
+#EXTINF:-1 group-title="Streamhub", [Basketball] Heat vs Pacers (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810938/miami-heat-vs-indiana-pacers
 #EXTINF:-1 group-title="Streamhub", [Hockey] Panthers vs Rangers (STRMHUB)
 https://streamhub.pro/event/espn_hockey_401803518/florida-panthers-vs-new-york-rangers
+#EXTINF:-1 group-title="Streamhub", [Hockey] Predators vs Lightning (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803519/nashville-predators-vs-tampa-bay-lightning
+#EXTINF:-1 group-title="Streamhub", [Hockey] Canadiens vs Hurricanes (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803520/montreal-canadiens-vs-carolina-hurricanes
+#EXTINF:-1 group-title="Streamhub", [Hockey] Bruins vs Blue Jackets (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803521/boston-bruins-vs-columbus-blue-jackets
