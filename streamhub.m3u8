@@ -1,19 +1,3 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Basketball] Kings vs Nets (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810939/sacramento-kings-vs-brooklyn-nets
-#EXTINF:-1 group-title="Streamhub", [Basketball] Celtics vs Hornets (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810940/boston-celtics-vs-charlotte-hornets
-#EXTINF:-1 group-title="Streamhub", [Basketball] Magic vs Raptors (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810941/orlando-magic-vs-toronto-raptors
-#EXTINF:-1 group-title="Streamhub", [Basketball] Wizards vs Trail Blazers (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810942/washington-wizards-vs-portland-trail-blazers
-#EXTINF:-1 group-title="Streamhub", [Basketball] Rockets vs Pelicans (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810943/houston-rockets-vs-new-orleans-pelicans
-#EXTINF:-1 group-title="Streamhub", [Basketball] Knicks vs Thunder (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810944/new-york-knicks-vs-oklahoma-city-thunder
-#EXTINF:-1 group-title="Streamhub", [Hockey] Blackhawks vs Devils (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803522/chicago-blackhawks-vs-new-jersey-devils
-#EXTINF:-1 group-title="Streamhub", [Hockey] Stars vs Flyers (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803523/dallas-stars-vs-philadelphia-flyers
 #EXTINF:-1 group-title="Streamhub", [Basketball] Warriors vs Nuggets (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810945/golden-state-warriors-vs-denver-nuggets
