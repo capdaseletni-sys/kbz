@@ -1,1 +1,21 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Basketball] Suns vs Magic (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810954/phoenix-suns-vs-orlando-magic
+#EXTINF:-1 group-title="Streamhub", [Basketball] Hornets vs Nets (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401810955/charlotte-hornets-vs-brooklyn-nets
+#EXTINF:-1 group-title="Streamhub", [Hockey] Stars vs Bruins (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803529/dallas-stars-vs-boston-bruins
+#EXTINF:-1 group-title="Streamhub", [Hockey] Islanders vs Sabres (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803530/new-york-islanders-vs-buffalo-sabres
+#EXTINF:-1 group-title="Streamhub", [Hockey] Canadiens vs Lightning (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803531/montreal-canadiens-vs-tampa-bay-lightning
+#EXTINF:-1 group-title="Streamhub", [Hockey] Senators vs Panthers (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803532/ottawa-senators-vs-florida-panthers
+#EXTINF:-1 group-title="Streamhub", [Hockey] Devils vs Rangers (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803533/new-jersey-devils-vs-new-york-rangers
+#EXTINF:-1 group-title="Streamhub", [Hockey] Red Wings vs Penguins (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803534/detroit-red-wings-vs-pittsburgh-penguins
+#EXTINF:-1 group-title="Streamhub", [Hockey] Flyers vs Capitals (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803535/philadelphia-flyers-vs-washington-capitals
+#EXTINF:-1 group-title="Streamhub", [Hockey] Hurricanes vs Blue Jackets (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803536/carolina-hurricanes-vs-columbus-blue-jackets
