@@ -1,10 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Basketball] 76ers vs Heat (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810946/philadelphia-76ers-vs-miami-heat
-#EXTINF:-1 group-title="Streamhub", [Basketball] Celtics vs Hawks (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810947/boston-celtics-vs-atlanta-hawks
-#EXTINF:-1 group-title="Streamhub", [Hockey] Penguins vs Islanders (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803524/pittsburgh-penguins-vs-new-york-islanders
 #EXTINF:-1 group-title="Streamhub", [Basketball] Suns vs Grizzlies (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810948/phoenix-suns-vs-memphis-grizzlies
 #EXTINF:-1 group-title="Streamhub", [Basketball] Bulls vs Spurs (STRMHUB)
