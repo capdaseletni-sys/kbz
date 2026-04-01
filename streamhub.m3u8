@@ -1,15 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Basketball] Raptors vs Pistons (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810956/toronto-raptors-vs-detroit-pistons
-#EXTINF:-1 group-title="Streamhub", [Basketball] Knicks vs Rockets (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401810957/new-york-knicks-vs-houston-rockets
-#EXTINF:-1 group-title="Streamhub", [Basketball] Mavericks vs Bucks (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401858694/dallas-mavericks-vs-milwaukee-bucks
 #EXTINF:-1 group-title="Streamhub", [Basketball] Cavaliers vs Lakers (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810958/cleveland-cavaliers-vs-los-angeles-lakers
 #EXTINF:-1 group-title="Streamhub", [Basketball] Trail Blazers vs Clippers (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401810959/portland-trail-blazers-vs-la-clippers
-#EXTINF:-1 group-title="Streamhub", [Hockey] Jets vs Blackhawks (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803537/winnipeg-jets-vs-chicago-blackhawks
-#EXTINF:-1 group-title="Streamhub", [Hockey] Kraken vs Oilers (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803538/seattle-kraken-vs-edmonton-oilers
