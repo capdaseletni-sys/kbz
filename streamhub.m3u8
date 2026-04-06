@@ -1,12 +1,8 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Genoa vs Juventus (STRMHUB)
-https://streamhub.pro/event/espn_737089/genoa-at-juventus
 #EXTINF:-1 group-title="Streamhub", [Soccer] AC Milan vs Napoli (STRMHUB)
 https://streamhub.pro/event/espn_737086/ac-milan-at-napoli
 #EXTINF:-1 group-title="Streamhub", [Soccer] Villarreal vs Girona (STRMHUB)
 https://streamhub.pro/event/espn_748436/villarreal-at-girona
-#EXTINF:-1 group-title="Streamhub", [Soccer] AGF vs Viborg FF (STRMHUB)
-https://streamhub.pro/event/espn_401863643/agf-at-viborg-ff
 #EXTINF:-1 group-title="Streamhub", [Soccer] Pau vs Le Mans (STRMHUB)
 https://streamhub.pro/event/espn_747720/pau-at-le-mans
 #EXTINF:-1 group-title="Streamhub", [Soccer] Istanbul Basaksehir vs Kocaelispor (STRMHUB)
