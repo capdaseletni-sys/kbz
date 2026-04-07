@@ -1,11 +1,3 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Basketball] Cavaliers vs Grizzlies (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401811000/cleveland-cavaliers-vs-memphis-grizzlies
-#EXTINF:-1 group-title="Streamhub", [Basketball] 76ers vs Spurs (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401811001/philadelphia-76ers-vs-san-antonio-spurs
-#EXTINF:-1 group-title="Streamhub", [Basketball] Trail Blazers vs Nuggets (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401811002/portland-trail-blazers-vs-denver-nuggets
-#EXTINF:-1 group-title="Streamhub", [Hockey] Blackhawks vs Sharks (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803582/chicago-blackhawks-vs-san-jose-sharks
 #EXTINF:-1 group-title="Streamhub", [Hockey] Predators vs Kings (STRMHUB)
 https://streamhub.pro/event/espn_hockey_401803583/nashville-predators-vs-los-angeles-kings
