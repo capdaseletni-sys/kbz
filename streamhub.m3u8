@@ -1,3 +1,7 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] Bayern Munich vs Real Madrid (STRMHUB)
+https://streamhub.pro/event/espn_401862886/bayern-munich-at-real-madrid
+#EXTINF:-1 group-title="Streamhub", [Soccer] Arsenal vs Sporting CP (STRMHUB)
+https://streamhub.pro/event/espn_401862888/arsenal-at-sporting-cp
 #EXTINF:-1 group-title="Streamhub", [Soccer] Brøndby IF vs FC Nordsjælland (STRMHUB)
 https://streamhub.pro/event/espn_401863644/brondby-if-at-fc-nordsjaelland
