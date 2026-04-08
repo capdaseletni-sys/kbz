@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] Atlético Madrid vs Barcelona (STRMHUB)
+https://streamhub.pro/event/espn_401862887/atletico-madrid-at-barcelona
+#EXTINF:-1 group-title="Streamhub", [Soccer] Liverpool vs Paris Saint-Germain (STRMHUB)
+https://streamhub.pro/event/espn_401862885/liverpool-at-paris-saint-germain
 #EXTINF:-1 group-title="Streamhub", [Soccer] Real Betis vs Braga (STRMHUB)
 https://streamhub.pro/event/espn_401862899/real-betis-at-braga
 #EXTINF:-1 group-title="Streamhub", [Soccer] Panetolikos vs Larissa FC (STRMHUB)
