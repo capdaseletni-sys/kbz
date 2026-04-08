@@ -1,14 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Atlético Madrid vs Barcelona (STRMHUB)
-https://streamhub.pro/event/espn_401862887/atletico-madrid-at-barcelona
-#EXTINF:-1 group-title="Streamhub", [Soccer] Liverpool vs Paris Saint-Germain (STRMHUB)
-https://streamhub.pro/event/espn_401862885/liverpool-at-paris-saint-germain
-#EXTINF:-1 group-title="Streamhub", [Soccer] Real Betis vs Braga (STRMHUB)
-https://streamhub.pro/event/espn_401862899/real-betis-at-braga
-#EXTINF:-1 group-title="Streamhub", [Soccer] Kifisia vs Atromitos (STRMHUB)
-https://streamhub.pro/event/espn_401866541/kifisia-at-atromitos
-#EXTINF:-1 group-title="Streamhub", [Soccer] Galatasaray vs Goztepe (STRMHUB)
-https://streamhub.pro/event/espn_750157/galatasaray-at-goztepe
 #EXTINF:-1 group-title="Streamhub", [Basketball] Hawks vs Cavaliers (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401811013/atlanta-hawks-vs-cleveland-cavaliers
 #EXTINF:-1 group-title="Streamhub", [Basketball] Timberwolves vs Magic (STRMHUB)
