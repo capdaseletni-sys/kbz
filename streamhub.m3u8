@@ -1,27 +1,13 @@
 #EXTM3U
 #EXTINF:-1 group-title="Streamhub", [Soccer] Panetolikos vs Larissa FC (STRMHUB)
 https://streamhub.pro/event/espn_401866540/panetolikos-at-larissa-fc
-#EXTINF:-1 group-title="Streamhub", [Basketball] Hornets vs Celtics (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401811004/charlotte-hornets-vs-boston-celtics
-#EXTINF:-1 group-title="Streamhub", [Basketball] Jazz vs Pelicans (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401811008/utah-jazz-vs-new-orleans-pelicans
-#EXTINF:-1 group-title="Streamhub", [Basketball] Kings vs Warriors (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401811009/sacramento-kings-vs-golden-state-warriors
+#EXTINF:-1 group-title="Streamhub", [Soccer] Asteras Tripoli vs Panserraikos FC (STRMHUB)
+https://streamhub.pro/event/espn_401866542/asteras-tripoli-at-panserraikos-fc
+#EXTINF:-1 group-title="Streamhub", [Soccer] Kifisia vs Atromitos (STRMHUB)
+https://streamhub.pro/event/espn_401866541/kifisia-at-atromitos
 #EXTINF:-1 group-title="Streamhub", [Basketball] Thunder vs Lakers (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401811010/oklahoma-city-thunder-vs-los-angeles-lakers
 #EXTINF:-1 group-title="Streamhub", [Basketball] Mavericks vs Clippers (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401811011/dallas-mavericks-vs-la-clippers
 #EXTINF:-1 group-title="Streamhub", [Basketball] Rockets vs Suns (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401811012/houston-rockets-vs-phoenix-suns
-#EXTINF:-1 group-title="Streamhub", [Hockey] Avalanche vs Blues (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803589/colorado-avalanche-vs-st--louis-blues
-#EXTINF:-1 group-title="Streamhub", [Hockey] Flames vs Stars (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803590/calgary-flames-vs-dallas-stars
-#EXTINF:-1 group-title="Streamhub", [Hockey] Kraken vs Wild (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803591/seattle-kraken-vs-minnesota-wild
-#EXTINF:-1 group-title="Streamhub", [Hockey] Oilers vs Mammoth (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803592/edmonton-oilers-vs-utah-mammoth
-#EXTINF:-1 group-title="Streamhub", [Hockey] Golden Knights vs Canucks (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803593/vegas-golden-knights-vs-vancouver-canucks
-#EXTINF:-1 group-title="Streamhub", [Hockey] Predators vs Ducks (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803594/nashville-predators-vs-anaheim-ducks
