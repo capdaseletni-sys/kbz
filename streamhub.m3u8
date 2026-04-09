@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] AEK Athens vs Rayo Vallecano (STRMHUB)
-https://streamhub.pro/event/espn_401862919/aek-athens-at-rayo-vallecano
 #EXTINF:-1 group-title="Streamhub", [Soccer] Fiorentina vs Crystal Palace (STRMHUB)
 https://streamhub.pro/event/espn_401862917/fiorentina-at-crystal-palace
 #EXTINF:-1 group-title="Streamhub", [Soccer] Strasbourg vs Mainz (STRMHUB)
@@ -13,8 +11,6 @@ https://streamhub.pro/event/espn_401862902/aston-villa-at-bologna
 https://streamhub.pro/event/espn_401862901/nottingham-forest-at-fc-porto
 #EXTINF:-1 group-title="Streamhub", [Soccer] Celta Vigo vs SC Freiburg (STRMHUB)
 https://streamhub.pro/event/espn_401862900/celta-vigo-at-sc-freiburg
-#EXTINF:-1 group-title="Streamhub", [Soccer] Samsunspor vs Caykur Rizespor (STRMHUB)
-https://streamhub.pro/event/espn_750154/samsunspor-at-caykur-rizespor
 #EXTINF:-1 group-title="Streamhub", [Basketball] Heat vs Raptors (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401811020/miami-heat-vs-toronto-raptors
 #EXTINF:-1 group-title="Streamhub", [Basketball] Bulls vs Wizards (STRMHUB)
