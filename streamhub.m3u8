@@ -1,1 +1,7 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Basketball] Thunder vs Clippers (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401811018/oklahoma-city-thunder-vs-la-clippers
+#EXTINF:-1 group-title="Streamhub", [Basketball] Mavericks vs Suns (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401811019/dallas-mavericks-vs-phoenix-suns
+#EXTINF:-1 group-title="Streamhub", [Hockey] Oilers vs Sharks (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803597/edmonton-oilers-vs-san-jose-sharks
