@@ -1,5 +1,25 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] LASK Linz vs RB Salzburg (STRMHUB)
+https://streamhub.pro/event/espn_401864013/lask-linz-at-rb-salzburg
+#EXTINF:-1 group-title="Streamhub", [Soccer] AS Monaco vs Paris FC (STRMHUB)
+https://streamhub.pro/event/espn_746670/as-monaco-at-paris-fc
+#EXTINF:-1 group-title="Streamhub", [Soccer] FC Nordsjælland vs AGF (STRMHUB)
+https://streamhub.pro/event/espn_401863645/fc-nordsjaelland-at-agf
+#EXTINF:-1 group-title="Streamhub", [Soccer] FC Volendam vs FC Twente (STRMHUB)
+https://streamhub.pro/event/espn_741238/fc-volendam-at-fc-twente
+#EXTINF:-1 group-title="Streamhub", [Soccer] Montpellier vs Annecy (STRMHUB)
+https://streamhub.pro/event/espn_747727/montpellier-at-annecy
+#EXTINF:-1 group-title="Streamhub", [Soccer] AS Nancy Lorraine vs Clermont Foot (STRMHUB)
+https://streamhub.pro/event/espn_747726/as-nancy-lorraine-at-clermont-foot
+#EXTINF:-1 group-title="Streamhub", [Soccer] Grenoble vs Guingamp (STRMHUB)
+https://streamhub.pro/event/espn_747725/grenoble-at-guingamp
+#EXTINF:-1 group-title="Streamhub", [Soccer] Pau vs SC Amiens (STRMHUB)
+https://streamhub.pro/event/espn_747728/pau-at-sc-amiens
+#EXTINF:-1 group-title="Streamhub", [Soccer] Stade de Reims vs Stade Laval (STRMHUB)
+https://streamhub.pro/event/espn_747724/stade-de-reims-at-stade-laval
 #EXTINF:-1 group-title="Streamhub", [Soccer] Holstein Kiel vs Fortuna Düsseldorf (STRMHUB)
 https://streamhub.pro/event/espn_747277/holstein-kiel-at-fortuna-dusseldorf
 #EXTINF:-1 group-title="Streamhub", [Soccer] Arminia Bielefeld vs Karlsruher SC (STRMHUB)
 https://streamhub.pro/event/espn_747279/arminia-bielefeld-at-karlsruher-sc
+#EXTINF:-1 group-title="Streamhub", [Soccer] Antalyaspor vs Besiktas (STRMHUB)
+https://streamhub.pro/event/espn_750171/antalyaspor-at-besiktas
