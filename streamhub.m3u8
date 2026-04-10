@@ -1,8 +1,18 @@
 #EXTM3U
 #EXTINF:-1 group-title="Streamhub", [Soccer] LASK Linz vs RB Salzburg (STRMHUB)
 https://streamhub.pro/event/espn_401864013/lask-linz-at-rb-salzburg
+#EXTINF:-1 group-title="Streamhub", [Soccer] Wolverhampton Wanderers vs West Ham United (STRMHUB)
+https://streamhub.pro/event/espn_740913/wolverhampton-wanderers-at-west-ham-united
 #EXTINF:-1 group-title="Streamhub", [Soccer] AS Monaco vs Paris FC (STRMHUB)
 https://streamhub.pro/event/espn_746670/as-monaco-at-paris-fc
+#EXTINF:-1 group-title="Streamhub", [Soccer] Metz vs Marseille (STRMHUB)
+https://streamhub.pro/event/espn_746668/metz-at-marseille
+#EXTINF:-1 group-title="Streamhub", [Soccer] TSG Hoffenheim vs FC Augsburg (STRMHUB)
+https://streamhub.pro/event/espn_746974/tsg-hoffenheim-at-fc-augsburg
+#EXTINF:-1 group-title="Streamhub", [Soccer] Pisa vs AS Roma (STRMHUB)
+https://streamhub.pro/event/espn_737094/pisa-at-as-roma
+#EXTINF:-1 group-title="Streamhub", [Soccer] Girona vs Real Madrid (STRMHUB)
+https://streamhub.pro/event/espn_748453/girona-at-real-madrid
 #EXTINF:-1 group-title="Streamhub", [Soccer] FC Nordsjælland vs AGF (STRMHUB)
 https://streamhub.pro/event/espn_401863645/fc-nordsjaelland-at-agf
 #EXTINF:-1 group-title="Streamhub", [Soccer] FC Volendam vs FC Twente (STRMHUB)
