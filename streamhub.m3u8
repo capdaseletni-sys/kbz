@@ -1,10 +1,6 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] LASK Linz vs RB Salzburg (STRMHUB)
-https://streamhub.pro/event/espn_401864013/lask-linz-at-rb-salzburg
 #EXTINF:-1 group-title="Streamhub", [Soccer] Wolverhampton Wanderers vs West Ham United (STRMHUB)
 https://streamhub.pro/event/espn_740913/wolverhampton-wanderers-at-west-ham-united
-#EXTINF:-1 group-title="Streamhub", [Soccer] AS Monaco vs Paris FC (STRMHUB)
-https://streamhub.pro/event/espn_746670/as-monaco-at-paris-fc
 #EXTINF:-1 group-title="Streamhub", [Soccer] Metz vs Marseille (STRMHUB)
 https://streamhub.pro/event/espn_746668/metz-at-marseille
 #EXTINF:-1 group-title="Streamhub", [Soccer] TSG Hoffenheim vs FC Augsburg (STRMHUB)
@@ -13,8 +9,6 @@ https://streamhub.pro/event/espn_746974/tsg-hoffenheim-at-fc-augsburg
 https://streamhub.pro/event/espn_737094/pisa-at-as-roma
 #EXTINF:-1 group-title="Streamhub", [Soccer] Girona vs Real Madrid (STRMHUB)
 https://streamhub.pro/event/espn_748453/girona-at-real-madrid
-#EXTINF:-1 group-title="Streamhub", [Soccer] FC Nordsjælland vs AGF (STRMHUB)
-https://streamhub.pro/event/espn_401863645/fc-nordsjaelland-at-agf
 #EXTINF:-1 group-title="Streamhub", [Soccer] FC Volendam vs FC Twente (STRMHUB)
 https://streamhub.pro/event/espn_741238/fc-volendam-at-fc-twente
 #EXTINF:-1 group-title="Streamhub", [Soccer] Montpellier vs Annecy (STRMHUB)
@@ -27,8 +21,6 @@ https://streamhub.pro/event/espn_747725/grenoble-at-guingamp
 https://streamhub.pro/event/espn_747728/pau-at-sc-amiens
 #EXTINF:-1 group-title="Streamhub", [Soccer] Stade de Reims vs Stade Laval (STRMHUB)
 https://streamhub.pro/event/espn_747724/stade-de-reims-at-stade-laval
-#EXTINF:-1 group-title="Streamhub", [Soccer] Antalyaspor vs Besiktas (STRMHUB)
-https://streamhub.pro/event/espn_750171/antalyaspor-at-besiktas
 #EXTINF:-1 group-title="Streamhub", [Basketball] Pistons vs Hornets (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401811026/detroit-pistons-vs-charlotte-hornets
 #EXTINF:-1 group-title="Streamhub", [Basketball] Heat vs Wizards (STRMHUB)
