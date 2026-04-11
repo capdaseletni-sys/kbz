@@ -1,35 +1,31 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Hellas Verona vs Torino (STRMHUB)
-https://streamhub.pro/event/espn_737103/hellas-verona-at-torino
-#EXTINF:-1 group-title="Streamhub", [Soccer] Udinese vs AC Milan (STRMHUB)
-https://streamhub.pro/event/espn_737096/udinese-at-ac-milan
-#EXTINF:-1 group-title="Streamhub", [Soccer] Juventus vs Atalanta (STRMHUB)
-https://streamhub.pro/event/espn_737102/juventus-at-atalanta
-#EXTINF:-1 group-title="Streamhub", [Soccer] Alavés vs Real Sociedad (STRMHUB)
-https://streamhub.pro/event/espn_748452/alaves-at-real-sociedad
-#EXTINF:-1 group-title="Streamhub", [Soccer] Valencia vs Elche (STRMHUB)
-https://streamhub.pro/event/espn_748447/valencia-at-elche
-#EXTINF:-1 group-title="Streamhub", [Soccer] Espanyol vs Barcelona (STRMHUB)
-https://streamhub.pro/event/espn_748449/espanyol-at-barcelona
-#EXTINF:-1 group-title="Streamhub", [Soccer] Atlético Madrid vs Sevilla (STRMHUB)
-https://streamhub.pro/event/espn_748450/atletico-madrid-at-sevilla
-#EXTINF:-1 group-title="Streamhub", [Soccer] Telstar vs FC Utrecht (STRMHUB)
-https://streamhub.pro/event/espn_741237/telstar-at-fc-utrecht
-#EXTINF:-1 group-title="Streamhub", [Soccer] PSV Eindhoven vs Sparta Rotterdam (STRMHUB)
-https://streamhub.pro/event/espn_741242/psv-eindhoven-at-sparta-rotterdam
-#EXTINF:-1 group-title="Streamhub", [Soccer] Go Ahead Eagles vs FC Groningen (STRMHUB)
-https://streamhub.pro/event/espn_741239/go-ahead-eagles-at-fc-groningen
-#EXTINF:-1 group-title="Streamhub", [Soccer] Ajax Amsterdam vs Heracles Almelo (STRMHUB)
-https://streamhub.pro/event/espn_741245/ajax-amsterdam-at-heracles-almelo
-#EXTINF:-1 group-title="Streamhub", [Soccer] Le Mans vs Boulogne (STRMHUB)
-https://streamhub.pro/event/espn_747729/le-mans-at-boulogne
-#EXTINF:-1 group-title="Streamhub", [Soccer] Bastia vs Red Star FC 93 (STRMHUB)
-https://streamhub.pro/event/espn_747730/bastia-at-red-star-fc-93
-#EXTINF:-1 group-title="Streamhub", [Soccer] Dunkerque vs Saint-Étienne (STRMHUB)
-https://streamhub.pro/event/espn_747731/dunkerque-at-saint-etienne
-#EXTINF:-1 group-title="Streamhub", [Soccer] Hannover 96 vs SV Darmstadt 98 (STRMHUB)
-https://streamhub.pro/event/espn_747283/hannover-96-at-sv-darmstadt-98
-#EXTINF:-1 group-title="Streamhub", [Soccer] Trabzonspor vs Alanyaspor (STRMHUB)
-https://streamhub.pro/event/espn_750170/trabzonspor-at-alanyaspor
-#EXTINF:-1 group-title="Streamhub", [Soccer] Fenerbahce vs Kayserispor (STRMHUB)
-https://streamhub.pro/event/espn_750177/fenerbahce-at-kayserispor
+#EXTINF:-1 group-title="Streamhub", [Hockey] Lightning vs Bruins (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803612/tampa-bay-lightning-vs-boston-bruins
+#EXTINF:-1 group-title="Streamhub", [Hockey] Senators vs Islanders (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803613/ottawa-senators-vs-new-york-islanders
+#EXTINF:-1 group-title="Streamhub", [Hockey] Capitals vs Penguins (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803614/washington-capitals-vs-pittsburgh-penguins
+#EXTINF:-1 group-title="Streamhub", [Hockey] Oilers vs Kings (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803615/edmonton-oilers-vs-los-angeles-kings
+#EXTINF:-1 group-title="Streamhub", [Hockey] Devils vs Red Wings (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803616/new-jersey-devils-vs-detroit-red-wings
+#EXTINF:-1 group-title="Streamhub", [Hockey] Blues vs Blackhawks (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803617/st--louis-blues-vs-chicago-blackhawks
+#EXTINF:-1 group-title="Streamhub", [Hockey] Wild vs Predators (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803618/minnesota-wild-vs-nashville-predators
+#EXTINF:-1 group-title="Streamhub", [Hockey] Rangers vs Stars (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803619/new-york-rangers-vs-dallas-stars
+#EXTINF:-1 group-title="Streamhub", [Hockey] Hurricanes vs Mammoth (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803620/carolina-hurricanes-vs-utah-mammoth
+#EXTINF:-1 group-title="Streamhub", [Hockey] Panthers vs Maple Leafs (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803621/florida-panthers-vs-toronto-maple-leafs
+#EXTINF:-1 group-title="Streamhub", [Hockey] Blue Jackets vs Canadiens (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803622/columbus-blue-jackets-vs-montreal-canadiens
+#EXTINF:-1 group-title="Streamhub", [Hockey] Flyers vs Jets (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803623/philadelphia-flyers-vs-winnipeg-jets
+#EXTINF:-1 group-title="Streamhub", [Hockey] Flames vs Kraken (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803624/calgary-flames-vs-seattle-kraken
+#EXTINF:-1 group-title="Streamhub", [Hockey] Golden Knights vs Avalanche (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803625/vegas-golden-knights-vs-colorado-avalanche
+#EXTINF:-1 group-title="Streamhub", [Hockey] Canucks vs Sharks (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803626/vancouver-canucks-vs-san-jose-sharks
