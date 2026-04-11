@@ -1,22 +1,20 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Basketball] Pistons vs Hornets (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401811026/detroit-pistons-vs-charlotte-hornets
-#EXTINF:-1 group-title="Streamhub", [Basketball] Heat vs Wizards (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401811027/miami-heat-vs-washington-wizards
-#EXTINF:-1 group-title="Streamhub", [Basketball] Cavaliers vs Hawks (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401811028/cleveland-cavaliers-vs-atlanta-hawks
-#EXTINF:-1 group-title="Streamhub", [Basketball] Pelicans vs Celtics (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401811029/new-orleans-pelicans-vs-boston-celtics
-#EXTINF:-1 group-title="Streamhub", [Basketball] 76ers vs Pacers (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401811030/philadelphia-76ers-vs-indiana-pacers
-#EXTINF:-1 group-title="Streamhub", [Basketball] Raptors vs Knicks (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401811031/toronto-raptors-vs-new-york-knicks
+#EXTINF:-1 group-title="Streamhub", [Soccer] AFC Bournemouth vs Arsenal (STRMHUB)
+https://streamhub.pro/event/espn_740908/afc-bournemouth-at-arsenal
+#EXTINF:-1 group-title="Streamhub", [Soccer] Alavés vs Real Sociedad (STRMHUB)
+https://streamhub.pro/event/espn_748452/alaves-at-real-sociedad
+#EXTINF:-1 group-title="Streamhub", [Soccer] Le Mans vs Boulogne (STRMHUB)
+https://streamhub.pro/event/espn_747729/le-mans-at-boulogne
+#EXTINF:-1 group-title="Streamhub", [Soccer] Bastia vs Red Star FC 93 (STRMHUB)
+https://streamhub.pro/event/espn_747730/bastia-at-red-star-fc-93
 #EXTINF:-1 group-title="Streamhub", [Soccer] Dynamo Dresden vs 1. FC Nürnberg (STRMHUB)
 https://streamhub.pro/event/espn_747276/dynamo-dresden-at-1--fc-nurnberg
 #EXTINF:-1 group-title="Streamhub", [Soccer] Kaiserslautern vs Hertha Berlin (STRMHUB)
 https://streamhub.pro/event/espn_747278/kaiserslautern-at-hertha-berlin
 #EXTINF:-1 group-title="Streamhub", [Soccer] SpVgg Greuther Fürth vs Preußen Münster (STRMHUB)
 https://streamhub.pro/event/espn_747281/spvgg-greuther-furth-at-preusen-munster
+#EXTINF:-1 group-title="Streamhub", [Soccer] Genclerbirligi vs Istanbul Basaksehir (STRMHUB)
+https://streamhub.pro/event/espn_750176/genclerbirligi-at-istanbul-basaksehir
 #EXTINF:-1 group-title="Streamhub", [Basketball] Magic vs Bulls (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401811032/orlando-magic-vs-chicago-bulls
 #EXTINF:-1 group-title="Streamhub", [Basketball] Nets vs Bucks (STRMHUB)
