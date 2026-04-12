@@ -1,12 +1,6 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Rapid Vienna vs Austria Vienna (STRMHUB)
-https://streamhub.pro/event/espn_401864018/rapid-vienna-at-austria-vienna
 #EXTINF:-1 group-title="Streamhub", [Soccer] Manchester City vs Chelsea (STRMHUB)
 https://streamhub.pro/event/espn_740909/manchester-city-at-chelsea
-#EXTINF:-1 group-title="Streamhub", [Soccer] Le Havre AC vs Nice (STRMHUB)
-https://streamhub.pro/event/espn_746669/le-havre-ac-at-nice
-#EXTINF:-1 group-title="Streamhub", [Soccer] Lille vs Toulouse (STRMHUB)
-https://streamhub.pro/event/espn_746672/lille-at-toulouse
 #EXTINF:-1 group-title="Streamhub", [Soccer] Lorient vs Lyon (STRMHUB)
 https://streamhub.pro/event/espn_746667/lorient-at-lyon
 #EXTINF:-1 group-title="Streamhub", [Soccer] Hamburg SV vs VfB Stuttgart (STRMHUB)
@@ -23,10 +17,22 @@ https://streamhub.pro/event/espn_748448/real-oviedo-at-celta-vigo
 https://streamhub.pro/event/espn_748451/villarreal-at-athletic-club
 #EXTINF:-1 group-title="Streamhub", [Soccer] F.C. København vs Randers FC (STRMHUB)
 https://streamhub.pro/event/espn_401863649/f-c--kobenhavn-at-randers-fc
-#EXTINF:-1 group-title="Streamhub", [Soccer] Heerenveen vs AZ Alkmaar (STRMHUB)
-https://streamhub.pro/event/espn_741240/heerenveen-at-az-alkmaar
 #EXTINF:-1 group-title="Streamhub", [Soccer] Kocaelispor vs Galatasaray (STRMHUB)
 https://streamhub.pro/event/espn_750174/kocaelispor-at-galatasaray
+#EXTINF:-1 group-title="Streamhub", [Basketball] Magic vs Celtics (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401811041/orlando-magic-vs-boston-celtics
+#EXTINF:-1 group-title="Streamhub", [Basketball] Wizards vs Cavaliers (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401811042/washington-wizards-vs-cleveland-cavaliers
+#EXTINF:-1 group-title="Streamhub", [Basketball] Pistons vs Pacers (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401811043/detroit-pistons-vs-indiana-pacers
+#EXTINF:-1 group-title="Streamhub", [Basketball] Hawks vs Heat (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401811044/atlanta-hawks-vs-miami-heat
+#EXTINF:-1 group-title="Streamhub", [Basketball] Hornets vs Knicks (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401811045/charlotte-hornets-vs-new-york-knicks
+#EXTINF:-1 group-title="Streamhub", [Basketball] Bucks vs 76ers (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401811046/milwaukee-bucks-vs-philadelphia-76ers
+#EXTINF:-1 group-title="Streamhub", [Basketball] Nets vs Raptors (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401811047/brooklyn-nets-vs-toronto-raptors
 #EXTINF:-1 group-title="Streamhub", [Hockey] Penguins vs Capitals (STRMHUB)
 https://streamhub.pro/event/espn_hockey_401803627/pittsburgh-penguins-vs-washington-capitals
 #EXTINF:-1 group-title="Streamhub", [Hockey] Canadiens vs Islanders (STRMHUB)
