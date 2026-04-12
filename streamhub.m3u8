@@ -15,6 +15,8 @@ https://streamhub.pro/event/espn_740909/manchester-city-at-chelsea
 https://streamhub.pro/event/espn_746669/le-havre-ac-at-nice
 #EXTINF:-1 group-title="Streamhub", [Soccer] Lille vs Toulouse (STRMHUB)
 https://streamhub.pro/event/espn_746672/lille-at-toulouse
+#EXTINF:-1 group-title="Streamhub", [Soccer] Lorient vs Lyon (STRMHUB)
+https://streamhub.pro/event/espn_746667/lorient-at-lyon
 #EXTINF:-1 group-title="Streamhub", [Soccer] Werder Bremen vs FC Cologne (STRMHUB)
 https://streamhub.pro/event/espn_746971/werder-bremen-at-fc-cologne
 #EXTINF:-1 group-title="Streamhub", [Soccer] Hamburg SV vs VfB Stuttgart (STRMHUB)
@@ -27,12 +29,16 @@ https://streamhub.pro/event/espn_737097/sassuolo-at-genoa
 https://streamhub.pro/event/espn_737095/napoli-at-parma
 #EXTINF:-1 group-title="Streamhub", [Soccer] Lecce vs Bologna (STRMHUB)
 https://streamhub.pro/event/espn_737101/lecce-at-bologna
+#EXTINF:-1 group-title="Streamhub", [Soccer] Internazionale vs Como (STRMHUB)
+https://streamhub.pro/event/espn_737099/internazionale-at-como
 #EXTINF:-1 group-title="Streamhub", [Soccer] Real Betis vs Osasuna (STRMHUB)
 https://streamhub.pro/event/espn_748444/real-betis-at-osasuna
 #EXTINF:-1 group-title="Streamhub", [Soccer] Rayo Vallecano vs Mallorca (STRMHUB)
 https://streamhub.pro/event/espn_748445/rayo-vallecano-at-mallorca
 #EXTINF:-1 group-title="Streamhub", [Soccer] Real Oviedo vs Celta Vigo (STRMHUB)
 https://streamhub.pro/event/espn_748448/real-oviedo-at-celta-vigo
+#EXTINF:-1 group-title="Streamhub", [Soccer] Villarreal vs Athletic Club (STRMHUB)
+https://streamhub.pro/event/espn_748451/villarreal-at-athletic-club
 #EXTINF:-1 group-title="Streamhub", [Soccer] Odense Boldklub vs Silkeborg IF (STRMHUB)
 https://streamhub.pro/event/espn_401863646/odense-boldklub-at-silkeborg-if
 #EXTINF:-1 group-title="Streamhub", [Soccer] Viborg FF vs Sønderjyske Fodbold (STRMHUB)
@@ -61,3 +67,5 @@ https://streamhub.pro/event/espn_750178/fatih-karagumruk-at-konyaspor
 https://streamhub.pro/event/espn_750175/kasimpasa-at-goztepe
 #EXTINF:-1 group-title="Streamhub", [Soccer] Kocaelispor vs Galatasaray (STRMHUB)
 https://streamhub.pro/event/espn_750174/kocaelispor-at-galatasaray
+#EXTINF:-1 group-title="Streamhub", [Hockey] Penguins vs Capitals (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401803627/pittsburgh-penguins-vs-washington-capitals
