@@ -1,10 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Lorient vs Lyon (STRMHUB)
-https://streamhub.pro/event/espn_746667/lorient-at-lyon
-#EXTINF:-1 group-title="Streamhub", [Soccer] Internazionale vs Como (STRMHUB)
-https://streamhub.pro/event/espn_737099/internazionale-at-como
-#EXTINF:-1 group-title="Streamhub", [Soccer] Villarreal vs Athletic Club (STRMHUB)
-https://streamhub.pro/event/espn_748451/villarreal-at-athletic-club
 #EXTINF:-1 group-title="Streamhub", [Basketball] Magic vs Celtics (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401811041/orlando-magic-vs-boston-celtics
 #EXTINF:-1 group-title="Streamhub", [Basketball] Wizards vs Cavaliers (STRMHUB)
@@ -19,8 +13,6 @@ https://streamhub.pro/event/espn_basketball_401811045/charlotte-hornets-vs-new-y
 https://streamhub.pro/event/espn_basketball_401811046/milwaukee-bucks-vs-philadelphia-76ers
 #EXTINF:-1 group-title="Streamhub", [Basketball] Nets vs Raptors (STRMHUB)
 https://streamhub.pro/event/espn_basketball_401811047/brooklyn-nets-vs-toronto-raptors
-#EXTINF:-1 group-title="Streamhub", [Hockey] Penguins vs Capitals (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401803627/pittsburgh-penguins-vs-washington-capitals
 #EXTINF:-1 group-title="Streamhub", [Hockey] Canadiens vs Islanders (STRMHUB)
 https://streamhub.pro/event/espn_hockey_401803628/montreal-canadiens-vs-new-york-islanders
 #EXTINF:-1 group-title="Streamhub", [Hockey] Bruins vs Blue Jackets (STRMHUB)
