@@ -1,1 +1,15 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] Leeds United vs Manchester United (STRMHUB)
+https://streamhub.pro/event/espn_740912/leeds-united-at-manchester-united
+#EXTINF:-1 group-title="Streamhub", [Soccer] Lazio vs Fiorentina (STRMHUB)
+https://streamhub.pro/event/espn_737098/lazio-at-fiorentina
+#EXTINF:-1 group-title="Streamhub", [Soccer] Getafe vs Levante (STRMHUB)
+https://streamhub.pro/event/espn_748446/getafe-at-levante
+#EXTINF:-1 group-title="Streamhub", [Soccer] Vejle Boldklub vs FC Fredericia (STRMHUB)
+https://streamhub.pro/event/espn_401863650/vejle-boldklub-at-fc-fredericia
+#EXTINF:-1 group-title="Streamhub", [Soccer] Troyes vs Rodez Aveyron (STRMHUB)
+https://streamhub.pro/event/espn_747723/troyes-at-rodez-aveyron
+#EXTINF:-1 group-title="Streamhub", [Soccer] Gaziantep FK vs Caykur Rizespor (STRMHUB)
+https://streamhub.pro/event/espn_750172/gaziantep-fk-at-caykur-rizespor
+#EXTINF:-1 group-title="Streamhub", [Soccer] Samsunspor vs Eyupspor (STRMHUB)
+https://streamhub.pro/event/espn_750173/samsunspor-at-eyupspor
