@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Barcelona vs Atlético Madrid (STRMHUB)
-https://streamhub.pro/event/espn_401862892/barcelona-at-atletico-madrid
-#EXTINF:-1 group-title="Streamhub", [Soccer] Paris Saint-Germain vs Liverpool (STRMHUB)
-https://streamhub.pro/event/espn_401862889/paris-saint-germain-at-liverpool
 #EXTINF:-1 group-title="Streamhub", [Hockey] Devils vs Bruins (STRMHUB)
 https://streamhub.pro/event/espn_hockey_401803643/new-jersey-devils-vs-boston-bruins
 #EXTINF:-1 group-title="Streamhub", [Hockey] Hurricanes vs Islanders (STRMHUB)
