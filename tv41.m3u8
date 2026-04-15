@@ -1,1 +1,19 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="ctvhalifax.ca" tvg-name="CA CTV Halifax Nova Scotia HD " tvg-logo="" group-title="Direct TV",CA CTV Halifax Nova Scotia HD 
+http://1tv41.icu:8080/Y06DNq/295733/57410
+#EXTINF:-1 tvg-id="globalregina.ca" tvg-name="CA Global News Regina (D)" tvg-logo="" group-title="Direct TV",CA Global News Regina (D)
+http://1tv41.icu:8080/Y06DNq/295733/66384
+#EXTINF:-1 tvg-id="" tvg-name="24/7 FRESH PRINCE OF BEL-AIR" tvg-logo="" group-title="Direct TV",24/7 FRESH PRINCE OF BEL-AIR
+http://1tv41.icu:8080/Y06DNq/295733/79559
+#EXTINF:-1 tvg-id="" tvg-name="24/7 THE FIRST 48HRS" tvg-logo="" group-title="Direct TV",24/7 THE FIRST 48HRS
+http://1tv41.icu:8080/Y06DNq/295733/66393
+#EXTINF:-1 tvg-id="" tvg-name="Knight Rider*" tvg-logo="" group-title="Direct TV",Knight Rider*
+http://1tv41.icu:8080/Y06DNq/295733/83700
+#EXTINF:-1 tvg-id="" tvg-name="US ABC 13 (WLOX) Gulfport " tvg-logo="" group-title="Direct TV",US ABC 13 (WLOX) Gulfport 
+http://1tv41.icu:8080/Y06DNq/295733/120841
+#EXTINF:-1 tvg-id="" tvg-name="CINEBOX: WESTERN" tvg-logo="" group-title="Direct TV",CINEBOX: WESTERN
+http://1tv41.icu:8080/Y06DNq/295733/119435
+#EXTINF:-1 tvg-id="" tvg-name="M4: Science Fiction" tvg-logo="" group-title="Direct TV",M4: Science Fiction
+http://1tv41.icu:8080/Y06DNq/295733/215317
+#EXTINF:-1 tvg-id="" tvg-name="M4: Brie Larson" tvg-logo="" group-title="Direct TV",M4: Brie Larson
+http://1tv41.icu:8080/Y06DNq/295733/215386
