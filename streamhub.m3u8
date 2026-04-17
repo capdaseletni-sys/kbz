@@ -1,8 +1,14 @@
 #EXTM3U
 #EXTINF:-1 group-title="Streamhub", [Soccer] SV Josko Ried vs Grazer AK (STRMHUB)
 https://streamhub.pro/event/espn_401864019/sv-josko-ried-at-grazer-ak
+#EXTINF:-1 group-title="Streamhub", [Soccer] Toulouse vs Lens (STRMHUB)
+https://streamhub.pro/event/espn_746674/toulouse-at-lens
+#EXTINF:-1 group-title="Streamhub", [Soccer] FC Cologne vs St. Pauli (STRMHUB)
+https://streamhub.pro/event/espn_746984/fc-cologne-at-st--pauli
 #EXTINF:-1 group-title="Streamhub", [Soccer] Como vs Sassuolo (STRMHUB)
 https://streamhub.pro/event/espn_737107/como-at-sassuolo
+#EXTINF:-1 group-title="Streamhub", [Soccer] Cagliari vs Internazionale (STRMHUB)
+https://streamhub.pro/event/espn_737113/cagliari-at-internazionale
 #EXTINF:-1 group-title="Streamhub", [Soccer] Sønderjyske Fodbold vs Brøndby IF (STRMHUB)
 https://streamhub.pro/event/espn_401863651/sonderjyske-fodbold-at-brondby-if
 #EXTINF:-1 group-title="Streamhub", [Soccer] Annecy vs AS Nancy Lorraine (STRMHUB)
