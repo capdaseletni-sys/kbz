@@ -1,8 +1,28 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] FC Blau-Weiß Linz vs Wolfsberger (STRMHUB)
+https://streamhub.pro/event/espn_401864020/fc-blau-weis-linz-at-wolfsberger
+#EXTINF:-1 group-title="Streamhub", [Soccer] ki Tirol vs WSG Swaro (STRMHUB)
+https://streamhub.pro/event/espn_401864021/sc-rheindorf-altach-at-wsg-swarovski-tirol
 #EXTINF:-1 group-title="Streamhub", [Soccer] Fulham vs Brentford (STRMHUB)
 https://streamhub.pro/event/espn_740921/fulham-at-brentford
+#EXTINF:-1 group-title="Streamhub", [Soccer] Wolverhampton Wanderers vs Leeds United (STRMHUB)
+https://streamhub.pro/event/espn_740924/wolverhampton-wanderers-at-leeds-united
+#EXTINF:-1 group-title="Streamhub", [Soccer] AFC Bournemouth vs Newcastle United (STRMHUB)
+https://streamhub.pro/event/espn_740918/afc-bournemouth-at-newcastle-united
+#EXTINF:-1 group-title="Streamhub", [Soccer] Marseille vs Lorient (STRMHUB)
+https://streamhub.pro/event/espn_746676/marseille-at-lorient
+#EXTINF:-1 group-title="Streamhub", [Soccer] VfL Wolfsburg vs 1. FC Union Berlin (STRMHUB)
+https://streamhub.pro/event/espn_746979/vfl-wolfsburg-at-1--fc-union-berlin
+#EXTINF:-1 group-title="Streamhub", [Soccer] FC Augsburg vs Bayer Leverkusen (STRMHUB)
+https://streamhub.pro/event/espn_746980/fc-augsburg-at-bayer-leverkusen
+#EXTINF:-1 group-title="Streamhub", [Soccer] Borussia Dortmund vs TSG Hoffenheim (STRMHUB)
+https://streamhub.pro/event/espn_746987/borussia-dortmund-at-tsg-hoffenheim
+#EXTINF:-1 group-title="Streamhub", [Soccer] Hamburg SV vs Werder Bremen (STRMHUB)
+https://streamhub.pro/event/espn_746986/hamburg-sv-at-werder-bremen
 #EXTINF:-1 group-title="Streamhub", [Soccer] Parma vs Udinese (STRMHUB)
 https://streamhub.pro/event/espn_737106/parma-at-udinese
+#EXTINF:-1 group-title="Streamhub", [Soccer] Lazio vs Napoli (STRMHUB)
+https://streamhub.pro/event/espn_737110/lazio-at-napoli
 #EXTINF:-1 group-title="Streamhub", [Soccer] Red Star FC 93 vs Stade de Reims (STRMHUB)
 https://streamhub.pro/event/espn_747735/red-star-fc-93-at-stade-de-reims
 #EXTINF:-1 group-title="Streamhub", [Soccer] Boulogne vs Troyes (STRMHUB)
@@ -15,5 +35,13 @@ https://streamhub.pro/event/espn_747286/1--fc-nurnberg-at-arminia-bielefeld
 https://streamhub.pro/event/espn_747291/vfl-bochum-at-dynamo-dresden
 #EXTINF:-1 group-title="Streamhub", [Soccer] Asteras Tripoli vs Kifisia (STRMHUB)
 https://streamhub.pro/event/espn_401866548/asteras-tripoli-at-kifisia
+#EXTINF:-1 group-title="Streamhub", [Soccer] Larissa FC vs Atromitos (STRMHUB)
+https://streamhub.pro/event/espn_401866549/larissa-fc-at-atromitos
+#EXTINF:-1 group-title="Streamhub", [Soccer] Levadiakos vs OFI Crete (STRMHUB)
+https://streamhub.pro/event/espn_401866547/levadiakos-at-ofi-crete
+#EXTINF:-1 group-title="Streamhub", [Soccer] Volos NFC vs Aris (STRMHUB)
+https://streamhub.pro/event/espn_401866544/volos-nfc-at-aris
 #EXTINF:-1 group-title="Streamhub", [Soccer] Eyupspor vs Fatih Karagümrük (STRMHUB)
 https://streamhub.pro/event/espn_750180/eyupspor-at-fatih-karagumruk
+#EXTINF:-1 group-title="Streamhub", [Soccer] Goztepe vs Kocaelispor (STRMHUB)
+https://streamhub.pro/event/espn_750185/goztepe-at-kocaelispor
