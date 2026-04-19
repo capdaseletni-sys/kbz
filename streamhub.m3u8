@@ -1,15 +1,49 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] RB Salzburg vs Austria Vienna (STRMHUB)
+https://streamhub.pro/event/espn_401864022/rb-salzburg-at-austria-vienna
+#EXTINF:-1 group-title="Streamhub", [Soccer] Rapid Vienna vs TSV Hartberg (STRMHUB)
+https://streamhub.pro/event/espn_401864023/rapid-vienna-at-tsv-hartberg
+#EXTINF:-1 group-title="Streamhub", [Soccer] SK Sturm Graz vs LASK Linz (STRMHUB)
+https://streamhub.pro/event/espn_401864024/sk-sturm-graz-at-lask-linz
+#EXTINF:-1 group-title="Streamhub", [Soccer] Sunderland vs Aston Villa (STRMHUB)
+https://streamhub.pro/event/espn_740919/sunderland-at-aston-villa
+#EXTINF:-1 group-title="Streamhub", [Soccer] Liverpool vs Everton (STRMHUB)
+https://streamhub.pro/event/espn_740925/liverpool-at-everton
+#EXTINF:-1 group-title="Streamhub", [Soccer] Burnley vs Nottingham Forest (STRMHUB)
+https://streamhub.pro/event/espn_740917/burnley-at-nottingham-forest
+#EXTINF:-1 group-title="Streamhub", [Soccer] Arsenal vs Manchester City (STRMHUB)
+https://streamhub.pro/event/espn_740916/arsenal-at-manchester-city
+#EXTINF:-1 group-title="Streamhub", [Soccer] AJ Auxerre vs AS Monaco (STRMHUB)
+https://streamhub.pro/event/espn_746678/aj-auxerre-at-as-monaco
+#EXTINF:-1 group-title="Streamhub", [Soccer] Paris FC vs Metz (STRMHUB)
+https://streamhub.pro/event/espn_746677/paris-fc-at-metz
+#EXTINF:-1 group-title="Streamhub", [Soccer] Brest vs Nantes (STRMHUB)
+https://streamhub.pro/event/espn_746679/brest-at-nantes
+#EXTINF:-1 group-title="Streamhub", [Soccer] Stade Rennais vs Strasbourg (STRMHUB)
+https://streamhub.pro/event/espn_746681/stade-rennais-at-strasbourg
+#EXTINF:-1 group-title="Streamhub", [Soccer] 1. FC Heidenheim 1846 vs SC Freiburg (STRMHUB)
+https://streamhub.pro/event/espn_746985/1--fc-heidenheim-1846-at-sc-freiburg
+#EXTINF:-1 group-title="Streamhub", [Soccer] VfB Stuttgart vs Bayern Munich (STRMHUB)
+https://streamhub.pro/event/espn_746983/vfb-stuttgart-at-bayern-munich
 #EXTINF:-1 group-title="Streamhub", [Soccer] Torino vs Cremonese (STRMHUB)
 https://streamhub.pro/event/espn_737104/torino-at-cremonese
+#EXTINF:-1 group-title="Streamhub", [Soccer] AC Milan vs Hellas Verona (STRMHUB)
+https://streamhub.pro/event/espn_737105/ac-milan-at-hellas-verona
 #EXTINF:-1 group-title="Streamhub", [Soccer] Randers FC vs Odense Boldklub (STRMHUB)
 https://streamhub.pro/event/espn_401863653/randers-fc-at-odense-boldklub
 #EXTINF:-1 group-title="Streamhub", [Soccer] FC Fredericia vs Silkeborg IF (STRMHUB)
 https://streamhub.pro/event/espn_401863652/fc-fredericia-at-silkeborg-if
+#EXTINF:-1 group-title="Streamhub", [Soccer] Viborg FF vs FC Nordsjælland (STRMHUB)
+https://streamhub.pro/event/espn_401863654/viborg-ff-at-fc-nordsjaelland
 #EXTINF:-1 group-title="Streamhub", [Soccer] Preußen Münster vs Schalke 04 (STRMHUB)
 https://streamhub.pro/event/espn_747288/preusen-munster-at-schalke-04
 #EXTINF:-1 group-title="Streamhub", [Soccer] SV Darmstadt 98 vs SpVgg Greuther Fürth (STRMHUB)
 https://streamhub.pro/event/espn_747293/sv-darmstadt-98-at-spvgg-greuther-furth
 #EXTINF:-1 group-title="Streamhub", [Soccer] Hertha Berlin vs TSV Eintracht Braunschweig (STRMHUB)
 https://streamhub.pro/event/espn_747287/hertha-berlin-at-tsv-eintracht-braunschweig
+#EXTINF:-1 group-title="Streamhub", [Soccer] PAOK Salonika vs AEK Athens (STRMHUB)
+https://streamhub.pro/event/espn_401866543/paok-salonika-at-aek-athens
 #EXTINF:-1 group-title="Streamhub", [Soccer] Alanyaspor vs Kasimpasa (STRMHUB)
 https://streamhub.pro/event/espn_750184/alanyaspor-at-kasimpasa
+#EXTINF:-1 group-title="Streamhub", [Soccer] Besiktas vs Samsunspor (STRMHUB)
+https://streamhub.pro/event/espn_750186/besiktas-at-samsunspor
