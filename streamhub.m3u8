@@ -1,3 +1,15 @@
 #EXTM3U
 #EXTINF:-1 group-title="Streamhub", [Soccer] Torino vs Cremonese (STRMHUB)
 https://streamhub.pro/event/espn_737104/torino-at-cremonese
+#EXTINF:-1 group-title="Streamhub", [Soccer] Randers FC vs Odense Boldklub (STRMHUB)
+https://streamhub.pro/event/espn_401863653/randers-fc-at-odense-boldklub
+#EXTINF:-1 group-title="Streamhub", [Soccer] FC Fredericia vs Silkeborg IF (STRMHUB)
+https://streamhub.pro/event/espn_401863652/fc-fredericia-at-silkeborg-if
+#EXTINF:-1 group-title="Streamhub", [Soccer] Preußen Münster vs Schalke 04 (STRMHUB)
+https://streamhub.pro/event/espn_747288/preusen-munster-at-schalke-04
+#EXTINF:-1 group-title="Streamhub", [Soccer] SV Darmstadt 98 vs SpVgg Greuther Fürth (STRMHUB)
+https://streamhub.pro/event/espn_747293/sv-darmstadt-98-at-spvgg-greuther-furth
+#EXTINF:-1 group-title="Streamhub", [Soccer] Hertha Berlin vs TSV Eintracht Braunschweig (STRMHUB)
+https://streamhub.pro/event/espn_747287/hertha-berlin-at-tsv-eintracht-braunschweig
+#EXTINF:-1 group-title="Streamhub", [Soccer] Alanyaspor vs Kasimpasa (STRMHUB)
+https://streamhub.pro/event/espn_750184/alanyaspor-at-kasimpasa
