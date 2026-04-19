@@ -1,11 +1,7 @@
 #EXTM3U
 #EXTINF:-1 group-title="Streamhub", [Soccer] Lyon vs Paris Saint-Germain (STRMHUB)
 https://streamhub.pro/event/espn_746680/lyon-at-paris-saint-germain
-#EXTINF:-1 group-title="Streamhub", [Soccer] Mainz vs Borussia Mönchengladbach (STRMHUB)
-https://streamhub.pro/event/espn_746981/mainz-at-borussia-monchengladbach
 #EXTINF:-1 group-title="Streamhub", [Soccer] Bologna vs Juventus (STRMHUB)
 https://streamhub.pro/event/espn_737112/bologna-at-juventus
 #EXTINF:-1 group-title="Streamhub", [Soccer] Olympiacos vs Panathinaikos (STRMHUB)
 https://streamhub.pro/event/espn_401866545/olympiacos-at-panathinaikos
-#EXTINF:-1 group-title="Streamhub", [Soccer] Istanbul Basaksehir vs Trabzonspor (STRMHUB)
-https://streamhub.pro/event/espn_750187/istanbul-basaksehir-at-trabzonspor
