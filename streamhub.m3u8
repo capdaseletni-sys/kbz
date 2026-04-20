@@ -1,1 +1,11 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] West Ham United vs Crystal Palace (STRMHUB)
+https://streamhub.pro/event/espn_740923/west-ham-united-at-crystal-palace
+#EXTINF:-1 group-title="Streamhub", [Soccer] Fiorentina vs Lecce (STRMHUB)
+https://streamhub.pro/event/espn_737111/fiorentina-at-lecce
+#EXTINF:-1 group-title="Streamhub", [Soccer] AGF vs FC Midtjylland (STRMHUB)
+https://streamhub.pro/event/espn_401863656/agf-at-fc-midtjylland
+#EXTINF:-1 group-title="Streamhub", [Soccer] Stade Laval vs Dunkerque (STRMHUB)
+https://streamhub.pro/event/espn_747739/stade-laval-at-dunkerque
+#EXTINF:-1 group-title="Streamhub", [Soccer] Kayserispor vs Gaziantep FK (STRMHUB)
+https://streamhub.pro/event/espn_750182/kayserispor-at-gaziantep-fk
