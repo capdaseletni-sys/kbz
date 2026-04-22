@@ -1,3 +1,13 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] TSV Hartberg vs Rapid Vienna (STRMHUB)
+https://streamhub.pro/event/espn_401864028/tsv-hartberg-at-rapid-vienna
+#EXTINF:-1 group-title="Streamhub", [Soccer] Austria Vienna vs RB Salzburg (STRMHUB)
+https://streamhub.pro/event/espn_401864029/austria-vienna-at-rb-salzburg
+#EXTINF:-1 group-title="Streamhub", [Soccer] Odense Boldklub vs F.C. København (STRMHUB)
+https://streamhub.pro/event/espn_401863657/odense-boldklub-at-f-c--kobenhavn
+#EXTINF:-1 group-title="Streamhub", [Soccer] Silkeborg IF vs Vejle Boldklub (STRMHUB)
+https://streamhub.pro/event/espn_401863658/silkeborg-if-at-vejle-boldklub
 #EXTINF:-1 group-title="Streamhub", [Soccer] Atromitos vs Panserraikos FC (STRMHUB)
 https://streamhub.pro/event/espn_401866550/atromitos-at-panserraikos-fc
+#EXTINF:-1 group-title="Streamhub", [Soccer] Kifisia vs Larissa FC (STRMHUB)
+https://streamhub.pro/event/espn_401866551/kifisia-at-larissa-fc
