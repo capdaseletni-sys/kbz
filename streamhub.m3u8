@@ -1,1 +1,9 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] AGF vs FC Nordsjælland (STRMHUB)
+https://streamhub.pro/event/espn_401863661/agf-at-fc-nordsjaelland
+#EXTINF:-1 group-title="Streamhub", [Soccer] FC Fredericia vs Randers FC (STRMHUB)
+https://streamhub.pro/event/espn_401863660/fc-fredericia-at-randers-fc
+#EXTINF:-1 group-title="Streamhub", [Soccer] FC Midtjylland vs Sønderjyske Fodbold (STRMHUB)
+https://streamhub.pro/event/espn_401863662/fc-midtjylland-at-sonderjyske-fodbold
+#EXTINF:-1 group-title="Streamhub", [Soccer] AZ Alkmaar vs Go Ahead Eagles (STRMHUB)
+https://streamhub.pro/event/espn_741249/az-alkmaar-at-go-ahead-eagles
