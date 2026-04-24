@@ -1,6 +1,14 @@
 #EXTM3U
 #EXTINF:-1 group-title="Streamhub", [Soccer] SC Rheindorf Altach vs FC Blau-Weiß Linz (STRMHUB)
 https://streamhub.pro/event/espn_401864031/sc-rheindorf-altach-at-fc-blau-weis-linz
+#EXTINF:-1 group-title="Streamhub", [Soccer] Nottingham Forest vs Sunderland (STRMHUB)
+https://streamhub.pro/event/espn_740933/nottingham-forest-at-sunderland
+#EXTINF:-1 group-title="Streamhub", [Soccer] Lens vs Brest (STRMHUB)
+https://streamhub.pro/event/espn_746683/lens-at-brest
+#EXTINF:-1 group-title="Streamhub", [Soccer] 1. FC Union Berlin vs RB Leipzig (STRMHUB)
+https://streamhub.pro/event/espn_746994/1--fc-union-berlin-at-rb-leipzig
+#EXTINF:-1 group-title="Streamhub", [Soccer] Cremonese vs Napoli (STRMHUB)
+https://streamhub.pro/event/espn_737116/cremonese-at-napoli
 #EXTINF:-1 group-title="Streamhub", [Soccer] Pau vs Annecy (STRMHUB)
 https://streamhub.pro/event/espn_747744/pau-at-annecy
 #EXTINF:-1 group-title="Streamhub", [Soccer] Bastia vs Clermont Foot (STRMHUB)
