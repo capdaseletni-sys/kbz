@@ -13,8 +13,12 @@ https://streamhub.pro/event/espn_740927/crystal-palace-at-liverpool
 https://streamhub.pro/event/espn_740930/everton-at-west-ham-united
 #EXTINF:-1 group-title="Streamhub", [Soccer] Tottenham Hotspur vs Wolverhampton Wanderers (STRMHUB)
 https://streamhub.pro/event/espn_740934/tottenham-hotspur-at-wolverhampton-wanderers
+#EXTINF:-1 group-title="Streamhub", [Soccer] Newcastle United vs Arsenal (STRMHUB)
+https://streamhub.pro/event/espn_740931/newcastle-united-at-arsenal
 #EXTINF:-1 group-title="Streamhub", [Soccer] AJ Auxerre vs Lyon (STRMHUB)
 https://streamhub.pro/event/espn_746686/aj-auxerre-at-lyon
+#EXTINF:-1 group-title="Streamhub", [Soccer] Paris Saint-Germain vs Angers (STRMHUB)
+https://streamhub.pro/event/espn_746682/paris-saint-germain-at-angers
 #EXTINF:-1 group-title="Streamhub", [Soccer] St. Pauli vs 1. FC Heidenheim 1846 (STRMHUB)
 https://streamhub.pro/event/espn_746988/st--pauli-at-1--fc-heidenheim-1846
 #EXTINF:-1 group-title="Streamhub", [Soccer] Eintracht Frankfurt vs FC Augsburg (STRMHUB)
@@ -25,16 +29,24 @@ https://streamhub.pro/event/espn_746989/bayer-leverkusen-at-fc-cologne
 https://streamhub.pro/event/espn_746990/bayern-munich-at-mainz
 #EXTINF:-1 group-title="Streamhub", [Soccer] Borussia Mönchengladbach vs VfL Wolfsburg (STRMHUB)
 https://streamhub.pro/event/espn_746996/borussia-monchengladbach-at-vfl-wolfsburg
+#EXTINF:-1 group-title="Streamhub", [Soccer] TSG Hoffenheim vs Hamburg SV (STRMHUB)
+https://streamhub.pro/event/espn_746993/tsg-hoffenheim-at-hamburg-sv
 #EXTINF:-1 group-title="Streamhub", [Soccer] Pisa vs Parma (STRMHUB)
 https://streamhub.pro/event/espn_737115/pisa-at-parma
 #EXTINF:-1 group-title="Streamhub", [Soccer] AS Roma vs Bologna (STRMHUB)
 https://streamhub.pro/event/espn_737114/as-roma-at-bologna
 #EXTINF:-1 group-title="Streamhub", [Soccer] FC Groningen vs Feyenoord Rotterdam (STRMHUB)
 https://streamhub.pro/event/espn_741248/fc-groningen-at-feyenoord-rotterdam
+#EXTINF:-1 group-title="Streamhub", [Soccer] Fortuna Sittard vs Heerenveen (STRMHUB)
+https://streamhub.pro/event/espn_741250/fortuna-sittard-at-heerenveen
+#EXTINF:-1 group-title="Streamhub", [Soccer] Ajax Amsterdam vs NAC Breda (STRMHUB)
+https://streamhub.pro/event/espn_741252/ajax-amsterdam-at-nac-breda
 #EXTINF:-1 group-title="Streamhub", [Soccer] Le Mans vs Grenoble (STRMHUB)
 https://streamhub.pro/event/espn_747742/le-mans-at-grenoble
 #EXTINF:-1 group-title="Streamhub", [Soccer] AS Nancy Lorraine vs Stade de Reims (STRMHUB)
 https://streamhub.pro/event/espn_747747/as-nancy-lorraine-at-stade-de-reims
+#EXTINF:-1 group-title="Streamhub", [Soccer] Troyes vs Saint-Étienne (STRMHUB)
+https://streamhub.pro/event/espn_747746/troyes-at-saint-etienne
 #EXTINF:-1 group-title="Streamhub", [Soccer] Holstein Kiel vs Hertha Berlin (STRMHUB)
 https://streamhub.pro/event/espn_747297/holstein-kiel-at-hertha-berlin
 #EXTINF:-1 group-title="Streamhub", [Soccer] Hannover 96 vs Karlsruher SC (STRMHUB)
@@ -45,3 +57,5 @@ https://streamhub.pro/event/espn_747300/arminia-bielefeld-at-preusen-munster
 https://streamhub.pro/event/espn_750190/gaziantep-fk-at-eyupspor
 #EXTINF:-1 group-title="Streamhub", [Soccer] Caykur Rizespor vs Kayserispor (STRMHUB)
 https://streamhub.pro/event/espn_750195/caykur-rizespor-at-kayserispor
+#EXTINF:-1 group-title="Streamhub", [Soccer] Antalyaspor vs Goztepe (STRMHUB)
+https://streamhub.pro/event/espn_750193/antalyaspor-at-goztepe
