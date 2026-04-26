@@ -1,12 +1,6 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Chelsea vs Brighton & Hove Albion (STRMHUB)
-https://streamhub.pro/event/espn_740928/chelsea-at-brighton-&-hove-albion
 #EXTINF:-1 group-title="Streamhub", [Soccer] Nice vs Marseille (STRMHUB)
 https://streamhub.pro/event/espn_746687/nice-at-marseille
-#EXTINF:-1 group-title="Streamhub", [Soccer] SC Freiburg vs Borussia Dortmund (STRMHUB)
-https://streamhub.pro/event/espn_746991/sc-freiburg-at-borussia-dortmund
-#EXTINF:-1 group-title="Streamhub", [Soccer] Internazionale vs Torino (STRMHUB)
-https://streamhub.pro/event/espn_737118/internazionale-at-torino
 #EXTINF:-1 group-title="Streamhub", [Soccer] Juventus vs AC Milan (STRMHUB)
 https://streamhub.pro/event/espn_737117/juventus-at-ac-milan
 #EXTINF:-1 group-title="Streamhub", [Soccer] Mallorca vs Alavés (STRMHUB)
@@ -29,8 +23,6 @@ https://streamhub.pro/event/espn_748456/elche-at-real-oviedo
 https://streamhub.pro/event/espn_748454/girona-at-valencia
 #EXTINF:-1 group-title="Streamhub", [Soccer] Celta Vigo vs Villarreal (STRMHUB)
 https://streamhub.pro/event/espn_748463/celta-vigo-at-villarreal
-#EXTINF:-1 group-title="Streamhub", [Soccer] FC Nordsjælland vs Viborg FF (STRMHUB)
-https://streamhub.pro/event/espn_401863666/fc-nordsjaelland-at-viborg-ff
 #EXTINF:-1 group-title="Streamhub", [Soccer] FC Midtjylland vs AGF (STRMHUB)
 https://streamhub.pro/event/espn_401863667/fc-midtjylland-at-agf
 #EXTINF:-1 group-title="Streamhub", [Soccer] Panserraikos FC vs Larissa FC (STRMHUB)
