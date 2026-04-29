@@ -1,12 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Basketball] Hawks vs Knicks (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401869392/atlanta-hawks-vs-new-york-knicks
-#EXTINF:-1 group-title="Streamhub", [Basketball] Trail Blazers vs Spurs (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401869386/portland-trail-blazers-vs-san-antonio-spurs
-#EXTINF:-1 group-title="Streamhub", [Hockey] Wild vs Stars (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401869785/minnesota-wild-vs-dallas-stars
-#EXTINF:-1 group-title="Streamhub", [Hockey] Ducks vs Oilers (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401869774/anaheim-ducks-vs-edmonton-oilers
 #EXTINF:-1 group-title="Streamhub", [Hockey] Mammoth vs Golden Knights (STRMHUB)
 https://streamhub.pro/event/espn_hockey_401869761/utah-mammoth-vs-vegas-golden-knights
 #EXTINF:-1 group-title="Streamhub", [Hockey] Canadiens vs Lightning (STRMHUB)
