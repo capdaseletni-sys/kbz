@@ -1,7 +1,3 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Hockey] Mammoth vs Golden Knights (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401869761/utah-mammoth-vs-vegas-golden-knights
-#EXTINF:-1 group-title="Streamhub", [Hockey] Canadiens vs Lightning (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401869775/montreal-canadiens-vs-tampa-bay-lightning
-#EXTINF:-1 group-title="Streamhub", [Hockey] Penguins vs Flyers (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401869802/pittsburgh-penguins-vs-philadelphia-flyers
+#EXTINF:-1 group-title="Streamhub", [Soccer] Arsenal vs Atlético Madrid (STRMHUB)
+https://streamhub.pro/event/espn_401862894/arsenal-at-atletico-madrid
