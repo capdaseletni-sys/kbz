@@ -1,3 +1,7 @@
 #EXTM3U
 #EXTINF:-1 group-title="Streamhub", [Soccer] Arsenal vs Atlético Madrid (STRMHUB)
 https://streamhub.pro/event/espn_401862894/arsenal-at-atletico-madrid
+#EXTINF:-1 group-title="Streamhub", [Basketball] Magic vs Pistons (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401869416/orlando-magic-vs-detroit-pistons
+#EXTINF:-1 group-title="Streamhub", [Basketball] Raptors vs Cavaliers (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401869380/toronto-raptors-vs-cleveland-cavaliers
