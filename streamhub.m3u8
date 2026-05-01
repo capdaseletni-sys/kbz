@@ -1,19 +1,11 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] Burnley vs Leeds United (STRMHUB)
+https://streamhub.pro/event/espn_740942/burnley-at-leeds-united
+#EXTINF:-1 group-title="Streamhub", [Soccer] Lecce vs Pisa (STRMHUB)
+https://streamhub.pro/event/espn_737126/lecce-at-pisa
+#EXTINF:-1 group-title="Streamhub", [Soccer] Mallorca vs Girona (STRMHUB)
+https://streamhub.pro/event/espn_748476/mallorca-at-girona
 #EXTINF:-1 group-title="Streamhub", [Soccer] Konyaspor vs Caykur Rizespor (STRMHUB)
 https://streamhub.pro/event/espn_750198/konyaspor-at-caykur-rizespor
 #EXTINF:-1 group-title="Streamhub", [Soccer] Besiktas vs Gaziantep FK (STRMHUB)
 https://streamhub.pro/event/espn_750201/besiktas-at-gaziantep-fk
-#EXTINF:-1 group-title="Streamhub", [Basketball] Thunder vs Suns (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401869379/oklahoma-city-thunder-vs-phoenix-suns
-#EXTINF:-1 group-title="Streamhub", [Basketball] Cavaliers vs Raptors (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401869381/cleveland-cavaliers-vs-toronto-raptors
-#EXTINF:-1 group-title="Streamhub", [Basketball] Lakers vs Rockets (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401869409/los-angeles-lakers-vs-houston-rockets
-#EXTINF:-1 group-title="Streamhub", [Basketball] Pistons vs Magic (STRMHUB)
-https://streamhub.pro/event/espn_basketball_401869417/detroit-pistons-vs-orlando-magic
-#EXTINF:-1 group-title="Streamhub", [Hockey] Golden Knights vs Mammoth (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401869763/vegas-golden-knights-vs-utah-mammoth
-#EXTINF:-1 group-title="Streamhub", [Hockey] Sabres vs Bruins (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401869765/buffalo-sabres-vs-boston-bruins
-#EXTINF:-1 group-title="Streamhub", [Hockey] Lightning vs Canadiens (STRMHUB)
-https://streamhub.pro/event/espn_hockey_401869777/tampa-bay-lightning-vs-montreal-canadiens
