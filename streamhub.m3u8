@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] Cagliari vs Bologna (STRMHUB)
+https://streamhub.pro/event/espn_737131/cagliari-at-bologna
 #EXTINF:-1 group-title="Streamhub", [Soccer] Heerenveen vs FC Volendam (STRMHUB)
 https://streamhub.pro/event/espn_741262/heerenveen-at-fc-volendam
 #EXTINF:-1 group-title="Streamhub", [Basketball] Suns vs Thunder (STRMHUB)
