@@ -1,14 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Lens vs Nice (STRMHUB)
-https://streamhub.pro/event/espn_746697/lens-at-nice
-#EXTINF:-1 group-title="Streamhub", [Soccer] Genoa vs Atalanta (STRMHUB)
-https://streamhub.pro/event/espn_737132/genoa-at-atalanta
-#EXTINF:-1 group-title="Streamhub", [Soccer] Barcelona vs Osasuna (STRMHUB)
-https://streamhub.pro/event/espn_748480/barcelona-at-osasuna
-#EXTINF:-1 group-title="Streamhub", [Soccer] Telstar vs NEC Nijmegen (STRMHUB)
-https://streamhub.pro/event/espn_741260/telstar-at-nec-nijmegen
-#EXTINF:-1 group-title="Streamhub", [Soccer] Fortuna Düsseldorf vs Schalke 04 (STRMHUB)
-https://streamhub.pro/event/espn_747304/fortuna-dusseldorf-at-schalke-04
 #EXTINF:-1 group-title="Streamhub", [Soccer] Alverca vs FC Porto (STRMHUB)
 https://streamhub.pro/event/espn_750528/alverca-at-fc-porto
 #EXTINF:-1 group-title="Streamhub", [Basketball] Suns vs Thunder (STRMHUB)
