@@ -3,12 +3,6 @@
 https://streamhub.pro/event/espn_401864037/wsg-swarovski-tirol-at-grazer-ak
 #EXTINF:-1 group-title="Streamhub", [Soccer] FC Blau-Weiß Linz vs SV Josko Ried (STRMHUB)
 https://streamhub.pro/event/espn_401864038/fc-blau-weis-linz-at-sv-josko-ried
-#EXTINF:-1 group-title="Streamhub", [Soccer] West Ham United vs Brentford (STRMHUB)
-https://streamhub.pro/event/espn_740939/west-ham-united-at-brentford
-#EXTINF:-1 group-title="Streamhub", [Soccer] Brighton & Hove Albion vs Newcastle United (STRMHUB)
-https://streamhub.pro/event/espn_740944/brighton-&-hove-albion-at-newcastle-united
-#EXTINF:-1 group-title="Streamhub", [Soccer] Sunderland vs Wolverhampton Wanderers (STRMHUB)
-https://streamhub.pro/event/espn_740945/sunderland-at-wolverhampton-wanderers
 #EXTINF:-1 group-title="Streamhub", [Soccer] Fulham vs Arsenal (STRMHUB)
 https://streamhub.pro/event/espn_740936/fulham-at-arsenal
 #EXTINF:-1 group-title="Streamhub", [Soccer] Lorient vs Paris Saint-Germain (STRMHUB)
@@ -23,14 +17,10 @@ https://streamhub.pro/event/espn_746998/rb-leipzig-at-bayer-leverkusen
 https://streamhub.pro/event/espn_737130/napoli-at-como
 #EXTINF:-1 group-title="Streamhub", [Soccer] Genoa vs Atalanta (STRMHUB)
 https://streamhub.pro/event/espn_737132/genoa-at-atalanta
-#EXTINF:-1 group-title="Streamhub", [Soccer] Atlético Madrid vs Valencia (STRMHUB)
-https://streamhub.pro/event/espn_748481/atletico-madrid-at-valencia
 #EXTINF:-1 group-title="Streamhub", [Soccer] Athletic Club vs Alavés (STRMHUB)
 https://streamhub.pro/event/espn_748482/athletic-club-at-alaves
 #EXTINF:-1 group-title="Streamhub", [Soccer] Barcelona vs Osasuna (STRMHUB)
 https://streamhub.pro/event/espn_748480/barcelona-at-osasuna
-#EXTINF:-1 group-title="Streamhub", [Soccer] NAC Breda vs FC Utrecht (STRMHUB)
-https://streamhub.pro/event/espn_741259/nac-breda-at-fc-utrecht
 #EXTINF:-1 group-title="Streamhub", [Soccer] Excelsior vs FC Groningen (STRMHUB)
 https://streamhub.pro/event/espn_741257/excelsior-at-fc-groningen
 #EXTINF:-1 group-title="Streamhub", [Soccer] PSV Eindhoven vs Ajax Amsterdam (STRMHUB)
@@ -57,18 +47,8 @@ https://streamhub.pro/event/espn_747751/red-star-fc-93-at-sc-amiens
 https://streamhub.pro/event/espn_747758/stade-laval-at-troyes
 #EXTINF:-1 group-title="Streamhub", [Soccer] Fortuna Düsseldorf vs Schalke 04 (STRMHUB)
 https://streamhub.pro/event/espn_747304/fortuna-dusseldorf-at-schalke-04
-#EXTINF:-1 group-title="Streamhub", [Soccer] Kifisia vs Panetolikos (STRMHUB)
-https://streamhub.pro/event/espn_401866559/kifisia-at-panetolikos
-#EXTINF:-1 group-title="Streamhub", [Soccer] Larissa FC vs Panserraikos FC (STRMHUB)
-https://streamhub.pro/event/espn_401866557/larissa-fc-at-panserraikos-fc
 #EXTINF:-1 group-title="Streamhub", [Soccer] Atromitos vs Asteras Tripoli (STRMHUB)
 https://streamhub.pro/event/espn_401866562/atromitos-at-asteras-tripoli
-#EXTINF:-1 group-title="Streamhub", [Soccer] Santa Clara vs Arouca (STRMHUB)
-https://streamhub.pro/event/espn_750525/santa-clara-at-arouca
-#EXTINF:-1 group-title="Streamhub", [Soccer] AVS vs C.D. Nacional (STRMHUB)
-https://streamhub.pro/event/espn_750526/avs-at-c-d--nacional
-#EXTINF:-1 group-title="Streamhub", [Soccer] Estrela vs Moreirense (STRMHUB)
-https://streamhub.pro/event/espn_750529/estrela-at-moreirense
 #EXTINF:-1 group-title="Streamhub", [Soccer] Benfica vs FC Famalicao (STRMHUB)
 https://streamhub.pro/event/espn_750533/benfica-at-fc-famalicao
 #EXTINF:-1 group-title="Streamhub", [Soccer] Alverca vs FC Porto (STRMHUB)
@@ -79,3 +59,17 @@ https://streamhub.pro/event/espn_750200/istanbul-basaksehir-at-fenerbahce
 https://streamhub.pro/event/espn_750204/galatasaray-at-samsunspor
 #EXTINF:-1 group-title="Streamhub", [Soccer] Goztepe vs Trabzonspor (STRMHUB)
 https://streamhub.pro/event/espn_750205/goztepe-at-trabzonspor
+#EXTINF:-1 group-title="Streamhub", [Basketball] Suns vs Thunder (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401869383/phoenix-suns-vs-oklahoma-city-thunder
+#EXTINF:-1 group-title="Streamhub", [Basketball] Raptors vs Cavaliers (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401869384/toronto-raptors-vs-cleveland-cavaliers
+#EXTINF:-1 group-title="Streamhub", [Basketball] Rockets vs Lakers (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401869413/houston-rockets-vs-los-angeles-lakers
+#EXTINF:-1 group-title="Streamhub", [Basketball] Magic vs Pistons (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401869418/orlando-magic-vs-detroit-pistons
+#EXTINF:-1 group-title="Streamhub", [Hockey] Bruins vs Sabres (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401869766/boston-bruins-vs-buffalo-sabres
+#EXTINF:-1 group-title="Streamhub", [Hockey] Mammoth vs Golden Knights (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401869767/utah-mammoth-vs-vegas-golden-knights
+#EXTINF:-1 group-title="Streamhub", [Hockey] Canadiens vs Lightning (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401869779/montreal-canadiens-vs-tampa-bay-lightning
