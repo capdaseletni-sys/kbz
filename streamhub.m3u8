@@ -1,8 +1,6 @@
 #EXTM3U
 #EXTINF:-1 group-title="Streamhub", [Soccer] SK Sturm Graz vs RB Salzburg (STRMHUB)
 https://streamhub.pro/event/espn_401864041/sk-sturm-graz-at-rb-salzburg
-#EXTINF:-1 group-title="Streamhub", [Soccer] Liverpool vs Manchester United (STRMHUB)
-https://streamhub.pro/event/espn_740943/liverpool-at-manchester-united
 #EXTINF:-1 group-title="Streamhub", [Soccer] Tottenham Hotspur vs Aston Villa (STRMHUB)
 https://streamhub.pro/event/espn_740937/tottenham-hotspur-at-aston-villa
 #EXTINF:-1 group-title="Streamhub", [Soccer] Angers vs AJ Auxerre (STRMHUB)
@@ -21,8 +19,6 @@ https://streamhub.pro/event/espn_747003/vfl-wolfsburg-at-sc-freiburg
 https://streamhub.pro/event/espn_737127/hellas-verona-at-juventus
 #EXTINF:-1 group-title="Streamhub", [Soccer] Parma vs Internazionale (STRMHUB)
 https://streamhub.pro/event/espn_737133/parma-at-internazionale
-#EXTINF:-1 group-title="Streamhub", [Soccer] Rayo Vallecano vs Getafe (STRMHUB)
-https://streamhub.pro/event/espn_748474/rayo-vallecano-at-getafe
 #EXTINF:-1 group-title="Streamhub", [Soccer] Real Oviedo vs Real Betis (STRMHUB)
 https://streamhub.pro/event/espn_748479/real-oviedo-at-real-betis
 #EXTINF:-1 group-title="Streamhub", [Soccer] Real Madrid vs Espanyol (STRMHUB)
@@ -31,16 +27,10 @@ https://streamhub.pro/event/espn_748475/real-madrid-at-espanyol
 https://streamhub.pro/event/espn_741255/fc-twente-at-az-alkmaar
 #EXTINF:-1 group-title="Streamhub", [Soccer] Go Ahead Eagles vs Sparta Rotterdam (STRMHUB)
 https://streamhub.pro/event/espn_741258/go-ahead-eagles-at-sparta-rotterdam
-#EXTINF:-1 group-title="Streamhub", [Soccer] Volos NFC vs Levadiakos (STRMHUB)
-https://streamhub.pro/event/espn_401866561/volos-nfc-at-levadiakos
-#EXTINF:-1 group-title="Streamhub", [Soccer] Aris vs OFI Crete (STRMHUB)
-https://streamhub.pro/event/espn_401866560/aris-at-ofi-crete
 #EXTINF:-1 group-title="Streamhub", [Soccer] Olympiacos vs PAOK Salonika (STRMHUB)
 https://streamhub.pro/event/espn_401866556/olympiacos-at-paok-salonika
 #EXTINF:-1 group-title="Streamhub", [Soccer] AEK Athens vs Panathinaikos (STRMHUB)
 https://streamhub.pro/event/espn_401866558/aek-athens-at-panathinaikos
-#EXTINF:-1 group-title="Streamhub", [Soccer] Tondela vs Casa Pia (STRMHUB)
-https://streamhub.pro/event/espn_750527/tondela-at-casa-pia
 #EXTINF:-1 group-title="Streamhub", [Soccer] Estoril vs Braga (STRMHUB)
 https://streamhub.pro/event/espn_750531/estoril-at-braga
 #EXTINF:-1 group-title="Streamhub", [Soccer] Gil Vicente vs Rio Ave (STRMHUB)
