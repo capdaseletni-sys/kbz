@@ -1,7 +1,17 @@
 #EXTM3U
 #EXTINF:-1 group-title="Streamhub", [Soccer] Wolfsberger vs SC Rheindorf Altach (STRMHUB)
 https://streamhub.pro/event/espn_401864042/wolfsberger-at-sc-rheindorf-altach
+#EXTINF:-1 group-title="Streamhub", [Soccer] Rapid Vienna vs LASK Linz (STRMHUB)
+https://streamhub.pro/event/espn_401864040/rapid-vienna-at-lask-linz
 #EXTINF:-1 group-title="Streamhub", [Soccer] Nottingham Forest vs Chelsea (STRMHUB)
 https://streamhub.pro/event/espn_740940/nottingham-forest-at-chelsea
+#EXTINF:-1 group-title="Streamhub", [Soccer] Manchester City vs Everton (STRMHUB)
+https://streamhub.pro/event/espn_740941/manchester-city-at-everton
 #EXTINF:-1 group-title="Streamhub", [Soccer] Lazio vs Cremonese (STRMHUB)
 https://streamhub.pro/event/espn_737129/lazio-at-cremonese
+#EXTINF:-1 group-title="Streamhub", [Soccer] Fiorentina vs AS Roma (STRMHUB)
+https://streamhub.pro/event/espn_737125/fiorentina-at-as-roma
+#EXTINF:-1 group-title="Streamhub", [Soccer] Real Sociedad vs Sevilla (STRMHUB)
+https://streamhub.pro/event/espn_748478/real-sociedad-at-sevilla
+#EXTINF:-1 group-title="Streamhub", [Soccer] Vitória de Guimaraes vs Sporting CP (STRMHUB)
+https://streamhub.pro/event/espn_750530/vitoria-de-guimaraes-at-sporting-cp
