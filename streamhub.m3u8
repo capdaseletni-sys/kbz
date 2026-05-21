@@ -1,1 +1,15 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Soccer] FC Groningen vs Ajax Amsterdam (STRMHUB)
+https://streamhub.pro/event/espn_401873225/fc-groningen-at-ajax-amsterdam
+#EXTINF:-1 group-title="Streamhub", [Soccer] Heerenveen vs FC Utrecht (STRMHUB)
+https://streamhub.pro/event/espn_401873226/heerenveen-at-fc-utrecht
+#EXTINF:-1 group-title="Streamhub", [Soccer] Panserraikos FC vs Atromitos (STRMHUB)
+https://streamhub.pro/event/espn_401866584/panserraikos-fc-at-atromitos
+#EXTINF:-1 group-title="Streamhub", [Soccer] Larissa FC vs Kifisia (STRMHUB)
+https://streamhub.pro/event/espn_401866586/larissa-fc-at-kifisia
+#EXTINF:-1 group-title="Streamhub", [Soccer] Asteras Tripoli vs Panetolikos (STRMHUB)
+https://streamhub.pro/event/espn_401866585/asteras-tripoli-at-panetolikos
+#EXTINF:-1 group-title="Streamhub", [Basketball] Cavaliers vs Knicks (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401873342/cleveland-cavaliers-vs-new-york-knicks
+#EXTINF:-1 group-title="Streamhub", [Hockey] Canadiens vs Hurricanes (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401873383/montreal-canadiens-vs-carolina-hurricanes
