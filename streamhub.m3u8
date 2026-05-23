@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Internazionale vs Bologna (STRMHUB)
-https://streamhub.pro/event/espn_737154/internazionale-at-bologna
 #EXTINF:-1 group-title="Streamhub", [Soccer] Pisa vs Lazio (STRMHUB)
 https://streamhub.pro/event/espn_737159/pisa-at-lazio
 #EXTINF:-1 group-title="Streamhub", [Soccer] Rayo Vallecano vs Alavés (STRMHUB)
@@ -21,8 +19,6 @@ https://streamhub.pro/event/espn_748522/levante-at-real-betis
 https://streamhub.pro/event/espn_748514/athletic-club-at-real-madrid
 #EXTINF:-1 group-title="Streamhub", [Soccer] Barcelona vs Valencia (STRMHUB)
 https://streamhub.pro/event/espn_748519/barcelona-at-valencia
-#EXTINF:-1 group-title="Streamhub", [Soccer] F1 Sprint (STRMHUB)
-https://streamhub.pro/event/evt_6a0e6cd9cbfec/f1-sprint
 #EXTINF:-1 group-title="Streamhub", [Soccer] F1 Qualifying (STRMHUB)
 https://streamhub.pro/event/evt_6a0e6d132410e/f1-qualifying
 #EXTINF:-1 group-title="Streamhub", [Soccer] VfB Stuttgart vs Bayern Munich (STRMHUB)
