@@ -1,16 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Cagliari vs AC Milan (STRMHUB)
-https://streamhub.pro/event/espn_737157/cagliari-at-ac-milan
-#EXTINF:-1 group-title="Streamhub", [Soccer] Como vs Cremonese (STRMHUB)
-https://streamhub.pro/event/espn_737162/como-at-cremonese
-#EXTINF:-1 group-title="Streamhub", [Soccer] AS Roma vs Hellas Verona (STRMHUB)
-https://streamhub.pro/event/espn_737160/as-roma-at-hellas-verona
-#EXTINF:-1 group-title="Streamhub", [Soccer] Genoa vs Lecce (STRMHUB)
-https://streamhub.pro/event/espn_737163/genoa-at-lecce
-#EXTINF:-1 group-title="Streamhub", [Soccer] Juventus vs Torino (STRMHUB)
-https://streamhub.pro/event/espn_737158/juventus-at-torino
-#EXTINF:-1 group-title="Streamhub", [Soccer] Atlético Madrid vs Villarreal (STRMHUB)
-https://streamhub.pro/event/espn_748515/atletico-madrid-at-villarreal
 #EXTINF:-1 group-title="Streamhub", [Soccer] F1 Race Day (STRMHUB)
 https://streamhub.pro/event/evt_6a0e6cd9ea725/f1-race-day
 #EXTINF:-1 group-title="Streamhub", [Basketball] Thunder vs Spurs (STRMHUB)
