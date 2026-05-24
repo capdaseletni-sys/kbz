@@ -1,24 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Streamhub", [Soccer] Manchester United vs Brighton & Hove Albion (STRMHUB)
-https://streamhub.pro/event/espn_740966/manchester-united-at-brighton-&-hove-albion
-#EXTINF:-1 group-title="Streamhub", [Soccer] Wolverhampton Wanderers vs Burnley (STRMHUB)
-https://streamhub.pro/event/espn_740967/wolverhampton-wanderers-at-burnley
-#EXTINF:-1 group-title="Streamhub", [Soccer] Arsenal vs Crystal Palace (STRMHUB)
-https://streamhub.pro/event/espn_740968/arsenal-at-crystal-palace
-#EXTINF:-1 group-title="Streamhub", [Soccer] Newcastle United vs Fulham (STRMHUB)
-https://streamhub.pro/event/espn_740969/newcastle-united-at-fulham
-#EXTINF:-1 group-title="Streamhub", [Soccer] Brentford vs Liverpool (STRMHUB)
-https://streamhub.pro/event/espn_740975/brentford-at-liverpool
-#EXTINF:-1 group-title="Streamhub", [Soccer] Aston Villa vs Manchester City (STRMHUB)
-https://streamhub.pro/event/espn_740970/aston-villa-at-manchester-city
-#EXTINF:-1 group-title="Streamhub", [Soccer] AFC Bournemouth vs Nottingham Forest (STRMHUB)
-https://streamhub.pro/event/espn_740972/afc-bournemouth-at-nottingham-forest
-#EXTINF:-1 group-title="Streamhub", [Soccer] Chelsea vs Sunderland (STRMHUB)
-https://streamhub.pro/event/espn_740973/chelsea-at-sunderland
-#EXTINF:-1 group-title="Streamhub", [Soccer] Everton vs Tottenham Hotspur (STRMHUB)
-https://streamhub.pro/event/espn_740974/everton-at-tottenham-hotspur
-#EXTINF:-1 group-title="Streamhub", [Soccer] Leeds United vs West Ham United (STRMHUB)
-https://streamhub.pro/event/espn_740971/leeds-united-at-west-ham-united
 #EXTINF:-1 group-title="Streamhub", [Soccer] Udinese vs Napoli (STRMHUB)
 https://streamhub.pro/event/espn_737156/udinese-at-napoli
 #EXTINF:-1 group-title="Streamhub", [Soccer] Cagliari vs AC Milan (STRMHUB)
