@@ -1,1 +1,5 @@
 #EXTM3U
+#EXTINF:-1 group-title="Streamhub", [Basketball] Spurs vs Thunder (STRMHUB)
+https://streamhub.pro/event/espn_basketball_401873201/san-antonio-spurs-vs-oklahoma-city-thunder
+#EXTINF:-1 group-title="Streamhub", [Hockey] Avalanche vs Golden Knights (STRMHUB)
+https://streamhub.pro/event/espn_hockey_401872906/colorado-avalanche-vs-vegas-golden-knights
